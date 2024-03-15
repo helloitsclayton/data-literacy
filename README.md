@@ -106,11 +106,13 @@ Written assignments should be submitted via Moodle as Word documents or PDFs. As
 
 ### Grading Scale
 
-A (93 to 100%)	A– (90 to 92%)	B+ (87 to 89%)
-B (83 to 86%)	B– (80 to 82%)	C+ (77 to 79%)
-C (73 to 76%)	C– (70 to 72%)	D+ (67 to 69%)
-D (63 to 66%)	D– (60 to 62%)
-F (59% or below)
+|  |  |  |
+| --- | --- | --- |
+| A (93 to 100%) | A– (90 to 92%) | B+ (87 to 89%) |
+| B (83 to 86%) | B– (80 to 82%) | C+ (77 to 79%) |
+| C (73 to 76%) | C– (70 to 72%) | D+ (67 to 69%) |
+| D (63 to 66%) | D– (60 to 62%) | |
+| F (59% or below) | | |
 
 ### Expectations for homework and out-of-class instruction time
 
@@ -136,14 +138,21 @@ That being said, I am also responsible for maintaining the classroom as an envir
 
 [^1]: Adapted from Arao & Clemens (2013), "From safe spaces to brave spaces," in *The Art of Effective Facilitation*
 
-Kenyon College statements and policies
-Academic integrity
-At Kenyon College we expect all students, at all times, to submit work that represents our highest standards of academic integrity. It is the responsibility of each student to learn and practice the proper ways of documenting and acknowledging those whose ideas and words they have drawn upon (see Academic Integrity and Questions of Plagiarism in the Course Catalog). Ignorance and carelessness are not excuses for academic dishonesty.
-Accessibility accommodations
-Kenyon College values diversity and recognizes disability as an aspect of diversity.  Our shared goal is to create learning environments that are accessible, equitable, and inclusive. If you anticipate barriers related to the format, requirements, or assessments of this course, you are encouraged to contact the office of Student Accessibility and Support Services (SASS) by emailing sass@kenyon.edu and to meet with me to discuss accommodation options or adaptations.
-Title IX statement
-We will be studying and/or discussing a number of issues that may cause discomfort or distress. If you wish to speak with me about any readings, assignments, or class discussions, please understand that I may be required to report information about sexual misconduct, discrimination, and discriminatory harassment to the Civil Rights & Title IX Coordinator. Confidential support options include the Cox Health and Counseling Center, the College chaplains, and New Directions Domestic & Sexual Violence Support Center.
-COVID-19
-We are required to follow the Kenyon College and CDC guidelines with respect to COVID-19 exposure:
-Anyone with known exposure to COVID-19 must wear a mask for 10 days when in public indoor spaces.
-Students who are sick with COVID-19 must notify the Cox Center, who will guide the student through a period of self-isolation and masking.
+## Kenyon College statements and policies
+## Academic integrity
+
+At Kenyon College we expect all students, at all times, to submit work that represents our highest standards of academic integrity. It is the responsibility of each student to learn and practice the proper ways of documenting and acknowledging those whose ideas and words they have drawn upon (see [Academic Integrity and Questions of Plagiarism](https://www.kenyon.edu/offices-and-services/registrar/kenyon-college-course-catalog/academic-policies-and-procedures/academic-integrity-and-questions-of-plagiarism/) in the Course Catalog). Ignorance and carelessness are not excuses for academic dishonesty.
+
+## Accessibility accommodations
+
+Kenyon College values diversity and recognizes disability as an aspect of diversity.  Our shared goal is to create learning environments that are accessible, equitable, and inclusive. If you anticipate barriers related to the format, requirements, or assessments of this course, you are encouraged to contact the office of [Student Accessibility and Support Services](https://www.kenyon.edu/offices-and-services/student-accessibility-and-support-services/) (SASS) and to meet with me to discuss accommodation options or adaptations
+
+## Title IX statement
+
+We will be studying and/or discussing a number of issues that may cause discomfort or distress. If you wish to speak with me about any readings, assignments, or class discussions, please understand that I may be required to report information about sexual misconduct, discrimination, and discriminatory harassment to the Civil Rights & Title IX Coordinator. Confidential support options include the [Cox Health and Counseling Center](https://www.kenyon.edu/campus-life/health-safety/cox-health-and-counseling-center/), the [College chaplains](https://www.kenyon.edu/campus-life/diversity-inclusion/spiritual-religious-life/), and [New Directions Domestic & Sexual Violence Support Center](https://www.newdirectionsknox.org/).
+
+## COVID-19
+
+We are required to follow the [Kenyon College](https://www.kenyon.edu/covid-19/) and [CDC](https://www.cdc.gov/coronavirus/2019-ncov/index.html) guidelines with respect to COVID-19 exposure:
+- Anyone with known exposure to COVID-19 must wear a mask for 10 days when in public indoor spaces.
+- Students who are sick with COVID-19 must notify the [Cox Center](https://www.kenyon.edu/campus-life/health-safety/cox-health-and-counseling-center/), who will guide the student through a period of self-isolation and masking.
