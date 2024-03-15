@@ -1,5 +1,5 @@
 # Where to start
-> [!TIP]
+> [!IMPORTANT]
 > This is a possible sequence of readings to get you, the instructor, familiar with the topics discussed in the open course "Social Justice and Data." It is a reshuffling of the readings that led to the course’s creation, arranged in a way that (hopefully) makes sense.
 >
 > This is followed by some options for further reading, arranged by broad category, that I found interesting and/or valuable as I planned the course.
