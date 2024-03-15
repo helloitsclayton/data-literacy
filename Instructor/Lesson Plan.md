@@ -8,10 +8,10 @@
 - Introduce a few datasets we may be working with regularly?
 - At the end of class, assign the "background info" questionnaire via course page, intended to help me learn more about the class' interest/needs, "due" by next class.
 - Assigned readings (for next class):
-   - The Myth of Objective Data by Melanie Fienberg (2023)
+   - [The Myth of Objective Data](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Melanie Fienberg (2023)
 - Assigned readings (to complete by Class 4):
-   - *Data Feminism* Introduction
-   - *Data Feminism* Chapter 1
+   - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
+   - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
 
 Class 2 - Defining data
 Reading completed ahead of class:
