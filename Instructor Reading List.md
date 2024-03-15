@@ -66,7 +66,8 @@ Harding (1995) ["Strong objectivity": A response to the new objectivity question
 
 [*A Toolkit for Centering Racial Equity Throughout Data Integration*](https://aisp.upenn.edu/centering-equity/) (2020), from UPenn's Actionable Intelligence for Social Policy
 
-boyd & Crawford (2012) [Critical questions for big data](https://doi.org/10.1080/1369118X.2012.678878) in *Information, Communication & Society* **([OA option: final draft version](http://www.danah.org/papers/2012/BigData-ICS-Draft.pdf))**
+boyd & Crawford (2012) [Critical questions for big data](https://doi.org/10.1080/1369118X.2012.678878) in *Information, Communication & Society*  
+**([OA option: final draft version](http://www.danah.org/papers/2012/BigData-ICS-Draft.pdf))**
 
 [*Beyond Data Literacy: Reinventing Community Engagement and Empowerment in the Age of Data*](https://datapopalliance.org/publications/beyond-data-literacy-reinventing-community-engagement-and-empowerment-in-the-age-of-data/) (2020) from the Data-Pop Alliance White Paper Series
 
