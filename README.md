@@ -21,9 +21,9 @@ By completing this course, students will have gained:
 
 Our guiding text for the course will be:
 
-*Data Feminism* by Catherine D'Ignazio and Lauren F. Klein  
-- Free web version: https://data-feminism.mitpress.mit.edu/  
-- Free PDF version: https://doi.org/10.7551/mitpress/11805.001.0001  
+*Data Feminism* by Catherine D'Ignazio and Lauren F. Klein
+- Free web version: https://data-feminism.mitpress.mit.edu/
+- Free PDF version: https://doi.org/10.7551/mitpress/11805.001.0001
 - ISBN: 9780262044004 (hardcover); 9780262547185 (paperback)
 
 > [!NOTE]
