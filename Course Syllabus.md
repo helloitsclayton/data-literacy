@@ -1,4 +1,5 @@
-# INDS 146: Social Justice and Data
+# Social Justice and Data
+
 ## Course description
 
 Becoming "data conversant" is only growing in importance as data-related practice becomes increasingly ingrained in public and academic discourse. Learning data-related skills, like reading, working with, analyzing, and arguing with data, is often viewed as a purely technical process that centers mastery of coding or data analysis software.
