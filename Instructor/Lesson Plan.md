@@ -1,5 +1,7 @@
 # Social Justice and Data Lesson Plan
+
 ## Week 1
+
 ### Class 1 - Course introduction
 
 - Opening activity - ["Paper Spreadsheet"](https://databasic.io/en/culture/paper-spreadsheet) from the Data Culture Project. Have students fill this out as they come into class.
@@ -32,6 +34,7 @@
 > Between Classes 2 and 3, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
 
 ## Week 2
+
 ### Class 3
 
 - Reading due:
@@ -63,13 +66,18 @@ Small group discussions:
 What are some ways unequal distributions of power show up in the datasets we've looked at or talked about so far? (CILS, Traffic Stops, or even the class 1 paper spreadsheet)
 How might those examples connect with the Matrix of Domination framework outlined in Ch. 1?
 In the last few minutes, I introduced Race Forward's "levels of racism" as another framework with some clear connections to the Matrix of Domination
-Week 3
-Class 7
+
+## Week 3
+
+### Class 5
+
 Assignments:
 Data Biographies due at beginning of class
 Introduce Research Inquiry assignment
 "Build and Analyze a Network" activity using ConnectTheDots by Data Culture Project
-Class 8
+
+### Class 6
+
 Readings due:
 Data Feminism Chapter 4
 Asked students for reactions & thoughts about Ch. 4
@@ -82,14 +90,19 @@ The Conversation: Is bad data killing women? ft. Caroline Criado Perez and Laure
 Discussion:
 Responding to the Data Biography assignment
 Is collecting data enough?
-Week 4
-Class 10
+
+## Week 4
+
+### Class 7
+
 Readings:
 Text as Data by Maseda (2021)
 Sketching with Data by Chalabi & Gray (2021)
 "Sketch a Story" activity w/ WordCounter
 This went so badly! I wanted to give the students something more "social justice" related to work with but didn't give myself enough time to find appropriate materials.
-Class 11
+
+### Class 8
+
 Reading:
 Selected sections of "Extra-Activism" by Kidd: ‘Maps, extractivism and treaties' (p. 10) through ‘The Inuit maps and Nunavut' (p. 18)
 Data Feminism Chapter 5
@@ -112,14 +125,17 @@ The layout makes it pretty obvious when an individual piece of data is missing, 
 There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
 What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
 BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
-Week 5
-Class 13
+
+## Week 5
+
+### Class 9
+
 A variation on the SameDiff activity from DataBasic.io instead using the text of speeches by prominent civil rights/social justice figures. I asked students to illustrate what two selected speakers might have agreed on or might have differed on.
 Based on the issues we had with the WordCounter activity, I wanted to try something else. Most of the transcribed speeches were from a website called So*Just, which has a page on Social Justice and Human Rights Speeches (though I can't guarantee accuracy).
 I supplemented this by searching for speeches by other folks, like Angela Davis, Greta Thunberg, James Baldwin, and Malala Yousafzai.
 
+### Class 10
 
-Class 14
 Readings:
 Data Feminism Chapter 3
 Introduce final presentation assignment
@@ -127,12 +143,17 @@ Class 15
 Readings:
 Selected sections of "Many analysts, one data set" by Silberzahn et al.: Abstract (p. 338), Crowdsourcing Data Analysis (pp. 338-9), Stages of the Crowdsourcing Process (p. 340), Stage 1 (pp. 340-1), Generalizability to Other Data Sets through the end of the article (including Notes) (pp. 353-5)
 Algorithm case study?
-Week 6
-Class 16
+
+## Week 6
+
+### Class 11
+
 Readings:
 "Florence Nightingale, Huge Nerd" episode of This Day in Esoteric Political History
 Dear Data part 2 - Creating "postcards"
-Class 17
+
+### Class 12
+
 Readings:
 DF ch. 6
 Activity: Fox News article and BJS data
@@ -147,8 +168,11 @@ Readings:
 Algorithmic Accountability: A Primer by Caplan et al.
 Algorithms, data, and AI
 Data decontextualized
-Week 7
-Class 19
+
+## Week 7
+
+### Class 13
+
 Final reflection draft due
 Activity: Peer review of final reflection
 This form will take you through the peer review process for each paper you're reviewing. Broadly, there are two topics on which you'll be providing comments:
@@ -166,7 +190,8 @@ What aspects of their relationship with data, data science, and/or data-related 
 Final thoughts
 Please provide any final thoughts or comments you might have for the author:
 
-Class 20
+## Class 14
+
 Readings:
 Data Feminism Chapter 2
 Activity: Examining visualizations from Yanni Alexander Loukissas' The Life and Death of Data
@@ -194,8 +219,11 @@ Google Maps
 Satellite photos are pixel data
 Pins (obviously)
 Underlying 
-Week 8
-Class 22
+
+## Week 8
+
+### Class 15
+
 Readings:
 Data Feminism Chapter 7
 "Beware the Hype" in the TWC Newsletter by Turkopticon
@@ -204,32 +232,35 @@ For this activity I pulled the following variables from the 2022 General Social 
 I gave the students the raw data as well as tables summarizing responses by sex, by sexual orientation, and by age.
 Class 23
 Final presentations
-Class 24
+
+### Class 16
+
 Finish up final presentations, end-of-class discussion and debrief
-Questionnaire
-If you haven't yet declared a major, what do you anticipate majoring in?
-What is the primary way you think you'll be accessing [Learning Management System]?
-Smartphone
-Tablet
-Laptop/Desktop
-Do you have a laptop or tablet to bring to class?
-Yes, it is a Mac/Apple OS device
-Yes, it is a Windows device
-Yes, it runs a different operating system
-I do not
-Which of these best describes your experience with statistics?
-I have not taken a statistics course
-I am currently taking a statistics course
-I took a statistics course before being enrolled at [College name]
-I have completed a statistics course at [College name]
-Which of these best describes your level of experience with scholarly articles and books?
-I'm not sure I know what you mean by scholarly articles/books
-I've used scholarly articles/books as sources for assignments but that's about it
-I've had scholarly articles/books assigned as readings in a few classes
-I read scholarly articles/books on a regular basis, for classes and/or my own purposes
-What social justice issues or topics are you interested in engaging with in this course? Feel free to list more than one.
-Are there any other topics related to data you're interested in exploring or are curious about? Or anything you haven't already mentioned in your previous responses?
-Optional.
+
+# Questionnaire
+
+1. If you haven't yet declared a major, what do you anticipate majoring in?
+2. What is the primary way you think you'll be accessing [Learning Management System]?
+   [] Smartphone
+   [] Tablet
+   [] Laptop/Desktop
+3. Do you have a laptop or tablet to bring to class?
+   [] Yes, it is a Mac/Apple OS device
+   [] Yes, it is a Windows device
+   [] Yes, it runs a different operating system
+   [] I do not
+4. Which of these best describes your experience with statistics?
+   [] I have not taken a statistics course
+   [] I am currently taking a statistics course
+   [] I took a statistics course before being enrolled at [College name]
+   [] I have completed a statistics course at [College name]
+5. Which of these best describes your level of experience with scholarly articles and books?
+   [] I'm not sure I know what you mean by scholarly articles/books
+   [] I've used scholarly articles/books as sources for assignments but that's about it
+   [] I've had scholarly articles/books assigned as readings in a few classes
+   [] I read scholarly articles/books on a regular basis, for classes and/or my own purposes
+6. What social justice issues or topics are you interested in engaging with in this course? Feel free to list more than one.
+7. Are there any other topics related to data you're interested in exploring or are curious about? Or anything you haven't already mentioned in your previous responses?
 
 Assignment 1: Dataset Biography
 A short paper (2-3 pages) introducing a selected dataset and discussing how it came into existence. Please include a link to the dataset - a properly formatted citation in your chosen style would be best - as part of the paper.
