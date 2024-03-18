@@ -237,7 +237,9 @@ Final presentations
 
 Finish up final presentations, end-of-class discussion and debrief
 
-# Questionnaire
+# Assignments
+
+## Questionnaire
 
 1. If you haven't yet declared a major, what do you anticipate majoring in?
 2. What is the primary way you think you'll be accessing [Learning Management System]?
@@ -260,38 +262,56 @@ Finish up final presentations, end-of-class discussion and debrief
    - [ ] I've had scholarly articles/books assigned as readings in a few classes
    - [ ] I read scholarly articles/books on a regular basis, for classes and/or my own purposes
 6. What social justice issues or topics are you interested in engaging with in this course? Feel free to list more than one.
-7. Are there any other topics related to data you're interested in exploring or are curious about? Or anything you haven't already mentioned in your previous responses?
+7. Are there any other topics related to data you're interested in exploring or are curious about? Or anything you haven't already mentioned in your previous responses?  
+*Optional*
 
-Assignment 1: Dataset Biography
+## Assignment 1: Dataset Biography
+
 A short paper (2-3 pages) introducing a selected dataset and discussing how it came into existence. Please include a link to the dataset - a properly formatted citation in your chosen style would be best - as part of the paper.
+
 As the name implies, you're writing a (concise) biography of that dataset. A good place to start is with the Five Ws: Who, What, When, Where, and Why. Feel free to throw How into the mix as well!
+
 Be warned, though, many datasets won't just tell you the answers to those questions. In fact, sometimes that information might never have been recorded in the first place. For our purposes, then, I want you to comment on any major gaps you notice.
+
 Below are three very different approaches that you can consider:
-"Data Biographies: Getting to Know Your Data" by Heather Krause
+- ["Data Biographies: Getting to Know Your Data" by Heather Krause](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/)  
 A journalistic approach, one that makes sense if you're looking at someone else's dataset
-"Datasheets for Datasets" by Gebru et al., in Communications of the ACM
+- ["Datasheets for Datasets" by Gebru et al., in *Communications of the ACM*](https://doi.org/10.1145/3458723)  
 Extremely detailed and technical, probably most useful if you generated the dataset
-Data User Guides from the Western Pennsylvania Regional Data Center
+- [*Data User Guides* from the Western Pennsylvania Regional Data Center](https://github.com/rgradeck/Data-User-Guides/blob/master/README.md)  
 Also intended for self-generated data, but less technical and more open-ended
 
-Assignment 2: Research Inquiry
+## Assignment 2: Research Inquiry
+
 A short paper (2-3 pages) which presents and discusses a research question that has grown out of your examination of a selected dataset. The question should be a reaction to the trends, gaps, or other aspects of the dataset. Think back to our in-class activity where you came up with questions about the Charlotte, NC Traffic Stops dataset. That, along with other in-class data storytelling activities, should be good examples of the process for coming up with a research question.
+
 The paper itself should discuss how the question was inspired by the dataset (i.e., what was it in the dataset that led you to ask this question?) along with which aspects of your question are covered by your dataset. You should also discuss what other datasets might be required and where might you find that information. What other resources could or should be incorporated (books, articles, etc.)?
+
 A few hopefully reassuring notes:
-You won't actually be undertaking this research during the class, so you don't need to worry about over-promising or giving yourself too much work by asking a really exciting (but complicated) question.
-The dataset you use for this assignment does not have to be the same one you used for the Data Biography assignment. If you do choose a new dataset, though, I'd encourage you to at least think through those biographical questions before starting with this assignment.
 
-Assignment 3: Draft Presentation & Reflection
+1. You won't actually be undertaking this research during the class, so you don't need to worry about over-promising or giving yourself too much work by asking a really exciting (but complicated) question.
+2. The dataset you use for this assignment does not have to be the same one you used for the Data Biography assignment. If you do choose a new dataset, though, I'd encourage you to at least think through those biographical questions before starting with this assignment.
+
+## Assignment 3: Draft Presentation & Reflection
+
 A short paper (4-5 pages) reflecting on the research process as well as a draft slide deck or script (or anything else that could be considered a presentation draft). See the Final Presentation & Reflection assignment description for full details on what these should cover and how they should fit together.
-What I expect in this draft is a 4-5 page paper that your classmates and I can provide feedback on (we will be doing some peer reviewing) along with a draft slide deck/script/outline/etc. showing how you have thought about creating your final presentation. You will not be giving a "draft" presentation at this time.
 
-Assignment 4: Final Presentation & Reflection
+What I expect in this draft is a 4-5 page paper that your classmates and I can provide feedback on (we will be doing some peer reviewing) along with a draft slide deck/script/outline/etc. showing how you have thought about creating your final presentation. **You will not be giving a "draft" presentation at this time.**
+
+## Assignment 4: Final Presentation & Reflection
+
 A short paper (4-5 pages) reflecting on the research process as well as a 5-minute presentation which will be given the last two days of class. The reflection should be a longer version of what you will cover in your presentation. 5 minutes is less than you think, so the paper is an opportunity to discuss the topics in your presentation at greater length and in greater detail.
+
 This assignment should address the process that you have gone through in the first two assignments, as well as what steps you would take in order to investigate the question proposed in your Research Inquiry assignment. How did the Data Biography or our in-class activities affect your research question? How might they affect the way you'd plan to investigate that question?
+
 I am also interested in hearing how the topics we've covered in class have (or have not) fit into your existing idea of what data and data science are. Will it change how you approach data-related research in the future, either research you do or research you read about? If so, how?
+
 I'm not expecting anything specific in terms of the format of the presentation. A slide deck seems like a reasonable starting point but is not required. It should be able to stand on its own as a coherent expression of the work you've done (meaning we should be able to understand it without having to read the paper), and the Reflection should provide me with additional insight and detail regarding what you've talked about in the presentation.
+
 Your submission here should be the paper along with any supporting materials (slides, etc.) from your presentation.
-Materials, links, misc.
+
+# Materials, misc. links, etc.
+
 I used this tool to randomize students and assign small groups and peer reviewing: https://www.randomlists.com/team-generator
 
 I bought an array of crayola markers, crayons, and colored pencils to use with the various art-forward activities. Students seemed to respond very well to this and enjoyed the process (though many were nervous about their art skills).
