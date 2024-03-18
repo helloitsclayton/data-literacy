@@ -13,40 +13,48 @@
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
 
-Class 2 - Defining data
-Reading completed ahead of class:
-The Myth of Objective Data by Melanie Fienberg (2023)
-Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
-Small group discussion:
-How did you feel about Feinberg's discussion of data?
-How does her characterization of data agree or disagree with your understanding of data?
-Lecture: Raw Data // Raw Carrots
-Data vs. Statistics vs. Visualizations
-Introduce Data Biographies assignment and some related examples:
-Datasheets for datasets by Gebru et al. (2021)
-Data biographies: Getting to know your data by Krause (2017)
-WPRDC data user guides (n.d.)
-Between Classes 2 and 3, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
-Week 2
-Class 3
-Reading due:
-Data Materiality: Yanni Loukissas on understanding and designing data settings
-Briefly revisit previous class' discussion:
-Situated knowledge, partial perspective
-In order to apply those concepts to data we need to know where our data is coming from!
-Activity: "Asking Good Questions" w/ WTFcsv by Data Culture Project
-Example dataset: Ohio UFO sightings CSV
-For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
-Class 4
-Readings due:
-Summary of the Children of Immigrants Longitudinal Study by Portes & Rumbaut
-Abstract, Data and Method, & Discussion and Conclusion of "The Female Educational Advantage Among Adolescent Children of Immigrants" by Feliciano (2012)
-OA alternative: "Feeling Unsafe at School" by Maffini (2016), Abstract & Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
-Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see "Creative Data Literacy" by D'Ignazio, pp. 9-11)
-Small group discussions:
-What reasoning is given in the research article for working with CILS data?
-What other reasons or factors might have contributed to the use of CILS data but were not mentioned?
-In the "Data and Methods" section of the Feliciano article (or the Discussion section of the Maffini article), the author describes the limitations of the dataset in addressing their research question. Do you think the overall conclusions drawn in the article are justified given those limitations? Why or why not?
+### Class 2 - Defining data
+
+- Reading completed ahead of class:
+   - The Myth of Objective Data by Melanie Fienberg (2023)
+- Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
+- Small group discussion:
+   - How did you feel about Feinberg's discussion of data?
+   - How does her characterization of data agree or disagree with your understanding of data?
+- Lecture: Raw Data // Raw Carrots
+- Data vs. Statistics vs. Visualizations
+- Introduce Data Biographies assignment and some related examples:
+   - Datasheets for datasets by Gebru et al. (2021)
+   - Data biographies: Getting to know your data by Krause (2017)
+   - WPRDC data user guides (n.d.)
+
+> [!NOTE]
+> Between Classes 2 and 3, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
+
+## Week 2
+### Class 3
+
+- Reading due:
+   - Data Materiality: Yanni Loukissas on understanding and designing data settings
+- Briefly revisit previous class' discussion:
+   - Situated knowledge, partial perspective
+   - In order to apply those concepts to data we need to know where our data is coming from!
+- Activity: "Asking Good Questions" w/ WTFcsv by Data Culture Project
+   - Example dataset: Ohio UFO sightings CSV
+   - For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
+
+### Class 4
+
+- Readings due:
+   - Summary of the Children of Immigrants Longitudinal Study by Portes & Rumbaut
+   - Abstract, Data and Method, & Discussion and Conclusion of "The Female Educational Advantage Among Adolescent Children of Immigrants" by Feliciano (2012)
+      - OA alternative: "Feeling Unsafe at School" by Maffini (2016), Abstract & Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
+- Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see "Creative Data Literacy" by D'Ignazio, pp. 9-11)
+- Small group discussions:
+   1. What reasoning is given in the research article for working with CILS data?
+   2. What other reasons or factors might have contributed to the use of CILS data but were not mentioned?
+   3. In the "Data and Methods" section of the Feliciano article (or the Discussion section of the Maffini article), the author describes the limitations of the dataset in addressing their research question. Do you think the overall conclusions drawn in the article are justified given those limitations? Why or why not?
+
 Class 6
 Readings due:
 Data Feminism Introduction
