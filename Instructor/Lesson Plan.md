@@ -31,31 +31,30 @@
    - [*Data User Guides*](https://github.com/rgradeck/Data-User-Guides/blob/master/README.md) from the Western Pennsylvania Regional Data Center
 
 > [!NOTE]
-> Between Classes 2 and 3, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
+> Between Weeks 1 and 2, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
 
 ## Week 2
 
-### Class 3
+### Class 3 - Data biographies
+
+- Readings due:
+   - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
+   - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
+   - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
+- Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
+- Small group discussions:
+   1. What reasoning is given in the research article for working with CILS data?
+   2. What other reasons or factors might have contributed to the use of CILS data but were not mentioned?
+   3. In the "Data and Methods" section of the Feliciano article (or the Discussion section of the Maffini article), the author describes the limitations of the dataset in addressing their research question. Do you think the overall conclusions drawn in the article are justified given those limitations? Why or why not?
+
+### Class 4 - Data, power, context
 
 - Reading due:
    - ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08) - *Data Materiality* podcast
 - Briefly revisit previous class' discussion:
    - Situated knowledge, partial perspective
    - In order to apply those concepts to data we need to know where our data is coming from!
-- Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
-   - Example dataset: Ohio UFO sightings CSV
-   - For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
 
-### Class 4
-
-- Readings due:
-   - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
-   - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract (p. 1), Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
-- Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
-- Small group discussions:
-   1. What reasoning is given in the research article for working with CILS data?
-   2. What other reasons or factors might have contributed to the use of CILS data but were not mentioned?
-   3. In the "Data and Methods" section of the Feliciano article (or the Discussion section of the Maffini article), the author describes the limitations of the dataset in addressing their research question. Do you think the overall conclusions drawn in the article are justified given those limitations? Why or why not?
 
 Class 6
 - Readings due:
@@ -68,12 +67,15 @@ Class 6
 
 ## Week 3
 
-### Class 5
+### Class 5 - Asking questions with data
 
 - Assignments:
    - Data Biographies due at beginning of class
 - Introduce Research Inquiry assignment
-- ["Build and Analyze a Network"](https://databasic.io/en/culture/connections) activity using [ConnectTheDots](https://databasic.io/en/connectthedots/) by Data Culture Project
+- Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
+   - Example dataset: Ohio UFO sightings CSV
+   - For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
+- Activity: ["Build and Analyze a Network"](https://databasic.io/en/culture/connections) activity using [ConnectTheDots](https://databasic.io/en/connectthedots/) by Data Culture Project
 
 ### Class 6
 
