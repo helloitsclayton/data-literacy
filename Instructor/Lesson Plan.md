@@ -173,7 +173,7 @@ Class 15
 
 Class 18
 - Readings:
-   - ["On the Dangers of Stochastic Parrots"]((https://dl.acm.org/doi/10.1145/3442188.3445922)) by Bender et al.
+   - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al.
 - Algorithms, data, and AI
 - Data decontextualized
 
