@@ -84,23 +84,16 @@ Data Assemblages
    - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: (???)
 - Introduce Research Inquiry assignment
 - Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
-   - Example dataset: Ohio UFO sightings CSV
-   - For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
+   - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class%2005/C05-Ohio-UFO.csv)
+   - For student evaluation: [two months of traffic stop data](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class%2005/C05-Traffic-Stops.csv) from Charlotte's [Officer Traffic Stops dataset](https://data.charlottenc.gov/datasets/officer-traffic-stops)
 
-### Class 6
-
-- Readings due:
-  - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-- Return to CILS dataset to consider what's being counted (?)
-- Finally, asked students to evaluate and compare the [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf) and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) Census questionnaires and think about what's getting counted.
-
-Class 9
+### Class 6 - What gets counted
 
 - Readings due:
+   - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
-- Discussion:
-   - Responding to the Data Biography assignment
-   - Is collecting data enough?
+- Return to CILS dataset to consider what's being counted (?)
+- Activity: Evaluate and compare the [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf) and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) Census questionnaires and think about what's getting counted.
 
 ## Week 4
 
