@@ -5,6 +5,8 @@
 ### Class 2
 
 - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Melanie Feinberg (~4 pages)
+- ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08)  
+*Data Materiality* hosted by Scott Rogers ft. Yanni Loukissas
 
 ### Class 4
 
@@ -21,24 +23,17 @@
 
 ### Class 4
 
-- ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08)  
-*Data Materiality* hosted by Scott Rogers ft. Yanni Loukissas
 
 ### Class 5
-- [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3), sections:
+- [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Alejandro Portes & Rubén G. Rumbaut, sections:
    - Summary
    - Scope of Project
    - Methodology
-- ["The Female Educational Advantage Among Adolescent Children of Immigrants"](https://doi.org/10.1177/0044118X11404441) by Cynthia Feliciano, sections:
-   - Abstract up to (but not including) Background (pp. 431-432)
-   - Data and Method (stop at Descriptive Statistics) (pp. 435-436)
-   - Discussion and Conclusion (pp. 445-447)
-> [!IMPORTANT]
-> **Open Access alternative to Feliciano's article**:
-> - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Cara S. Maffini, sections:
->   - Abstract & Introduction (pp. 1-2)
->   - Participants and Procedures (pp. 5-6)
->   - Discussion (pp. 9-11)
+- ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Cara S. Maffini, sections:
+   - Abstract (p. 1)
+   - Introduction (pp. 1-2)
+   - Participants and Procedures (pp. 5-6)
+   - Discussion (pp. 9-11)
 
 ### Class 6
 

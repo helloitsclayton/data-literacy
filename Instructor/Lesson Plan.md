@@ -49,9 +49,8 @@
 ### Class 4
 
 - Readings due:
-   - Summary of the Children of Immigrants Longitudinal Study by Portes & Rumbaut
-   - Abstract, Data and Method, & Discussion and Conclusion of "The Female Educational Advantage Among Adolescent Children of Immigrants" by Feliciano (2012)
-      - OA alternative: "Feeling Unsafe at School" by Maffini (2016), Abstract & Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
+   - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
+   - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Cara S. Maffini: Abstract (p. 1), Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
 - Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see "Creative Data Literacy" by D'Ignazio, pp. 9-11)
 - Small group discussions:
    1. What reasoning is given in the research article for working with CILS data?
