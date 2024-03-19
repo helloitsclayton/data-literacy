@@ -69,37 +69,29 @@ Data settings
 - Brief lecture:  
 Data Assemblages
 - Small group discussion:  
-*Systems of power and CILS data* - How do power imbalances manifest themselves in the interconnected production and use of CILS data that we examined in the previous class?
-   1. First, only consider the CILS study itself.
-   2. Now expand out to the use of CILS data in other research contexts, like those of Maffini and Dunn.
-
-Class 6
-- Readings due:
-
-- Small group discussions:
-   1. What are some ways unequal distributions of power show up in the datasets we've looked at or talked about so far? (CILS, Traffic Stops, or even the class 1 paper spreadsheet)
-   2. How might those examples connect with the Matrix of Domination framework outlined in Ch. 1?
-- In the last few minutes, I introduced Race Forward's "levels of racism" as another framework with some clear connections to the Matrix of Domination
+*Systems of power and CILS data* - Apply lessons learned from *Data Feminism* Ch. 1 to CILS
+   1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
+   2. How might you apply the idea of power imbalances when looking at the reuse of CILS data by other researchers, like Maffini and Dunn?
+- **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
 ## Week 3
 
 ### Class 5 - Asking questions with data
 
-- Assignments:
-   - Data Biographies due at beginning of class
+- Assignments due:
+   - Data Biographies
+- Readings due:
+   - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: (???)
 - Introduce Research Inquiry assignment
 - Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
    - Example dataset: Ohio UFO sightings CSV
    - For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
-- Activity: ["Build and Analyze a Network"](https://databasic.io/en/culture/connections) activity using [ConnectTheDots](https://databasic.io/en/connectthedots/) by Data Culture Project
 
 ### Class 6
 
 - Readings due:
   - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-- Asked students for reactions & thoughts about Ch. 4
-- Looking back at the [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) (CILS) and the extended influence of datasets, i.e., the number of publications that have come out of this one dataset.
-- Looked at first page of ["Educational pathway and social mobility in children of immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn (2019) and the disconnect of that use with the purposes of the original dataset
+- Return to CILS dataset to consider what's being counted (?)
 - Finally, asked students to evaluate and compare the [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf) and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) Census questionnaires and think about what's getting counted.
 
 Class 9
