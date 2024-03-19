@@ -41,16 +41,18 @@
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
-- Small group discussion: Examining the CILS dataset  
-Answer the following as best you can, using the information in the CILS reading:
+- Small group discussion:  
+*Examining the CILS dataset* - Answer the following as best you can, using the information in the CILS reading:
    1. **Who** - Who was responsible for the creation of the CILS dataset?
    2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
    3. **When** - When were the data collected?
    4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
    5. **Why** - Why were the data gathered? What is the purpose of the study?
    6. **How** - How were individuals selected for the study? How were data gathered?
-- Briefly sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
-- Small group discussion: Use of the CILS data
+- Brief lecture:  
+Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
+- Small group discussion:  
+*Use of the CILS data*
    1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
    2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
    3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
@@ -58,17 +60,22 @@ Answer the following as best you can, using the information in the CILS reading:
 
 ### Class 4 - Data, power, context
 
-- Reading due:
+- Readings due:
    - ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08) - *Data Materiality* podcast
-- Briefly revisit previous class' discussion:
-   - Situated knowledge, partial perspective
-   - In order to apply those concepts to data we need to know where our data is coming from!
-
+   - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
+   - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
+- Full class discussion:  
+Data settings
+- Brief lecture:  
+Data Assemblages
+- Small group discussion:  
+*Systems of power and CILS data* - How do power imbalances manifest themselves in the interconnected production and use of CILS data that we examined in the previous class?
+   1. First, only consider the CILS study itself.
+   2. Now expand out to the use of CILS data in other research contexts, like those of Maffini and Dunn.
 
 Class 6
 - Readings due:
-   - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
-   - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
+
 - Small group discussions:
    1. What are some ways unequal distributions of power show up in the datasets we've looked at or talked about so far? (CILS, Traffic Stops, or even the class 1 paper spreadsheet)
    2. How might those examples connect with the Matrix of Domination framework outlined in Ch. 1?
