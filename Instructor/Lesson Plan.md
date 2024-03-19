@@ -10,7 +10,7 @@
 - Introduce a few datasets we may be working with regularly?
 - At the end of class, assign the "background info" questionnaire via course page, intended to help me learn more about the class' interest/needs, "due" by next class.
 - Assigned readings (for next class):
-   - [The Myth of Objective Data](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Melanie Fienberg (2023)
+   - [The Myth of Objective Data](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Fienberg (2023)
 - Assigned readings (to complete by Class 4):
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
@@ -18,7 +18,7 @@
 ### Class 2 - Defining data
 
 - Reading completed ahead of class:
-   - The Myth of Objective Data by Melanie Fienberg (2023)
+   - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Feinberg
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
 - Small group discussion:
    - How did you feel about Feinberg's discussion of data?
@@ -26,9 +26,9 @@
 - Lecture: Raw Data // Raw Carrots
 - Data vs. Statistics vs. Visualizations
 - Introduce Data Biographies assignment and some related examples:
-   - Datasheets for datasets by Gebru et al. (2021)
-   - Data biographies: Getting to know your data by Krause (2017)
-   - WPRDC data user guides (n.d.)
+   - ["Data Biographies: Getting to Know Your Data"](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) by Krause
+   - ["Datasheets for Datasets"](https://doi.org/10.1145/3458723) by Gebru et al., in *Communications of the ACM*
+   - [*Data User Guides*](https://github.com/rgradeck/Data-User-Guides/blob/master/README.md) from the Western Pennsylvania Regional Data Center
 
 > [!NOTE]
 > Between Classes 2 and 3, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
@@ -38,11 +38,11 @@
 ### Class 3
 
 - Reading due:
-   - Data Materiality: Yanni Loukissas on understanding and designing data settings
+   - ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08) - *Data Materiality* podcast
 - Briefly revisit previous class' discussion:
    - Situated knowledge, partial perspective
    - In order to apply those concepts to data we need to know where our data is coming from!
-- Activity: "Asking Good Questions" w/ WTFcsv by Data Culture Project
+- Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
    - Example dataset: Ohio UFO sightings CSV
    - For student evaluation: two months of traffic stop data from the Charlotte's Officer Traffic Stops dataset
 
@@ -50,8 +50,8 @@
 
 - Readings due:
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
-   - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Cara S. Maffini: Abstract (p. 1), Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
-- Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see "Creative Data Literacy" by D'Ignazio, pp. 9-11)
+   - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract (p. 1), Introduction (pp. 1-2), Participants and Procedures (pp. 5-6), Discussion (pp. 9-11)
+- Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
 - Small group discussions:
    1. What reasoning is given in the research article for working with CILS data?
    2. What other reasons or factors might have contributed to the use of CILS data but were not mentioned?
@@ -59,8 +59,8 @@
 
 Class 6
 - Readings due:
-   - *Data Feminism* Introduction
-   - *Data Feminism* Chapter 1
+   - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
+   - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
 - Small group discussions:
    1. What are some ways unequal distributions of power show up in the datasets we've looked at or talked about so far? (CILS, Traffic Stops, or even the class 1 paper spreadsheet)
    2. How might those examples connect with the Matrix of Domination framework outlined in Ch. 1?
@@ -73,45 +73,49 @@ Class 6
 - Assignments:
    - Data Biographies due at beginning of class
 - Introduce Research Inquiry assignment
-- "Build and Analyze a Network" activity using ConnectTheDots by Data Culture Project
+- ["Build and Analyze a Network"](https://databasic.io/en/culture/connections) activity using [ConnectTheDots](https://databasic.io/en/connectthedots/) by Data Culture Project
 
 ### Class 6
 
 - Readings due:
-  - *Data Feminism* Chapter 4
+  - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
 - Asked students for reactions & thoughts about Ch. 4
-- Looking back at the Children of Immigrants Longitudinal Study (CILS) and the extended influence of datasets, i.e., the number of publications that have come out of this one dataset.
-- Looked at first page of "Educational pathway and social mobility in children of immigrants" by Dunn (2019) and the disconnect of that use with the purposes of the original dataset
-- Finally, asked students to evaluate and compare the 2010 and 2020 Census questionnaires and think about what's getting counted.
+- Looking back at the [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) (CILS) and the extended influence of datasets, i.e., the number of publications that have come out of this one dataset.
+- Looked at first page of ["Educational pathway and social mobility in children of immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn (2019) and the disconnect of that use with the purposes of the original dataset
+- Finally, asked students to evaluate and compare the [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf) and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) Census questionnaires and think about what's getting counted.
+
 Class 9
-Readings due:
-The Conversation: Is bad data killing women? ft. Caroline Criado Perez and Lauren Klein
-Discussion:
-Responding to the Data Biography assignment
-Is collecting data enough?
+
+- Readings due:
+   - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
+- Discussion:
+   - Responding to the Data Biography assignment
+   - Is collecting data enough?
 
 ## Week 4
 
 ### Class 7
 
 - Readings:
-   - Text as Data by Maseda (2021)
-   - Sketching with Data by Chalabi & Gray (2021)
-- "Sketch a Story" activity w/ WordCounter
-This went so badly! I wanted to give the students something more "social justice" related to work with but didn't give myself enough time to find appropriate materials.
+   - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Chalabi & Gray - *The Data Journalism Handbook* chapter
+   - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Maseda - *The Data Journalism Handbook* chapter
+- Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
+> [!WARNING]
+> This went so badly! I wanted to give the students something more "social justice" related to work with but didn't give myself enough time to find appropriate materials.
 
 ### Class 8
 
 - Reading:
-   - Selected sections of "Extra-Activism" by Kidd: 'Maps, extractivism and treaties' (p. 10) through 'The Inuit maps and Nunavut' (p. 18)
-   - *Data Feminism* Chapter 5
-I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
+   - ["Extra-Activism"](https://repository.usfca.edu/ms/30/) by Kidd: Maps, Extractivism and Treaties (pp. 10-12), Counter-mapping (pp. 12-13), Pipelines, maps and sovereignty in Denendeh (pp. 13-16), The Inuit maps and Nunavut (pp. 16-18)
+   - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
+> [!WARNING]
+> I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
 - Small group discussion:
    1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
    2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
    3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
-- Introduce Dear Data let students know we'll be doing it for a week, ask students to think about what we might keep track of
-   - Share Dear Data postcards on MoMA's website for students to look through for inspiration
+- Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
+   - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
 Class 12
 - Data and context collapse:
@@ -139,12 +143,13 @@ The first step in most data analysis processes is to "clean" the data so that th
 ### Class 10
 
 - Readings:
-   - Data Feminism Chapter 3
+   - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
 - Introduce final presentation assignment
 
 Class 15
 - Readings:
-   - Selected sections of "Many analysts, one data set" by Silberzahn et al.: Abstract (p. 338), Crowdsourcing Data Analysis (pp. 338-9), Stages of the Crowdsourcing Process (p. 340), Stage 1 (pp. 340-1), Generalizability to Other Data Sets through the end of the article (including Notes) (pp. 353-5)
+   - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
+   - [*Algorithmic Accountability: A Primer*](https://datasociety.net/library/algorithmic-accountability-a-primer/) by Caplan et al.
 - Algorithm case study?
 
 ## Week 6
@@ -152,24 +157,23 @@ Class 15
 ### Class 11
 
 - Readings:
-   - ["Florence Nightingale, Huge Nerd"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) episode of *This Day in Esoteric Political History*
+   - ["Florence Nightingale, Huge Nerd"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) - *This Day in Esoteric Political History* podcast
 - Dear Data part 2 - Creating "postcards"
 
 ### Class 12
 
 - Readings:
-   - *Data Feminism* Chapter 6
+   - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
 - Activity: [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) and [BJS data](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables)
    - This Fox News article makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
 "Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
-   1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
-   2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
-   3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+      1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
+      2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
+      3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
 
 Class 18
 - Readings:
-   - "On the Dangers of Stochastic Parrots" by Bender et al.
-   - Algorithmic Accountability: A Primer by Caplan et al.
+   - ["On the Dangers of Stochastic Parrots"]((https://dl.acm.org/doi/10.1145/3442188.3445922)) by Bender et al.
 - Algorithms, data, and AI
 - Data decontextualized
 
@@ -197,7 +201,7 @@ Please provide any final thoughts or comments you might have for the author:
 ## Class 14
 
 - Readings:
-   - *Data Feminism* Chapter 2
+   - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
 - Activity: Examining visualizations from Yanni Alexander Loukissas' The Life and Death of Data
    - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
    - Visualization #2: http://www.lifeanddeathofdata.org/appendix/calendar_radial.html
@@ -206,16 +210,16 @@ Please provide any final thoughts or comments you might have for the author:
       - Example accessions data tag: https://lifeanddeathofdata.org/media/figure6_l.jpg
       - Data tag diagram: https://lifeanddeathofdata.org/media/figure6_s.jpg
       - Arnold Arboretum grounds map: https://arboretum.harvard.edu/wp-content/uploads/2020/07/ArnArb-Master-Grid-Map.pdf
-1. Does the meaning of the marks/data points differ for each visualization? What is the same or different?
-2. What trends/clusters of points do you notice in each visualization? What gaps?
-3. Are certain trends/clusters or gaps more noticeable in certain visualizations?
-4. Why might the creator of these visualizations have included the "unmapped plants" in each?
+   1. Does the meaning of the marks/data points differ for each visualization? What is the same or different?
+   2. What trends/clusters of points do you notice in each visualization? What gaps?
+   3. Are certain trends/clusters or gaps more noticeable in certain visualizations?
+   4. Why might the creator of these visualizations have included the "unmapped plants" in each?
 
 Class 21
 
 - Readings:
-   - "Extra-Activism" revisited (remaining sections)
-   - "Narrating Water Conflict with Data and Interactive Comics" by Amancio
+   - ["Extra-Activism: Counter-Mapping and Data Justice"](https://repository.usfca.edu/ms/30/) by Kidd revisited (remaining sections)
+   - ["Narrating Water Conflict with Data and Interactive Comics"](https://moodle.kenyon.edu/mod/page/view.php?id=270538) by Amancio - *The Data Journalism Handbook* chapter
 - Maps as data visualizations
    - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
    - Transit maps:
@@ -231,11 +235,11 @@ Class 21
 ### Class 15
 
 - Readings:
-   - *Data Feminism* Chapter 7
-   - "Beware the Hype" in the TWC Newsletter by Turkopticon
-- Activity: Write a Data Storybook
+   - *Data Feminism* [Chapter 7](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3)
+   - ["Beware the Hype: ChatGPT Didn't Replace Human Data Annotators"](https://news.techworkerscoalition.org/2023/04/04/issue-5/) in the *TWC Newsletter* by Turkopticon
+- Activity: [Write a Data Storybook](https://databasic.io/en/culture/storybook)
 > [!NOTE]
-> For this activity I pulled the following variables from the 2022 General Social Survey: sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
+> For this activity I pulled the following variables from the 2022 [General Social Survey](https://gss.norc.org/): sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
 >
 > I gave the students the raw data as well as tables summarizing responses by sex, by sexual orientation, and by age.
 
