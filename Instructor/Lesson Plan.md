@@ -41,11 +41,20 @@
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
-- Brief sketch of the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
-- Small group discussions:
-   1. What reasoning is given in the research article for working with CILS data?
-   2. What other reasons or factors might have contributed to the use of CILS data but were not mentioned?
-   3. In the "Data and Methods" section of the Feliciano article (or the Discussion section of the Maffini article), the author describes the limitations of the dataset in addressing their research question. Do you think the overall conclusions drawn in the article are justified given those limitations? Why or why not?
+- Small group discussion: Examining the CILS dataset  
+Answer the following as best you can, using the information in the CILS reading:
+   1. **Who** - Who was responsible for the creation of the CILS dataset?
+   2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
+   3. **When** - When were the data collected?
+   4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
+   5. **Why** - Why were the data gathered? What is the purpose of the study?
+   6. **How** - How were individuals selected for the study? How were data gathered?
+- Briefly sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
+- Small group discussion: Use of the CILS data
+   1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
+   2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
+   3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
+   4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
 
 ### Class 4 - Data, power, context
 
