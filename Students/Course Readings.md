@@ -25,7 +25,7 @@
    - Introduction (pp. 1-2)
    - Participants and Procedures (pp. 5-6)
    - Discussion (pp. 9-11)
-- ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn, sections:
+- ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Michael Dunn, sections:
    - Abstract (p. 44)
    - Introduction (p. 44)
    - Sample and Research Design (pp. 45-46)
