@@ -21,8 +21,8 @@
    - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Feinberg
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
 - Small group discussion:
-   - How did you feel about Feinberg's discussion of data?
-   - How does her characterization of data agree or disagree with your understanding of data?
+   1. How did you feel about Feinberg's discussion of data?
+   2. How does her characterization of data agree or disagree with your understanding of data?
 - Lecture: Raw Data // Raw Carrots
 - Data vs. Statistics vs. Visualizations
 - Introduce Data Biographies assignment and some related examples:
@@ -41,8 +41,8 @@
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
-- Small group discussion:  
-*Examining the CILS dataset* - Answer the following as best you can, using the information in the CILS reading:
+- Small group discussion: Examining the CILS dataset  
+Answer the following as best you can, using the information in the CILS reading:
    1. **Who** - Who was responsible for the creation of the CILS dataset?
    2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
    3. **When** - When were the data collected?
@@ -51,8 +51,7 @@
    6. **How** - How were individuals selected for the study? How were data gathered?
 - Brief lecture:  
 Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
-- Small group discussion:  
-*Use of the CILS data*
+- Small group discussion: Use of the CILS data  
    1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
    2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
    3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
@@ -68,8 +67,8 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 Data settings
 - Brief lecture:  
 Data Assemblages
-- Small group discussion:  
-*Systems of power and CILS data* - Apply lessons learned from *Data Feminism* Ch. 1 to CILS
+- Small group discussion: Systems of power and CILS data  
+Apply lessons learned from *Data Feminism* Ch. 1 to CILS
    1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
    2. How might you apply the idea of power imbalances when looking at the reuse of CILS data by other researchers, like Maffini and Dunn?
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
@@ -92,8 +91,10 @@ Data Assemblages
 - Readings due:
    - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
-- Return to CILS dataset to consider what's being counted (?)
-- Activity: Evaluate and compare the [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf) and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) Census questionnaires and think about what's getting counted.
+- Activity: Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census questionnaires
+   1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
+   2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
+   3. What about the Census questionnaire has stayed the same since 2000? What has changed?
 
 ## Week 4
 
