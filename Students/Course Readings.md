@@ -5,13 +5,6 @@
 ### Class 2
 
 - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Melanie Feinberg (~4 pages)
-- ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08)  
-*Data Materiality* hosted by Scott Rogers ft. Yanni Loukissas
-
-### Class 4
-
-- [*Data Feminism* Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6), Why Data Science Needs Feminism, pp. 1-19 (18 pages)  
-    (we'll be discussing the introduction and first chapter of Data Feminism toward the end of Week 2)
 
 #### *Discussed but not assigned; Data Biographies:*
 
@@ -21,10 +14,8 @@
 
 ## Week 2
 
-### Class 4
+### Class 3
 
-
-### Class 5
 - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Alejandro Portes & Rubén G. Rumbaut, sections:
    - Summary
    - Scope of Project
@@ -34,9 +25,18 @@
    - Introduction (pp. 1-2)
    - Participants and Procedures (pp. 5-6)
    - Discussion (pp. 9-11)
+- ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn, sections:
+   - Abstract (p. 44)
+   - Introduction (p. 44)
+   - Sample and Research Design (pp. 45-46)
+   - Discussion (pp. 49-50)
+   - Conclusion (p. 50)
 
-### Class 6
+### Class 4
 
+- ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08)  
+*Data Materiality* hosted by Scott Rogers ft. Yanni Loukissas
+- [*Data Feminism* Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6), Why Data Science Needs Feminism, pp. 1-19 (18 pages)  
 - [*Data Feminism* Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4), The Power Chapter, pp. 21-47 (26 pages)
 
 ## Week 3
@@ -52,10 +52,10 @@
 
 ### Class 10
 
-- ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Mona Chalabi & Jonathan Gray, pp. 174-181 (7 pages)  
-In *The Data Journalism Handbook*
-- ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Barbara Maseda, pp. 116-123 (7 pages)  
-In *The Data Journalism Handbook*
+- ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Mona Chalabi & Jonathan Gray (7 pages)  
+*The Data Journalism Handbook*, pp. 174-181
+- ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Barbara Maseda (7 pages)  
+*The Data Journalism Handbook*, pp. 116-123
 
 ### Class 11
 
@@ -100,7 +100,8 @@ Link to transcript
 
 ### Class 18
 
-- ["On the Dangers of Stochastic Parrots: Can Language Models be Too Big? 🦜"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al. (13 pages)
+- ["On the Dangers of Stochastic Parrots: Can Language Models be Too Big? 🦜"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al. (13 pages)  
+FAccT '21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, pp. 610–623
 
 ## Week 7
 
@@ -112,14 +113,14 @@ Link to transcript
 
 - ["Extra-Activism: Counter-Mapping and Data Justice"](https://repository.usfca.edu/ms/30/) by Dorothy Kidd, remaining sections:
    - ???
-- ["Narrating Water Conflict with Data and Interactive Comics"](https://moodle.kenyon.edu/mod/page/view.php?id=270538) by Nelly Luna Amancio, pp. 206-210 (4 pages)  
-In *The Data Journalism Handbook*
+- ["Narrating Water Conflict with Data and Interactive Comics"](https://moodle.kenyon.edu/mod/page/view.php?id=270538) by Nelly Luna Amancio (4 pages)  
+*The Data Journalism Handbook*, pp. 206-210.
 
 #### *Discussed but not assigned; moving from Ethics to Justice:*
 
-- ["Feminist Data Manifest-No" by Cifor et al.](https://www.manifestno.com/home)
-- ["Right MAP Making" by Steven R Holloway](https://moodle.kenyon.edu/pluginfile.php/364674/mod_page/content/9/Right%20MAP%20Making.pdf)
-- ["CARE Principles for Indigenous Data Governance" by the Research Data Alliance International Indigenous Data Sovereignty Interest Group and the Global Indigenous Data Alliance](https://moodle.kenyon.edu/pluginfile.php/364674/mod_page/content/9/CARE%20Principles%20for%20Indigenous%20Data%20Governance.pdf)
+- ["Feminist Data Manifest-No"](https://www.manifestno.com/home) by Cifor et al.
+- ["Right MAP Making"](https://moodle.kenyon.edu/pluginfile.php/364674/mod_page/content/9/Right%20MAP%20Making.pdf) by Steven R Holloway
+- ["CARE Principles for Indigenous Data Governance"](https://www.tomake.com/warehouse/PDF/On_Right_Mapping_Five_Ways.pdf) by the Research Data Alliance International Indigenous Data Sovereignty Interest Group and the Global Indigenous Data Alliance
 
 ## Week 8
 
