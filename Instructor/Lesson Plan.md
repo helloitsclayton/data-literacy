@@ -83,8 +83,8 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
    - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: Abstract, Introduction (stop at "**The non-obvious origins...**"), Background (stop at "**Knowledge Discovery...**"), Discussion
 - Introduce Research Inquiry assignment
 - Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
-   - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class%2005/C05-Ohio-UFO.csv)
-   - For student evaluation: [two months of traffic stop data](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class%2005/C05-Traffic-Stops.csv) from Charlotte's [Officer Traffic Stops dataset](https://data.charlottenc.gov/datasets/officer-traffic-stops)
+   - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Ohio-UFO.csv)
+   - For student evaluation: [Ohio data](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) from [MappingPoliceViolence.org](https://mappingpoliceviolence.org/)
 
 ### Class 6 - What gets counted
 
