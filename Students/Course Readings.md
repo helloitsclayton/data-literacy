@@ -42,9 +42,9 @@
 ## Week 3
 
 ### Class 5
-- ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Samir Passi & Solon Barocas, sections:
 > [!NOTE]
-> I'm assigning specific parts of the Introduction and Background of this article as the remaining portions aren't as relevant. You do not need to read past the heading indicated.
+> I'm assigning specific parts of the Introduction and Background of Passi & Barocas as the remaining portions aren't as relevant. Once you hit the indicated headings, go on to the next assigned section.
+- ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Samir Passi & Solon Barocas, sections:
    - Abstract (p. 1)
    - Introduction (pp. 1-2, stop at "**The non-obvious origins...**")
    - Background (pp. 3-4, stop at "**Knowledge Discovery...**")
