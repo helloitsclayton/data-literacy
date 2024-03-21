@@ -41,10 +41,17 @@
 
 ## Week 3
 
-### Class 8
-- [*Data Feminism* Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3), What Gets Counted Counts, pp. 97-123 (26 pages)
+### Class 5
+- ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Samir Passi & Solon Barocas, sections:
+> [!NOTE]
+> I'm assigning specific parts of the Introduction and Background of this article as the remaining portions aren't as relevant. You do not need to read past the heading indicated.
+   - Abstract (p. 1)
+   - Introduction (pp. 1-2, stop at "**The non-obvious origins...**")
+   - Background (pp. 3-4, stop at "**Knowledge Discovery...**")
+   - Discussion (pp. 8-9)
 
-### Class 9
+### Class 6
+- [*Data Feminism* Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3), What Gets Counted Counts, pp. 97-123 (26 pages)
 - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00)  
 *The Conversation* hosted by Kim Chakanetsa ft. Caroline Criado Perez and Lauren Klein
 

@@ -80,7 +80,7 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 - Assignments due:
    - Data Biographies
 - Readings due:
-   - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: (???)
+   - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: Abstract, Introduction (stop at "**The non-obvious origins...**"), Background (stop at "**Knowledge Discovery...**"), Discussion
 - Introduce Research Inquiry assignment
 - Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
    - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class%2005/C05-Ohio-UFO.csv)
