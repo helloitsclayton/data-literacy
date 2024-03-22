@@ -84,7 +84,12 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 - Introduce Research Inquiry assignment
 - Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
    - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Ohio-UFO.csv)
-   - For student evaluation: [Ohio data](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) from [MappingPoliceViolence.org](https://mappingpoliceviolence.org/)
+   - For student evaluation: [selected variables from Ohio incidents](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) appearing in the [MappingPoliceViolence.org](https://mappingpoliceviolence.org/) dataset
+
+> [!NOTE]
+> The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances  
+> I then filtered to only incidents in Ohio and only up to December of the previous year.  
+> An interesting point was two identical entries in "circumstances" were keeping the tool from displaying that variable as a word cloud (left in as it might spark some conversation). I slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
 
 ### Class 6 - What gets counted
 
@@ -104,8 +109,13 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
    - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Chalabi & Gray - *The Data Journalism Handbook* chapter
    - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Maseda - *The Data Journalism Handbook* chapter
 - Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
-> [!WARNING]
-> This went so badly! I wanted to give the students something more "social justice" related to work with but didn't give myself enough time to find appropriate materials.
+   - Have students read the brief intro on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) site
+   - It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
+   - For student evaluation: [HOLC Area Descriptions for Ohio](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-07/C07-HOLC-Area-Descriptions.txt) from Mapping Inequality
+> [!NOTE]
+> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio, exported the filtered data as a CSV file, and used a spreadsheet editor to copy the text from the following variables: clarifying_remarks, favorable_influences, detrimental_influences. I pasted these into a plain text file.  
+> Since I added all of those fields to a single text file, I also used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.  
+> Finally, be sure to hang onto the filtered data file! We'll be using it in an activity in the next week.
 
 ### Class 8
 
