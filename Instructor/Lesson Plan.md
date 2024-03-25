@@ -89,17 +89,14 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 > [!NOTE]
 > The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances  
 > I then filtered to only incidents in Ohio and only up to December of the previous year.  
-> An interesting point was two identical entries in "circumstances" were keeping the tool from displaying that variable as a word cloud (left in as it might spark some conversation). I slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
+> Interestingly, the Ohio data includes two identical entries in "circumstances" which keeps WTFcsv from displaying that variable as a word cloud. I initially left this to possibly spark some conversation. I also slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
 
-### Class 6 - What gets counted
+### Class 6 - Challenging power
 
-- Readings due:
-   - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-   - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
-- Activity: Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census questionnaires
-   1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
-   2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
-   3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+- Readings:
+   - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
+- Positivism is a trap!
+- Civic Data Field Guide?
 
 ## Week 4
 
@@ -113,29 +110,22 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
    - It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
    - For student evaluation: [HOLC Area Descriptions for Ohio](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-07/C07-HOLC-Area-Descriptions.txt) from Mapping Inequality
 > [!NOTE]
-> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio, exported the filtered data as a CSV file, and used a spreadsheet editor to copy the text from the following variables: clarifying_remarks, favorable_influences, detrimental_influences. I pasted these into a plain text file.  
-> Since I added all of those fields to a single text file, I also used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.  
-> Finally, be sure to hang onto the filtered data file! We'll be using it in an activity in the next week.
+> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio. Because I knew I'd be combined several variables worth of text into a single file (removing the context of column headers) I used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.  
+> I exported the resulting data table as a CSV file, and used a spreadsheet editor to copy the text from the following variables into a plain text file: clarifying_remarks, favorable_influences, detrimental_influences. Finally, I did some minimal "cleaning" of the plain text files, mostly just fixing a few character encoding errors.  
+> Usefully, OpenRefine will hang onto your data table and it'll be used in an  activity next week.
 
 ### Class 8
 
-- Reading:
-   - ["Extra-Activism"](https://repository.usfca.edu/ms/30/) by Kidd: Maps, Extractivism and Treaties (pp. 10-12), Counter-mapping (pp. 12-13), Pipelines, maps and sovereignty in Denendeh (pp. 13-16), The Inuit maps and Nunavut (pp. 16-18)
-   - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
-> [!WARNING]
-> I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
-- Small group discussion:
-   1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
-   2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
-   3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
-Class 12
+### Class ?
+
+### Class ?
+
 - Data and context collapse:
    - Data and Excel ([renaming genes](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates), [UK covid test data](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england))
    - Ex of walking route over time from *Rethinking the Power of Maps*
-- Dear Data - Make final decision on topic
 - Activity: Have students come up with a plan for cleaning data in small groups  
 The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
    1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
@@ -148,19 +138,35 @@ The first step in most data analysis processes is to "clean" the data so that th
 
 ### Class 9
 
-- A variation on the SameDiff activity from DataBasic.io instead using the text of speeches by prominent civil rights/social justice figures. I asked students to illustrate what two selected speakers might have agreed on or might have differed on.
+- Make final decision on Dear Data topic
+   - Set aside time to discuss
+   - Collection will run from day after Class 9 to day before Class 11
+- Activity: [SameDiff activity](https://databasic.io/en/samediff/) from [DataBasic.io](https://databasic.io/en/)
+   - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
+   - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
 > [!NOTE]
-> Based on the issues we had with the WordCounter activity, I wanted to try something else. Most of the transcribed speeches were from a website called So*Just, which has a page on Social Justice and Human Rights Speeches (though I can't guarantee accuracy).
->
-> I supplemented this by searching for speeches by other folks, like Angela Davis, Greta Thunberg, James Baldwin, and Malala Yousafzai.
+> I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.  
+> Again using OpenRefine, with the same file as in Week 4, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.  
+> As in the WordCounter activity, I copied the text for the variables: clarifying_remarks, favorable_influences, detrimental_influences, into two different plain text files.
 
-### Class 10
+### Class 10 - What gets counted
+
+- Readings due:
+   - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
+   - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
+- Activity: Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census questionnaires
+   1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
+   2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
+   3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+
+### Class ?
 
 - Readings:
    - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
 - Introduce final presentation assignment
 
-Class 15
+### Class ?
+
 - Readings:
    - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
    - [*Algorithmic Accountability: A Primer*](https://datasociety.net/library/algorithmic-accountability-a-primer/) by Caplan et al.
@@ -176,14 +182,15 @@ Class 15
 
 ### Class 12
 
-- Readings:
-   - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
-- Activity: [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) and [BJS data](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables)
-   - This Fox News article makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
-"Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
-      1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
-      2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
-      3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+- Reading:
+   - ["Extra-Activism"](https://repository.usfca.edu/ms/30/) by Kidd: Maps, Extractivism and Treaties (pp. 10-12), Counter-mapping (pp. 12-13), Pipelines, maps and sovereignty in Denendeh (pp. 13-16), The Inuit maps and Nunavut (pp. 16-18)
+   - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
+> [!WARNING]
+> I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
+- Small group discussion:
+   1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
+   2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
+   3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
 
 Class 18
 - Readings:
@@ -212,10 +219,19 @@ This paper should also discuss how the topics covered in this class have (or hav
    - Final thoughts  
 Please provide any final thoughts or comments you might have for the author:
 
-## Class 14
+### Class 14
 
 - Readings:
-   - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
+   - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
+- Activity: [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) and [BJS data](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables)
+   - This Fox News article makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
+"Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
+      1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
+      2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
+      3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+
+### Class ?
+
 - Activity: Examining visualizations from Yanni Alexander Loukissas' The Life and Death of Data
    - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
    - Visualization #2: http://www.lifeanddeathofdata.org/appendix/calendar_radial.html
