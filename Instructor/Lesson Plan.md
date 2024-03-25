@@ -1,5 +1,10 @@
 # Social Justice and Data Lesson Plan
 
+> [!IMPORTANT]
+> This lesson plan is structured as an 8-week course, meeting for 90 minutes twice a week.
+>
+> It was developed as a two-credit course at an institution where 16 credits per semester is the expected course load for students.
+
 ## Week 1
 
 ### Class 1 - Course introduction
@@ -87,8 +92,8 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
    - For student evaluation: [selected variables from Ohio incidents](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) appearing in the [MappingPoliceViolence.org](https://mappingpoliceviolence.org/) dataset
 
 > [!NOTE]
-> The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances  
-> I then filtered to only incidents in Ohio and only up to December of the previous year.  
+> The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances. I then filtered to only incidents in Ohio and only up to December of the previous year.
+>
 > Interestingly, the Ohio data includes two identical entries in "circumstances" which keeps WTFcsv from displaying that variable as a word cloud. I initially left this to possibly spark some conversation. I also slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
 
 ### Class 6 - Challenging power
@@ -110,16 +115,16 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
    - It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
    - For student evaluation: [HOLC Area Descriptions for Ohio](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-07/C07-HOLC-Area-Descriptions.txt) from Mapping Inequality
 > [!NOTE]
-> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio. Because I knew I'd be combined several variables worth of text into a single file (removing the context of column headers) I used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.  
-> I exported the resulting data table as a CSV file, and used a spreadsheet editor to copy the text from the following variables into a plain text file: clarifying_remarks, favorable_influences, detrimental_influences. Finally, I did some minimal "cleaning" of the plain text files, mostly just fixing a few character encoding errors.  
-> Usefully, OpenRefine will hang onto your data table and it'll be used in an  activity next week.
+> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio. Because I knew I'd be combined several variables worth of text into a single file (removing the context of column headers) I used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.
+>
+> I exported the resulting data table as a CSV file, and used a spreadsheet editor to copy the text from the following variables into a plain text file: clarifying_remarks, favorable_influences, detrimental_influences. Finally, I did some minimal "cleaning" of the plain text files, mostly just fixing a few character encoding errors.
+>
+> Usefully, OpenRefine should automatically hang onto your data table; it'll be used in an activity next week.
 
 ### Class 8
 
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
-
-### Class ?
 
 ### Class ?
 
@@ -145,8 +150,10 @@ The first step in most data analysis processes is to "clean" the data so that th
    - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
    - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
 > [!NOTE]
-> I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.  
-> Again using OpenRefine, with the same file as in Week 4, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.  
+> I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.
+>
+> Again using OpenRefine, with the same file as in Week 4, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.
+>
 > As in the WordCounter activity, I copied the text for the variables: clarifying_remarks, favorable_influences, detrimental_influences, into two different plain text files.
 
 ### Class 10 - What gets counted
