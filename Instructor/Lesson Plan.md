@@ -123,6 +123,8 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 
 ### Class 8
 
+- Readings:
+   - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
@@ -143,6 +145,9 @@ The first step in most data analysis processes is to "clean" the data so that th
 
 ### Class 9
 
+- Assignments due:
+  - Research Inquiry
+- Introduce final presentation assignment (could be Class 10)
 - Make final decision on Dear Data topic
    - Set aside time to discuss
    - Collection will run from day after Class 9 to day before Class 11
@@ -165,12 +170,6 @@ The first step in most data analysis processes is to "clean" the data so that th
    1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
    2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
    3. What about the Census questionnaire has stayed the same since 2000? What has changed?
-
-### Class ?
-
-- Readings:
-   - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
-- Introduce final presentation assignment
 
 ### Class ?
 
@@ -209,7 +208,8 @@ Class 18
 
 ### Class 13
 
-- Final reflection draft due
+- Assignments due:
+   - Final reflection draft
 - Activity: Peer review of final reflection
    - This form will take you through the peer review process for each paper you're reviewing. Broadly, there are two topics on which you'll be providing comments:  
 Process - how previous assignments and in-class work affected the formulation of their research question and how they might go about investigating it.  
