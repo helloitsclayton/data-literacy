@@ -105,11 +105,20 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 
 ## Week 4
 
-### Class 7
+### Class 7 - Maps, text, and arguments
 
 - Readings:
    - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Chalabi & Gray - *The Data Journalism Handbook* chapter
    - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Maseda - *The Data Journalism Handbook* chapter
+- Maps as data visualizations, data visualizations as arguments
+   - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
+   - Transit maps:
+      - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
+      - Bangkok: https://www.bts.co.th/routemap.html
+   - Google Maps
+      - Satellite photos are pixel data
+      - Pins (obviously)
+      - Underlying 
 - Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
    - Have students read the brief intro on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) site
    - It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
@@ -121,10 +130,18 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 >
 > Usefully, OpenRefine should automatically hang onto your data table; it'll be used in an activity next week.
 
-### Class 8
+### Class 8 - Positionality and data
 
 - Readings:
    - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
+   - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
+- Activity: Have students come up with a plan for cleaning data in small groups  
+The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
+   1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
+   2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
+   3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
+   4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
+   5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
@@ -133,17 +150,10 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 - Data and context collapse:
    - Data and Excel ([renaming genes](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates), [UK covid test data](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england))
    - Ex of walking route over time from *Rethinking the Power of Maps*
-- Activity: Have students come up with a plan for cleaning data in small groups  
-The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
-   1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
-   2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
-   3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
-   4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
-   5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
 
 ## Week 5
 
-### Class 9
+### Class 9 - Revisiting text data
 
 - Assignments due:
   - Research Inquiry
@@ -171,22 +181,15 @@ The first step in most data analysis processes is to "clean" the data so that th
    2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
    3. What about the Census questionnaire has stayed the same since 2000? What has changed?
 
-### Class ?
-
-- Readings:
-   - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
-   - [*Algorithmic Accountability: A Primer*](https://datasociety.net/library/algorithmic-accountability-a-primer/) by Caplan et al.
-- Algorithm case study?
-
 ## Week 6
 
-### Class 11
+### Class 11 - Dear Data day
 
 - Readings:
    - ["Florence Nightingale, Huge Nerd"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) - *This Day in Esoteric Political History* podcast
 - Dear Data part 2 - Creating "postcards"
 
-### Class 12
+### Class 12 - Working collectively
 
 - Reading:
    - ["Extra-Activism"](https://repository.usfca.edu/ms/30/) by Kidd: Maps, Extractivism and Treaties (pp. 10-12), Counter-mapping (pp. 12-13), Pipelines, maps and sovereignty in Denendeh (pp. 13-16), The Inuit maps and Nunavut (pp. 16-18)
@@ -198,15 +201,9 @@ The first step in most data analysis processes is to "clean" the data so that th
    2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
    3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
 
-Class 18
-- Readings:
-   - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al.
-- Algorithms, data, and AI
-- Data decontextualized
-
 ## Week 7
 
-### Class 13
+### Class 13 - Final reflection peer review
 
 - Assignments due:
    - Final reflection draft
@@ -226,20 +223,19 @@ This paper should also discuss how the topics covered in this class have (or hav
    - Final thoughts  
 Please provide any final thoughts or comments you might have for the author:
 
-### Class 14
+### Class 14 - Speaking for data
 
 - Readings:
    - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
+   - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al., skip section **2. Background**
+- Discussion: AI and data
 - Activity: [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) and [BJS data](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables)
    - This Fox News article makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
 "Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
       1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
       2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
       3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
-
-### Class ?
-
-- Activity: Examining visualizations from Yanni Alexander Loukissas' The Life and Death of Data
+- Brief discussion: Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*
    - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
    - Visualization #2: http://www.lifeanddeathofdata.org/appendix/calendar_radial.html
    - Visualization #3: http://www.lifeanddeathofdata.org/appendix/polarmap_time.html
@@ -247,25 +243,7 @@ Please provide any final thoughts or comments you might have for the author:
       - Example accessions data tag: https://lifeanddeathofdata.org/media/figure6_l.jpg
       - Data tag diagram: https://lifeanddeathofdata.org/media/figure6_s.jpg
       - Arnold Arboretum grounds map: https://arboretum.harvard.edu/wp-content/uploads/2020/07/ArnArb-Master-Grid-Map.pdf
-   1. Does the meaning of the marks/data points differ for each visualization? What is the same or different?
-   2. What trends/clusters of points do you notice in each visualization? What gaps?
-   3. Are certain trends/clusters or gaps more noticeable in certain visualizations?
-   4. Why might the creator of these visualizations have included the "unmapped plants" in each?
-
-Class 21
-
-- Readings:
-   - ["Extra-Activism: Counter-Mapping and Data Justice"](https://repository.usfca.edu/ms/30/) by Kidd revisited (remaining sections)
-   - ["Narrating Water Conflict with Data and Interactive Comics"](https://moodle.kenyon.edu/mod/page/view.php?id=270538) by Amancio - *The Data Journalism Handbook* chapter
-- Maps as data visualizations
-   - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
-   - Transit maps:
-      - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
-      - Bangkok: https://www.bts.co.th/routemap.html
-   - Google Maps
-      - Satellite photos are pixel data
-      - Pins (obviously)
-      - Underlying 
+   - Loukissas was specifically interested in foregrounding the fact that visualization represent a *dataset* and not the real world that the dataset is intended to represent.
 
 ## Week 8
 
@@ -279,10 +257,6 @@ Class 21
 > For this activity I pulled the following variables from the 2022 [General Social Survey](https://gss.norc.org/): sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
 >
 > I gave the students the raw data as well as tables summarizing responses by sex, by sexual orientation, and by age.
-
-Class 23
-
-Final presentations
 
 ### Class 16
 
