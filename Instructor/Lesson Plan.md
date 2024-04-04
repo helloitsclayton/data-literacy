@@ -262,6 +262,12 @@ Please provide any final thoughts or comments you might have for the author:
 
 Finish up final presentations, end-of-class discussion and debrief
 
+# Activities & discussions
+
+## Class ?
+
+You know.
+
 # Assignments
 
 ## Questionnaire
