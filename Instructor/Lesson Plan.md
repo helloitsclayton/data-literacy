@@ -25,9 +25,7 @@
 - Reading completed ahead of class:
    - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Feinberg
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
-- Small group discussion:
-   1. How did you feel about Feinberg's discussion of data?
-   2. How does her characterization of data agree or disagree with your understanding of data?
+- **Discussion:** [Feinberg & data](#c02-discussion-feinberg--data)
 - Lecture: Raw Data // Raw Carrots
 - Data vs. Statistics vs. Visualizations
 - Introduce Data Biographies assignment and some related examples:
@@ -46,21 +44,10 @@
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
-- Small group discussion: Examining the CILS dataset  
-Answer the following as best you can, using the information in the CILS reading:
-   1. **Who** - Who was responsible for the creation of the CILS dataset?
-   2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
-   3. **When** - When were the data collected?
-   4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
-   5. **Why** - Why were the data gathered? What is the purpose of the study?
-   6. **How** - How were individuals selected for the study? How were data gathered?
+- **Discussion:** [Describing the CILS dataset](#c03-discussion-describing-the-cils-dataset)  
 - Brief lecture:  
 Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
-- Small group discussion: Use of the CILS data  
-   1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
-   2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
-   3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
-   4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
+- **Discussion:** [Use of the CILS data](#c03-discussion-use-of-the-cils-data)  
 
 ### Class 4 - Data, power, context
 
@@ -68,14 +55,10 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-- Full class discussion:  
-Data settings
+- **Discussion:** Data settings
 - Brief lecture:  
 Data Assemblages
-- Small group discussion: Systems of power and CILS data  
-Apply lessons learned from *Data Feminism* Ch. 1 to CILS
-   1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
-   2. How might you apply the idea of power imbalances when looking at the reuse of CILS data by other researchers, like Maffini and Dunn?
+- **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
 ## Week 3
@@ -87,14 +70,7 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 - Readings due:
    - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: Abstract, Introduction (stop at "**The non-obvious origins...**"), Background (stop at "**Knowledge Discovery...**"), Discussion
 - Introduce Research Inquiry assignment
-- Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/) by Data Culture Project
-   - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Ohio-UFO.csv)
-   - For student evaluation: [selected variables from Ohio incidents](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) appearing in the [MappingPoliceViolence.org](https://mappingpoliceviolence.org/) dataset
-
-> [!NOTE]
-> The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances. I then filtered to only incidents in Ohio and only up to December of the previous year.
->
-> Interestingly, the Ohio data includes two identical entries in "circumstances" which keeps WTFcsv from displaying that variable as a word cloud. I initially left this to possibly spark some conversation. I also slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
+- **Activity:** ["Asking Good Questions" with WTFcsv](#c05-activity-asking-good-questions-with-wtfcsv)
 
 ### Class 6 - Challenging power
 
@@ -119,29 +95,14 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
       - Satellite photos are pixel data
       - Pins (obviously)
       - Underlying 
-- Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
-   - Have students read the brief intro on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) site
-   - It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
-   - For student evaluation: [HOLC Area Descriptions for Ohio](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-07/C07-HOLC-Area-Descriptions.txt) from Mapping Inequality
-> [!NOTE]
-> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio. Because I knew I'd be combined several variables worth of text into a single file (removing the context of column headers) I used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.
->
-> I exported the resulting data table as a CSV file, and used a spreadsheet editor to copy the text from the following variables into a plain text file: clarifying_remarks, favorable_influences, detrimental_influences. Finally, I did some minimal "cleaning" of the plain text files, mostly just fixing a few character encoding errors.
->
-> Usefully, OpenRefine should automatically hang onto your data table; it'll be used in an activity next week.
+- **Activity:** ["Sketch a Story" with WordCounter](#c07-activity-sketch-a-story-with-wordcounter)
 
 ### Class 8 - Positionality and data
 
 - Readings:
    - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
    - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
-- Activity: Have students come up with a plan for cleaning data in small groups  
-The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
-   1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
-   2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
-   3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
-   4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
-   5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
+- **Activity:** [Creating a data cleaning plan](#c08-activity-planning-data-cleaning)
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
@@ -161,25 +122,14 @@ The first step in most data analysis processes is to "clean" the data so that th
 - Make final decision on Dear Data topic
    - Set aside time to discuss
    - Collection will run from day after Class 9 to day before Class 11
-- Activity: [SameDiff activity](https://databasic.io/en/samediff/) from [DataBasic.io](https://databasic.io/en/)
-   - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
-   - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
-> [!NOTE]
-> I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.
->
-> Again using OpenRefine, with the same file as in Week 4, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.
->
-> As in the WordCounter activity, I copied the text for the variables: clarifying_remarks, favorable_influences, detrimental_influences, into two different plain text files.
+- **Activity:** [SameDiff activity from DataBasic.io](#c09-activity-samediff-activity-from-databasicio)
 
 ### Class 10 - What gets counted
 
 - Readings due:
    - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
-- Activity: Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census questionnaires
-   1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
-   2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
-   3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+- **Activity:** [Comparing U.S. Census questionnaires](#c10-activity-census-questionnaires)
 
 ## Week 6
 
@@ -264,9 +214,91 @@ Finish up final presentations, end-of-class discussion and debrief
 
 # Activities & discussions
 
-## Class ?
+## C02 Discussion: Feinberg & Data
+   1. How did you feel about Feinberg's discussion of data?
+   2. How does her characterization of data agree or disagree with your understanding of data?
 
-You know.
+[Return to Class 2](#class-2---defining-data)
+
+## C03 Discussion: Describing the CILS dataset  
+Answer the following as best you can, using the information in the CILS reading:
+   1. **Who** - Who was responsible for the creation of the CILS dataset?
+   2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
+   3. **When** - When were the data collected?
+   4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
+   5. **Why** - Why were the data gathered? What is the purpose of the study?
+   6. **How** - How were individuals selected for the study? How were data gathered?
+
+[Return to Class 3](#class-3---data-biographies)
+
+## C03 Discussion: Use of the CILS data  
+   1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
+   2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
+   3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
+   4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
+
+[Return to Class 3](#class-3---data-biographies)
+
+## C04 Discussion: Systems of power and CILS data  
+Apply lessons learned from *Data Feminism* Ch. 1 to CILS
+   1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
+   2. How might you apply the idea of power imbalances when looking at the reuse of CILS data by other researchers, like Maffini and Dunn?
+
+[Return to Class 4](#class-4---data-power-context)
+
+## C05 Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/)
+   - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Ohio-UFO.csv)
+   - For student evaluation: [selected variables from Ohio incidents](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) appearing in the [MappingPoliceViolence.org](https://mappingpoliceviolence.org/) dataset
+
+> [!NOTE]
+> The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances. I then filtered to only incidents in Ohio and only up to December of the previous year.
+>
+> Interestingly, the Ohio data includes two identical entries in "circumstances" which keeps WTFcsv from displaying that variable as a word cloud. I initially left this to possibly spark some conversation. I also slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
+
+[Return to Class 5](#class-5---asking-questions-with-data)
+
+## C07 Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
+- Have students read the brief intro on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) site
+- It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
+- For student evaluation: [HOLC Area Descriptions for Ohio](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-07/C07-HOLC-Area-Descriptions.txt) from Mapping Inequality
+> [!NOTE]
+> Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio. Because I knew I'd be combined several variables worth of text into a single file (removing the context of column headers) I used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.
+>
+> I exported the resulting data table as a CSV file, and used a spreadsheet editor to copy the text from the following variables into a plain text file: clarifying_remarks, favorable_influences, detrimental_influences. Finally, I did some minimal "cleaning" of the plain text files, mostly just fixing a few character encoding errors.
+>
+> Usefully, OpenRefine should automatically hang onto your data table; it'll be used in an activity next week.
+
+[Return to Class 7](#class-7---maps-text-and-arguments)
+
+## C08 Activity: Planning data cleaning  
+The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
+   1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
+   2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
+   3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
+   4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
+   5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
+
+[Return to Class 8](#class-8---positionality-and-data)
+
+## C09 Activity: [SameDiff activity](https://databasic.io/en/samediff/) from [DataBasic.io](https://databasic.io/en/)
+   - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
+   - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
+> [!NOTE]
+> I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.
+>
+> Again using OpenRefine, with the same file as in Week 4, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.
+>
+> As in the WordCounter activity, I copied the text for the variables: clarifying_remarks, favorable_influences, detrimental_influences, into two different plain text files.
+
+[Return to Class 9](#class-9---revisiting-text-data)
+
+## C10 Activity: Census questionnaires
+Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census questionnaires:
+   1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
+   2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
+   3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+
+[Return to Class 10](#class-10---what-gets-counted)
 
 # Assignments
 
