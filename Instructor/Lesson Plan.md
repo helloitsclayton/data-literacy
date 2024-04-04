@@ -146,11 +146,7 @@ Data Assemblages
    - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
 > [!WARNING]
 > I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
-- Small group discussion:
-   1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
-   2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
-   3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
-
+- **Discussion:** [Counter-mapping](#c12-discussion-counter-mapping)
 ## Week 7
 
 ### Class 13 - Final reflection peer review
@@ -179,12 +175,7 @@ Please provide any final thoughts or comments you might have for the author:
    - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
    - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al., skip section **2. Background**
 - Discussion: AI and data
-- Activity: [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) and [BJS data](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables)
-   - This Fox News article makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
-"Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
-      1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
-      2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
-      3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+- **Activity:** [Speaking with statistics](#c14-activity-speaking-with-statistics)
 - Brief discussion: Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*
    - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
    - Visualization #2: http://www.lifeanddeathofdata.org/appendix/calendar_radial.html
@@ -299,6 +290,23 @@ Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decenni
    3. What about the Census questionnaire has stayed the same since 2000? What has changed?
 
 [Return to Class 10](#class-10---what-gets-counted)
+
+## C12 Discussion: Counter-mapping
+   1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
+   2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
+   3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
+
+[Return to Class 12](#class-12---working-collectively)
+
+## C14 Activity: Speaking with statistics
+This [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
+"Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."  
+They link to [a report from the BJS](https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/p21st.pdf) to back up their claim.
+1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
+2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
+3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+
+[Return to Class 14](#class-14---speaking-for-data)
 
 # Assignments
 
