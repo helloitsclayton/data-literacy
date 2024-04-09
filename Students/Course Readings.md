@@ -51,77 +51,65 @@
    - Discussion (pp. 8-9)
 
 ### Class 6
-- [*Data Feminism* Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3), What Gets Counted Counts, pp. 97-123 (26 pages)
-- ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00)  
-*The Conversation* hosted by Kim Chakanetsa ft. Caroline Criado Perez and Lauren Klein
+- *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4), Collect, Analyze, Imagine, Teach, pp. 49-72 (23 pages)
 
 ## Week 4
 
-### Class 10
+### Class 7
 
 - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Mona Chalabi & Jonathan Gray (7 pages)  
 *The Data Journalism Handbook*, pp. 174-181
 - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Barbara Maseda (7 pages)  
 *The Data Journalism Handbook*, pp. 116-123
 
+### Class 8
+
+- *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5), On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints, pp. 71-96 (25 pages)
+- ["Many Analysts, One Data Set: Making Transparent how Variations in Analytic Choices Affect Results"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al., sections:
+   - "Abstract" up to (but not including) "Disclosures" (pp. 338-339)
+   - "Stages of the Crowdsourcing Process" up to (but not including) "Stage 2" (pp. 340-441)
+   - "Generalizability to other data sets " through "Conclusion" (pp. 353-354)
+   - "Footnotes"/"Notes" 1-3 (p. 355)
+
+## Week 5
+
+### Class 9
+
+- [Dear Data: The Project](http://www.dear-data.com/theproject)
+
+### Class 10
+
+- *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3), What Gets Counted Counts, pp. 97-123 (26 pages)
+- ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00)  
+*The Conversation* hosted by Kim Chakanetsa ft. Caroline Criado Perez and Lauren Klein
+
+## Week 6
+
 ### Class 11
 
-- *[Data Feminism* Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3), Unicorns, Janitors, Ninjas, Wizards, and Rock Stars, pp. 125-148 (23 pages)
+- ["Florence Nightingale, huge nerd (1855)"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) (27:01)  
+*This Day in Esoteric Political History* hosted by Jody Avirgan, Nicole Hemmer, and Kellie Carter Jackson, ft. Tim Harford -- [Link to transcript](https://docs.google.com/document/d/1GxmWdaqUVxeTnssM1oOs_oPX9TvQqDCgsLEIRy8wH3E/edit?usp=drive_link)
+- ["WEB Du Bois: Retracing his attempt to challenge racism with data"](https://www.theguardian.com/world/2017/feb/14/web-du-bois-racism-data-paris-african-americans-jobs) by Mona Chalabi (~4 pages)  
+in *The Guardian*
+
+### Class 12
+
+
+- *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3), Unicorns, Janitors, Ninjas, Wizards, and Rock Stars, pp. 125-148 (23 pages)
 - ["Extra-Activism: Counter-Mapping and Data Justice"](https://repository.usfca.edu/ms/30/) by Dorothy Kidd, sections:
    - Maps, Extractivism and Treaties (pp. 10-12)
    - Counter-mapping (pp. 12-13)
    - Pipelines, maps and sovereignty in Denendeh (pp. 13-16)
    - The Inuit maps and Nunavut (pp. 16-18)
 
-### Class 12
-
-- [Dear Data: The Project](http://www.dear-data.com/theproject)
-
-## Week 5
+## Week 7
 
 ### Class 14
 
-- [*Data Feminism* Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5), On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints, pp. 71-96 (25 pages)
-
-### Class 15
-
-- [*Algorithmic Accountability: A Primer*](https://datasociety.net/library/algorithmic-accountability-a-primer/) by Caplan et al. (~14 pages)
-- ["Many Analysts, One Data Set: Making Transparent how Variations in Analytic Choices Affect Results"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al., sections:
-   - "Abstract" up to (but not including) "Disclosures" (pp. 338-339)
-   - "Stages of the Crowdsourcing Process" up to (but not including) "Stage 2" (pp. 340-441)
-   - "Generalizability to other data sets " through "Conclusion" (pp. 353-354)
-   - "Footnotes"/"Notes" 1-3 (p. 355)
-   - I'd also encourage you to skim the rest and see how much you can absorb
-
-## Week 6
-
-### Class 16
-
-- ["Florence Nightingale, huge nerd (1855)"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) (27:01)  
-*This Day in Esoteric Political History* hosted by Jody Avirgan, Nicole Hemmer, and Kellie Carter Jackson, ft. Tim Harford  
-Link to transcript
-
-### Class 17
-
-- [*Data Feminism* Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3), The Numbers Don't Speak for Themselves, pp. 149-172 (23 pages)
-
-### Class 18
-
+- *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3), The Numbers Don't Speak for Themselves, pp. 149-172 (23 pages)
 - ["On the Dangers of Stochastic Parrots: Can Language Models be Too Big? 🦜"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al. (13 pages)  
 FAccT '21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, pp. 610–623
-
-## Week 7
-
-### Class 20
-
-- [*Data Feminism* Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4), Collect, Analyze, Imagine, Teach, pp. 49-72 (23 pages)
-
-### Class 21
-
-- ["Extra-Activism: Counter-Mapping and Data Justice"](https://repository.usfca.edu/ms/30/) by Dorothy Kidd, remaining sections:
-   - ???
-- ["Narrating Water Conflict with Data and Interactive Comics"](https://moodle.kenyon.edu/mod/page/view.php?id=270538) by Nelly Luna Amancio (4 pages)  
-*The Data Journalism Handbook*, pp. 206-210.
+   - Skip section **2. Background**
 
 #### *Discussed but not assigned; moving from Ethics to Justice:*
 
@@ -133,5 +121,4 @@ FAccT '21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, a
 
 ### By the End of Week 8:
 
-- [*Data Feminism* Chapter 7](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3), Show Your Work, pp. 173-201 (28 pages)
-- ["Beware the Hype: ChatGPT Didn't Replace Human Data Annotators"](https://news.techworkerscoalition.org/2023/04/04/issue-5/) by Turkopticon in the *TWC Newsletter* (~2 pages)
+- *Data Feminism* [Chapter 7](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3), Show Your Work, pp. 173-201 (28 pages)

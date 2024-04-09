@@ -22,7 +22,7 @@
 
 ### Class 2 - Defining data
 
-- Reading completed ahead of class:
+- Readings to be completed ahead of class:
    - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Feinberg
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
 - **Discussion:** [Feinberg & data](#c02-discussion-feinberg--data)
@@ -40,7 +40,7 @@
 
 ### Class 3 - Data biographies
 
-- Readings due:
+- Readings:
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
@@ -51,7 +51,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 
 ### Class 4 - Data, power, context
 
-- Readings due:
+- Readings:
    - ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
@@ -67,7 +67,7 @@ Data Assemblages
 
 - Assignments due:
    - Data Biographies
-- Readings due:
+- Readings:
    - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: Abstract, Introduction (stop at "**The non-obvious origins...**"), Background (stop at "**Knowledge Discovery...**"), Discussion
 - Introduce Research Inquiry assignment
 - **Activity:** ["Asking Good Questions" with WTFcsv](#c05-activity-asking-good-questions-with-wtfcsv)
@@ -117,7 +117,9 @@ Data Assemblages
 ### Class 9 - Revisiting text data
 
 - Assignments due:
-  - Research Inquiry
+   - Research Inquiry
+- Readings:
+   - [Dear Data: The Project](http://www.dear-data.com/theproject)
 - Introduce final presentation assignment (could be Class 10)
 - Make final decision on Dear Data topic
    - Set aside time to discuss
@@ -126,7 +128,7 @@ Data Assemblages
 
 ### Class 10 - What gets counted
 
-- Readings due:
+- Readings:
    - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
 - **Activity:** [Comparing U.S. Census questionnaires](#c10-activity-census-questionnaires)
@@ -137,7 +139,9 @@ Data Assemblages
 
 - Readings:
    - ["Florence Nightingale, Huge Nerd"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) - *This Day in Esoteric Political History* podcast
+   - ["WEB Du Bois: Retracing his attempt to challenge racism with data"](https://www.theguardian.com/world/2017/feb/14/web-du-bois-racism-data-paris-african-americans-jobs) by Chalabi - *The Guardian*
 - Dear Data part 2 - Creating "postcards"
+   - Set aside a bit of time at the beginning of class for students to strategize
 
 ### Class 12 - Working collectively
 
@@ -173,7 +177,7 @@ Please provide any final thoughts or comments you might have for the author:
 
 - Readings:
    - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
-   - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al., skip section **2. Background**
+   - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al.; skip section **2. Background**
 - Discussion: AI and data
 - **Activity:** [Speaking with statistics](#c14-activity-speaking-with-statistics)
 - Brief discussion: Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*
@@ -192,7 +196,6 @@ Please provide any final thoughts or comments you might have for the author:
 
 - Readings:
    - *Data Feminism* [Chapter 7](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3)
-   - ["Beware the Hype: ChatGPT Didn't Replace Human Data Annotators"](https://news.techworkerscoalition.org/2023/04/04/issue-5/) in the *TWC Newsletter* by Turkopticon
 - Activity: [Write a Data Storybook](https://databasic.io/en/culture/storybook)
 > [!NOTE]
 > For this activity I pulled the following variables from the 2022 [General Social Survey](https://gss.norc.org/): sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
