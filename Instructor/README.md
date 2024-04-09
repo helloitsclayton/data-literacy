@@ -1,3 +1,3 @@
 # Instructor Materials
 
-{% data-syllabus.instructor.test %}
+{% include test.md %}
