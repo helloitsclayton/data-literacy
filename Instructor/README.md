@@ -1,3 +1,3 @@
 # Instructor Materials
 
-<embed src="/_test/test.md" />
+<embed src="/test/_test.md" />
