@@ -1,0 +1,6 @@
+name: instructor
+run-name: instructor
+on:
+  push:
+    paths:
+      - '/instructor/**'
