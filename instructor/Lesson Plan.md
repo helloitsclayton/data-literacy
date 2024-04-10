@@ -52,7 +52,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 ### Class 4 - Data, power, context
 
 - Readings:
-   - ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08) - *Data Materiality* podcast
+   - ["Yanni Loukissas on understanding and designing data settings."](https://soundcloud.com/bbkvasari/data-materiality-episode-4-yanni-loukissas-on-understanding-and-designing-data-settings) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
 - **Discussion:** Data settings
@@ -76,8 +76,9 @@ Data Assemblages
 
 - Readings:
    - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
-- Positivism is a trap!
-- Civic Data Field Guide?
+- Brief lecture:  
+Positivism is a trap!
+- **Activity:** [Civic Data Field Guides](#c06-activity-civic-data-field-guides)
 
 ## Week 4
 
@@ -250,6 +251,12 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 > Interestingly, the Ohio data includes two identical entries in "circumstances" which keeps WTFcsv from displaying that variable as a word cloud. I initially left this to possibly spark some conversation. I also slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
 
 [Return to Class 5](#class-5---asking-questions-with-data)
+
+## C06 Activity: Civic Data Field Guides
+
+TBD
+
+[Return to Class 6](#class-6---challenging-power)
 
 ## C07 Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
 - Have students read the brief intro on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) site

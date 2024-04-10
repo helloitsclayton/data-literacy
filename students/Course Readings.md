@@ -34,7 +34,7 @@
 
 ### Class 4
 
-- ["Yanni Loukissas on understanding and designing data settings."](https://lnns.co/lJy2EVw3mA-) (32:08)  
+- ["Yanni Loukissas on understanding and designing data settings."](https://soundcloud.com/bbkvasari/data-materiality-episode-4-yanni-loukissas-on-understanding-and-designing-data-settings) (32:08)  
 *Data Materiality* hosted by Scott Rogers ft. Yanni Loukissas
 - [*Data Feminism* Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6), Why Data Science Needs Feminism, pp. 1-19 (18 pages)  
 - [*Data Feminism* Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4), The Power Chapter, pp. 21-47 (26 pages)
