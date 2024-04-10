@@ -225,7 +225,7 @@ Ask the groups to respond to the following:
 
 > 1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
 > 2. Building on your work in Class 3, expand your description of the CILS data to try and capture the *data assemblage* that supported creation of the CILS dataset.
-> 3. How might you characterize the *setting* of the CILS data, as described in our podcast episode reading?
+> 3. How might you characterize the *setting* of the CILS data, as described by Yanni Loukissas in the *Data Materiality* podcast episode?
 > 4. Can you identify any power imbalances that may come up when considering the *reuse* of the CILS data by other researchers like Maffini or Dunn, also discussed in Class 3?
 
 [Return to Class 4](#class-4---data-power-context)
