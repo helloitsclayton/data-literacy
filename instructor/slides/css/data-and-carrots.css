@@ -1,0 +1,127 @@
+.raw-carrots {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr;
+}
+
+.raw-carrots .carrot-1 {
+	grid-area: 1 / 2 / 3 / 4;
+}
+
+.raw-carrots .carrot-2 {
+	grid-area: 1 / 1 / 1 / 1;
+}
+
+.raw-carrots .carrot-3 {
+	grid-area: 1 / 4 / 1 / 4;
+}
+
+.raw-carrots .carrot-4 {
+	grid-area: 2 / 1 / 2 / 1;
+}
+
+.raw-carrots .carrot-5 {
+	grid-area: 2 / 4 / 2 / 4;
+}
+
+.secondary-carrots {
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-template-rows: 1fr 1fr;
+	max-height: 50vh;
+}
+
+.secondary-carrots .carrot-1 {
+	grid-area: 1 / 3 / 1 / 5;
+}
+
+.secondary-carrots .carrot-2 {
+	grid-area: 1 / 1 / 1 / 3;
+}
+
+.secondary-carrots .carrot-3 {
+	grid-area: 1 / 5 / 1 / 7;
+}
+
+.secondary-carrots .carrot-4 {
+	grid-area: 2 / 2 / 2 / 4;
+}
+
+.secondary-carrots .carrot-5 {
+	grid-area: 2 / 4 / 2 / 6;
+}
+
+.primary-carrots {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.primary-carrots .carrot-1 {
+	grid-column: 1 / 3;
+}
+
+.primary-carrots .carrot-2 {
+	grid-column: 3;
+}
+
+.past-carrots {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	max-height: 70vh;
+}
+
+.past-carrots .carrot-1 {
+	grid-area: 1 / 1 / 1 / 1;
+}
+
+.past-carrots .carrot-2 {
+	grid-area: 1 / 2 / 1 / 2;
+}
+
+.past-carrots .carrot-3 {
+	grid-area: 2 / 1 / 2 / 1;
+}
+
+.past-carrots .carrot-4 {
+	grid-area: 2 / 2 / 2 / 2;
+}
+
+.past-carrots .map {
+	grid-area: 1 / 2 / 3 / 2;
+}
+
+.etymSlide {
+	display: flex;
+	justify-content: space-between;
+}
+
+.past-carrots .etymCol {
+	max-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	grid-column: 2;
+	grid-row: 1/3;
+}
+
+.past-carrots .etymDiv {
+	border: 2px solid #5d6c53ff;
+	background-color: #ffb38077;
+	border-radius: 5px;
+	padding: 0.25em;
+}
+
+.past-carrots .etymDiv p {
+	font-size: x-large;
+	text-align: center;
+	margin: 5px 0;
+}
+
+.past-carrots .etymDiv h4 {
+	margin: 5px 0;
+}
+
+.imgCred {
+	font-size: large;
+}
