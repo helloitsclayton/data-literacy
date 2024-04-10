@@ -219,8 +219,6 @@ This activity is intended to provide students with an example of the types of qu
 
 Arrange students into small groups and provide them with the following prompt and list of questions:
 
----
-
 > Answer the following as best you can, using the information in the CILS reading and from the [CILS website](https://cmd.princeton.edu/publications/data-archives/cils):
 >
 > 1. **Who** - Who was responsible for the creation of the CILS dataset?
@@ -246,10 +244,10 @@ This discussion asks groups to apply concepts learned from *Data Feminism* Ch. 1
 
 Ask the groups to respond to the following:
 
-1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
-2. Building on your work in Class 3, expand your description of the CILS data to try and capture the *data assemblage* that supported creation of the CILS dataset.
-3. How might you characterize the *setting* of the CILS data, as described in our podcast episode reading?
-4. Can you identify any power imbalances that may come up when considering the *reuse* of the CILS data by other researchers like Maffini or Dunn, also discussed in Class 3?
+> 1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
+> 2. Building on your work in Class 3, expand your description of the CILS data to try and capture the *data assemblage* that supported creation of the CILS dataset.
+> 3. How might you characterize the *setting* of the CILS data, as described in our podcast episode reading?
+> 4. Can you identify any power imbalances that may come up when considering the *reuse* of the CILS data by other researchers like Maffini or Dunn, also discussed in Class 3?
 
 [Return to Class 4](#class-4---data-power-context)
 
@@ -307,12 +305,12 @@ In this activity, groups will consider how they might go about "cleaning" the da
 
 Provide groups with the following prompt and list of questions:
 
-The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
-1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
-2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
-3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
-4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
-5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
+> The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
+> 1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
+> 2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
+> 3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
+> 4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
+> 5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
 
 [Return to Class 8](#class-8---positionality-and-data)
 
@@ -340,9 +338,9 @@ The [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide
 
 Either print out or otherwise provide for students the questionnaires from the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census. Give groups some time to familarize themselves with the documents, and then ask them to respond to the following:
 
-1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
-2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
-3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+> 1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
+> 2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
+> 3. What about the Census questionnaire has stayed the same since 2000? What has changed?
 
 [Return to Class 10](#class-10---what-gets-counted)
 
@@ -363,9 +361,9 @@ The article links to [a statistical report from the BJS](https://bjs.ojp.gov/sit
 
 Have groups download the above BJS report, and ask them to respond to the following:
 
-1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
-2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
-3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+> 1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
+> 2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
+> 3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
 
 [Return to Class 14](#class-14---speaking-for-data)
 
