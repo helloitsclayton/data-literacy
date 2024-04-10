@@ -221,14 +221,14 @@ Arrange students into small groups and provide them with the following prompt an
 
 ---
 
-Answer the following as best you can, using the information in the CILS reading and from the [CILS website](https://cmd.princeton.edu/publications/data-archives/cils):
-
-1. **Who** - Who was responsible for the creation of the CILS dataset?
-2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
-3. **When** - When were the data collected?
-4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
-5. **Why** - Why were the data gathered? What is the purpose of the study?
-6. **How** - How were individuals selected for the study? How were data gathered?
+> Answer the following as best you can, using the information in the CILS reading and from the [CILS website](https://cmd.princeton.edu/publications/data-archives/cils):
+>
+> 1. **Who** - Who was responsible for the creation of the CILS dataset?
+> 2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
+> 3. **When** - When were the data collected?
+> 4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
+> 5. **Why** - Why were the data gathered? What is the purpose of the study?
+> 6. **How** - How were individuals selected for the study? How were data gathered?
 
 [Return to Class 3](#class-3---data-biographies)
 
