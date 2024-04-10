@@ -27,7 +27,7 @@
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
 - **Discussion:** [Feinberg & data](#c02-discussion-feinberg--data)
 - Lecture: Raw Data // Raw Carrots
-- Data vs. Statistics vs. Visualizations
+- Lecture: Data vs. Statistics vs. Visualizations
 - Introduce Data Biographies assignment and some related examples:
    - ["Data Biographies: Getting to Know Your Data"](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) by Krause
    - ["Datasheets for Datasets"](https://doi.org/10.1145/3458723) by Gebru et al., in *Communications of the ACM*
@@ -105,12 +105,6 @@ Positivism is a trap!
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
-### Class ?
-
-- Data and context collapse:
-   - Data and Excel ([renaming genes](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates), [UK covid test data](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england))
-   - Ex of walking route over time from *Rethinking the Power of Maps*
-
 ## Week 5
 
 ### Class 9 - Revisiting text data
@@ -130,6 +124,7 @@ Positivism is a trap!
 - Readings:
    - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
+- ???
 - **Activity:** [Comparing U.S. Census questionnaires](#c10-activity-census-questionnaires)
 
 ## Week 6
@@ -150,27 +145,15 @@ Positivism is a trap!
 > [!WARNING]
 > I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
 - **Discussion:** [Counter-mapping](#c12-discussion-counter-mapping)
+- ???
+
 ## Week 7
 
 ### Class 13 - Final reflection peer review
 
 - Assignments due:
    - Final reflection draft
-- Activity: Peer review of final reflection
-   - This form will take you through the peer review process for each paper you're reviewing. Broadly, there are two topics on which you'll be providing comments:  
-Process - how previous assignments and in-class work affected the formulation of their research question and how they might go about investigating it.  
-Data & Data Science - how their relationship with data, data science, and data-related research may have changed based on topics we've covered.
-   - Topic 1: Process  
-This paper should discuss the process involved in the first two assignments, how the Data Biography assignment and in-class activities affected the question chosen by the author for their Research Inquiry assignment.  
-It should also discuss the effects of these factors on how they thought about investigating their chosen question.
-      1. What did you find most effective, interesting, or insightful about the description of their process?
-      2. What aspects of their process could've been described more clearly or effectively? Is there anything you think they should've discussed in more detail, or anything you wish they had been more clear about?
-   - Topic 2: Data & Data Science  
-This paper should also discuss how the topics covered in this class have (or have not) fit into the author's existing idea of data and data science. It should also speak to how the author's approach to data-related research may have changed based on the topics covered in class.
-      1. What did you find most effective, interesting, or insightful about the author's description of their relationship with data, data science, and/or data-related research?
-      2. What aspects of their relationship with data, data science, and/or data-related research could've been described more clearly or effectively? Is there anything you think they should've discussed in more detail, or anything you wish they had been more clear about?
-   - Final thoughts  
-Please provide any final thoughts or comments you might have for the author:
+- **Activity:** [Peer review of final reflection](#c13-activity-peer-review)
 
 ### Class 14 - Speaking for data
 
@@ -195,11 +178,7 @@ Please provide any final thoughts or comments you might have for the author:
 
 - Readings:
    - *Data Feminism* [Chapter 7](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3)
-- Activity: [Write a Data Storybook](https://databasic.io/en/culture/storybook)
-> [!NOTE]
-> For this activity I pulled the following variables from the 2022 [General Social Survey](https://gss.norc.org/): sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
->
-> I gave the students the raw data as well as tables summarizing responses by sex, by sexual orientation, and by age.
+- **Activity:** [Write a Data Storybook](#c15-activity-write-a-data-storybook)
 
 ### Class 16
 
@@ -267,13 +246,13 @@ The activity as described in [the handout](https://databasic.io/en/wtfcsv/wtfcsv
 
 ## C06 Activity: Civic Data Field Guides
 
-Packaging info about their chosen data set for peers?
-
 Materials needed:
 
 - Large sheets of white paper
 - Standard size markers/colored pencils/crayons
 - Scissors
+
+Packaging info about their chosen data set for peers?
 
 [Return to Class 6](#class-6---challenging-power)
 
@@ -352,6 +331,29 @@ Either print out or otherwise provide for students the questionnaires from the [
 
 [Return to Class 12](#class-12---working-collectively)
 
+## C13 Activity: Peer review
+
+I prepared the following as a Google Form to provide students with a structured way to evaluate their peers' work. I also wanted to try and steer "reviewers" away from the mechanics of writing and towards to specifics of the assignment. I randomly assigned each student two peer papers to review.
+
+The following is an outline of the form provided to students:
+
+> This form will take you through the peer review process for each paper you're reviewing. Broadly, there are two topics on which you'll be providing comments:  
+*Process* - how previous assignments and in-class work affected the formulation of their research question and how they might go about investigating it.  
+*Data & Data Science* - how their relationship with data, data science, and data-related research may have changed based on topics we've covered.
+> - Topic 1: Process  
+This paper should discuss the process involved in the first two assignments, how the Data Biography assignment and in-class activities affected the question chosen by the author for their Research Inquiry assignment.  
+It should also discuss the effects of these factors on how they thought about investigating their chosen question.
+>    1. What did you find most effective, interesting, or insightful about the description of their process?
+>    2. What aspects of their process could've been described more clearly or effectively? Is there anything you think they should've discussed in more detail, or anything you wish they had been more clear about?
+> - Topic 2: Data & Data Science  
+This paper should also discuss how the topics covered in this class have (or have not) fit into the author's existing idea of data and data science. It should also speak to how the author's approach to data-related research may have changed based on the topics covered in class.
+>    1. What did you find most effective, interesting, or insightful about the author's description of their relationship with data, data science, and/or data-related research?
+>    2. What aspects of their relationship with data, data science, and/or data-related research could've been described more clearly or effectively? Is there anything you think they should've discussed in more detail, or anything you wish they had been more clear about?
+> - Final thoughts  
+Please provide any final thoughts or comments you might have for the author:
+
+[Return to Class 13](#class-13---final-reflection-peer-review)
+
 ## C14 Activity: Speaking with statistics
 
 For this activity, ask groups to read this [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts), which makes the argument that drug-related convictions are not that serious of an issue. It specifically states that:  
@@ -366,6 +368,23 @@ Have groups download the above BJS report, and ask them to respond to the follow
 > 3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
 
 [Return to Class 14](#class-14---speaking-for-data)
+
+## C15 Activity: Write a Data Storybook
+
+Materials needed:
+
+- Large sheets of white paper
+- Standard size markers/colored pencils/crayons
+- Scissors
+
+https://databasic.io/en/culture/storybook
+
+> [!NOTE]
+> For this activity I pulled the following variables from the 2022 [General Social Survey](https://gss.norc.org/): sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
+>
+> I gave the students the raw data as well as tables summarizing responses by sex, by sexual orientation, and by age.
+
+[Return to Class 15](#class-15)
 
 # Assignments
 
