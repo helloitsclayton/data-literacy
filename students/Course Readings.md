@@ -88,7 +88,8 @@
 ### Class 11
 
 - ["Florence Nightingale, huge nerd (1855)"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) (27:01)  
-*This Day in Esoteric Political History* hosted by Jody Avirgan, Nicole Hemmer, and Kellie Carter Jackson, ft. Tim Harford -- [Link to transcript](https://docs.google.com/document/d/1GxmWdaqUVxeTnssM1oOs_oPX9TvQqDCgsLEIRy8wH3E/edit?usp=drive_link)
+*This Day in Esoteric Political History* hosted by Jody Avirgan, Nicole Hemmer, and Kellie Carter Jackson, ft. Tim Harford -- [Link to transcript](https://docs.google.com/document/d/1GxmWdaqUVxeTnssM1oOs_oPX9TvQqDCgsLEIRy8wH3E/edit?usp=drive_link)-- 
+[One of the visualizations mentioned](https://wellcomecollection.org/works/jxwtskzc/images?id=ub3n8egf)
 - ["WEB Du Bois: Retracing his attempt to challenge racism with data"](https://www.theguardian.com/world/2017/feb/14/web-du-bois-racism-data-paris-african-americans-jobs) by Mona Chalabi (~4 pages)  
 in *The Guardian*
 
