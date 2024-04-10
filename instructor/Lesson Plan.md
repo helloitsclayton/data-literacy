@@ -44,7 +44,7 @@
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
-- **Discussion:** [Describing the CILS dataset](#c03-discussion-describing-the-cils-dataset)  
+- **Activity:** [Describing the CILS dataset](#c03-activity-describing-the-cils-dataset)  
 - Brief lecture:  
 Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
 - **Discussion:** [Use of the CILS data](#c03-discussion-use-of-the-cils-data)  
@@ -55,9 +55,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - ["Yanni Loukissas on understanding and designing data settings."](https://soundcloud.com/bbkvasari/data-materiality-episode-4-yanni-loukissas-on-understanding-and-designing-data-settings) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-- **Discussion:** Data settings
-- Brief lecture:  
-Data Assemblages
+- **Discussion:** Data settings & assemblages
 - **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
@@ -210,40 +208,57 @@ Finish up final presentations, end-of-class discussion and debrief
 # Activities & discussions
 
 ## C02 Discussion: Feinberg & Data
-   1. How did you feel about Feinberg's discussion of data?
-   2. How does her characterization of data agree or disagree with your understanding of data?
+1. How did you feel about Feinberg's discussion of data?
+2. How does her characterization of data agree or disagree with your understanding of data?
 
 [Return to Class 2](#class-2---defining-data)
 
-## C03 Discussion: Describing the CILS dataset  
-Answer the following as best you can, using the information in the CILS reading:
-   1. **Who** - Who was responsible for the creation of the CILS dataset?
-   2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
-   3. **When** - When were the data collected?
-   4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
-   5. **Why** - Why were the data gathered? What is the purpose of the study?
-   6. **How** - How were individuals selected for the study? How were data gathered?
+## C03 Activity: Describing the CILS dataset
+
+This activity is intended to provide students with an example of the types of questions they should have in mind, and the investigative process which they could use, when it comes to their Data Biography assignment. Be sure to let students know that they shouldn't be thinking about the two research article readings just yet, but they'll be involved in the next discussion.
+
+Arrange students into small groups and provide them with the following prompt and list of questions:
+
+---
+
+Answer the following as best you can, using the information in the CILS reading and from the [CILS website](https://cmd.princeton.edu/publications/data-archives/cils):
+
+1. **Who** - Who was responsible for the creation of the CILS dataset?
+2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
+3. **When** - When were the data collected?
+4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
+5. **Why** - Why were the data gathered? What is the purpose of the study?
+6. **How** - How were individuals selected for the study? How were data gathered?
 
 [Return to Class 3](#class-3---data-biographies)
 
 ## C03 Discussion: Use of the CILS data  
-   1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
-   2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
-   3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
-   4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
+1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
+2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
+3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
+4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
 
 [Return to Class 3](#class-3---data-biographies)
 
-## C04 Discussion: Systems of power and CILS data  
-Apply lessons learned from *Data Feminism* Ch. 1 to CILS
-   1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
-   2. How might you apply the idea of power imbalances when looking at the reuse of CILS data by other researchers, like Maffini and Dunn?
+## C04 Discussion: Systems of power and CILS data
+
+This discussion asks groups to apply concepts learned from *Data Feminism* Ch. 1, from the *Data Materiality* podcast episode, and from the preceding lecture on data settings and assemblages, to the CILS data we worked with in Class 3.
+
+Ask the groups to respond to the following:
+
+1. First, consider just the CILS study itself. Based on *Data Feminism* Ch. 1, what power imbalances can you identify? How might they have affected the resulting dataset?
+2. Building on your work in Class 3, expand your description of the CILS data to try and capture the *data assemblage* that supported creation of the CILS dataset.
+3. How might you characterize the *setting* of the CILS data, as described in our podcast episode reading?
+4. Can you identify any power imbalances that may come up when considering the *reuse* of the CILS data by other researchers like Maffini or Dunn, also discussed in Class 3?
 
 [Return to Class 4](#class-4---data-power-context)
 
 ## C05 Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/)
-   - Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Ohio-UFO.csv)
-   - For student evaluation: [selected variables from Ohio incidents](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) appearing in the [MappingPoliceViolence.org](https://mappingpoliceviolence.org/) dataset
+
+The activity as described in [the handout](https://databasic.io/en/wtfcsv/wtfcsv-activity-guide.pdf) is very easily adapted to other contexts. I use it more or less as-is, but have all of the students (in small groups) interrogate the same dataset. I also prepared an Ohio version of the UFO data to serve as an "inspirational example."
+
+- Example dataset: [Ohio UFO sightings CSV](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Ohio-UFO.csv)
+- For student evaluation: [selected variables from Ohio incidents](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence.csv) appearing in the [MappingPoliceViolence.org](https://mappingpoliceviolence.org/) dataset
 
 > [!NOTE]
 > The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances. I then filtered to only incidents in Ohio and only up to December of the previous year.
@@ -254,14 +269,29 @@ Apply lessons learned from *Data Feminism* Ch. 1 to CILS
 
 ## C06 Activity: Civic Data Field Guides
 
-TBD
+Packaging info about their chosen data set for peers?
+
+Materials needed:
+
+- Large sheets of white paper
+- Standard size markers/colored pencils/crayons
+- Scissors
 
 [Return to Class 6](#class-6---challenging-power)
 
 ## C07 Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
+
+Materials needed:
+
+- Large sheets of white paper
+- Poster or other large markers
+
+Though it may not appear so on the surface, the [built-in activity](https://databasic.io/en/wordcounter/wordcounter-activity-guide.pdf) is actually flexible enough to apply to this context. I just (again) had all of the groups work on the same dataset. This also means that comparing how different groups reacted to the same dataset can be a part of the de-brief.
+
 - Have students read the brief intro on the [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) site
-- It may also be useful to show students the forms the descriptions are pulled from. The easiest way seems to be the through the [accompanying map](https://dsl.richmond.edu/panorama/redlining/map).
+- Give students some time to explore the [redlining map](https://dsl.richmond.edu/panorama/redlining/map), and be sure to direct their attention to the forms that provide the text they'll be evaluating. This can be done by clicking on a specific area and then switching from the "MAP" tab to the "SCAN" tab.
 - For student evaluation: [HOLC Area Descriptions for Ohio](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-07/C07-HOLC-Area-Descriptions.txt) from Mapping Inequality
+
 > [!NOTE]
 > Area descriptions are downloadable on the [American Panorama GitHub](https://github.com/americanpanorama/HOLC_Area_Description_Data) via the file `ad_data.json`. I then used OpenRefine to filter to just the entries from Ohio. Because I knew I'd be combined several variables worth of text into a single file (removing the context of column headers) I used OpenRefine to remove entries that just read "None" or something similar. Its "Cluster and edit..." feature is very useful for this.
 >
@@ -272,18 +302,31 @@ TBD
 [Return to Class 7](#class-7---maps-text-and-arguments)
 
 ## C08 Activity: Planning data cleaning  
+
+In this activity, groups will consider how they might go about "cleaning" the data in the Mapping Police Violence dataset, which we looked at in [Class 5](#c05-activity-asking-good-questions-with-wtfcsv). It will take groups through common choice points in the cleaning process, and ask them to decide how they might handle each issue.
+
+Provide groups with the following prompt and list of questions:
+
 The first step in most data analysis processes is to "clean" the data so that the process can be more easily automated. For this activity, you'll be looking at the [Mapping Police Violence dataset](https://airtable.com/shroOenW19l1m3w0H) and considering how you might go about this:
-   1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
-   2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
-   3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
-   4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
-   5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
+1. Scroll left in the dataset to get a sense for the number of variables (i.e., the number of columns). A description of the different variables can be found in the data documentation. If you were downloading this data set for your own purposes, would you be interested in all of the variables? Which variables might you leave out (and why)?
+2. The layout makes it pretty obvious when an individual piece of data is missing, like the "age" of the person in row 9 or the "race" of the person in row 25. What might you do with these gaps? (Also, you can have a different approach depending on the variable/column)
+3. There are a few different geographic variables in the dataset, some with a lot of variation in how they're recorded (like "street_address"). If you wanted to associate each data point/incident/row with a single more uniform geographic variable, what might you do?
+4. What would you do with the "circumstances" variable/column, which contains plain-text descriptions of the incidents pulled from news reports? Would you keep it as-is, try to reduce it down in some way (maybe come up with categories like for the other variables?), leave the variable out altogether, or something else?
+5. BONUS/food for thought: What do you do with data points with more than one thing in them, like "agency_responsible" in row 14?
 
 [Return to Class 8](#class-8---positionality-and-data)
 
 ## C09 Activity: [SameDiff activity](https://databasic.io/en/samediff/) from [DataBasic.io](https://databasic.io/en/)
-   - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
-   - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
+
+Materials needed:
+
+- Large sheets of white paper
+- Poster or other large markers
+
+The [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) is not really adaptable in this case. Instead, using the SameDiff tool, I asked groups to compare text data for HOLC area descriptions graded "A" with those graded "D". As with the [Class 7 activity](#c07-activity-sketch-a-story-with-wordcounter), the end goal was for groups to sketch a story that they identify when the two text data files are compared with each other.
+
+- [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
+- [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
 > [!NOTE]
 > I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.
 >
@@ -294,24 +337,32 @@ The first step in most data analysis processes is to "clean" the data so that th
 [Return to Class 9](#class-9---revisiting-text-data)
 
 ## C10 Activity: Census questionnaires
-Evaluate and compare the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census questionnaires:
-   1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
-   2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
-   3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+
+Either print out or otherwise provide for students the questionnaires from the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census. Give groups some time to familarize themselves with the documents, and then ask them to respond to the following:
+
+1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
+2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
+3. What about the Census questionnaire has stayed the same since 2000? What has changed?
 
 [Return to Class 10](#class-10---what-gets-counted)
 
 ## C12 Discussion: Counter-mapping
-   1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
-   2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
-   3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
+
+1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
+2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
+3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
 
 [Return to Class 12](#class-12---working-collectively)
 
 ## C14 Activity: Speaking with statistics
-This [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts) makes the argument that drug-related convictions are not that serious of an issue, and specifically that  
-"Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."  
-They link to [a report from the BJS](https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/p21st.pdf) to back up their claim.
+
+For this activity, ask groups to read this [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts), which makes the argument that drug-related convictions are not that serious of an issue. It specifically states that:  
+> "Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
+
+The article links to [a statistical report from the BJS](https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/p21st.pdf) to back up their claim.
+
+Have groups download the above BJS report, and ask them to respond to the following:
+
 1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
 2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
 3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
