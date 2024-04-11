@@ -34,20 +34,23 @@
    - [*Data User Guides*](https://github.com/rgradeck/Data-User-Guides/blob/master/README.md) from the Western Pennsylvania Regional Data Center
 
 > [!NOTE]
-> Between Weeks 1 and 2, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. They did a terrible job, though, so I plan to include some intervention/consultation during Week 2.
+> Between Weeks 1 and 2, I emailed students with a collection of possible data sources for use in their Data Biography assignment, but students mostly chose their own. Many of them ended up looking at statistical studies and not datasets, though, so it'd be worthwhile to plan on doing some intervention/consultation during Week 2.
 
 ## Week 2
 
 ### Class 3 - Data biographies
 
+> [!IMPORTANT]
+> Because of past issues with students selecting datasets for their Data Biography assignment, Class 3 would be an ideal time to do consultations and make sure they're on the right track. Alternatively, you could require students email you with their selected data set between Class 3 and Class 4.
+
 - Readings:
    - [Children of Immigrants Longitudinal Study](https://doi.org/10.3886/ICPSR20520.v3) by Portes & Rumbaut: Summary, Scope of Project, Methodology
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
-- **Activity:** [Describing the CILS dataset](#c03-activity-describing-the-cils-dataset)  
+- **Activity:** [Describing the CILS dataset](#c03-activity-describing-the-cils-dataset)
 - Brief lecture:  
 Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
-- **Discussion:** [Use of the CILS data](#c03-discussion-use-of-the-cils-data)  
+- **Discussion:** [Use of the CILS data](#c03-discussion-use-of-the-cils-data)
 
 ### Class 4 - Data, power, context
 
@@ -55,7 +58,20 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - ["Yanni Loukissas on understanding and designing data settings."](https://soundcloud.com/bbkvasari/data-materiality-episode-4-yanni-loukissas-on-understanding-and-designing-data-settings) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-- **Discussion:** Data settings & assemblages
+- Brief lecture: Data settings & assemblages
+   - Ask students if they can give you Loukissas' definition of a *data setting*
+      - *Data Feminism* provides a good summary on p. 132:  
+      > "...both the technical and the human processes that affect what information is captured in the data collection process and how the data are then structured."
+      - Be sure to highlight how this concept dovetails with the idea of a Dataset Biography
+   - Introduce the concept of a *data assemblage*:
+      - As originally set out in Kitchin's *The Data Revolution*:  
+      > A complex socio-technical system that is composed of many apparatuses and elements that are thoroughly entwined and whose central concern is the production, management, analysis, and translation of data  
+      > (Kitchin, 2014, p. 24)
+      - Kitchin & Lauriault summarize as  
+      > All of the technological, political, social, and economic apparatuses that frame the nature, operation, and work of a data system or infrastructure  
+      > (Kitchin & Lauriault, 2018, p. 8)
+   - An excellent example, described in detail in Chapter 3 of Hall & Dávila's (sadly not OA) *Critical Visualization*, is the census. It shouldn't be hard for students to brainstorm apparatuses and elements
+   - Another example brought up later in *Data Feminism* is Crawford & Joler's *Anatomy of an AI System*: https://anatomyof.ai/
 - **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
@@ -76,7 +92,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
 - Brief lecture:  
 Positivism is a trap!
-- **Activity:** [Civic Data Field Guides](#c06-activity-civic-data-field-guides)
+- **Activity:** [Data Field Guides](#c06-activity-data-field-guides)
 
 ## Week 4
 
@@ -244,7 +260,7 @@ The activity as described in [the handout](https://databasic.io/en/wtfcsv/wtfcsv
 
 [Return to Class 5](#class-5---asking-questions-with-data)
 
-## C06 Activity: Civic Data Field Guides
+## C06 Activity: Data Field Guides
 
 Materials needed:
 
@@ -252,7 +268,15 @@ Materials needed:
 - Standard size markers/colored pencils/crayons
 - Scissors
 
-Packaging info about their chosen data set for peers?
+This activity draws inspiration from Tess Wilson's [Civic Data Field Guide](https://www.youtube.com/watch?v=THgAjGmXdQA) workshop, but has been adapted to account for students having already selected a dataset and described as part of the Dataset Biography assignment. Students will create a zine that communicates essential information about their chosen dataset, with other students as the intended audience.
+
+What made this dataset interesting to you?
+
+Who might you recommend using this dataset to?
+
+What is the setting for the data?
+
+What is the assemblage that supports the data?
 
 [Return to Class 6](#class-6---challenging-power)
 
