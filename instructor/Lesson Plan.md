@@ -61,15 +61,15 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Brief lecture: Data settings & assemblages
    - Ask students if they can give you Loukissas' definition of a *data setting*
       - *Data Feminism* provides a good summary on p. 132:  
-      > "...both the technical and the human processes that affect what information is captured in the data collection process and how the data are then structured."
+         > "...both the technical and the human processes that affect what information is captured in the data collection process and how the data are then structured."
       - Be sure to highlight how this concept dovetails with the idea of a Dataset Biography
    - Introduce the concept of a *data assemblage*:
-      - As originally set out in Kitchin's *The Data Revolution*:  
-      > A complex socio-technical system that is composed of many apparatuses and elements that are thoroughly entwined and whose central concern is the production, management, analysis, and translation of data  
-      > (Kitchin, 2014, p. 24)
-      - Kitchin & Lauriault summarize as  
-      > All of the technological, political, social, and economic apparatuses that frame the nature, operation, and work of a data system or infrastructure  
-      > (Kitchin & Lauriault, 2018, p. 8)
+      - As originally set out in Kitchin's *The Data Revolution*:
+         > A complex socio-technical system that is composed of many apparatuses and elements that are thoroughly entwined and whose central concern is the production, management, analysis, and translation of data  
+         > (Kitchin, 2014, p. 24)
+      - Kitchin & Lauriault summarize as
+         > All of the technological, political, social, and economic apparatuses that frame the nature, operation, and work of a data system or infrastructure  
+         > (Kitchin & Lauriault, 2018, p. 8)
    - An excellent example, described in detail in Chapter 3 of Hall & Dávila's (sadly not OA) *Critical Visualization*, is the census. It shouldn't be hard for students to brainstorm apparatuses and elements
    - Another example brought up later in *Data Feminism* is Crawford & Joler's *Anatomy of an AI System*: https://anatomyof.ai/
 - **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
@@ -90,8 +90,14 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 
 - Readings:
    - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
-- Brief lecture:  
-Positivism is a trap!
+- Brief lecture: The Pitfalls of Proof
+   - A key section in *Data Feminism* Chapter 2 is **The Pitfalls of Proof**, pp. 57-59
+   - Early chapters of Hall & Dávila's *Critical Visualization* go into this in greater detail, but an assumption often implicit in scientific thinking about social issues is that providing proof of a problem is the same as solving a problem.
+   - Notable aspects of current thinking on data is analogous to Enlightenment-era (late 18th/early 19th century) beliefs. From Hall & Dávila:
+      - The notion of "letting data speak for itself" (explored further in *Data Feminism* Chapter 6) has its roots in "letting *nature* speak for itself," an Enlightenment-era moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena
+      - The assumption that data is an endless resource to be "mined" echoes the Enlightenment idea that nature's endless bounty existed to be tamed and used by humankind
+      - As photography and other technologies developed in the 19th century, so too did the notion that these technologies are not subject to the limits of human subjectivity and therefore produce "objective" data.
+   - The philosophy underpinning all of this is that absolute truth exists and can be measured, or that objective knowledge exists and can be arrived at through enough observation.
 - **Activity:** [Data Field Guides](#c06-activity-data-field-guides)
 
 ## Week 4
