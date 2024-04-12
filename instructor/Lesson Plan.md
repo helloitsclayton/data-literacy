@@ -90,13 +90,21 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 
 - Readings:
    - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
-- Brief lecture: The Pitfalls of Proof
-   - A key section in *Data Feminism* Chapter 2 is **The Pitfalls of Proof**, pp. 57-59
-   - Early chapters of Hall & Dávila's *Critical Visualization* go into this in greater detail, but an assumption often implicit in scientific thinking about social issues is that providing proof of a problem is the same as solving a problem.
-   - Notable aspects of current thinking on data is analogous to Enlightenment-era (late 18th/early 19th century) beliefs. From Hall & Dávila:
-      - The notion of "letting data speak for itself" (explored further in *Data Feminism* Chapter 6) has its roots in "letting *nature* speak for itself," an Enlightenment-era moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena
-      - The assumption that data is an endless resource to be "mined" echoes the Enlightenment idea that nature's endless bounty existed to be tamed and used by humankind
-      - As photography and other technologies developed in the 19th century, so too did the notion that these technologies are not subject to the limits of human subjectivity and therefore produce "objective" data.
+- Brief lecture: A brief history of science
+   - It's important to highlight a key section in *Data Feminism* Chapter 2, **The Pitfalls of Proof** (pp. 57-59)
+   - A stumbling block for applying "scientific" thinking about social issues is the often implicit assumptiuon that truth is self-evident and that once the existence of a problem is sufficiently "proven" it will then be solved
+      - Ex. 1: Someone has stuck my favorite pen to the ceiling. I need to reach the ceiling. 
+	   - Ex. 2: Someone has stuck Napoleon Bonaparte's favorite quill to the ceiling. Napoleon Bonaparte needs to reach the ceiling.
+   - In fact, a lot of ideas around data have their roots in Enlightenment-era (late 18th/early 19th century) scientific (and not-so scientific) beliefs. From Drucker's chapter "Blind spot" in the 2020 book *The Routledge Companion to Digital Humanities and Art History*:
+      - Early visualizations borrowed aesthetic choices from existing "authoratative" forms, like legal documents and pictoral representations of landscapes  
+      (Font choice, muted colors, minimalism)
+   - And, from Hall & Dávila:
+      - The Enlightenment idea that nature's bounty was endless and existed to be tamed and used by humankind  
+      (Data is an endless resource to be "mined")
+      - "Letting *nature* speak for itself," a moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena  
+      ("Letting data speak for itself," explored further in *Data Feminism* Chapter 6)
+      - Photography and other technologies developed in the 19th century produced "objective" truth as they were not limited by human subjectivity  
+      (Data & statistics are objectively true, AI is infallible)
    - The philosophy underpinning all of this is that absolute truth exists and can be measured, or that objective knowledge exists and can be arrived at through enough observation.
 - **Activity:** [Data Field Guides](#c06-activity-data-field-guides)
 
@@ -107,7 +115,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Readings:
    - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Chalabi & Gray - *The Data Journalism Handbook* chapter
    - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Maseda - *The Data Journalism Handbook* chapter
-- Maps as data visualizations, data visualizations as arguments
+- Brief lecture: Maps as data visualizations, data visualizations as arguments
    - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
    - Transit maps:
       - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
@@ -123,6 +131,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Readings:
    - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
    - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
+- ???
 - **Activity:** [Creating a data cleaning plan](#c08-activity-planning-data-cleaning)
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
@@ -148,6 +157,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
 - ???
 - **Activity:** [Comparing U.S. Census questionnaires](#c10-activity-census-questionnaires)
+- **Time permitting:** Introduce the concept of *feedback loops*(?) from Hall & Dávila
 
 ## Week 6
 
@@ -156,8 +166,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Readings:
    - ["Florence Nightingale, Huge Nerd"](https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a) - *This Day in Esoteric Political History* podcast
    - ["WEB Du Bois: Retracing his attempt to challenge racism with data"](https://www.theguardian.com/world/2017/feb/14/web-du-bois-racism-data-paris-african-americans-jobs) by Chalabi - *The Guardian*
-- Dear Data part 2 - Creating "postcards"
-   - Set aside a bit of time at the beginning of class for students to strategize
+- **Activity:** - [Creating Dead Data "postcards"](#c11-activity-dear-data)
 
 ### Class 12 - Working collectively
 
@@ -182,7 +191,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Readings:
    - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
    - ["On the Dangers of Stochastic Parrots"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al.; skip section **2. Background**
-- Discussion: AI and data
+- **Discussion:** AI and data
 - **Activity:** [Speaking with statistics](#c14-activity-speaking-with-statistics)
 - Brief discussion: Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*
    - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
@@ -334,6 +343,7 @@ The [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide
 
 - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
 - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
+
 > [!NOTE]
 > I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.
 >
@@ -352,6 +362,26 @@ Either print out or otherwise provide for students the questionnaires from the [
 > 3. What about the Census questionnaire has stayed the same since 2000? What has changed?
 
 [Return to Class 10](#class-10---what-gets-counted)
+
+## C11 Activity: Dear Data
+
+Materials needed:
+
+- Large postcards **OR** sheets of US Letter/A4 paper, folded in half
+- Standard size markers/colored pencils/crayons
+- Extra sheets of paper for sketching/brainstorming
+
+> [!WARNING]
+> I bought standard-sized blank postcards (4" by 6") when first trying this, but later realized that the postcards Lupi & Posavec used were much larger (see ["dimensions" here](https://www.moma.org/collection/works/216726)). You can just cut sheets of US Letter or A4 paper in half to use as "postcards" or, especially if students will be using markers, fold sheets of paper in half so each "side" of the postcard is easily readable.
+
+Remind the students of the goals of the activity:
+   1. On one side, a visualization of their chosen variable
+   2. On the other, their name and a "key" explaining the visualization
+Then instruct them to spend some set period of time to brainstorm/strategize their visualization (how long will depend on the length of your session)
+
+At the end of class I usually collect the results and scan them, but just so we can discuss what everyone came up with. Students seemed keen on hanging onto their work from the activity, so I gave them back in the next class.
+
+[Back to Class 11](#class-11---dear-data-day)
 
 ## C12 Discussion: Counter-mapping
 
