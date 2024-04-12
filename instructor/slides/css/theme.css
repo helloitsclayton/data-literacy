@@ -380,3 +380,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 	margin: 0 auto;
 	text-align: right;
 }
+
+.reveal .imgCred {
+	font-size: large;
+}
