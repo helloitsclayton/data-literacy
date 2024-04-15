@@ -111,8 +111,8 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
    - [Dear Data: The Project](http://www.dear-data.com/theproject)
 - Introduce final presentation assignment (could be Class 10)
 - Make final decision on Dear Data topic
-   - Set aside time to discuss
-   - Collection will run from day after Class 9 to day before Class 11
+   - Set aside time for discussion
+   - Collection should run from the day after Class 9 to the day before Class 11
 - **Activity:** [SameDiff activity from DataBasic.io](#c09-activity-samediff-activity-from-databasicio)
 
 ### Class 10 - What gets counted
@@ -121,7 +121,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
    - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
 - **Activity:** [Comparing U.S. Census questionnaires](#c10-activity-census-questionnaires)
-- **Discussion:** [Looping effects](#c10-discussion-looping-effects)
+- **Discussion:** [Categorization & looping effects](#c10-discussion-categorization--looping-effects)
 
 ## Week 6
 
@@ -269,7 +269,13 @@ What is the assemblage that supports the data?
 
 ## C07 Discussion: Data visualizations as arguments
 
-Yes
+Tapping into something from Drucker's book chapter "Blind Spot" here. She concludes with:
+
+> The notion that information floats free of the context in which it is modeled, turned into data through a process of selective extraction, and then given graphical expression in accordance with conventions that create apparent values that can be manipulated through scale, changes in axes, units, and other features are all aspects of these works that have to be addressed. The complex cultural workings of knowledge processes are concealed behind a surface of information that appears to be self-evident. The issue is not *how factual such graphics are*, but *how they presume to be factual*.
+
+She's speaking about applying art historical methods here, but the underlying argument is important here. Visualizations tap into certain conventions in order to convince the reader of a particular association or fact, and as such they are arguments!
+
+Come up with some examples of visualizations for students to evaluate?
 
 [Return to Class 7](#class-7---data-text-and-arguments)
 
@@ -342,7 +348,7 @@ Either print out or otherwise provide for students the questionnaires from the [
 
 [Return to Class 10](#class-10---what-gets-counted)
 
-## C10 Discussion: Looping effects
+## C10 Discussion: Categorization & looping effects
 
 This discussion is intended to get students thinking about *categorization*, a necessary part of working with data, and the concept of *looping effects*, derived from Ian Hacking's 1990 book chapter "Making Up People" in the book *Forms of Desire*, and discussed in Hall & Dávila chapter 3. They describe categorization as:
 

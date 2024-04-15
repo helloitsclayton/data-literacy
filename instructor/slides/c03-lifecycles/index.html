@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="author" content="Clayton Hayes">
+
+		<title>Data Lifecycles</title>
+
+		<link rel="stylesheet" href="../reveal/css/reset.css">
+		<link rel="stylesheet" href="../reveal/css/reveal.css">
+		<link rel="stylesheet" href="../css/theme.css">
+		<link rel="stylesheet" href="../css/c03-lifecycles.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="titleslide">
+					<h1>Data Lifecycles</h1>
+				</section>
+				<section>
+					<img src="img/libLifecycle.png" />
+					<aside class="notes">
+						This is an example from the world of libraries, and represents a data lifecycle in which the results of research aren't necessarily being published or made public.
+						An entity (in this case a library) collects data on library users based on certain activities, stores that (usually anonymized) data, and provides access to those who are supposed to be analyzing it.
+						The analysis generates reports, for internal or external use, the entity decides what data should be retained and purges the rest.
+					</aside>
+				</section>
+				<section>
+					<img src="img/researchLifecycle.png" />
+					<aside class="notes">
+						This is a representation of the data lifecycle in a more traditional academic research context.
+						Here, researchers plan/design a study, collect data and create a framework for systematically storing and analyzing that data.
+						Researchers then evaluate the results of analysis and archive their data so others can use it (sometimes!). Then they publish research based on that data and possibly provide a means of accessing the data so it can be reused.
+					</aside>
+				</section>
+				<section>
+					<section>
+						<div id="procFlex">
+							<p class="p1">Question</p>
+							<p class="p2">Finding Data</p>
+							<p class="p3">Cleaning &amp; Exploring Data</p>
+							<p class="p4">Analyzing Data</p>
+							<p class="p5">Presenting Data</p>
+						</div>
+						<aside class="notes">
+							Let's take a slightly different view of that research cycle...
+						</aside>
+					</section>
+					<section>
+						<div id="procGrid">
+							<p class="p11">Question</p>
+							<p class="p12">Finding Data</p>
+							<p class="p13">Cleaning &amp; Exploring Data</p>
+							<p class="p14">Analyzing Data</p>
+							<p class="p15">Presenting Data</p>
+							<div id="arrDiv"><img src="img/arrow.svg" /></div>
+							<p class="p21">Question</p>
+							<p class="p22">Finding Data</p>
+							<p class="p23">Cleaning &amp; Exploring Data</p>
+							<p class="p24">Analyzing Data</p>
+							<p class="p25">Presenting Data</p>
+						</div>
+						<aside class="notes">
+
+						</aside>
+					</section>
+					<section>
+						<div id="enligDiv">
+							<img src="img/gainsborough.jpg" />
+							<img src="img/camera.jpg" />
+						</div>
+						<aside class="notes">
+							The Enlightenment idea that nature's bounty was endless and existed to be tamed and used by humankind  
+							(Data is an endless resource to be "mined")
+							"Letting nature speak for itself," a moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena  
+							("Letting data speak for itself," explored further in Data Feminism Chapter 6)
+							Photography and other technologies developed in the 19th century produced "objective" truth as they were not limited by human subjectivity  
+							(Data & statistics are objectively true, AI is infallible)
+							The philosophy underpinning all of this is that absolute truth exists and can be measured, or that objective knowledge exists and can be arrived at through enough observation.
+						</aside>
+					</section>
+				</section>
+				<section>
+					<h3>Image credits</h3>
+					<ul class="imgCred">
+						<li>"Library User Data Lifecycle" by Bonnie Tijerina and Michael Zimmer, from <a href="https://libraryprivacyguides.org/data-lifecycles/"><em>Data Lifecycles</em></a>, CC BY-NC-ND</li>
+						<li>"Harvard Biomedical Research Data Lifecycle" by Matt Cioffi, Julie Goldman, &amp; Sarah Marchese, in <a href="https://zenodo.org/records/8076168">Zenodo</a>, CC BY-NC</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="../reveal/js/reveal.js"></script>
+		<script src="../reveal/plugin/notes/notes.js"></script>
+		<script src="../reveal/plugin/markdown/markdown.js"></script>
+		<script src="../reveal/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transitionSpeed: 'fast',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
