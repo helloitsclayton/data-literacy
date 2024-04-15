@@ -26,8 +26,8 @@
    - ["The Myth of Objective Data"](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Feinberg
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
 - **Discussion:** [Feinberg & data](#c02-discussion-feinberg--data)
-- Lecture: Raw Data // Raw Carrots
-- Lecture: Data vs. Statistics vs. Visualizations
+- Lecture: [Raw Data // Raw Carrots](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-data-and-carrots)
+- Lecture: [Data vs. Statistics vs. Visualizations](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-data-stats-etc)
 - Introduce Data Biographies assignment and some related examples:
    - ["Data Biographies: Getting to Know Your Data"](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) by Krause
    - ["Datasheets for Datasets"](https://doi.org/10.1145/3458723) by Gebru et al., in *Communications of the ACM*
@@ -48,7 +48,7 @@
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
 - **Activity:** [Describing the CILS dataset](#c03-activity-describing-the-cils-dataset)
-- Brief lecture:  
+- Brief lecture: [Data & research](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c03-data-research)  
 Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
 - **Discussion:** [Use of the CILS data](#c03-discussion-use-of-the-cils-data)
 
@@ -58,7 +58,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - ["Yanni Loukissas on understanding and designing data settings."](https://soundcloud.com/bbkvasari/data-materiality-episode-4-yanni-loukissas-on-understanding-and-designing-data-settings) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-- Brief lecture: Data settings & assemblages
+- Brief lecture: [Data settings & assemblages](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c04-data-settings)
 - **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
@@ -77,22 +77,8 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 
 - Readings:
    - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
-- Brief lecture: Science & proof  
+- Brief lecture: [Science & proof](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c06-proof)  
 This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **The Pitfalls of Proof** (pp. 57-59)
-   - A stumbling block for applying "scientific" thinking about social issues is the often implicit assumptiuon that truth is self-evident and that once the existence of a problem is sufficiently "proven" it will then be solved
-      - Ex. 1: Someone has stuck my favorite pen to the ceiling. I need to reach the ceiling. 
-	   - Ex. 2: Someone has stuck Napoleon Bonaparte's favorite quill to the ceiling. Napoleon Bonaparte needs to reach the ceiling.
-   - In fact, a lot of ideas around data have their roots in Enlightenment-era (late 18th/early 19th century) scientific (and not-so scientific) beliefs. From Drucker's chapter "Blind spot" in the 2020 book *The Routledge Companion to Digital Humanities and Art History*:
-      - Early visualizations borrowed aesthetic choices from existing "authoratative" forms, like legal documents and pictoral representations of landscapes  
-      (Font choice, muted colors, minimalism)
-   - And, from Hall & Dávila:
-      - The Enlightenment idea that nature's bounty was endless and existed to be tamed and used by humankind  
-      (Data is an endless resource to be "mined")
-      - "Letting *nature* speak for itself," a moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena  
-      ("Letting data speak for itself," explored further in *Data Feminism* Chapter 6)
-      - Photography and other technologies developed in the 19th century produced "objective" truth as they were not limited by human subjectivity  
-      (Data & statistics are objectively true, AI is infallible)
-   - The philosophy underpinning all of this is that absolute truth exists and can be measured, or that objective knowledge exists and can be arrived at through enough observation.
 - **Activity:** [Data Field Guides](#c06-activity-data-field-guides)
 
 ## Week 4
@@ -110,7 +96,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 - Readings:
    - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
    - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
-- Brief lecture: Positionality & data
+- Brief lecture: [Positionality & data](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c08-positionality)
 - **Activity:** [Creating a data cleaning plan](#c08-activity-planning-data-cleaning)
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
@@ -153,7 +139,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
    - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
 > [!WARNING]
 > I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
-Brief lecture: Map as Data Visualizations as Arguments
+- Brief lecture: [Maps as Data Visualizations as Arguments](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c12-maps-viz-arguments)
    - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
    - Transit maps:
       - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
