@@ -59,19 +59,6 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
 - Brief lecture: Data settings & assemblages
-   - Ask students if they can give you Loukissas' definition of a *data setting*
-      - *Data Feminism* provides a good summary on p. 132:  
-         > "...both the technical and the human processes that affect what information is captured in the data collection process and how the data are then structured."
-      - Be sure to highlight how this concept dovetails with the idea of a Dataset Biography
-   - Introduce the concept of a *data assemblage*:
-      - As originally set out in Kitchin's *The Data Revolution*:
-         > A complex socio-technical system that is composed of many apparatuses and elements that are thoroughly entwined and whose central concern is the production, management, analysis, and translation of data  
-         > (Kitchin, 2014, p. 24)
-      - Kitchin & Lauriault summarize as
-         > All of the technological, political, social, and economic apparatuses that frame the nature, operation, and work of a data system or infrastructure  
-         > (Kitchin & Lauriault, 2018, p. 8)
-   - An excellent example, described in detail in Chapter 3 of Hall & Dávila's (sadly not OA) *Critical Visualization*, is the census. It shouldn't be hard for students to brainstorm apparatuses and elements
-   - Another example brought up later in *Data Feminism* is Crawford & Joler's *Anatomy of an AI System*: https://anatomyof.ai/
 - **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
@@ -90,8 +77,8 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 
 - Readings:
    - *Data Feminism* [Chapter 2](https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4)
-- Brief lecture: A brief history of science
-   - It's important to highlight a key section in *Data Feminism* Chapter 2, **The Pitfalls of Proof** (pp. 57-59)
+- Brief lecture: Science & proof  
+This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **The Pitfalls of Proof** (pp. 57-59)
    - A stumbling block for applying "scientific" thinking about social issues is the often implicit assumptiuon that truth is self-evident and that once the existence of a problem is sufficiently "proven" it will then be solved
       - Ex. 1: Someone has stuck my favorite pen to the ceiling. I need to reach the ceiling. 
 	   - Ex. 2: Someone has stuck Napoleon Bonaparte's favorite quill to the ceiling. Napoleon Bonaparte needs to reach the ceiling.
@@ -110,20 +97,12 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 
 ## Week 4
 
-### Class 7 - Maps, text, and arguments
+### Class 7 - Data, text, and arguments
 
 - Readings:
    - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Chalabi & Gray - *The Data Journalism Handbook* chapter
    - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Maseda - *The Data Journalism Handbook* chapter
-- Brief lecture: Maps as data visualizations, data visualizations as arguments
-   - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
-   - Transit maps:
-      - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
-      - Bangkok: https://www.bts.co.th/routemap.html
-   - Google Maps
-      - Satellite photos are pixel data
-      - Pins (obviously)
-      - Underlying 
+- **Discussion:** [Data visualizations as arguments](#c07-discussion-data-visualizations-as-arguments)
 - **Activity:** ["Sketch a Story" with WordCounter](#c07-activity-sketch-a-story-with-wordcounter)
 
 ### Class 8 - Positionality and data
@@ -131,14 +110,14 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Readings:
    - *Data Feminism* [Chapter 3](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/5)
    - ["Many analysts, one data set"](https://doi.org/10.1177/2515245917747646) by Silberzahn et al.: Abstract, Introduction, Crowdsourcing data analysis, Stages of the crowdsourcing process, Stage 1, Generalizability to other data sets, Recommendations for individual researchers and teams, Conclusion, Footnotes/Notes
-- ???
+- Brief lecture: Positionality & data
 - **Activity:** [Creating a data cleaning plan](#c08-activity-planning-data-cleaning)
 - Introduce [Dear Data](http://www.dear-data.com/theproject), let students know we'll be doing it for a week, ask students to think about what we might keep track of
    - Share [Dear Data postcards on MoMA's website](https://www.moma.org/artists/67122#works) for students to look through for inspiration
 
 ## Week 5
 
-### Class 9 - Revisiting text data
+### Class 9 - Revisiting text as data
 
 - Assignments due:
    - Research Inquiry
@@ -155,9 +134,8 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 - Readings:
    - *Data Feminism* [Chapter 4](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
    - ["Is Bad Data Killing Women?"](https://www.bbc.co.uk/sounds/play/w3csynkn) (27:00) - *The Conversation* podcast
-- ???
 - **Activity:** [Comparing U.S. Census questionnaires](#c10-activity-census-questionnaires)
-- **Time permitting:** Introduce the concept of *feedback loops*(?) from Hall & Dávila
+- **Discussion:** [Looping effects](#c10-discussion-looping-effects)
 
 ## Week 6
 
@@ -175,8 +153,16 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
 > [!WARNING]
 > I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
+Brief lecture: Map as Data Visualizations as Arguments
+   - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
+   - Transit maps:
+      - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
+      - Bangkok: https://www.bts.co.th/routemap.html
+   - Google Maps
+      - Satellite photos are pixel data
+      - Pins (obviously)
+      - Underlying 
 - **Discussion:** [Counter-mapping](#c12-discussion-counter-mapping)
-- ???
 
 ## Week 7
 
@@ -295,6 +281,13 @@ What is the assemblage that supports the data?
 
 [Return to Class 6](#class-6---challenging-power)
 
+## C07 Discussion: Data visualizations as arguments
+
+Yes
+
+[Return to Class 7](#class-7---data-text-and-arguments)
+
+
 ## C07 Activity: ["Sketch a Story"](https://databasic.io/en/culture/sketch-a-story) with [WordCounter](https://databasic.io/en/wordcounter/)
 
 Materials needed:
@@ -315,7 +308,7 @@ Though it may not appear so on the surface, the [built-in activity](https://data
 >
 > Usefully, OpenRefine should automatically hang onto your data table; it'll be used in an activity next week.
 
-[Return to Class 7](#class-7---maps-text-and-arguments)
+[Return to Class 7](#class-7---data-text-and-arguments)
 
 ## C08 Activity: Planning data cleaning  
 
@@ -360,6 +353,29 @@ Either print out or otherwise provide for students the questionnaires from the [
 > 1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
 > 2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
 > 3. What about the Census questionnaire has stayed the same since 2000? What has changed?
+
+[Return to Class 10](#class-10---what-gets-counted)
+
+## C10 Discussion: Looping effects
+
+This discussion is intended to get students thinking about *categorization*, a necessary part of working with data, and the concept of *looping effects*, derived from Ian Hacking's 1990 book chapter "Making Up People" in the book *Forms of Desire*, and discussed in Hall & Dávila chapter 3. They describe categorization as:
+
+> ...a necessary step in the collection and analysis of data. It determines the identity of a particular thing according to a criterion or taxonomy.
+> (p. 96)
+
+And the looping effect as:
+
+> ...the process through with data are organized (e.g. classification, the object of focus, the institution, knowledge, various experts) about a given subject (i.e. a person with particular characteristics), who is in turn affected by that description and thus changes in response.
+> (p. 98)
+
+Present students with the above two definitions, and ask them to respond to the following:
+
+> 1. What categorization is occurring in the Census questionnaires?
+> 2. What effects might the questions about race have on different populations?
+> 3. Thinking back to other datasets we've worked with, can you identify any other (potentially) harmful effects of classification?
+
+> [!IMPORTANT]
+> Pretty much all of the census questions are categorization questions, as responses always get sorted into "buckets" when presented. For the last question, I'm thinking specifically of the CILS data and how the very specific population it was examining was taken as a stand-in for immigrant children writ large.
 
 [Return to Class 10](#class-10---what-gets-counted)
 
