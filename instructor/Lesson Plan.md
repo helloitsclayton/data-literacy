@@ -27,7 +27,7 @@
 - Introduce "Daily Data Discussions," taking 5 minutes or so at the start of each class for us to offer examples of how data has come up in our lives – be sure to have your own example to kick things off!
 - **Discussion:** [Feinberg & data](#c02-discussion-feinberg--data)
 - Lecture: [Raw Data // Raw Carrots](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-data-and-carrots)
-- Lecture: [Data vs. Statistics vs. Visualizations](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-data-stats-etc)
+- Lecture: [Data vs. Statistics](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-stats-etc)
 - Introduce Data Biographies assignment and some related examples:
    - ["Data Biographies: Getting to Know Your Data"](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) by Krause
    - ["Datasheets for Datasets"](https://doi.org/10.1145/3458723) by Gebru et al., in *Communications of the ACM*
@@ -48,7 +48,7 @@
    - ["Feeling Unsafe at School"](https://docs.lib.purdue.edu/jsaaea/vol11/iss1/2/) by Maffini: Abstract, Introduction, Participants and Procedures, Discussion
    - ["Educational Pathway and Social Mobility in Children of Immigrants"](https://doi.org/10.5539/ies.v12n12p44) by Dunn: Abstract, Introduction, Sample and Research Design, Discussion, Conclusion
 - **Activity:** [Describing the CILS dataset](#c03-activity-describing-the-cils-dataset)
-- Brief lecture: [Data & research](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c03-data-research)  
+- Brief lecture: [Data lifecycles](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c03-lifecycles)  
 Sketch the research data lifecycle(s) and how/why data biographies might fit into the research process (see D'Ignazio's ["Creative Data Literacy"](https://doi.org/10.1075/idj.23.1.03dig), pp. 9-11)
 - **Discussion:** [Use of the CILS data](#c03-discussion-use-of-the-cils-data)
 
@@ -58,7 +58,7 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
    - ["Yanni Loukissas on understanding and designing data settings."](https://soundcloud.com/bbkvasari/data-materiality-episode-4-yanni-loukissas-on-understanding-and-designing-data-settings) (32:08) - *Data Materiality* podcast
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
-- Brief lecture: [Data settings & assemblages](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c04-data-settings)
+- Brief lecture: [Data settings & assemblages](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c04-settings)
 - **Discussion:** [Systems of power and CILS data](#c04-discussion-systems-of-power-and-cils-data)
 - **Time permitting**, introduce Race Forward's ["levels of racism"](https://www.raceforward.org/what-racial-equity-0#racism-levels) as another framework with some clear connections to the Matrix of Domination
 
