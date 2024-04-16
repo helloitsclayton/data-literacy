@@ -10,13 +10,22 @@
 	gap: 0.1em;
 }
 
-#procFlex p, #procGrid p {
+#procFlex p,
+#procGrid p {
 	padding: 0.5em;
 }
 
-#procFlex .p1, #procGrid .p11, #procGrid .p21 {
+#procGrid .p11,
+#procGrid .p12,
+#procGrid .p13,
+#procGrid .p14 {
+	opacity: 0.5;
+}
+
+#procFlex .p1,
+#procGrid .p11,
+#procGrid .p21 {
 	font-size: large;
-	flex: 1 1 0;
 	background-color: yellow;
 }
 
@@ -32,7 +41,9 @@
 	grid-area: 3 / 1 / 3 / 1;
 }
 
-#procFlex .p2, #procGrid .p12, #procGrid .p22 {
+#procFlex .p2,
+#procGrid .p12,
+#procGrid .p22 {
 	font-size: large;
 	background-color: orange;
 }
@@ -49,7 +60,9 @@
 	grid-area: 3 / 2 / 3 / 2;
 }
 
-#procFlex .p3, #procGrid .p13, #procGrid .p23 {
+#procFlex .p3,
+#procGrid .p13,
+#procGrid .p23 {
 	font-size: x-large;
 	background-color: red;
 	color: white;
@@ -67,7 +80,9 @@
 	grid-area: 3 / 3 / 3 / 3;
 }
 
-#procFlex .p4, #procGrid .p14, #procGrid .p24 {
+#procFlex .p4,
+#procGrid .p14,
+#procGrid .p24 {
 	font-size: large;
 	background-color: pink;
 }
@@ -84,7 +99,9 @@
 	grid-area: 3 / 4 / 3 / 4;
 }
 
-#procFlex .p5, #procGrid .p15, #procGrid .p25 {
+#procFlex .p5,
+#procGrid .p15,
+#procGrid .p25 {
 	font-size: large;
 	background-color: green;
 	color: white;
@@ -104,9 +121,6 @@
 
 #arrDiv {
 	grid-area: 2 / 2 / 2 / 6;
-}
-
-#arrDiv img {
-	height: 1em;
-	width: 100%;
+	background: url('../c03-lifecycles/img/arrow.png') no-repeat center center fixed;
+	background-size: 100% 100%;
 }
