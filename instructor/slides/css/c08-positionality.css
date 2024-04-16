@@ -1,0 +1,5 @@
+#enligDiv {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 2fr 1fr;
+}
