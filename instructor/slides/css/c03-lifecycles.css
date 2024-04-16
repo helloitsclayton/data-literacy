@@ -10,6 +10,13 @@
 	gap: 0.1em;
 }
 
+#procFlex div,
+#procGrid div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #procFlex p,
 #procGrid p {
 	padding: 0.5em;
@@ -19,11 +26,11 @@
 #procGrid .p12,
 #procGrid .p13,
 #procGrid .p14 {
+	background-color: gray;
 	opacity: 0.5;
 }
 
 #procFlex .p1,
-#procGrid .p11,
 #procGrid .p21 {
 	font-size: large;
 	background-color: yellow;
@@ -42,7 +49,6 @@
 }
 
 #procFlex .p2,
-#procGrid .p12,
 #procGrid .p22 {
 	font-size: large;
 	background-color: orange;
@@ -61,7 +67,6 @@
 }
 
 #procFlex .p3,
-#procGrid .p13,
 #procGrid .p23 {
 	font-size: x-large;
 	background-color: red;
@@ -81,7 +86,6 @@
 }
 
 #procFlex .p4,
-#procGrid .p14,
 #procGrid .p24 {
 	font-size: large;
 	background-color: pink;
@@ -123,4 +127,9 @@
 	grid-area: 2 / 2 / 2 / 6;
 	background: url('../c03-lifecycles/img/arrow.png') no-repeat center center fixed;
 	background-size: 100% 100%;
+}
+
+#procGrid .bio {
+	grid-area: 1 / 1 / 1 / 5;
+	background-color: #483d8b66;
 }
