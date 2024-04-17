@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="../reveal/css/reset.css">
 		<link rel="stylesheet" href="../reveal/css/reveal.css">
 		<link rel="stylesheet" href="../css/theme.css">
-		<link rel="stylesheet" href="../css/c06-proof.css">
+		<link rel="stylesheet" href="../css/c12-maps-viz-arguments.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../reveal/plugin/highlight/monokai.css">
@@ -23,78 +23,70 @@
 				</section>
 				<section>
 					<section>
-						<h2>First example</h2>
-						<div class="proofGrid">
-							<img class="proofCeiling" src="img/pen.jpg" />
-							<img class="proofRight" src="img/stickFigure.jpg" />
-						</div>
+						<a href="https://i0.wp.com/londontopia.net/wp-content/uploads/2017/02/Beck_Map_1933-1.jpg"><img src="img/beckMap.webp" /></a>
 						<aside class="notes">
-							Someone has stuck my favorite pen to the ceiling. I need to reach the ceiling.
+							Probably a familiar example even if you haven't been to London, Beck's London Underground map set a trend that we're still following (as evidenced by the next slide)
+							It intentionally abstracted space, location, etc. to make it easier to trace subway lines
+							What sort of arguments does it make?
 						</aside>
 					</section>
 					<section>
-						<h2>Second example</h2>
-						<div class="proofGrid">
-							<img class="proofCeiling" src="img/quill.png" />
-							<img class="proofNapo" src="img/napoleon.jpg" />
-							<img class="proofRight" src="img/phoneBooth.webp" />
-						</div>
+						<a href="https://www.bts.co.th/routemap.html"><img src="img/skytrainMap.jpg" /></a>
 						<aside class="notes">
-							Someone has stuck Napoleon Bonaparte's favorite quill to the ceiling. When Napoleon Bonaparte arrives in his time machine he will need to reach the ceiling.
+							Here's the current map for the Skytrain transit system in Bangkok, Thailand
+							Follows a lot of the same conventions
+							What arguments does it replicate from Beck's map?
 						</aside>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>Data science and Enlightenment-era thinking</h2>
+						<a href="https://dsl.richmond.edu/panorama/redlining/data/MI-Detroit"><img src="img/holcDet.jpg" /></a>
 						<aside class="notes">
-							The Englightenment was around the late 18th/early 19th century, but a lot of current thinking around data has its roots that far back.
+							We've looked at the HOLC Redlining maps from Mapping Inequality before, an argument is very foregrounded here (that red is bad and green/blue are good)
 						</aside>
 					</section>
 					<section>
-						<div id="playfairDiv">
-							<img src="img/playfair01.jpg" />
-							<img src="img/turnerTree.jpg" />
-							<img src="img/playfair02.jpg" />
-							<img src="img/robertsMosque.jpg" />
-						</div>
+						<a href="https://www.loc.gov/resource/g4084mm.g4084mm_g068151913/?sp=12&r=-0.02,0.402,1.128,0.685,0"><img src="img/sanbornMtv.jpg" /></a>
 						<aside class="notes">
-							Early visualizations borrowed aesthetic choices from existing "authoratative" forms, like legal documents and pictoral representations of landscapes
-							(Font choice, muted colors, minimalism)
-							These are some visualizations by William Playfair, an influential British economist who was one of the first to use visualizations to the extent that he did; top left is from 1822, bottom right is from 1801
-							Upper right is a work by JMW Turner, from 1796, lower right is by David Roberts, published in the 1840s
+							Similar map in appearance, but a less obvious argument. This is a Sanborn Fire Insurance Map from the Sanborn Map Company, published 1913
+							Some arguments:
+							<ul>
+								<li>Land is parceled out in the manner indicated</li>
+								<li>Private land ownership is a thing</li>
+								<li>Nothing but buildings matter (for fire insurance)</li>
+								<li>Footprint of buildings are as neat and tidy as depicted</li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<a href="https://dam.assets.ohio.gov/image/upload/transportation.ohio.gov/About/maps/2019StateMap-Back-Large.jpg"><img src="img/knoxHwy.jpg" /></a>
+						<aside class="notes">
+							This type of map might or might not be familiar.
+							Clearly privileges highways (those signs are huge!)
+							Do those lines (for roads or rivers) actually correspond to the width of the road or river? No way!
+							City boundaries, do those exist? Only on the map.
+							And look how connected everything is by highways! You should DRIVE EVERYWHERE
 						</aside>
 					</section>
 					<section>
-						<div id="enligDiv">
-							<img src="img/gainsborough.jpg" />
-							<img src="img/camera.jpg" />
-						</div>
+						<a href="https://dam.assets.ohio.gov/image/upload/rail.ohio.gov/Documents/RailMapbackside.jpg"><img src="img/knoxRail.jpg" /></a>
 						<aside class="notes">
-							The Enlightenment idea that nature's bounty was endless and existed to be tamed and used by humankind  
-							(Data is an endless resource to be "mined")
-							"Letting nature speak for itself," a moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena  
-							("Letting data speak for itself," explored further in Data Feminism Chapter 6)
-							Photography and other technologies developed in the 19th century produced "objective" truth as they were not limited by human subjectivity  
-							(Data & statistics are objectively true, AI is infallible)
-							The philosophy underpinning all of this is that absolute truth exists and can be measured, or that objective knowledge exists and can be arrived at through enough observation.
+							This map looks terrible, clearly shows greater investment in highways
+							The highway signs are still the most prominent things on these maps!
 						</aside>
 					</section>
 				</section>
 				<section>
 					<h3>Image credits</h3>
 					<ul class="imgCred">
-						<li>Pilot pen -- <a href="https://pilotpen.us/Product?0=40&1=37&cid=272">PilotPen.us</a></li>
-						<li>"Why the Default Male is Not Just Annoying, But Also Harmful ..." -- <a href="https://www.clipartbest.com/clipart-9ipzR8A6T">ClipArtBest.com</a></li>
-						<li>"Quill pen" by BWCNY -- <a href="https://commons.wikimedia.org/wiki/File:Quill_pen.PNG">Wikimedia Commons</a></li>
-						<li><em>The Emperor Napoleon in His Study at the Tuileries</em> by Jacques-Louis David, 1812 -- <a href="https://www.nga.gov/collection/art-object-page.46114.html">National Gallery of Art</a></li>
-						<li>"Bill &amp; Ted's Excellent Phone Booth" -- <a href="https://cubicallbooth.com/shop/two-series/limited-edition/bill-teds-excellent-phone-booth/">Cubicall</a></li>
-						<li><em>A letter on our agricultural distresses, their causes and remedies</em> by William Playfair, 1822 -- <a href="https://collections.library.yale.edu/catalog/2066757">Yale University Library</a></li>
-						<li><em>The Commercial and Political Atlas</em> by William Playfair, 1801 -- <a href="https://archive.org/details/PLAYFAIRWilliam1801TheCommercialandPoliticalAtlas/">Internet Archive</a></li>
-						<li><em>A Great Tree</em> by J.M.W. Turner, ca. 1796 -- <a href="https://collections.britishart.yale.edu/catalog/tms:5497">Yale Center for British Art</a></li>
-						<li><em>The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia</em>, v.6, by David Roberts, 1855 -- <a href="https://archive.org/details/holylandsyriaidu5to6robe/">Internet Archive</a></li>
-						<li><em>Mr and Mrs Andrews</em> by Thomas Gainsborough, ca. 1750 -- <a href="https://www.nationalgallery.org.uk/paintings/thomas-gainsborough-mr-and-mrs-andrews">National Gallery</a>, CC BY-NC-ND</li>
-						<li>"Woman with camera" by A.J. Davison, ca. 1880 -- <a href="https://flic.kr/p/59qMf7">George Eastman Museum</a></li>
+						<li><a href="https://dsl.richmond.edu/panorama/redlining/data/MI-Detroit">Mapping Inequality</a></li>
+						<li>Sanborn Fire Insurance Map from Mount Vernon, Knox County, Ohio in the <a href="https://www.loc.gov/item/sanborn06815_006/">Library of Congress digital collections</a></li>
+						<li>State Maps, from <a href="https://www.transportation.ohio.gov/about-us/resources/maps">Ohio DOT Maps</a></li>
+						<li>Ohio Rail Map, from <a href="https://rail.ohio.gov/home/ohio-rail-publications/d-printed-rail-map-request">Ohio Rail Publications</a></li>
+						<li>London Icon: A History of Harry Beck's Iconic Tube Map from <a href="https://londontopia.net/site-news/featured/london-icon-tube-map/">Londontopia</a></li>
 					</ul>
 				</section>
 			</div>
