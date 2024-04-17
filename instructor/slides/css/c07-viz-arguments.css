@@ -1,0 +1,18 @@
+.reveal .graphDiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reveal .graphCol {
+	display: flex;
+	flex-direction: column;
+}
+
+.reveal .graphCol p {
+	font-size: large;
+	font-style: italic;
+}
+
+.reveal .bigGraph {
+	width: 100%;
+}

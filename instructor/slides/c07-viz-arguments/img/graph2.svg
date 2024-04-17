@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="470"
+   height="290"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="graph2.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="257.03331"
+     inkscape:cy="90.156114"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:15;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect116"
+       width="470"
+       height="290"
+       x="0"
+       y="0" />
+    <g
+       transform="translate(10,10)"
+       id="g16">
+      <g
+         class="g-x g-axis"
+         transform="translate(0,270)"
+         id="g5">
+        <g
+           style="opacity: 1;"
+           transform="translate(48,0)"
+           id="g1">
+          <line
+             class="tick"
+             y2="-270"
+             x2="0"
+             id="line1"
+             style="stroke:#dbdfe0;stroke-opacity:1" />
+          <text
+             y="0"
+             x="6"
+             text-anchor="middle"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text1">‘09</text>
+        </g>
+        <g
+           style="opacity: 1;"
+           transform="translate(158,0)"
+           id="g2">
+          <line
+             class="tick"
+             y2="-270"
+             x2="0"
+             id="line2"
+             style="stroke:#dbdfe0;stroke-opacity:1" />
+          <text
+             y="0"
+             x="6"
+             text-anchor="middle"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text2">‘10</text>
+        </g>
+        <g
+           style="opacity: 1;"
+           transform="translate(267,0)"
+           id="g3">
+          <line
+             class="tick"
+             y2="-270"
+             x2="0"
+             id="line3"
+             style="stroke:#dbdfe0;stroke-opacity:1" />
+          <text
+             y="0"
+             x="6"
+             text-anchor="middle"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text3">‘11</text>
+        </g>
+        <g
+           style="opacity: 1;"
+           transform="translate(377,0)"
+           id="g4">
+          <line
+             class="tick"
+             y2="-270"
+             x2="0"
+             id="line4"
+             style="stroke:#dbdfe0;stroke-opacity:1" />
+          <text
+             y="0"
+             x="6"
+             text-anchor="middle"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text4">‘12</text>
+        </g>
+      </g>
+      <g
+         class="g-y g-axis"
+         id="g10">
+        <g
+           style="opacity: 1;"
+           transform="translate(0,216)"
+           id="g6">
+          <line
+             class="tick"
+             x2="450"
+             y2="0"
+             x1="0"
+             id="line5"
+             style="stroke:#dbdfe0;stroke-opacity:1;stroke-dasharray:1,1;stroke-dashoffset:0" />
+          <text
+             x="0"
+             y="-4"
+             text-anchor="end"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text5">7%</text>
+        </g>
+        <g
+           style="opacity: 1;"
+           transform="translate(0,162)"
+           id="g7">
+          <line
+             class="tick"
+             x2="450"
+             y2="0"
+             x1="0"
+             id="line6"
+             style="stroke:#dbdfe0;stroke-opacity:1;stroke-dasharray:1,1;stroke-dashoffset:0" />
+          <text
+             x="0"
+             y="-4"
+             text-anchor="end"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text6">8%</text>
+        </g>
+        <g
+           style="opacity: 1;"
+           transform="translate(0,108)"
+           id="g8">
+          <line
+             class="tick"
+             x2="450"
+             y2="0"
+             x1="0"
+             id="line7"
+             style="stroke:#dbdfe0;stroke-opacity:1;stroke-dasharray:1,1;stroke-dashoffset:0" />
+          <text
+             x="0"
+             y="-4"
+             text-anchor="end"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text7">9%</text>
+        </g>
+        <g
+           style="opacity: 1;"
+           transform="translate(0,54)"
+           id="g9">
+          <line
+             class="tick"
+             x2="450"
+             y2="0"
+             x1="0"
+             id="line8"
+             style="stroke:#dbdfe0;stroke-opacity:1;stroke-dasharray:1,1;stroke-dashoffset:0" />
+          <text
+             x="0"
+             y="-4"
+             text-anchor="end"
+             style="text-anchor:start;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#626262;fill-opacity:1"
+             id="text8">10%</text>
+        </g>
+      </g>
+      <g
+         class="g-title"
+         transform="translate(0,10)"
+         id="g12">
+        <text
+           style="font-weight:900;-inkscape-font-specification:'Arial, Heavy';font-family:Arial;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="text10">Unemployment rate</text>
+        <text
+           x="450"
+           style="text-anchor:end;-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="text11">Friday's number</text>
+        <text
+           x="450"
+           dy="1.3em"
+           style="text-anchor:end;font-weight:900;-inkscape-font-specification:'Arial, Heavy';font-family:Arial;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="text12">7.8%</text>
+      </g>
+      <path
+         class="g-line"
+         d="M30,227L39,200L48,173L58,146L66,124L75,113L84,86L94,81L103,81L112,76L121,65L130,54L140,59L149,59L158,70L167,65L176,65L185,59L194,76L203,86L212,81L221,76L231,81L240,81L249,65L258,86L267,103L277,108L285,113L294,108L303,108L313,103L322,103L331,103L340,108L349,113L359,124L368,135L377,146L386,146L395,151L404,157L413,151L422,151L431,146L441,157L450,173"
+         id="path14"
+         style="stroke:#777777;fill:none;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         cx="450"
+         cy="173"
+         r="3"
+         class="g-current"
+         id="circle14"
+         style="stroke:#777777;fill:#dd954e;fill-opacity:1;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

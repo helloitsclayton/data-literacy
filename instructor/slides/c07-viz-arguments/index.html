@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="../reveal/css/reset.css">
 		<link rel="stylesheet" href="../reveal/css/reveal.css">
 		<link rel="stylesheet" href="../css/theme.css">
-		<link rel="stylesheet" href="../css/c06-proof.css">
+		<link rel="stylesheet" href="../css/c07-viz-arguments.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../reveal/plugin/highlight/monokai.css">
@@ -20,81 +20,139 @@
 			<div class="slides">
 				<section id="titleslide">
 					<h1>Data Visualizations as Arguments</h1>
+					<aside class="notes">
+						These concepts come up in <em>Data Feminism</em> Chapter 3, which isn't due until next class, but I want to provide a bit of a foundation for this class's activities around data visualizations and arguments
+					</aside>
 				</section>
 				<section>
 					<section>
-						<h2>First example</h2>
-						<div class="proofGrid">
-							<img class="proofCeiling" src="img/pen.jpg" />
-							<img class="proofRight" src="img/stickFigure.jpg" />
+						<h3>September jobs report</h3>
+						<div class="graphDiv">
+							<div class="graphCol">
+								<p>The U.S. economy added 114,000 jobs in September.</p>
+								<img src="img/graph1.svg" />
+							</div>
+							<div class="graphCol">
+								<p>The unemployment rate fell to 7.8%.</p>
+								<img src="img/graph2.svg" />
+							</div>
 						</div>
 						<aside class="notes">
-							Someone has stuck my favorite pen to the ceiling. I need to reach the ceiling.
+							This is an example taken directly from Chapter 3 of <em>Data Feminism</em>, from <em>The New York Times</em>, and is meant to show how the same data visualization can be used to support multiple points of view with just a bit of tweaking.
+							The source given is the U.S. Bureau of Labor Statistics, and it is related to a NYT article titled "Drop in Jobless Figure Gives Jolt to Race for President" that ran in the Business section, under Economy
 						</aside>
 					</section>
 					<section>
-						<h2>Second example</h2>
-						<div class="proofGrid">
-							<img class="proofCeiling" src="img/quill.png" />
-							<img class="proofNapo" src="img/napoleon.jpg" />
-							<img class="proofRight" src="img/phoneBooth.webp" />
+						<h3>How a <span style="color:#405695;">democrat</span> might see things</h3>
+						<div class="graphDiv">
+							<div class="graphCol">
+								<p>There have been 31 consecutive months of job growth.</p>
+								<img src="img/graph1dem.svg" />
+							</div>
+							<div class="graphCol">
+								<p>The rate has fallen more than 2 points since its recent peak.</p>
+								<img src="img/graph2dem.svg" />
+							</div>
 						</div>
 						<aside class="notes">
-							Someone has stuck Napoleon Bonaparte's favorite quill to the ceiling. When Napoleon Bonaparte arrives in his time machine he will need to reach the ceiling.
+							Democrats might highlight the recent trend in job growth, focusing specifically on private-sector growth, and they might note the significant drop in unemployment since 2010
+						</aside>
+					</section>
+					<section>
+						<h3>How a <span style="color:#B43030;">republican</span> might see things</h3>
+						<div class="graphDiv">
+							<div class="graphCol">
+								<p>Job growth has been weak.</p>
+								<img src="img/graph1rep.svg" />
+							</div>
+							<div class="graphCol">
+								<p>The rate was above 8 percent for 43 months.</p>
+								<img src="img/graph2rep.svg" />
+							</div>
+						</div>
+						<aside class="notes">
+							Republicans wouldn't ignore the jobs deficit from before 2010, and might note the number of new jobs needed to keep pace with population growth (according to Paul Ryan, at least). They might also focus on the length of time that the unemployment rate spent above 8%.
 						</aside>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h2>Data science and Enlightenment-era thinking</h2>
+						<div class="graphDiv">
+							<div class="graphCol">
+								<p>There have been 31 consecutive months of job growth.</p>
+								<img src="img/graph1dem.svg" />
+							</div>
+							<div class="graphCol">
+								<p>Job growth has been weak.</p>
+								<img src="img/graph1rep.svg" />
+							</div>
+						</div>
 						<aside class="notes">
-							The Englightenment was around the late 18th/early 19th century, but a lot of current thinking around data has its roots that far back.
+							The accompanying text makes the argument much easier to pick out for both examples
 						</aside>
 					</section>
 					<section>
-						<div id="playfairDiv">
-							<img src="img/playfair01.jpg" />
-							<img src="img/turnerTree.jpg" />
-							<img src="img/playfair02.jpg" />
-							<img src="img/robertsMosque.jpg" />
+						<div class="graphDiv">
+							<div class="graphCol">
+								<p>The rate has fallen more than 2 points since its recent peak.</p>
+								<img src="img/graph2dem.svg" />
+							</div>
+							<div class="graphCol">
+								<p>The rate was above 8 percent for 43 months.</p>
+								<img src="img/graph2rep.svg" />
+							</div>
 						</div>
 						<aside class="notes">
-							Early visualizations borrowed aesthetic choices from existing "authoratative" forms, like legal documents and pictoral representations of landscapes
-							(Font choice, muted colors, minimalism)
-							These are some visualizations by William Playfair, an influential British economist who was one of the first to use visualizations to the extent that he did; top left is from 1822, bottom right is from 1801
-							Upper right is a work by JMW Turner, from 1796, lower right is by David Roberts, published in the 1840s
+							Each visualization is based on the same underlying data, but different groups would use different presentations to make different arguments.
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>September jobs report</h3>
+						<div class="graphDiv">
+							<div class="graphCol">
+								<p>The U.S. economy added 114,000 jobs in September.</p>
+								<img src="img/graph1.svg" />
+							</div>
+							<div class="graphCol">
+								<p>The unemployment rate fell to 7.8%.</p>
+								<img src="img/graph2.svg" />
+							</div>
+						</div>
+						<aside class="notes">
+							But what about the "neutral" version? What assumptions are being made here?
+							The next two slides are larger versions of each graph that you can switch between as students think.
+							Some examples that I came up with:
+							<ul>
+								<li>That number of jobs and unemployment rate are measurable quantities</li>
+								<li>That these statistics have been correctly calculated from the gathered data</li>
+								<li>That the gathered data accurately represents the true number of jobs or unemployment rate</li>
+								<li>That the observed number of jobs and unemployment rate for the years presented are related to a Democrat president</li>
+								<li>That number of jobs and unemployment rate are indicators of economic prosperity</li>
+								<li>That more jobs and low unemployment = good</li>
+								<li>The definition of "employment" used by the Bureau of Labor Statistics is the most relevant one</li>
+								<li>That time flows from left to right</li>
+							</ul>
 						</aside>
 					</section>
 					<section>
-						<div id="enligDiv">
-							<img src="img/gainsborough.jpg" />
-							<img src="img/camera.jpg" />
-						</div>
+						<img class="bigGraph" src="img/graph1.svg" />
 						<aside class="notes">
-							The Enlightenment idea that nature's bounty was endless and existed to be tamed and used by humankind  
-							(Data is an endless resource to be "mined")
-							"Letting nature speak for itself," a moral attitude which held that scientists should be as remote as possible when observing or measuring phenomena  
-							("Letting data speak for itself," explored further in Data Feminism Chapter 6)
-							Photography and other technologies developed in the 19th century produced "objective" truth as they were not limited by human subjectivity  
-							(Data & statistics are objectively true, AI is infallible)
-							The philosophy underpinning all of this is that absolute truth exists and can be measured, or that objective knowledge exists and can be arrived at through enough observation.
+							
+						</aside>
+					</section>
+					<section>
+						<img class="bigGraph" src="img/graph2.svg" />
+						<aside class="notes">
+							
 						</aside>
 					</section>
 				</section>
 				<section>
 					<h3>Image credits</h3>
 					<ul class="imgCred">
-						<li>Pilot pen -- <a href="https://pilotpen.us/Product?0=40&1=37&cid=272">PilotPen.us</a></li>
-						<li>"Why the Default Male is Not Just Annoying, But Also Harmful ..." -- <a href="https://www.clipartbest.com/clipart-9ipzR8A6T">ClipArtBest.com</a></li>
-						<li>"Quill pen" by BWCNY -- <a href="https://commons.wikimedia.org/wiki/File:Quill_pen.PNG">Wikimedia Commons</a></li>
-						<li><em>The Emperor Napoleon in His Study at the Tuileries</em> by Jacques-Louis David, 1812 -- <a href="https://www.nga.gov/collection/art-object-page.46114.html">National Gallery of Art</a></li>
-						<li>"Bill &amp; Ted's Excellent Phone Booth" -- <a href="https://cubicallbooth.com/shop/two-series/limited-edition/bill-teds-excellent-phone-booth/">Cubicall</a></li>
-						<li><em>A letter on our agricultural distresses, their causes and remedies</em> by William Playfair, 1822 -- <a href="https://collections.library.yale.edu/catalog/2066757">Yale University Library</a></li>
-						<li><em>The Commercial and Political Atlas</em> by William Playfair, 1801 -- <a href="https://archive.org/details/PLAYFAIRWilliam1801TheCommercialandPoliticalAtlas/">Internet Archive</a></li>
-						<li><em>A Great Tree</em> by J.M.W. Turner, ca. 1796 -- <a href="https://collections.britishart.yale.edu/catalog/tms:5497">Yale Center for British Art</a></li>
-						<li><em>The Holy Land, Syria, Idumea, Arabia, Egypt, & Nubia</em>, v.6, by David Roberts, 1855 -- <a href="https://archive.org/details/holylandsyriaidu5to6robe/">Internet Archive</a></li>
-						<li><em>Mr and Mrs Andrews</em> by Thomas Gainsborough, ca. 1750 -- <a href="https://www.nationalgallery.org.uk/paintings/thomas-gainsborough-mr-and-mrs-andrews">National Gallery</a>, CC BY-NC-ND</li>
-						<li>"Woman with camera" by A.J. Davison, ca. 1880 -- <a href="https://flic.kr/p/59qMf7">George Eastman Museum</a></li>
+						<li>"One Report, Diverging Perspectives" by Mike Bostock, Shan Carter, Amanda Cox, &amp; Kevin Quealy, <a href="https://archive.nytimes.com/www.nytimes.com/interactive/2012/10/05/business/economy/one-report-diverging-perspectives.html"><em>The New York Times</em></a></li>
 					</ul>
 				</section>
 			</div>
