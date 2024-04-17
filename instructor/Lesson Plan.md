@@ -88,6 +88,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 - Readings:
    - ["Sketching with Data"](https://www.jstor.org/stable/j.ctv1qr6smr.28) by Chalabi & Gray - *The Data Journalism Handbook* chapter
    - ["Text as Data: Finding Stories in Text Collections"](https://www.jstor.org/stable/j.ctv1qr6smr.20) by Maseda - *The Data Journalism Handbook* chapter
+- Brief lecture: [Data visualizations as arguments](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c07-viz-arguments)
 - **Discussion:** [Data visualizations as arguments](#c07-discussion-data-visualizations-as-arguments)
 - **Activity:** ["Sketch a Story" with WordCounter](#c07-activity-sketch-a-story-with-wordcounter)
 
@@ -275,7 +276,18 @@ Tapping into something from Drucker's book chapter "Blind Spot" here. She conclu
 
 She's speaking about applying art historical methods here, but the underlying argument is important here. Visualizations tap into certain conventions in order to convince the reader of a particular association or fact, and as such they are arguments!
 
-Come up with some examples of visualizations for students to evaluate?
+After the brief lecture on visualizations as arguments, split students into small groups and present each with one or two visualizations from the list below. Ask them to evaluate arguments being made by each visualization. This should be pretty low-stakes and doesn't need to be exhaustive, just something to get them thinking about before they make their own.
+
+> [!NOTE]
+> Not all of these are good visualizations. In fact some of them are quite bad! Always feel free to swap your own examples in.
+
+1. Windfinder -- https://www.windfinder.com/
+2. Mapped: The Ancient Seven Wonders of the World -- https://www.visualcapitalist.com/cp/mapped-the-ancient-seven-wonders-of-the-world/
+3. Selfiexploratory -- https://selfiecity.net/selfiexploratory/
+4. The Daily Routines of Famous Creative People -- https://podio.com/site/creative-routines
+5. 100 Years of Rock Visualized -- https://www.concerthotels.com/100-years-of-rock/
+6. 200 Years of Immigration to the US -- https://insightfulinteraction.com/immigration200years.html
+7. Scanned HOLC maps from Mapping Inequality -- https://dsl.richmond.edu/panorama/redlining/data/MI-Detroit
 
 [Return to Class 7](#class-7---data-text-and-arguments)
 
