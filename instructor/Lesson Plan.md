@@ -140,15 +140,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
    - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
 > [!WARNING]
 > I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
-- Brief lecture: [Maps as Data Visualizations as Arguments](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c12-maps-viz-arguments)
-   - Sanborn Fire Insurance Maps for the county: https://www.loc.gov/collections/sanborn-maps/?fa=location:ohio%7Clocation:knox+county
-   - Transit maps:
-      - London Underground: https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321
-      - Bangkok: https://www.bts.co.th/routemap.html
-   - Google Maps
-      - Satellite photos are pixel data
-      - Pins (obviously)
-      - Underlying 
+- Lecture: [Maps as Data Visualizations as Arguments](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c12-maps-viz-arguments)
 - **Discussion:** [Counter-mapping](#c12-discussion-counter-mapping)
 
 ## Week 7
@@ -372,6 +364,8 @@ And the looping effect as:
 > ...the process through with data are organized (e.g. classification, the object of focus, the institution, knowledge, various experts) about a given subject (i.e. a person with particular characteristics), who is in turn affected by that description and thus changes in response.
 > (p. 98)
 
+It may also be worthwhile to spend some time discussing the socially constructed nature of a lot of categories we are **very** used to in everyday life. An easy way to approach this is to ask students to give a "definition" of categories like *fruit* or *cars* and then (gently) poke holes in their definition. "Fruit" is a good example because the term is contextual (e.g., culinary vs. biological definition). "Car" is a good example because it should be easy to come up with a non-"car" that fits most definitions students could come up with, and because even the various "official" categorizations we have in the U.S. assume a pre-existing understanding of what a "car" is; see, for example, the [EPA's vehicle size classes](https://www.fueleconomy.gov/feg/info.shtml#sizeclasses) or the [IIHS|HLDI automobile size and class definitions](https://www.iihs.org/media/b19c7e8c-54ea-4a35-a3bb-3a05fa2a5c16/O27mDA/Ratings/Protocols/current/hdi-auto-size-class.pdf).
+
 Present students with the above two definitions, and ask them to respond to the following:
 
 > 1. What categorization is occurring in the Census questionnaires?
@@ -405,9 +399,10 @@ At the end of class I usually collect the results and scan them, but just so we 
 
 ## C12 Discussion: Counter-mapping
 
+Counter-mapping is a strategy with a long history of use, especially in de-colonization efforts, because mapping is and was such an essential part of colonization. As in the Fire Insurance Map, which we just saw in the presentation, mapping presents land as available, empty, and ready to be divided up.
+
 1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
 2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
-3. I probably needed to be more explicit in how I saw the two readings connecting, e.g., working from the margins and collective action.
 
 [Return to Class 12](#class-12---working-collectively)
 
