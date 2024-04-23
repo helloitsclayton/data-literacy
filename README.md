@@ -16,13 +16,13 @@ There are no prerequisites for this course.
 
 The [`instructor`](https://github.com/helloitsclayton/data-literacy/tree/main/instructor) folder contains materials for use by the instructor in planning and running this course
 - `README.md`, a more detailed breakdown of the folder's contents
-- A reading list (`Instructor Reading List.md`) which is meant to provide a foundation for *instructor* in their teaching of this course
-- A day-to-day lesson plan (`Lesson Plan.md`)
-- A `slides` folder, which contains lecture slides (linked from `Lesson Plan.md`) 
+- A reading list (`Instructor-Reading-List.md`) which is meant to provide a foundation for *instructor* in their teaching of this course
+- A day-to-day lesson plan (`Lesson-Plan.md`)
+- A `slides` folder, which contains lecture slides (linked from `Lesson-Plan.md`) 
 
 The [`student`](https://github.com/helloitsclayton/data-literacy/tree/main/students) folder contains student-facing materials
 - `README.md`, a more detailed breakdown of the folder's contents
-- A `Course Reading List.md`, listing all required readings
+- A `Course-Reading-List.md`, listing all required readings
 - Class-specific folders (e.g., `Class-05`) containing data files used in that class
 
 ## Sharing & Licenses
