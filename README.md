@@ -12,7 +12,7 @@ There are no prerequisites for this course.
 
 ## Contents
 
-[`Course Syllabus.md`](https://github.com/helloitsclayton/data-literacy/blob/main/Course%20Syllabus.md) is a full syllabus for this course
+[`Course Syllabus.md`](https://github.com/helloitsclayton/data-literacy/blob/main/Course-Syllabus.md) is a full syllabus for this course
 
 The [`instructor`](https://github.com/helloitsclayton/data-literacy/tree/main/instructor) folder contains materials for use by the instructor in planning and running this course
 - `README.md`, a more detailed breakdown of the folder's contents
