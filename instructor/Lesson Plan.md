@@ -139,16 +139,16 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
    - ["Extra-Activism"](https://repository.usfca.edu/ms/30/) by Kidd: Maps, Extractivism and Treaties (pp. 10-12), Counter-mapping (pp. 12-13), Pipelines, maps and sovereignty in Denendeh (pp. 13-16), The Inuit maps and Nunavut (pp. 16-18)
    - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
 > [!WARNING]
-> I was surprised by how difficult students found Kidd's article. I think the Inuit maps offer a great example of a "nontraditional" data gathering process that resulted in actual systemic change, but one that relied on a specific context. Other, similar projects have not been as successful.
+> Students have had a great deal of trouble wrapping their heads around Kidd's article, so this class includes a longer lecture than others to help support their understanding of the material. There should still be some time for discussion afterwards, so I've included a shorter slate of discussion questions to dive into.
 - Lecture: [Maps as Data Visualizations as Arguments](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c12-maps-viz-arguments)
 - **Discussion:** [Counter-mapping](#c12-discussion-counter-mapping)
 
 ## Week 7
 
-### Class 13 - Final reflection peer review
+### Class 13 - Final Reflection Draft peer review
 
 - Assignments due:
-   - Final reflection draft
+   - Final Reflection Draft
 - **Activity:** [Peer review of final reflection](#c13-activity-peer-review)
 
 ### Class 14 - Speaking for data
@@ -399,10 +399,13 @@ At the end of class I usually collect the results and scan them, but just so we 
 
 ## C12 Discussion: Counter-mapping
 
-Counter-mapping is a strategy with a long history of use, especially in de-colonization efforts, because mapping is and was such an essential part of colonization. As in the Fire Insurance Map, which we just saw in the presentation, mapping presents land as available, empty, and ready to be divided up.
+Counter-mapping, as discussed in both Kidd's article and in *Data Feminism*, has a long history of use in decolonization efforts because, as we've seen, mapping was (and still is) such an essential part of colonization. As in the Fire Insurance Map, mapping presents land as available, empty, and ready to be divided up or used.
 
-1. What connections can you draw between Ch. 5 and counter-mapping as described in Kidd's article?
-2. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
+> Maps (and counter-mapping) have already come up in *Data Feminism* a few times: Maria Salguero's map of femicides in Mexico in Ch. 1 (pp. 37-38), the DGEI and redlining maps in Ch. 2 (pp. 50-51), indigenous place names in Ch. 3 (pp. 93-94), and the Anti-Eviction Mapping Project in Ch. 5 (pp. 127, 129).
+>
+> 1. Why do you think that counter-mapping is such a frequently used means of argument in pushing for social change?
+> 2. Each of the four counter-mapping projects mentioned (Femicides in Mexico, DGEI, indigenous place names, and the AEMP)
+> 3. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
 
 [Return to Class 12](#class-12---working-collectively)
 
@@ -427,7 +430,7 @@ This paper should also discuss how the topics covered in this class have (or hav
 > - Final thoughts  
 Please provide any final thoughts or comments you might have for the author:
 
-[Return to Class 13](#class-13---final-reflection-peer-review)
+[Return to Class 13](#class-13---final-reflection-draft-peer-review)
 
 ## C14 Activity: Speaking with statistics
 
