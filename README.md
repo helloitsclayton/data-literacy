@@ -12,8 +12,20 @@ There are no prerequisites for this course.
 
 ## Contents
 
-In development
+[`Course Syllabus.md`](https://github.com/helloitsclayton/data-literacy/blob/main/Course%20Syllabus.md) is a full syllabus for this course
 
-## Sharing
+The [`instructor`](https://github.com/helloitsclayton/data-literacy/tree/main/instructor) folder contains materials for use by the instructor in planning and running this course
+- `README.md`, a more detailed breakdown of the foler's contents
+- A reading list (`Instructor Reading List.md`) which is meant to provide a foundation for *instructor* in their teaching of this course
+- A day-to-day lesson plan (`Lesson Plan.md`) which includes:
+- A `slides` folder, which contains lecture slides (linked from `Lesson Plan.md`) 
 
-In development
+The [`student`](https://github.com/helloitsclayton/data-literacy/tree/main/students) folder contains student-facing materials
+- A `Course Reading List.md`, listing all required readings
+- Class-specific folders (e.g., `Class-05`) containing data files used in that class
+
+## Sharing & Licenses
+
+Unless otherwise noted, all materials created by me (Clayton Hayes) as the developer of this course are released under a [CC BY](https://creativecommons.org/licenses/by/4.0/) Creative Commons license.
+
+When available, I have attempted to note licenses for any materials created by others that I'm using. I am claiming fair use for some of the images used, especially in the slides, so please look through those and decide your level of comfort. 
