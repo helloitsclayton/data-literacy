@@ -389,8 +389,8 @@ Materials needed:
 > I bought standard-sized blank postcards (4" by 6") when first trying this, but later realized that the postcards Lupi & Posavec used were much larger (see ["dimensions" here](https://www.moma.org/collection/works/216726)). You can just cut sheets of US Letter or A4 paper in half to use as "postcards" or, especially if students will be using markers, fold sheets of paper in half so each "side" of the postcard is easily readable.
 
 Remind the students of the goals of the activity:
-   1. On one side, a visualization of their chosen variable
-   2. On the other, their name and a "key" explaining the visualization
+1. On one side, a visualization of their chosen variable
+2. On the other, their name and a "key" explaining the visualization
 Then instruct them to spend some set period of time to brainstorm/strategize their visualization (how long will depend on the length of your session)
 
 At the end of class I usually collect the results and scan them, but just so we can discuss what everyone came up with. Students seemed keen on hanging onto their work from the activity, so I gave them back in the next class.
