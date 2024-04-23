@@ -2,6 +2,34 @@
 	max-width: 100%;
 }
 
-.reveal .imgShrink {
-	max-width: 550px;
+#scramble {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+#scramble img {
+	max-width: 80%;
+}
+
+#frondeur {
+	grid-area: 1 / 1 / 3 / 1;
+}
+
+#gartenlaube {
+	grid-area: 1 / 2 / 1 / 2;
+}
+
+#zeitung {
+	grid-area: 2 / 2 / 2 / 2;
+}
+
+#inuitMaps {
+	display: flex;
+	justify-content: space-between;
+}
+
+#inuitMaps img {
+	max-width: 45%;
 }
