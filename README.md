@@ -29,4 +29,4 @@ The [`student`](https://github.com/helloitsclayton/data-literacy/tree/main/stude
 
 Unless otherwise noted, all materials created by me (Clayton Hayes) as the developer of this course are released under a [CC BY](https://creativecommons.org/licenses/by/4.0/) Creative Commons license.
 
-When available, I have attempted to note licenses for any materials created by others that I'm using. I am claiming fair use for some of the images used, especially in the slides, so please look through those and decide your level of comfort. 
+When available, I have attempted to note licenses for any materials created by others that I'm using. I am claiming fair use for some images, especially those in the slides, so please look through the files and decide your level of comfort.
