@@ -399,13 +399,16 @@ At the end of class I usually collect the results and scan them, but just so we 
 
 ## C12 Discussion: Counter-mapping
 
-Counter-mapping, as discussed in both Kidd's article and in *Data Feminism*, has a long history of use in decolonization efforts because, as we've seen, mapping was (and still is) such an essential part of colonization. As in the Fire Insurance Map, mapping presents land as available, empty, and ready to be divided up or used.
-
-> Maps (and counter-mapping) have already come up in *Data Feminism* a few times: Maria Salguero's map of femicides in Mexico in Ch. 1 (pp. 37-38), the DGEI and redlining maps in Ch. 2 (pp. 50-51), indigenous place names in Ch. 3 (pp. 93-94), and the Anti-Eviction Mapping Project in Ch. 5 (pp. 127, 129).
+> Maps (and counter-mapping) have already come up in *Data Feminism* a few times: María Salguero's map of femicides in Mexico in Ch. 1 (pp. 37-38), the DGEI and redlining maps in Ch. 2 (pp. 50-51), indigenous place names in Ch. 3 (pp. 93-94), and the Anti-Eviction Mapping Project in Ch. 5 (pp. 127, 129).
 >
 > 1. Why do you think that counter-mapping is such a frequently used means of argument in pushing for social change?
-> 2. Each of the four counter-mapping projects mentioned (Femicides in Mexico, DGEI, indigenous place names, and the AEMP)
-> 3. Between Kidd's article and other topics we've covered? (Power, What gets counted, etc.)
+> 2. What connections can you draw between the counter-mapping projects mentioned (Femicides in Mexico, DGEI, indigenous place names, and the AEMP), the Induit counter-mapping described in Kidd's article, and Ch. 5's "principle" of data feminism (pp. 125, 147-148)?
+> 3. What about the other principles covered so far? (Examine power, Challenge power, Elevate emotion and embodiment, and Rethink binaries and hierarchies)
+
+> [!NOTE]
+> If students need prompting:
+> For Q1, suggest students consider maps as an essential part of the creation of states in the broad political sense; statehood is defined by boundaries on a map, and it makes sense for activists to try and argue using language the state understands.
+> For Q2, you can point out that all of those projects required working collectively, sometimes on a vast scale, and were led by or focused on elevating particular voices.
 
 [Return to Class 12](#class-12---working-collectively)
 
