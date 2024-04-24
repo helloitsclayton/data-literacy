@@ -1,8 +1,7 @@
 /**
- * A simple theme for reveal.js presentations, similar
- * to the default theme. The accent color is brown.
- *
- * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
+ * A reveal.js theme based on `serif.css` distributed with reveal.js
+ * The original `serif.css` theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
+ * Adjustments were made by Clayton Hayes for his Data Literacy course 'Social Justice and Data' and no claim of ownership is made over this theme.
  */
 
  @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,600|Bitter:200,400,400i,500&display=swap');
