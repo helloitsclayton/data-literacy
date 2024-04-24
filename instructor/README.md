@@ -18,6 +18,6 @@ It also includes a description of the course's assignments in a separate section
 
 ## Lecture slides
 
-The folder `slides` includes a folder for each lecture included in `Lesson Plan.md`. These are formatted as HTML files using an open source Javascript library called `reveal.js`. More information is provided in a README file in the `slides` folder.
+The folder `slides` includes a folder for each lecture included in `Lesson Plan.md`. To present using directly from the existing HTML files, you can download the entire ``slides`` directory as-is, navigate to the relevant folder, and open ``index.html`` in your browser of choice.
 
-The folder `slides` also contains the `reveal` and `css` folders, both of which support the formatting of the slide decks but do not affect the content of the slides themselves. `reveal` is pulled directly from the [reveal.js](https://github.com/hakimel/reveal.js) repository and I try not to mess with it (aside from tossing out files not used). I've mostly put together the files in `css` myself, so feel free to adjust as you see fit.
+Slide decks are are formatted as HTML files using an open source Javascript library called [reveal.js](https://github.com/hakimel/reveal.js). More information on reveal.js is provided in a README file in the `slides` folder, along with some basic information on customizing the content and appearance of the slides.
