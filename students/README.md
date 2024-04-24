@@ -8,4 +8,4 @@ Links are provided (and there are links for every reading), and in cases when sp
 
 ## Class-specific Folders
 
-There are folders for certain classes (e.g., `Class-05`) which contain data files that are used in activities during those classes. Specific instructions for what to do with those data files will be provided during the relevant class and you don't need to worry about them until then.
+There are folders for certain classes (e.g., `Class-05/`) which contain data files that are used in activities during those classes. Specific instructions for what to do with those data files will be provided during the relevant class and you don't need to worry about them until then.
