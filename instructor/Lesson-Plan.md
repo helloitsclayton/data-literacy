@@ -544,8 +544,12 @@ Your submission here should be the paper along with any supporting materials (sl
 
 I used this tool to randomize students and assign small groups and peer reviewing: https://www.randomlists.com/team-generator
 
-I bought an array of crayola markers, crayons, and colored pencils to use with the various art-forward activities. Students seemed to respond very well to this and enjoyed the process (though many were nervous about their art skills).
+## Art supplies
 
-I used 18" x 24" white drawing paper for everything but the Dear Data activity, which I bought from an art supplies store (along with the drawing materials above).
+I purchased an array of markers, crayons, and colored pencils to use with the various activities. These were mostly standard-sized with the exception of some large poster markers and jumbo crayons that I put out for activities with larger-scale outputs. This was to encourage students to work on a larger scale and not get too bogged down in anything super detailed, and I feel it was successful in that regard.
 
-From the same store I bought blank postcards for Dear Data, though I realized after a student pointed it out that the "standard" (4"x6") postcards I bought were much smaller than the ones used in the project. Theirs were around 5.5"x8.5", so half of a standard letter-sized paper might work better.
+For everything except the Dear Data "postcards," we used 18" x 24" 80lb white drawing paper, which I bought online from an art supplies store (along with the drawing materials above). I was happy with the results; it's heavy and large enough to work for the large-scale activities, but is easily cut and folded into "zines" for the Data Field Guide and Data Storybook activities.
+
+As mentioned in the description of the Dear Data activity, the standard-sized postcards I purchased (with the other materials) were significantly smaller than those used in the original Dear Data project. Half-sheets of standard US Letter or A4 paper would be about the correct size.
+
+Finally, I brought a set of scissors from my office along with a few "chisel tip" Sharpies in black and red from our supply closet. The scissors are necessary for the two "zine" making activities (Data Field Guide and Data Storybook), but I don't feel the Sharpies were needed on top of the other drawing supplies.
