@@ -2,7 +2,7 @@
 > [!IMPORTANT]
 > This is a possible sequence of readings to get you, the instructor, familiar with the topics discussed in the open course "Social Justice and Data." It is a reshuffling of the readings that led to the course’s creation, arranged in a way that (hopefully) makes sense.
 >
-> This is followed by some options for further reading, arranged by broad category, that I found interesting and/or valuable as I planned the course.
+> This is followed by some options for further reading, arranged broadly by category, that I found interesting and/or valuable as I planned the course.
 >
 > Unless otherwise indicated, all resources are openly accessible.
 
@@ -32,13 +32,16 @@
 
    [*Data Feminism*](https://data-feminism.mitpress.mit.edu/) (2020) by Catherine D'Ignazio & Lauren F. Klein.
 
-6. Loukissas' book is a bit too technical to use for course readings but I felt I really benefited in having been exposed to his point of view. He’s approaching the topic from a much different point of view than any of our other authors and provides some deeper examinations of topics the course touches on more lightly.
+6. Loukissas' book is a bit too technical to use for course readings but I felt I really benefited in having been exposed to his point of view. His approach to this topic is much different from any of our other authors and provides some deeper examinations of subjects this course touches on more lightly.
 
    [*All Data Are Local: Thinking Critically in a Data-Driven Society*](https://doi.org/10.7551/mitpress/11543.001.0001) (2019) by Yanni Alexander Loukissas.
 
-7. This is the only non-OA source I feel strongly enough about to recommend reading. Hall and Dávila are design faculty (among other things) and dive deeply into the assumptions that underlie a lot of data-related arguments (not just visualizations). I didn't find Chapters V and VI too useful, though, and you’d probably be okay skipping them.
+7. This is the only non-OA source I feel strongly enough about to recommend reading. Hall and Dávila are design faculty (among other things) and dive deeply into the assumptions that underlie a lot of data-related arguments (not just visualizations). Chapters V and VI are not too relevant to this course, though, and you should be okay skipping them.
 
    *Critical Visualization: Rethinking the Representation of Data* (2023) by Peter Hall & Patricio Dávila. ISBN: 978-1-350-07724-9 **(Not OA)**
+
+> [!IMPORTANT]
+> As mentioned elsewhere, I strongly recommend that you, as the instructor, also read all required course readings. These were essential to my own understanding of these topics.
 
 # Additional resources
 ## Further research by D'Ignazio & Bhargava
