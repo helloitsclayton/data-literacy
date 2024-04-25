@@ -15,7 +15,7 @@
 - Introduce a few datasets we may be working with regularly?
 - At the end of class, assign the "background info" questionnaire via course page, intended to help me learn more about the class' interest/needs, "due" by next class.
 - Assigned readings (for next class):
-   - [The Myth of Objective Data](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Fienberg (2023)
+   - [The Myth of Objective Data](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/) by Feinberg (2023)
 - Assigned readings (to complete by Class 4):
    - *Data Feminism* [Introduction](https://data-feminism.mitpress.mit.edu/pub/frfa9szd/release/6)
    - *Data Feminism* [Chapter 1](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)
@@ -344,7 +344,7 @@ The [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide
 
 ## C10 Activity: Census questionnaires
 
-Either print out or otherwise provide for students the questionnaires from the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census. Give groups some time to familarize themselves with the documents, and then ask them to respond to the following:
+Either print out or otherwise provide for students the questionnaires from the [2000](https://www2.census.gov/programs-surveys/decennial/2000/technical-documentation/questionnaires/united-states/d61a.pdf), [2010](https://www2.census.gov/programs-surveys/decennial/2010/technical-documentation/questionnaires-and-instructions/questionnaires/2010_questionnaire_info.pdf), and [2020](https://www2.census.gov/programs-surveys/decennial/2020/technical-documentation/questionnaires-and-instructions/questionnaires/2020-informational-questionnaire-english_DI-Q1.pdf) U.S. Census. Give groups some time to familiarize themselves with the documents, and then ask them to respond to the following:
 
 > 1. Based on these questionnaires, what would you say that the U.S. government considers important data to collect through the census?
 > 2. A key argument of the podcast episode "reading" for today is that what *does not* get counted *does not* count. What are some things the census questionnaires don't ask about? What data isn't "worth" collecting, according to these questionnaires?
@@ -402,7 +402,7 @@ At the end of class I usually collect the results and scan them, but just so we 
 > Maps (and counter-mapping) have already come up in *Data Feminism* a few times: María Salguero's map of femicides in Mexico in Ch. 1 (pp. 37-38), the DGEI and redlining maps in Ch. 2 (pp. 50-51), indigenous place names in Ch. 3 (pp. 93-94), and the Anti-Eviction Mapping Project in Ch. 5 (pp. 127, 129).
 >
 > 1. Why do you think that counter-mapping is such a frequently used means of argument in pushing for social change?
-> 2. What connections can you draw between the counter-mapping projects mentioned (Femicides in Mexico, DGEI, indigenous place names, and the AEMP), the Induit counter-mapping described in Kidd's article, and Ch. 5's "principle" of data feminism (pp. 125, 147-148)?
+> 2. What connections can you draw between the counter-mapping projects mentioned (Femicides in Mexico, DGEI, indigenous place names, and the AEMP), the Inuit counter-mapping described in Kidd's article, and Ch. 5's "principle" of data feminism (pp. 125, 147-148)?
 > 3. What about the other principles covered so far? (Examine power, Challenge power, Elevate emotion and embodiment, and Rethink binaries and hierarchies)
 
 > [!NOTE]
