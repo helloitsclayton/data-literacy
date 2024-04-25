@@ -28,7 +28,7 @@
 - **Discussion:** [Feinberg & data](#c02-discussion-feinberg--data)
 - Lecture: [Raw Data // Raw Carrots](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-data-and-carrots)
 - Lecture: [Data vs. Statistics](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c02-stats-etc)
-- Introduce Data Biographies assignment and some related examples:
+- Introduce [Data Biographies](#assignment-1-dataset-biography) assignment and some related examples:
    - ["Data Biographies: Getting to Know Your Data"](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) by Krause
    - ["Datasheets for Datasets"](https://doi.org/10.1145/3458723) by Gebru et al., in *Communications of the ACM*
    - [*Data User Guides*](https://github.com/rgradeck/Data-User-Guides/blob/master/README.md) from the Western Pennsylvania Regional Data Center
@@ -67,10 +67,10 @@ Sketch the research data lifecycle(s) and how/why data biographies might fit int
 ### Class 5 - Asking questions with data
 
 - Assignments due:
-   - Data Biographies
+   - [Data Biographies](#assignment-1-dataset-biography)
 - Readings:
    - ["Problem Formulation and Fairness"](https://doi.org/10.1145/3287560.3287567) by Passi & Barocas, sections: Abstract, Introduction (stop at "**The non-obvious origins...**"), Background (stop at "**Knowledge Discovery...**"), Discussion
-- Introduce Research Inquiry assignment
+- Introduce [Research Inquiry](#assignment-2-research-inquiry) assignment
 - **Activity:** ["Asking Good Questions" with WTFcsv](#c05-activity-asking-good-questions-with-wtfcsv)
 
 ### Class 6 - Challenging power
@@ -107,10 +107,10 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 ### Class 9 - Revisiting text as data
 
 - Assignments due:
-   - Research Inquiry
+   - [Research Inquiry](#assignment-2-research-inquiry)
 - Readings:
    - [Dear Data: The Project](http://www.dear-data.com/theproject)
-- Introduce final presentation assignment (could be Class 10)
+- Introduce [Final Presentation](#assignment-4-final-presentation--reflection) assignment (could be Class 10)
 - Make final decision on Dear Data topic
    - Set aside time for discussion
    - Collection should run from the day after Class 9 to the day before Class 11
@@ -135,6 +135,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 
 ### Class 12 - Working collectively
 
+- **Special Daily Data Discussion**: Debrief Dear Data postcards from previous class
 - Reading:
    - ["Extra-Activism"](https://repository.usfca.edu/ms/30/) by Kidd: Maps, Extractivism and Treaties (pp. 10-12), Counter-mapping (pp. 12-13), Pipelines, maps and sovereignty in Denendeh (pp. 13-16), The Inuit maps and Nunavut (pp. 16-18)
    - *Data Feminism* [Chapter 5](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3)
@@ -145,10 +146,10 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 
 ## Week 7
 
-### Class 13 - Final Reflection Draft peer review
+### Class 13 - Draft Presentation & Reflection peer review
 
 - Assignments due:
-   - Final Reflection Draft
+   - [Draft Presentation & Reflection](#assignment-3-draft-presentation--reflection)
 - **Activity:** [Peer review of final reflection](#c13-activity-peer-review)
 
 ### Class 14 - Speaking for data
@@ -178,13 +179,19 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 
 ### Class 16
 
-Finish up final presentations, end-of-class discussion and debrief
+- Assignments due:
+   - [Final Reflection](#assignment-4-final-presentation--reflection)
+- Final Presentations
+- End-of-class discussion/debrief
 
 # Activities & discussions
 
 ## C02 Discussion: Feinberg & Data
-1. How did you feel about Feinberg's discussion of data?
-2. How does her characterization of data agree or disagree with your understanding of data?
+
+This is a very basic discussion just to get students thinking about the idea of "data" in broader terms than they're likely used to.
+
+> 1. How did you feel about Feinberg's discussion of data?
+> 2. How does her characterization of data agree or disagree with your understanding of data?
 
 [Return to Class 2](#class-2---defining-data)
 
@@ -205,11 +212,14 @@ Arrange students into small groups and provide them with the following prompt an
 
 [Return to Class 3](#class-3---data-biographies)
 
-## C03 Discussion: Use of the CILS data  
-1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
-2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
-3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
-4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
+## C03 Discussion: Use of the CILS data
+
+After groups have picked apart the CILS data, have them expand their thinking to consider the two articles they (partially) read as well. The following can serve as discussion prompts:
+
+> 1. Do the research articles ("Feeling Unsafe..." by Maffini and "Educational Pathway..." by Dunn) provide any reasoning for working with CILS data?
+> 2. Do the research articles discuss any of the data's limitations and what impact that has on the conclusions drawn? (This is usually in a Discussion or Conclusion section.)
+> 3. Based on your understanding of why the CILS data was gathered (question 5 in the earlier group discussion), how well do the research questions examined by Maffini and Dunn match up with the original purpose of the data?
+> 4. Can you think of any other reasons the research articles used the CILS dataset? Why didn't Maffini or Dunn produce their own data?
 
 [Return to Class 3](#class-3---data-biographies)
 
@@ -227,6 +237,11 @@ Ask the groups to respond to the following:
 [Return to Class 4](#class-4---data-power-context)
 
 ## C05 Activity: ["Asking Good Questions"](https://databasic.io/en/culture/ask-questions) with [WTFcsv](https://databasic.io/en/wtfcsv/)
+
+Materials needed:
+
+- Large sheets of white paper
+- Poster or other large markers/crayons
 
 The activity as described in [the handout](https://databasic.io/en/wtfcsv/wtfcsv-activity-guide.pdf) is very easily adapted to other contexts. I use it more or less as-is, but have all of the students (in small groups) interrogate the same dataset. I also prepared an Ohio version of the UFO data to serve as an "inspirational example."
 
@@ -248,15 +263,20 @@ Materials needed:
 - Standard size markers/colored pencils/crayons
 - Scissors
 
-This activity draws inspiration from Tess Wilson's [Civic Data Field Guide](https://www.youtube.com/watch?v=THgAjGmXdQA) workshop, but has been adapted to account for students having already selected a dataset and described as part of the Dataset Biography assignment. Students will create a zine that communicates essential information about their chosen dataset, with other students as the intended audience.
+This activity draws inspiration from Tess Wilson's [Civic Data Field Guide](https://www.youtube.com/watch?v=THgAjGmXdQA) workshop, but has been adapted to account for students having already selected a dataset and described as part of the Dataset Biography assignment.
 
-What made this dataset interesting to you?
+The goal of this activity is to have students create a zine that communicates essential information about their chosen dataset, with their fellow students (**outside** of the class) as the intended audience.
 
-Who might you recommend using this dataset to?
+Give the following as examples of questions they might try to address with their field guides, but they are only examples! They should be encouraged to address other questions that they feel are important.
 
-What is the setting for the data?
+> - What type of information is contained in this dataset?
+> - What made this dataset of interest to you?
+> - Who else might this dataset be of interest to?
+> - What is the setting for the data?
+> - What assemblage(s) support(s) the data?
 
-What is the assemblage that supports the data?
+> [!NOTE]
+> For the last two, see if you can get students to address setting/assemblages without using those specific terms. Those terms aren't in general use and the field guides should be understandable by students *outside* of the class. 
 
 [Return to Class 6](#class-6---challenging-power)
 
@@ -268,7 +288,7 @@ Tapping into something from Drucker's book chapter "Blind Spot" here. She conclu
 
 She's speaking about applying art historical methods here, but the underlying argument is important here. Visualizations tap into certain conventions in order to convince the reader of a particular association or fact, and as such they are arguments!
 
-After the brief lecture on visualizations as arguments, split students into small groups and present each with one or two visualizations from the list below. Ask them to evaluate arguments being made by each visualization. This should be pretty low-stakes and doesn't need to be exhaustive, just something to get them thinking about before they make their own.
+After the brief lecture on visualizations as arguments, split students into small groups and provide each with one or two visualizations from the list below. Ask them to evaluate arguments being made by each visualization. This should be pretty low-stakes and doesn't need to be exhaustive, just something to get them thinking before they make their own.
 
 > [!NOTE]
 > Not all of these are good visualizations. In fact some of them are quite bad! Always feel free to swap your own examples in.
@@ -289,7 +309,7 @@ After the brief lecture on visualizations as arguments, split students into smal
 Materials needed:
 
 - Large sheets of white paper
-- Poster or other large markers
+- Poster or other large markers/crayons
 
 Though it may not appear so on the surface, the [built-in activity](https://databasic.io/en/wordcounter/wordcounter-activity-guide.pdf) is actually flexible enough to apply to this context. I just (again) had all of the groups work on the same dataset. This also means that comparing how different groups reacted to the same dataset can be a part of the de-brief.
 
@@ -326,17 +346,15 @@ Provide groups with the following prompt and list of questions:
 Materials needed:
 
 - Large sheets of white paper
-- Poster or other large markers
+- Poster or other large markers/crayons
 
-The [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) is not really adaptable in this case. Instead, using the SameDiff tool, I asked groups to compare text data for HOLC area descriptions graded "A" with those graded "D". As with the [Class 7 activity](#c07-activity-sketch-a-story-with-wordcounter), the end goal was for groups to sketch a story that they identify when the two text data files are compared with each other.
+The [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) is not really adaptable to this class. Instead, we'll build off of the [Class 7 activity](#c07-activity-sketch-a-story-with-wordcounter) using a tool called [SameDiff](https://databasic.io/en/samediff/). The text file has been split into HOLC descriptions for areas graded "A" and HOLC descriptions for areas graded "D". As with the WordCounter activity, the end goal is for groups to sketch a story that they identify when the two text data files are compared with each other using SameDiff.
 
 - [Ohio HOLC Area Descriptions - Grade A](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-A.txt)
 - [Ohio HOLC Area Descriptions - Grade D](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-09/C09-HOLC-AD-D.txt)
 
 > [!NOTE]
-> I couldn't figure out a way to make the [built-in activity](https://databasic.io/en/samediff/samediff-activity-guide.pdf) work with a suitably interesting dataset, so My version of this activity builds on using WordCounter with HOLC Area Descriptions from Mapping Inequality in Week 4.
->
-> Again using OpenRefine, with the same file as in Week 4, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.
+> To create these data files I again used OpenRefine. Starting with the same file as in Class 7, I filtered State to Ohio and then used the Grade variable to export all of the "A" descriptions and all of the "D" descriptions as two separate files.
 >
 > As in the WordCounter activity, I copied the text for the variables: clarifying_remarks, favorable_influences, detrimental_influences, into two different plain text files.
 
@@ -393,7 +411,7 @@ Remind the students of the goals of the activity:
 2. On the other, their name and a "key" explaining the visualization
 Then instruct them to spend some set period of time to brainstorm/strategize their visualization (how long will depend on the length of your session)
 
-At the end of class I usually collect the results and scan them, but just so we can discuss what everyone came up with. Students seemed keen on hanging onto their work from the activity, so I gave them back in the next class.
+At the end of class I collect their efforts and scan them, but just to make it easier to see what everyone came up with and facilitate discussion. I returned their work to them in the following class.
 
 [Back to Class 11](#class-11---dear-data-day)
 
@@ -407,14 +425,14 @@ At the end of class I usually collect the results and scan them, but just so we 
 
 > [!NOTE]
 > If students need prompting:
-> For Q1, suggest students consider maps as an essential part of the creation of states in the broad political sense; statehood is defined by boundaries on a map, and it makes sense for activists to try and argue using language the state understands.
+> For Q1, suggest students consider maps as an essential part of the creation of states in the broad political sense; statehood is defined by boundaries on a map, and it makes sense for activists to try and argue using language the state understands.  
 > For Q2, you can point out that all of those projects required working collectively, sometimes on a vast scale, and were led by or focused on elevating particular voices.
 
 [Return to Class 12](#class-12---working-collectively)
 
 ## C13 Activity: Peer review
 
-I prepared the following as a Google Form to provide students with a structured way to evaluate their peers' work. I also wanted to try and steer "reviewers" away from the mechanics of writing and towards to specifics of the assignment. I randomly assigned each student two peer papers to review.
+I prepared the following as a Google Form to provide students with a structured way to evaluate their peers' work. I also wanted to try and steer "reviewers" away from the mechanics of writing and towards to specifics of the assignment. I randomly assigned each student two peer papers to review and used the entire class period for this activity.
 
 The following is an outline of the form provided to students:
 
@@ -433,20 +451,25 @@ This paper should also discuss how the topics covered in this class have (or hav
 > - Final thoughts  
 Please provide any final thoughts or comments you might have for the author:
 
-[Return to Class 13](#class-13---final-reflection-draft-peer-review)
+[Return to Class 13](#class-13---draft-presentation--reflection-peer-review)
 
 ## C14 Activity: Speaking with statistics
 
-For this activity, ask groups to read this [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts), which makes the argument that drug-related convictions are not that serious of an issue. It specifically states that:  
+For this activity, ask groups to briefly scan this [Fox News article](https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts), which makes the argument that drug-related convictions are not a significant contributor to incarceration rates. It specifically states that:  
 > "Data from the Bureau of Justice Statistics (BJS) show only 12.6% of state prisoners are behind bars for drug-related crimes and only 3.2% are locked up on possession charges – while five times as many people are in state prisons for violent crimes rather than drug charges."
 
 The article links to [a statistical report from the BJS](https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/p21st.pdf) to back up their claim.
 
 Have groups download the above BJS report, and ask them to respond to the following:
 
-> 1. Can you find where in the linked report they pull those two statistics from? (Give a page or table number.)
-> 2. What other statistics contained in the report support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
-> 3. Do you agree with Fox News' argument? What other information might you want/need before making your own conclusion?
+> 1. Can you find where in the linked report they pull those statistics from? (Give a page or table number.)
+> 2. What other statistics contained in the report might support or contradict the Fox News article's argument? (Look at tables near the one where they got their statistics)
+> 3. Do you agree with Fox News' argument? What other information might you want or need before making your own conclusion?
+
+> [!IMPORTANT]
+> The stats cited by Fox News are in Table 16. Significantly, Table 16 only contains statistics for state prisons and drug-related crime rates are much higher in federal prisons (see Table 19).
+>
+> The BJS report only includes information on "most serious offense" and not original arrest/charge(s), so its impossible to know how many incarcerations stem from drug-related arrests or convictions.
 
 [Return to Class 14](#class-14---speaking-for-data)
 
@@ -499,11 +522,17 @@ https://databasic.io/en/culture/storybook
 
 A short paper (2-3 pages) introducing a selected dataset and discussing how it came into existence. Please include a link to the dataset - a properly formatted citation in your chosen style would be best - as part of the paper.
 
-As the name implies, you're writing a (concise) biography of that dataset. A good place to start is with the Five Ws: Who, What, When, Where, and Why. Feel free to throw How into the mix as well!
+As the name implies, you're writing a (concise) biography of that dataset. A good place to start is with the Five Ws: Who, What, When, Where, and Why (and also How). You can follow a similar line of inquiry as we practiced in Class 3 with the CILS data:
+1. **Who** - Who was responsible for the creation of the dataset?
+2. **What** - What types of data were collected in the study? What variables? What subjects did the study focus on?
+3. **When** - When were the data collected?
+4. **Where** - Where were the individuals being studied located? Where were the researchers located? Where did data collection take place?
+5. **Why** - Why were the data gathered? What is the purpose of the study?
+6. **How** - How were individuals selected for the study? How were data gathered?
 
-Be warned, though, many datasets won't just tell you the answers to those questions. In fact, sometimes that information might never have been recorded in the first place. For our purposes, then, I want you to comment on any major gaps you notice.
+Be warned, though, many datasets won't just tell you the answers to those questions. In fact, sometimes that information might never have been recorded in the first place. You biography should present what information is available while also commenting on any major gaps you notice.
 
-Below are three very different approaches that you can consider:
+Below are three very different potential approaches to consider:
 - ["Data Biographies: Getting to Know Your Data" by Heather Krause](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/)  
 A journalistic approach, one that makes sense if you're looking at someone else's dataset
 - ["Datasheets for Datasets" by Gebru et al., in *Communications of the ACM*](https://doi.org/10.1145/3458723)  
@@ -513,20 +542,24 @@ Also intended for self-generated data, but less technical and more open-ended
 
 ## Assignment 2: Research Inquiry
 
-A short paper (2-3 pages) which presents and discusses a research question that has grown out of your examination of a selected dataset. The question should be a reaction to the trends, gaps, or other aspects of the dataset. Think back to our in-class activity where you came up with questions about the Charlotte, NC Traffic Stops dataset. That, along with other in-class data storytelling activities, should be good examples of the process for coming up with a research question.
+A short paper (2-3 pages) that builds on the Data Biography to come up with a potential research question and to discuss how it has grown out of your examination of the dataset. Your research question can based on trends, gaps, themes, or anything else that comes out of your thinking about your dataset. As a model, think back to our in-class activity in which you developed questions about the MappingPoliceViolence dataset. Some other ways to brainstorm questions are to consider:
+- What if you expanded the dataset out to a larger population? What could you ask of that data?
+- What if you zoomed in on a particular subgroup? What's a more specific question you might ask?
+- What data wasn't collected that could have (or should have) been? What might you change and why?
 
-The paper itself should discuss how the question was inspired by the dataset (i.e., what was it in the dataset that led you to ask this question?) along with which aspects of your question are covered by your dataset. You should also discuss what other datasets might be required and where might you find that information. What other resources could or should be incorporated (books, articles, etc.)?
+(Basically, take one of Who, What, When, Where, Why, and How and think about how changing those might lead to new and interesting research questions.)
 
-A few hopefully reassuring notes:
+Keep in mind, you won't *actually* be undertaking this research as part of the class, so you don't need to worry about over-promising or choosing a really exciting (but complicated) question. You also don't need to use the same dataset as you used for the Data Biography assignment. However, if you do choose a new dataset, thinking through those biographical questions is the best way to start this assignment.
 
-1. You won't actually be undertaking this research during the class, so you don't need to worry about over-promising or giving yourself too much work by asking a really exciting (but complicated) question.
-2. The dataset you use for this assignment does not have to be the same one you used for the Data Biography assignment. If you do choose a new dataset, though, I'd encourage you to at least think through those biographical questions before starting with this assignment.
+Once you have settled on your question, I'd also like you to consider what other data would be necessary in addressing your research question. Again, you aren't actually doing this research and so you don't need to go out and find additional datasets. Just spend some time thinking about what aspects of your research question aren't fully covered by the dataset and what other data might fill those gaps.
 
 ## Assignment 3: Draft Presentation & Reflection
 
 A short paper (4-5 pages) reflecting on the research process as well as a draft slide deck or script (or anything else that could be considered a presentation draft). See the Final Presentation & Reflection assignment description for full details on what these should cover and how they should fit together.
 
-What I expect in this draft is a 4-5 page paper that your classmates and I can provide feedback on (we will be doing some peer reviewing) along with a draft slide deck/script/outline/etc. showing how you have thought about creating your final presentation. **You will not be giving a "draft" presentation at this time.**
+What I expect in this draft is a 4-5 page paper that your classmates and I can provide feedback on (we will be doing some peer reviewing) along with a draft slide deck/script/outline/etc. showing how you have thought about creating your final presentation.
+
+**You will not be giving a "draft" presentation at this time.**
 
 ## Assignment 4: Final Presentation & Reflection
 
