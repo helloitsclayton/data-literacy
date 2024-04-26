@@ -51,9 +51,9 @@
 - No
 
 **Catalog Description**
-- Becoming “data conversant” is only growing in importance as data-related practice becomes increasingly ingrained in public and academic discourse. Learning data-related skills, like reading, working with, analyzing, and arguing with data, is often viewed as a purely technical process that centers mastery of coding or data analysis software.  
-Instead, this course will take a justice-centered approach to data: Students will gain practical experience through low-tech explorations of real-world data, but we won’t shy away from or gloss over data’s inherent complexities. And data are complex, just like the people who are responsible for their creation, curation, and use.  
-To help us navigate these murky waters, and to move past number crunching to deeper critical analysis, we’ll be drawing on the expertise of scholars, practitioners, and enthusiasts from an array of disciplines and backgrounds.  
+- Becoming "data conversant" is only growing in importance as data-related practice becomes increasingly ingrained in public and academic discourse. Learning data-related skills, like reading, working with, analyzing, and arguing with data, is often viewed as a purely technical process that centers mastery of coding or data analysis software.  
+Instead, this course will take a justice-centered approach to data: Students will gain practical experience through low-tech explorations of real-world data, but we won't shy away from or gloss over data's inherent complexities. And data are complex, just like the people who are responsible for their creation, curation, and use.  
+To help us navigate these murky waters, and to move past number crunching to deeper critical analysis, we'll be drawing on the expertise of scholars, practitioners, and enthusiasts from an array of disciplines and backgrounds.  
 There are no prerequisites for this course.
 
 **Check the learning goals which are central to this course:**
@@ -141,7 +141,7 @@ My response:
 - 12
 
 **Course Description** (Include the prerequisites or a notice of no prerequisites):
-- We are more aware than ever how enmeshed data is in our everyday lives. But just being aware of the ubiquity of data doesn’t mean we’re automatically able to read, analyze, and argue with data. These skills that are only growing in importance as data-related practices become increasingly ingrained in academic and public discourse. Becoming “data conversant” is often thought of as a purely technical process: learning to code or using a particular app or software. Aside from placing unnecessary barriers in the way of learners, that technical approach fails to engage with the complexities surrounding the creation and use of data. And data are complex, just like the people responsible for their creation, curation, and use. In this course we will dive headfirst into low-tech explorations of real-world data while confronting data’s inherent complexities. Helping us to navigate these murky waters and to move past number crunching into deeper critical analysis will be the work of scholars and practitioners from an array of disciplines and backgrounds.  
+- We are more aware than ever how enmeshed data is in our everyday lives. But just being aware of the ubiquity of data doesn't mean we're automatically able to read, analyze, and argue with data. These skills that are only growing in importance as data-related practices become increasingly ingrained in academic and public discourse. Becoming "data conversant" is often thought of as a purely technical process: learning to code or using a particular app or software. Aside from placing unnecessary barriers in the way of learners, that technical approach fails to engage with the complexities surrounding the creation and use of data. And data are complex, just like the people responsible for their creation, curation, and use. In this course we will dive headfirst into low-tech explorations of real-world data while confronting data's inherent complexities. Helping us to navigate these murky waters and to move past number crunching into deeper critical analysis will be the work of scholars and practitioners from an array of disciplines and backgrounds.  
 There are no prerequisites for this course.
 
 **Does this course carry a .50 Credit?**
@@ -171,7 +171,7 @@ There are no prerequisites for this course.
 **Description of the Assignments**  
 *Give a brief description of each required assignment, including the type of assignment (e.g. research paper, group presentation, exam, etc.) and the approximate paper length or scale of the assignment. If participation counts for a significant portion of the grade, summarize the expectations for participation*:  
 - A significant portion of the learning in this course will rely on in-class, hands-on activities which the students will complete in small groups. Students will also engage in small group discussions regarding readings. These will be incorporated into a classroom participation grade.
-- The course’s primary assignment will be a final presentation which is scaffolded throughout the course: Students will identify data relevant to their own lives and/or communities, formulate a research question based on examination of their data, and craft presentations reflecting on their work and on possible future avenues of inquiry.
+- The course's primary assignment will be a final presentation which is scaffolded throughout the course: Students will identify data relevant to their own lives and/or communities, formulate a research question based on examination of their data, and craft presentations reflecting on their work and on possible future avenues of inquiry.
 - Data biography: short paper (2-3 pages) introducing a dataset and discussing how it came into existence. Students will seek to answer questions such as who is responsible for its creation and what its original intended purpose was.
 - Research inquiry: short paper (2-3 pages) discussing a research question that has grown out of examination of their selected dataset. What other data might be needed to address this question? What other resources would you incorporate (books, articles, etc.)? Why is this question important to you?
 - Presentation draft/reflection: short paper (4-5 pages) reflecting on the research process and preparing for the final presentation. Students will have engaged in small group peer reviewing and reflection to aid in this process.
@@ -209,3 +209,19 @@ There are no prerequisites for this course.
 Feedback from the Curricular Policy Committee noted the heavy weighting towards participation. I chose to reduce the Participation weight from 40% to 35%, and increased the weighting of the Data Biography assignment to 10%.
 
 It was also pointed out that the final presentation should be scheduled during or near Week 8 and not during Finals Week as listed in the submission. This was just an oversight on my part.
+
+## Background info
+
+> [!NOTE]
+> I attached the following to my course proposal as a PDF, though I have no idea if or how it affected decisionmaking.
+
+Much of my background reading has pointed me away from approaching data literacy, which Catherine D'Ignazio and Rahul Bhargava define as "the ability to read, work with, analyze and argue with data as part of a larger inquiry process," through overly-technical or code-based instruction. Instead, I plan to focus on low-tech, hands-on activities (e.g., [Dear Data](http://www.dear-data.com/theproject), [Data Culture Project](https://databasic.io/en/culture/)) alongside examinations of the contextual/situated nature of data. Some texts I plan to use for readings are [*Data Feminism*](https://data-feminism.mitpress.mit.edu/) by Catherine D'Ignazio and Lauren F. Klein, [*All Data are Local*](https://doi.org/10.7551/mitpress/11543.001.0001) by Yanni Alexander Loukissas, and [*The Data Journalism Handbook*](https://doi.org/10.2307/j.ctv1qr6smr) by Liliana Bounegru and Jonathan Gray.
+
+Students will learn:
+1. What data is and what data types are common; how data does (and does not) represent aspects of the world
+2. That knowledge is situated, and how this can (and should) be applied in the context of data
+3. The acquisition, "cleaning," and managing of data from various sources
+4. The analysis and evaluation of obtained data, and how this leads into or contributes to the inquiry process
+5. The use of data in support of larger narrative or message, which is crafted with a particular audience in mind
+
+Finally, I want to say that the term "literacy" carries with it embedded meanings which can often connote power imbalances and serve as a barrier to learners. So even though this proposal is for a "data literacy" course, I want to avoid using that term in its promotion to students
