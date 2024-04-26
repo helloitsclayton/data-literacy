@@ -1,8 +1,20 @@
 # Bibliography
 
+> [!NOTE]
+> A [Zotero library](https://www.zotero.org/groups/5508994/datalitcourse/library) of these items is also available.
+
+- [For instructors](#for-instructors)
+   - [Core reading list](#instructor-core-reading-list)
+   - [Materials for activities and discussions](#materials-for-activities-and-discussions)
+   - [Datasets](#datasets-used)
+   - [Additional background research](#additional-background-research)
+- [For students](#for-students)
+   - [Assigned readings](#assigned-readings)
+   - [Further readings](#further-reading-for-curious-students)
+
 ## For instructors
 
-### Instructor reading list
+### Instructor core reading list
 
 Bhargava, R., Kadouaki, R., Bhargava, E., Castro, G., & D'Ignazio, C. (2016). Data murals: Using the arts to build data literacy. *The Journal of Community Informatics, 12*(3). https://doi.org/10.15353/joci.v12i3.3285
 
@@ -28,13 +40,71 @@ Nucera, D., & Sonnenberg, K. (Eds.). (2017). *Opening data 2*. Allied Media Proj
 
 Carson, E. A. (2022). *Prisoners in 2021 – Statistical tables* [dataset]. https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables
 
+Madron, J., & Nelson, R. K. (2023). *HOLC_Area_Description_Data* [dataset]. American Panorama. https://github.com/americanpanorama/HOLC_Area_Description_Data
+
 Mapping Police Violence. (n.d.). *Mapping police violence* [dataset]. https://airtable.com/appzVzSeINK1S3EVR/shroOenW19l1m3w0H/tblxearKzw8W7ViN8
 
 National UFO Reporting Center. (n.d.). *NUFORC Data Bank* [dataset]. https://nuforc.org/databank/
 
-Nelson, R. K., & Winling, L. (2023). *Mapping inequality: Redlining in New Deal America* [dataset]. https://dsl.richmond.edu/panorama/redlining/
+Portes, A., & Rumbaut, R. G. (2018). *Children of Immigrants Longitudinal Study (CILS), San Diego, California, Ft. Lauderdale and Miami, Florida, 1991-2006* (Version 3) [dataset]. Inter-university Consortium for Political and Social Research (ICPSR). https://doi.org/10.3886/ICPSR20520.V3
+
+### Materials for activities and discussions
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Asking good questions*. Data Culture Project. https://databasic.io/en/culture/ask-questions
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Activities*. Data Culture Project. https://databasic.io/en/culture/#activities
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Databasic.io*. https://databasic.io/en/
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Paper spreadsheet*. Data Culture Project. https://databasic.io/en/culture/paper-spreadsheet
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Sketch a story*. Data Culture Project. https://databasic.io/en/culture/sketch-a-story
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Write a data storybook*. Data Culture Project. https://databasic.io/en/culture/storybook
+
+Bhargava, R., & D'Ignazio, C. (n.d.). *Write your own song*. Databasic.io. https://databasic.io/en/samediff/samediff-activity-guide.pdf
+
+Bronshtein, T. (n.d.). *200 years of immigration to the U.S.* Insightful Interaction. https://insightfulinteraction.com/immigration200years.html
+
+Carson, E. A. (2022). Prisoners in 2021 – Statistical tables [dataset]. https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables
+
+ConcertHotels.com. (n.d.). *100 years of rock visualized*. ConcertHotels.com. https://www.concerthotels.com/100-years-of-rock/
+
+ESLN Events. (2021, July 9). *Data zines: A hands-on approach to community curiosities* [Video]. YouTube. https://www.youtube.com/watch?v=THgAjGmXdQA
+
+Dunn, M. (2019). Educational pathway and social mobility in children of immigrants. *International Education Studies, 12*(12), 44–54. https://eric.ed.gov/?id=EJ1235880
+
+Gavali, P. (2023, April 13). *Mapped: The ancient seven wonders of the world&. Visual Capitalist. https://www.visualcapitalist.com/cp/mapped-the-ancient-seven-wonders-of-the-world/
+
+Lupi, G., & Posavec, S. (n.d.). *The project*. Dear Data. http://www.dear-data.com/theproject
+
+Madron, J., & Nelson, R. K. (2023). *HOLC_Area_Description_Data* [dataset]. American Panorama. https://github.com/americanpanorama/HOLC_Area_Description_Data
+
+Maffini, C. (2016). Feeling unsafe at school: Southeast Asian American adolescents' perceptions and experiences of school safety. *Journal of Southeast Asian American Education and Advancement, 11*(1), 2. https://doi.org/10.7771/2153-8999.1135
+
+Manovich, L., Stefaner, M., Yazdani, M., Baur, D., Goddemeyer, D., Tifentale, A., Hochman, N., & Chow, J. (n.d.). *Selfiexploratory*. Selfiecity. https://selfiecity.net/#selfiexploratory
+
+Mapping Police Violence. (n.d.). *Mapping police violence* [dataset]. https://airtable.com/appzVzSeINK1S3EVR/shroOenW19l1m3w0H/tblxearKzw8W7ViN8
+
+Miller, A. (2023, February 14). New prison data blows up narrative that low-level drug offenders are filling up US prisons: Experts. *Fox News*. https://www.foxnews.com/us/new-prison-data-blows-up-narrative-that-low-level-drug-offenders-are-filling-up-u-s-prisons-experts
+
+MoMA, & Lupi, G. (n.d.). *Giorgia Lupi | MoMA - Works*. The Museum of Modern Art. Retrieved April 26, 2024, from https://www.moma.org/artists/67122#works
+
+National UFO Reporting Center. (n.d.). NUFORC *data bank* [dataset]. https://nuforc.org/databank/
+
+Nelson, R. K., & Winling, L. (2023). *Mapping inequality: Redlining in New Deal America* [dataset]. https://dsl.richmond.edu/panorama/redlining/data
+
+Podio.com. (n.d.). *The daily routines of famous creative people*. Podio.com. https://podio.com/site/creative-routines
 
 Portes, A., & Rumbaut, R. G. (2018). *Children of Immigrants Longitudinal Study (CILS), San Diego, California, Ft. Lauderdale and Miami, Florida, 1991-2006* (Version 3) [dataset]. Inter-university Consortium for Political and Social Research (ICPSR). https://doi.org/10.3886/ICPSR20520.V3
+
+US Census Bureau. (2000). *2000 Census short-form questionnaire*. United States Census Bureau. https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.2000_Census.html#list-tab-1168974309
+
+US Census Bureau. (2010). *Informational copy of 2010 Census questionnaire*. United States Census Bureau. https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.2010_Census.html#list-tab-1168974309
+
+US Census Bureau. (2020). *Sample copy of the 2020 Census questionnaire*. United States Census Bureau. https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires.2020_Census.html#list-tab-1168974309
+
+Windfinder. (n.d.). *Windfinder wind map*. Windfinder.com. https://www.windfinder.com
 
 ### Additional background research
 
@@ -118,6 +188,8 @@ D'Ignazio, C., & Klein, L. (2020). The numbers don't speak for themselves. In *D
 
 D'Ignazio, C., & Klein, L. (2020). Show your work. In *Data feminism* (pp. 173–201). The MIT Press. https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3
 
+Dunn, M. (2019). Educational pathway and social mobility in children of immigrants. *International Education Studies, 12*(12), 44–54. https://eric.ed.gov/?id=EJ1235880
+
 Feinberg, M. (2023, April 17). The myth of objective data. *The MIT Press Reader*. https://thereader.mitpress.mit.edu/the-myth-of-objective-data/
 
 Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., III, H. D., & Crawford, K. (2021). Datasheets for datasets. *Communications of the ACM, 64*(12), 86–92. https://doi.org/10.1145/3458723
@@ -144,7 +216,7 @@ Rogers, S. (Host). (2021, July 20). Data materiality episode 4: Yanni Loukissas 
 
 Silberzahn, R., Uhlmann, E. L., Martin, D. P., Anselmi, P., Aust, F., Awtrey, E., Bahník, Š., Bai, F., Bannard, C., Bonnier, E., Carlsson, R., Cheung, F., Christensen, G., Clay, R., Craig, M. A., Dalla Rosa, A., Dam, L., Evans, M. H., Flores Cervantes, I., … Nosek, B. A. (2018). Many analysts, one data set: Making transparent how variations in analytic choices affect results. *Advances in Methods and Practices in Psychological Science, 1*(3), 337–356. https://doi.org/10.1177/2515245917747646
 
-WPRDC data user guides. (n.d.). *WPRDC*. http://www.wprdc.org/data-user-guides/
+Western Pennsylvania Regional Data Center. (n.d.). *WPRDC data user guides*. WPRDC. http://www.wprdc.org/data-user-guides/
 
 ### Further reading for curious students
 
