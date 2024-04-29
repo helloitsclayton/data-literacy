@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="author" content="Clayton Hayes">
+
+		<title>AI &amp; Data</title>
+
+		<link rel="stylesheet" href="../reveal/css/reset.css">
+		<link rel="stylesheet" href="../reveal/css/reveal.css">
+		<link rel="stylesheet" href="../css/theme.css">
+		<link rel="stylesheet" href="../css/c14-ai.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="titleslide">
+					<h1>AI &amp; Data</h1>
+				</section>
+				<section>
+					<section>
+						<h2>Large Language Models<br>(LLMs)</h2>
+						<aside class="notes">
+							Most AI is based on Large Language Models (LLMs)
+							This is a VERY over-simplified version of how LLMs work
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm01.svg" />
+							<div>
+								<p>Ohio: $(1,5)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							LLMs take the basic building blocks of a language and associates each one with a vector
+							Those of you that have taken a few math classes might be familiar with this
+							For our purposes you don't need to know vectors, this example will keep things pretty basic
+							Let's say in our example, the word Ohio is represented by the vector (1,5)
+							We'd expect to see words related to 'Ohio' assigned vectors nearby this one
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm02.svg" />
+							<div>
+								<p>Ohio: $(1,5)$</p>
+								<p>Columbus: $(1,6)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							For example, Columbus is the capital of Ohio, so we might expect it to be pretty close by since the words are related
+							Let's say in our model, then, that Columbus gets assigned the vector (1,6)
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm03.svg" />
+							<div>
+								<p>Ohio: $(1,5)$</p>
+								<p>Columbus: $(1,6)$</p>
+								<p>Iowa: $(4,3)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							Iowa is also a state, and is nearby Ohio geographically, so again we'd expect them to be pretty close
+							So let's say Iowa gets the vector (4,3)
+							Here's where the math starts to come into play
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm03a.svg" />
+							<div>
+								<p>Ohio: $(1,5)$</p>
+								<p>Columbus: $(1,6)$</p>
+								<p>Iowa: $(4,3)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							Going from Ohio to Columbus is actually another vector! That vector goes up by 1
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm03b.svg" />
+							<div>
+								<p>Ohio: $(1,5)$</p>
+								<p>Columbus: $(1,6)$</p>
+								<p>Iowa: $(4,3)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							And if we tack that vector onto the end of Iowa, that's another vector!
+							The way LLMs work, we'd expect that little vector that goes up by 1 to "mean" the same thing for Iowa as it did for Ohio
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm04.svg" />
+							<div>
+								<p>Ohio: $(1,5)$</p>
+								<p>Columbus: $(1,6)$</p>
+								<p>Iowa: $(4,3)$</p>
+								<p>Des Moines: $(4,4)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							So that resulting vector, in our pretend LLM, would probably mean the capital of Iowa, Des Moines
+							Like I said, this is a very simplified explanation; one of the issues that might be apparent is that there isn't a lot of "room" in two dimensions
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm05.svg" />
+						</div>
+						<aside class="notes">
+							So then I guess we try three dimensions! Meaning our vectors get three coordinates
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm06.svg" />
+							<div>
+								<p>Ohio: $(1,5,5)$</p>
+								<p>Columbus: $(1,6,6)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							It works the exact same, except now our little vector goes up one and over one from Ohio to Columbus
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm07.svg" />
+							<div>
+								<p>Ohio: $(1,5,5)$</p>
+								<p>Columbus: $(1,6,6)$</p>
+								<p>Iowa: $(4,3,1)$</p>
+								<p>Des Moines: $(4,4,2)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							And just like before our little vector does the same thing to Iowa
+						</aside>
+					</section>
+					<section>
+						<div class="llmDiv">
+							<img src="img/llm07.svg" />
+							<div>
+								<p>Ohio: $(1,5,5)$</p>
+								<p>Columbus: $(1,6,6)$</p>
+								<p>Iowa: $(4,3,1)$</p>
+								<p>Des Moines: $(4,4,2)$</p>
+								<p>"state capital": $(0,1,1)$</p>
+							</div>
+						</div>
+						<aside class="notes">
+							So in our LLM, that little vector (0,1,1) would be associated with the concept of state capital
+							But again, three dimensions isn't nearly enough to model and actual language
+							Just think, what are some other thing associated with these words?
+							Ohio is also the name of a river, for example, so "river" would also be near "Ohio"
+							Columbus is a name, after Christopher Columbus, so "Christopher" would be nearby
+							"Chris" would be nearby "Christopher", and Chris Columbus is a director and so all of his movies would be nearby him, etc. etc.
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Model "training"</h2>
+						<div class="trainingDiv">
+							<div class="textCorpus">
+								<p>Text corpus</p>
+							</div>
+							<div class="arrow" ><p>⇒</p></div>
+							<div class="algorithm">
+								<p>Algorithm</p>
+							</div>
+							<div class="arrow" ><p>⇒</p></div>
+							<div class="llm">
+								<p>LLM</p>
+							</div>
+						</div>
+						<aside class="notes">
+							Those vectors are assigned when the LLM is "trained" using examples of the language it's meant to model
+							This comes in the form of a text corpus, basically just a lot of text written in whatever language
+							This gets fed into an algorithm that assigns vectors to words and then adjusts them as it goes through more and more of the text
+						</aside>
+					</section>
+					<section>
+						<h2>Training corpus</h2>
+						<div class="trainingDiv">
+							<div class="textCorpus">
+								<p>Text corpus</p>
+							</div>
+							<div class="arrow fade"><p>⇒</p></div>
+							<div class="algorithm fade">
+								<p>Algorithm</p>
+							</div>
+							<div class="arrow fade"><p>⇒</p></div>
+							<div class="llm fade">
+								<p>LLM</p>
+							</div>
+						</div>
+						<aside class="notes">
+							The amount of text used for training is often incredibly large
+							Common Crawl, frequently used, is harvested from the open web and is millions of gigabytes in size
+						</aside>
+					</section>
+					<section>
+						<h2>Algorithm</h2>
+						<div class="trainingDiv">
+							<div class="textCorpus fade">
+								<p>Text corpus</p>
+							</div>
+							<div class="arrow fade"><p>⇒</p></div>
+							<div class="algorithm">
+								<p>Algorithm</p>
+							</div>
+							<div class="arrow fade"><p>⇒</p></div>
+							<div class="llm fade">
+								<p>LLM</p>
+							</div>
+						</div>
+						<aside class="notes">
+							That's why AI is so resource-intensive, because getting a algorithm to work through that amount of data in a reasonable amount of time takes a huge amount of computing power!
+						</aside>
+					</section>
+					<section>
+						<h2>LLMs</h2>
+						<div class="trainingDiv">
+							<div class="textCorpus fade">
+								<p>Text corpus</p>
+							</div>
+							<div class="arrow fade"><p>⇒</p></div>
+							<div class="algorithm fade">
+								<p>Algorithm</p>
+							</div>
+							<div class="arrow fade"><p>⇒</p></div>
+							<div class="llm">
+								<p>LLM</p>
+							</div>
+						</div>
+						<aside class="notes">
+							The resulting LLMs are also quite large
+							Word "vectors" that have billions of coordinates (LLMs usually call them "parameters") and the model as a whole can range from the tens to the hundreds of gigabytes
+						</aside>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="../reveal/js/reveal.js"></script>
+		<script src="../reveal/plugin/notes/notes.js"></script>
+		<script src="../reveal/plugin/markdown/markdown.js"></script>
+		<script src="../reveal/plugin/highlight/highlight.js"></script>
+		<script src="../reveal/plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transitionSpeed: 'fast',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+		</script>
+	</body>
+</html>

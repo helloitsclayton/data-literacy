@@ -109,9 +109,12 @@ in *The Guardian*
 ### Class 14
 
 - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3), The Numbers Don't Speak for Themselves, pp. 149-172 (23 pages)
-- ["On the Dangers of Stochastic Parrots: Can Language Models be Too Big? 🦜"](https://dl.acm.org/doi/10.1145/3442188.3445922) by Bender et al. (13 pages)  
-FAccT '21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, pp. 610–623
-   - Skip section **2. Background**
+- ["Studying Up Machine Learning Data: Why Talk About Bias When We Mean Power?"](https://doi.org/10.48550/arXiv.2109.08131) by Miceli, Posada, & Yang (10 pages)  
+*Proceedings of the ACM on Human-Computer Interaction*, article 34
+
+> [!IMPORTANT]
+> I think this is a great article but the authors use a lot of acronyms that can get confusing! Machine Learning (ML) is a computer science discipline that includes AI, and Human-Computer Interaction (HCI) & Computer Supported Cooperative Work (CSCW) are interdisciplinary fields that investigate how humans work with computer technology.  
+It's the article's discussion of data, power, and bias that's important, though! Focus on that and not the mention of specific disciplines.
 
 #### *Discussed but not assigned; moving from Ethics to Justice:*
 

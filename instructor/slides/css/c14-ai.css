@@ -1,0 +1,53 @@
+.reveal .llmDiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reveal .trainingDiv {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+	text-align: center;
+	height: 40vh;
+}
+
+.reveal .trainingDiv p {
+	padding: 0.5em;
+}
+
+.reveal .textCorpus,
+.reveal .algorithm,
+.reveal .llm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	height: 100%;
+	color: white;
+	opacity: 1;
+}
+
+.reveal .arrow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: larger;
+}
+
+.reveal .textCorpus {
+	background-color: blue;
+}
+
+.reveal .algorithm {
+	background-color: red;
+}
+
+.reveal .llm {
+	background-color: green;
+}
+
+.reveal .fade {
+	opacity: 0.5;
+}
