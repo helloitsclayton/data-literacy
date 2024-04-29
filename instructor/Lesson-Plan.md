@@ -157,7 +157,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 - Readings:
    - *Data Feminism* [Chapter 6](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3)
    - ["Studying Up Machine Learning Data"](https://doi.org/10.48550/arXiv.2109.08131) by Miceli, Posada, & Yang
-- **Discussion:** AI and data
+- Brief lecture: [AI and data](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c14-ai)
 - **Activity:** [Speaking with statistics](#c14-activity-speaking-with-statistics)
 - Brief discussion: Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*
    - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
