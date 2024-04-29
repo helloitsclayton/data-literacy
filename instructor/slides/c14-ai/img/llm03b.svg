@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="vectors.svg"
+   sodipodi:docname="llm03b.svg"
    inkscape:export-filename="llm03b.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="in"
-     inkscape:zoom="2.0686841"
-     inkscape:cx="510.22772"
-     inkscape:cy="461.88782"
+     inkscape:zoom="1.4627806"
+     inkscape:cx="176.71824"
+     inkscape:cy="264.22282"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -78,26 +78,6 @@
     </marker>
     <marker
        style="overflow:visible"
-       id="marker4"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="Triangle arrow"
-       markerWidth="0.02"
-       markerHeight="0.02"
-       viewBox="0 0 1 1"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid"
-       markerUnits="userSpaceOnUse">
-      <path
-         transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
-         d="M 5.77,0 -2.88,5 V -5 Z"
-         id="path4" />
-    </marker>
-    <marker
-       style="overflow:visible"
        id="Triangle"
        refX="0"
        refY="0"
@@ -122,59 +102,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-3.7762043,-3.0030375)">
-    <rect
-       style="display:none;fill:#ffffff;stroke:#000000;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect23"
-       width="4.6999998"
-       height="4.6999998"
-       x="2.3153238"
-       y="2.9576311"
-       inkscape:label="3D bg" />
-    <path
-       style="display:none;fill:none;stroke:#4d4d4d;stroke-width:0.03;stroke-dasharray:none;marker-end:url(#marker4);paint-order:stroke fill markers"
-       d="M 4,5.9995206 2.7625631,7.2369574"
-       id="path2"
-       sodipodi:nodetypes="cc"
-       inkscape:label="3D axis" />
-    <g
-       id="g9"
-       inkscape:label="3D labels"
-       style="display:none;fill:#4d4d4d"
-       transform="translate(0,-0.50047941)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;display:inline;fill:#4d4d4d;stroke:none;stroke-width:0.03;stroke-dasharray:none;paint-order:stroke fill markers"
-         x="3.9978943"
-         y="3.7921786"
-         id="text6"><tspan
-           sodipodi:role="line"
-           id="tspan6"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.03"
-           x="3.9978943"
-           y="3.7921786">z</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.03;stroke-dasharray:none;paint-order:stroke fill markers"
-         x="2.6130595"
-         y="7.9905319"
-         id="text7"><tspan
-           sodipodi:role="line"
-           id="tspan7"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.03"
-           x="2.6130595"
-           y="7.9905319">x</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;text-orientation:upright;text-anchor:middle;fill:#4d4d4d;stroke:none;stroke-width:0.03;stroke-dasharray:none;paint-order:stroke fill markers"
-         x="6.7119727"
-         y="6.561554"
-         id="text8"><tspan
-           sodipodi:role="line"
-           id="tspan8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.03"
-           x="6.7119727"
-           y="6.561554">y</tspan></text>
-    </g>
     <rect
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect22"
@@ -222,11 +149,6 @@
        style="display:inline"
        transform="translate(0,-0.50047941)"
        inkscape:label="2D Ohio">
-      <path
-         style="display:none;fill:none;stroke:#0000ff;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized);paint-order:stroke fill markers"
-         d="M 4.0000013,6.5000021 4.3868973,4.9853732"
-         id="path9"
-         sodipodi:nodetypes="cc" />
       <circle
          style="fill:#1a1a1a;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="path13"
@@ -256,22 +178,11 @@
            x="5.1504335"
            y="4.8487158">Ohio</tspan></text>
     </g>
-    <path
-       style="display:none;fill:none;stroke:#0000ff;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker31);paint-order:stroke fill markers"
-       d="M 4.4368973,4.2011695 V 4.0961686"
-       id="path30"
-       sodipodi:nodetypes="cc"
-       inkscape:label="2D capital 1" />
     <g
        id="g16"
        transform="translate(0,-0.50047941)"
        style="display:inline"
        inkscape:label="2D Columbus">
-      <path
-         style="display:none;fill:none;stroke:#ff0000;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized);paint-order:stroke fill markers"
-         d="M 4.0000013,6.5000021 4.4,4.6004794"
-         id="path14"
-         sodipodi:nodetypes="cc" />
       <circle
          style="fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
          id="circle14"
@@ -362,184 +273,6 @@
          cx="5.254734"
          cy="5.3401523"
          r="0.050000001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;display:none;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.0994272"
-         y="5.1724758"
-         id="text21"><tspan
-           sodipodi:role="line"
-           id="tspan21"
-           style="text-align:start;text-anchor:start;stroke-width:0.03"
-           x="0"
-           y="0">(4,4)</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.25px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;display:none;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.6817846"
-         y="5.1724758"
-         id="text22"><tspan
-           sodipodi:role="line"
-           id="tspan22"
-           style="stroke-width:0.03"
-           x="0"
-           y="0">Des Moines</tspan></text>
-    </g>
-    <g
-       id="g24"
-       style="display:none"
-       transform="translate(0.06409027,-1.1824759)"
-       inkscape:label="3D Ohio">
-      <path
-         style="display:none;fill:none;stroke:#ff0000;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized);paint-order:stroke fill markers"
-         d="M 3.9359097,7.1819965 5.3637662,6.3751455"
-         id="path23"
-         sodipodi:nodetypes="cc" />
-      <circle
-         style="fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="circle23"
-         cx="5.5630989"
-         cy="6.2584467"
-         r="0.050000001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.6771402"
-         y="6.3055859"
-         id="text23"><tspan
-           sodipodi:role="line"
-           id="tspan23"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.03"
-           x="5.6771402"
-           y="6.3055859">(1,5,5)</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="6.2808223"
-         y="6.3055859"
-         id="text24"><tspan
-           sodipodi:role="line"
-           id="tspan24"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.03"
-           x="6.2808223"
-           y="6.3055859">Ohio</tspan></text>
-    </g>
-    <g
-       id="g26"
-       transform="translate(1.476038,0.37673406)"
-       style="display:none"
-       inkscape:label="3D Columbus">
-      <path
-         style="display:none;fill:none;stroke:#ff0000;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized);paint-order:stroke fill markers"
-         d="M 2.523962,5.6227865 4.2290864,4.5193501"
-         id="path24"
-         sodipodi:nodetypes="cc" />
-      <circle
-         style="fill:#1a1a1a;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="circle24"
-         cx="4.4368973"
-         cy="4.4035664"
-         r="0.050000001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="3.797236"
-         y="4.2899456"
-         id="text25"><tspan
-           sodipodi:role="line"
-           id="tspan25"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.03"
-           x="3.797236"
-           y="4.2899456">(1,6,6)</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="4.3955011"
-         y="4.2899456"
-         id="text26"><tspan
-           sodipodi:role="line"
-           id="tspan26"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.03"
-           x="4.3955011"
-           y="4.2899456">Columbus</tspan></text>
-    </g>
-    <g
-       id="g28"
-       style="display:none"
-       transform="translate(-0.34196486,0.55337855)"
-       inkscape:label="3D Iowa">
-      <path
-         style="display:none;fill:none;stroke:#ff0000;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized);paint-order:stroke fill markers"
-         d="M 4.3419649,5.4461421 5.0474431,5.5825264"
-         id="path26"
-         sodipodi:nodetypes="cc" />
-      <circle
-         style="fill:#1a1a1a;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="circle26"
-         cx="5.2675014"
-         cy="5.6217241"
-         r="0.050000001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.3692317"
-         y="5.7589178"
-         id="text27"><tspan
-           sodipodi:role="line"
-           id="tspan27"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.03"
-           x="5.3692317"
-           y="5.7589178">(4,3,1)</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.9673076"
-         y="5.7589178"
-         id="text28"><tspan
-           sodipodi:role="line"
-           id="tspan28"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.03"
-           x="5.9673076"
-           y="5.7589178">Iowa</tspan></text>
-    </g>
-    <g
-       id="g30"
-       transform="translate(-0.06199472,0.58498109)"
-       style="display:none"
-       inkscape:label="3D Des Moines">
-      <path
-         style="fill:none;stroke:#ff0000;stroke-width:0.03;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowTriangleStylized);paint-order:stroke fill markers"
-         d="M 4.0619947,5.4145395 5.0197285,5.3608258"
-         id="path28"
-         sodipodi:nodetypes="cc" />
-      <circle
-         style="fill:#ff0000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="circle28"
-         cx="5.254734"
-         cy="5.3401523"
-         r="0.050000001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.0994272"
-         y="5.1724758"
-         id="text29"><tspan
-           sodipodi:role="line"
-           id="tspan29"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;stroke-width:0.03"
-           x="5.0994272"
-           y="5.1724758">(4,4,2)</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;line-height:1.2;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;text-orientation:upright;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.03;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         x="5.6975994"
-         y="5.1724758"
-         id="text30"><tspan
-           sodipodi:role="line"
-           id="tspan30"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.194444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.03"
-           x="5.6975994"
-           y="5.1724758">Des Moines</tspan></text>
     </g>
   </g>
 </svg>
