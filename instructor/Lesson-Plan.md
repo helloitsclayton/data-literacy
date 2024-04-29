@@ -159,15 +159,7 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
    - ["Studying Up Machine Learning Data"](https://doi.org/10.48550/arXiv.2109.08131) by Miceli, Posada, & Yang
 - Brief lecture: [AI and data](https://github.com/helloitsclayton/data-syllabus/tree/main/instructor/slides/c14-ai)
 - **Activity:** [Speaking with statistics](#c14-activity-speaking-with-statistics)
-- Brief discussion: Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*
-   - Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
-   - Visualization #2: http://www.lifeanddeathofdata.org/appendix/calendar_radial.html
-   - Visualization #3: http://www.lifeanddeathofdata.org/appendix/polarmap_time.html
-   - *For context*:
-      - Example accessions data tag: https://lifeanddeathofdata.org/media/figure6_l.jpg
-      - Data tag diagram: https://lifeanddeathofdata.org/media/figure6_s.jpg
-      - Arnold Arboretum grounds map: https://arboretum.harvard.edu/wp-content/uploads/2020/07/ArnArb-Master-Grid-Map.pdf
-   - Loukissas was specifically interested in foregrounding the fact that visualization represent a *dataset* and not the real world that the dataset is intended to represent.
+- **Time permitting**, brief discussion: [Visualizations from Yanni Alexander Loukissas' *The Life and Death of Data*](#c14-discussion-the-life-and-death-of-data)
 
 ## Week 8
 
@@ -470,6 +462,25 @@ Have groups download the above BJS report, and ask them to respond to the follow
 > The stats cited by Fox News are in Table 16. Significantly, Table 16 only contains statistics for state prisons and drug-related crime rates are much higher in federal prisons (see Table 19).
 >
 > The BJS report only includes information on "most serious offense" and not original arrest/charge(s), so its impossible to know how many incarcerations stem from drug-related arrests or convictions.
+
+[Return to Class 14](#class-14---speaking-for-data)
+
+## C14 Discussion: The Life and Death of Data
+
+This brief discussion is centered around a project by Yanni Loukissas Alexander, author of *All Data are Local* and podcast guest from Class 4's reading. The visualizations he constructed as part of his project *The Life and Death of Data* (which he discusses in Chapter 2 of his book) are an interesting case study because of the approach he took. He created visualizations based on accession data from the Arnold Arboretum at Harvard University but, instead of creating data visualizations that seek to represent the Arboretum, his visualizations are intended to represent that *dataset*.
+
+It's a subtle distinction but an important one. Provide students with the following links, and see if you can get them there. By foregrounding the fact that these are visualizations provide of the *dataset*, Loukissas is reminding us that visualizations often carry with them the implicit assumption that they are a suitable stand-in for the dataset, and that the dataset is a suitable stand-in for whatever it's meant to represent.
+
+- Visualization #1: http://www.lifeanddeathofdata.org/appendix/calendar_linear.html
+- Visualization #2: http://www.lifeanddeathofdata.org/appendix/calendar_radial.html
+- Visualization #3: http://www.lifeanddeathofdata.org/appendix/polarmap_time.html
+- *For context*:
+   - Example accessions data tag: https://lifeanddeathofdata.org/media/figure6_l.jpg
+   - Data tag diagram: https://lifeanddeathofdata.org/media/figure6_s.jpg
+   - Arnold Arboretum grounds map: https://arboretum.harvard.edu/wp-content/uploads/2020/07/ArnArb-Master-Grid-Map.pdf
+
+> [!WARNING]
+> Every time I come back to use these examples I'm worried the site will be completely broken! It's going to happen at some point, but for as long as it's still up I hope to continue taking advantage of this example.
 
 [Return to Class 14](#class-14---speaking-for-data)
 
