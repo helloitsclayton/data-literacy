@@ -1,0 +1,429 @@
+County,Date,Time,Model_Year,Body_Type,Age,Sex,Person_Type,Injury_Severity,Rural_Urban,Trafficway_Type
+Montgomery,1/1/2022,2:48,,,53,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Montgomery,1/1/2022,2:48,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Principal Arterial - Other
+Montgomery,1/12/2022,23:55,,,50,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Montgomery,1/12/2022,23:55,2007,Light Pickup,48,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Ashtabula,1/13/2022,19:23,,,58,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Ashtabula,1/13/2022,19:23,2020,Small/Midsize Utility,62,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Clermont,1/25/2022,21:58,,,28,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Clermont,1/25/2022,21:58,2016,Full/Large Utility,35,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,1/22/2022,6:25,,,56,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Franklin,1/22/2022,6:25,2020,Truck-Tractor/Semi,58,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Interstate
+Franklin,1/22/2022,6:25,2018,4-Door Sedan,54,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,2/2/2022,6:28,,,60,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,2/2/2022,6:28,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,2/2/2022,6:28,2005,Full/Large Utility,32,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,2/2/2022,6:28,2005,Full/Large Utility,34,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Portage,1/29/2022,19:29,,,41,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Portage,1/29/2022,19:29,2018,Light Pickup,31,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,2/2/2022,18:49,,,31,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Cuyahoga,2/2/2022,18:49,2019,Small/Midsize Utility,54,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Stark,2/14/2022,20:07,,,66,Male,Person on a Personal Conveyance,Fatal Injury (K),Urban,Major Collector
+Stark,2/14/2022,20:07,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Clark,2/5/2022,21:54,,,62,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Clark,2/5/2022,21:54,2007,Small/Midsize Utility,39,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Franklin,2/18/2022,0:44,,,41,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,2/18/2022,0:44,Unknown,Unknown Body Type,Not Reported,Reported as Unknown,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Mercer,2/12/2022,13:47,,,69,Female,Pedestrian,Fatal Injury (K),Rural,Minor Arterial
+Mercer,2/12/2022,13:47,2020,Medium/Heavy Pickup,22,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Franklin,2/23/2022,13:39,,,65,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Franklin,2/23/2022,13:39,2019,"Straight Truck/Cab-Chassis, Light",32,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Lorain,2/18/2022,19:25,,,46,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Lorain,2/18/2022,19:25,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Lucas,2/28/2022,0:04,,,36,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Lucas,2/28/2022,0:04,2005,4-Door Sedan,35,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Principal Arterial - Other
+Cuyahoga,2/20/2022,20:57,,,49,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Cuyahoga,2/20/2022,20:57,2009,4-Door Sedan,38,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Cuyahoga,2/20/2022,20:57,2009,4-Door Sedan,27,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Summit,2/27/2022,3:09,,,30,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Summit,2/27/2022,3:09,2010,Truck-Tractor/Semi,50,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,3/17/2022,1:49,,,35,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,3/17/2022,1:49,2016,4/5-Door Hatchback,56,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Columbiana,3/11/2022,0:07,,,46,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Columbiana,3/11/2022,0:07,2005,Medium/Heavy Pickup,28,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Summit,3/22/2022,21:00,,,44,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Summit,3/22/2022,21:00,2016,4-Door Sedan,19,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Wayne,3/17/2022,5:50,,,74,Female,Pedestrian,Fatal Injury (K),Rural,Major Collector
+Wayne,3/17/2022,5:50,2018,4-Door Sedan,57,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Wayne,3/17/2022,5:50,2018,4-Door Sedan,54,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Portage,3/18/2022,2:37,,,50,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Portage,3/18/2022,2:37,,,29,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Portage,3/18/2022,2:37,2016,Truck-Tractor/Semi,43,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Mahoning,1/20/2022,18:54,,,57,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Mahoning,1/20/2022,18:54,2016,4-Door Sedan,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hancock,3/31/2022,2:32,,,42,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Hancock,3/31/2022,2:32,2020,2-Door Sedan,20,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Hancock,3/31/2022,2:32,2020,2-Door Sedan,21,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Hancock,3/31/2022,2:32,2020,2-Door Sedan,19,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Summit,3/25/2022,20:17,,,55,Male,Bicyclist,Fatal Injury (K),Urban,Principal Arterial - Other
+Summit,3/25/2022,20:17,2017,4-Door Sedan,60,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Clark,4/5/2022,14:31,,,42,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Clark,4/5/2022,14:31,2015,Large Van,68,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Perry,4/10/2022,20:49,,,33,Female,Pedestrian,Suspected Minor Injury (B),Rural,Minor Arterial
+Perry,4/10/2022,20:49,,,29,Male,Pedestrian,Fatal Injury (K),Rural,Minor Arterial
+Perry,4/10/2022,20:49,2016,Small/Midsize Utility,55,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Wayne,4/11/2022,15:59,,,37,Male,Pedestrian,Suspected Minor Injury (B),Rural,Interstate
+Wayne,4/11/2022,15:59,,,35,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Wayne,4/11/2022,15:59,2015,Truck-Tractor/Semi,41,Male,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Rural,Interstate
+Butler,1/8/2022,18:39,,,27,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Butler,1/8/2022,18:39,2019,Large Van,45,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Butler,3/5/2022,22:52,,,39,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Butler,3/5/2022,22:52,2004,Light Pickup,20,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Butler,3/5/2022,22:52,2013,4-Door Sedan,22,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Butler,3/5/2022,22:52,2013,4-Door Sedan,30,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Hamilton,2/6/2022,15:24,,,3,Female,Person on a Personal Conveyance,Fatal Injury (K),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Hamilton,2/6/2022,15:24,,,4,Female,Person on a Personal Conveyance,Suspected Minor Injury (B),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Hamilton,2/6/2022,15:24,2004,Small/Midsize Utility,19,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Franklin,4/22/2022,1:02,,,35,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,4/22/2022,1:02,2005,4-Door Sedan,43,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Ashland,4/19/2022,23:06,,,63,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Ashland,4/19/2022,23:06,Unknown,Unknown Body Type,Not Reported,Reported as Unknown,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Morgan,4/22/2022,5:15,,,31,Female,Pedestrian,Fatal Injury (K),Rural,Minor Arterial
+Morgan,4/22/2022,5:15,2002,Full/Large Utility,36,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Union,5/2/2022,17:59,,,41,Female,Pedestrian,Fatal Injury (K),Rural,Major Collector
+Union,5/2/2022,17:59,2017,Light Pickup,75,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Franklin,5/6/2022,10:13,,,66,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,5/6/2022,10:13,2012,4-Door Sedan,70,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,4/10/2022,2:25,,,36,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Cuyahoga,4/10/2022,2:25,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,4/10/2022,2:25,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,4/9/2022,22:40,,,68,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,4/9/2022,22:40,2017,Full/Large Utility,52,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Cuyahoga,4/9/2022,22:40,2017,Full/Large Utility,28,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,4/20/2022,2:41,,,30,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,4/20/2022,2:41,Unknown,Unknown Body Type,Not Reported,Female,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Principal Arterial - Other
+Franklin,4/20/2022,2:41,Unknown,Unknown Body Type,Not Reported,Male,Passenger of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Principal Arterial - Other
+Clark,5/1/2022,21:09,,,61,Female,Pedestrian,Fatal Injury (K),Urban,Interstate
+Clark,5/1/2022,21:09,,,18,Male,Pedestrian,Suspected Minor Injury (B),Urban,Interstate
+Clark,5/1/2022,21:09,2012,Full/Large Utility,35,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Clark,5/1/2022,21:09,2012,Full/Large Utility,1,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,5/4/2022,7:06,,,54,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,5/4/2022,7:06,2017,Small/Midsize Utility,52,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,4/24/2022,20:49,,,9,Male,Pedestrian,Fatal Injury (K),Urban,Local
+Cuyahoga,4/24/2022,20:49,2015,Full/Large Utility,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Licking,5/8/2022,5:18,,,57,Male,Pedestrian,Fatal Injury (K),Rural,Minor Arterial
+Licking,5/8/2022,5:18,2003,2-Door Sedan,45,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Clark,5/10/2022,20:45,,,11,Female,Pedestrian,Fatal Injury (K),Rural,Local
+Clark,5/10/2022,20:45,,,14,Female,Pedestrian,Suspected Serious Injury (A),Rural,Local
+Clark,5/10/2022,20:45,2007,Small/Midsize Utility,40,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Local
+Belmont,5/8/2022,20:55,,,4,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,31,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,29,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,13,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,2,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,5,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,7,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Belmont,5/8/2022,20:55,2010,Station Wagon,10,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Franklin,5/23/2022,12:43,,,21,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Franklin,5/23/2022,12:43,2015,Light Pickup,29,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,5/9/2022,23:25,,,32,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Franklin,5/9/2022,23:25,2005,4-Door Sedan,50,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Hamilton,5/15/2022,17:33,,,76,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Hamilton,5/15/2022,17:33,2004,Light Pickup,17,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Muskingum,5/14/2022,15:01,,,38,Male,Pedestrian,Fatal Injury (K),Rural,Major Collector
+Muskingum,5/14/2022,15:01,2005,Light Pickup,24,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Richland,5/14/2022,21:35,,,72,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Richland,5/14/2022,21:35,2016,Station Wagon,40,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Hamilton,5/30/2022,0:15,,,63,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Hamilton,5/30/2022,0:15,2010,Station Wagon,24,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Cuyahoga,4/23/2022,18:19,,,5,Female,Pedestrian,Fatal Injury (K),Urban,Local
+Cuyahoga,4/23/2022,18:19,2008,4-Door Sedan,16,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Cuyahoga,4/23/2022,18:19,2008,4-Door Sedan,17,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Butler,5/29/2022,15:00,,,46,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Butler,5/29/2022,15:00,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Muskingum,6/3/2022,14:18,,,58,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Muskingum,6/3/2022,14:18,2019,Truck-Tractor/Semi,51,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Allen,6/6/2022,22:12,,,85,Male,Pedestrian,Fatal Injury (K),Urban,Local
+Warren,5/28/2022,1:18,,,27,Female,Pedestrian,Fatal Injury (K),Urban,Interstate
+Warren,5/28/2022,1:18,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Interstate
+Licking,6/21/2022,11:57,,,75,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Licking,6/21/2022,11:57,2001,Light Pickup,37,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Cuyahoga,5/16/2022,13:36,,,35,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,5/16/2022,13:36,2006,4-Door Sedan,62,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Interstate
+Franklin,6/28/2022,16:28,,,9,Female,Pedestrian,Fatal Injury (K),Urban,Local
+Franklin,6/28/2022,16:28,2009,4/5-Door Hatchback,51,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Franklin,6/28/2022,16:28,2009,4/5-Door Hatchback,60,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Warren,6/20/2022,18:32,,,70,Male,Bicyclist,Fatal Injury (K),Rural,Local
+Warren,6/20/2022,18:32,2021,Small/Midsize Utility,46,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Local
+Scioto,5/30/2022,12:26,,,50,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Scioto,5/30/2022,12:26,2012,Light Pickup,44,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Mahoning,6/15/2022,18:25,,,72,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Mahoning,6/15/2022,18:25,2010,4-Door Sedan,34,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Stark,7/2/2022,14:01,,,3,Male,Pedestrian,Fatal Injury (K),Urban,Local
+Stark,7/2/2022,14:01,2011,Small/Midsize Utility,23,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Stark,7/2/2022,14:01,2011,Small/Midsize Utility,24,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Stark,7/2/2022,14:01,2011,Small/Midsize Utility,1,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Warren,6/25/2022,5:29,,,74,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Warren,6/25/2022,5:29,2014,2-Door Sedan,24,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Principal Arterial - Other
+Franklin,7/7/2022,22:23,,,39,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,7/7/2022,22:23,2015,Light Pickup,33,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,7/7/2022,22:23,2015,Light Pickup,29,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,7/7/2022,22:23,2015,Light Pickup,8,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,7/7/2022,22:23,2015,Light Pickup,2,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,7/9/2022,3:51,,,26,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Franklin,7/9/2022,3:51,2014,4-Door Sedan,21,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,7/9/2022,3:51,2014,4-Door Sedan,48,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,7/9/2022,3:51,2014,4-Door Sedan,48,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Greene,7/1/2022,21:46,,,31,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Greene,7/1/2022,21:46,2018,Minivan,74,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Greene,7/1/2022,21:46,2018,Minivan,73,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Lucas,5/11/2022,15:28,,,78,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Lucas,5/11/2022,15:28,2017,Station Wagon,50,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Allen,7/18/2022,20:19,,,1,Female,Pedestrian,Fatal Injury (K),Urban,Local
+Allen,7/18/2022,20:19,2002,Light Pickup,35,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Cuyahoga,7/5/2022,22:41,,,32,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Cuyahoga,7/5/2022,22:41,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Clermont,7/15/2022,22:03,,,51,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Clermont,7/15/2022,22:03,2005,Small/Midsize Utility,44,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Summit,7/20/2022,5:34,,,29,Female,Pedestrian,Fatal Injury (K),Urban,Interstate
+Summit,7/20/2022,5:34,2012,4-Door Sedan,64,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Cuyahoga,6/5/2022,22:28,,,67,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,6/5/2022,22:28,2016,Small/Midsize Utility,23,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Montgomery,6/9/2022,21:29,,,67,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Montgomery,6/9/2022,21:29,2013,Small/Midsize Utility,50,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Cuyahoga,7/5/2022,0:27,,,40,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Cuyahoga,7/5/2022,0:27,2003,Light Pickup,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Cuyahoga,7/5/2022,0:27,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Hamilton,6/25/2022,1:09,,,45,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Hamilton,6/25/2022,1:09,2015,Station Wagon,37,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,5/27/2022,22:15,,,69,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Hamilton,5/27/2022,22:15,,,31,Male,Pedestrian,Suspected Serious Injury (A),Urban,Principal Arterial - Other
+Hamilton,5/27/2022,22:15,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Paulding,7/23/2022,3:24,,,19,Male,Pedestrian,Fatal Injury (K),Rural,Major Collector
+Paulding,7/23/2022,3:24,2017,Small/Midsize Utility,29,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Montgomery,7/23/2022,0:05,,,30,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Montgomery,7/23/2022,0:05,2019,Truck-Tractor/Semi,55,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Montgomery,7/23/2022,0:05,2019,Truck-Tractor/Semi,59,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Greene,7/11/2022,15:30,,,62,Male,Person on a Personal Conveyance,Fatal Injury (K),Urban,Principal Arterial - Other
+Greene,7/11/2022,15:30,2011,Large Van,54,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Greene,7/11/2022,15:30,2011,Large Van,26,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,8/1/2022,5:01,,,50,Female,Pedestrian,Fatal Injury (K),Rural,Interstate
+Franklin,8/1/2022,5:01,2015,4-Door Sedan,30,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Franklin,8/3/2022,22:45,,,18,Female,Pedestrian,Fatal Injury (K),Urban,Interstate
+Franklin,8/3/2022,22:45,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Lucas,7/29/2022,21:28,,,32,Female,Pedestrian,Fatal Injury (K),Urban,Interstate
+Lucas,7/29/2022,21:28,1998,Truck-Tractor/Semi,59,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Montgomery,8/5/2022,23:22,,,52,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Montgomery,8/5/2022,23:22,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Principal Arterial - Other
+Franklin,8/20/2022,1:48,,,37,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,8/20/2022,1:48,2012,Station Wagon,44,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,7/21/2022,22:08,,,3,Female,Bicyclist,Fatal Injury (K),Urban,Local
+Cuyahoga,7/21/2022,22:08,,,27,Male,Bicyclist,Suspected Minor Injury (B),Urban,Local
+Cuyahoga,7/21/2022,22:08,,,10,Female,Bicyclist,Suspected Minor Injury (B),Urban,Local
+Cuyahoga,7/21/2022,22:08,1999,Full/Large Utility,45,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Hamilton,7/17/2022,22:01,,,36,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Hamilton,7/17/2022,22:01,2010,4-Door Sedan,18,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,7/17/2022,22:01,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Butler,8/8/2022,21:02,,,62,Male,Bicyclist,Fatal Injury (K),Urban,Local
+Butler,8/8/2022,21:02,2006,Station Wagon,24,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Cuyahoga,8/15/2022,20:26,,,69,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Cuyahoga,8/15/2022,20:26,,,66,Male,Pedestrian,Possible Injury (C),Urban,Principal Arterial - Other
+Cuyahoga,8/15/2022,20:26,2002,4-Door Sedan,63,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Principal Arterial - Other
+Cuyahoga,8/15/2022,20:26,2002,4-Door Sedan,63,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Montgomery,8/24/2022,1:22,,,28,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Montgomery,8/24/2022,1:22,2017,4-Door Sedan,24,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Butler,8/21/2022,4:30,,,38,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other Freeways and Expressways
+Butler,8/21/2022,4:30,2020,2-Door Sedan,48,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other Freeways and Expressways
+Cuyahoga,8/24/2022,22:40,,,68,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Cuyahoga,8/24/2022,22:40,2020,Small/Midsize Utility,39,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Delaware,8/23/2022,22:15,,,49,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Delaware,8/23/2022,22:15,2001,4-Door Sedan,32,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,8/29/2022,20:36,,,41,Female,Person on a Personal Conveyance,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,8/29/2022,20:36,2007,4-Door Sedan,28,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Ottawa,8/19/2022,7:45,,,79,Male,Bicyclist,Fatal Injury (K),Urban,Minor Arterial
+Ottawa,8/19/2022,7:45,2019,Minivan,29,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Mahoning,8/24/2022,6:31,,,57,Male,Pedestrian,Fatal Injury (K),Rural,Major Collector
+Mahoning,8/24/2022,6:31,2019,Small/Midsize Utility,70,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Mahoning,8/15/2022,3:47,,,29,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Mahoning,8/15/2022,3:47,2020,"Straight Truck/Cab-Chassis, Light",24,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Muskingum,8/27/2022,13:25,,,29,Female,Pedestrian,Fatal Injury (K),Urban,Local
+Muskingum,8/27/2022,13:25,2001,Light Pickup,19,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Muskingum,8/27/2022,13:25,2001,Light Pickup,44,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Cuyahoga,8/22/2022,11:46,,,32,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,8/22/2022,11:46,,,60,Male,Pedestrian,Possible Injury (C),Urban,Interstate
+Cuyahoga,8/22/2022,11:46,2016,Truck-Tractor/Semi,60,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Ross,8/29/2022,18:20,,,27,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Ross,8/29/2022,18:20,2005,4-Door Sedan,35,Male,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Major Collector
+Portage,8/22/2022,21:32,,,22,Male,Person on a Personal Conveyance,Fatal Injury (K),Urban,Minor Arterial
+Portage,8/22/2022,21:32,2008,4-Door Sedan,19,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Portage,8/22/2022,21:32,2008,4-Door Sedan,22,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Cuyahoga,8/25/2022,21:30,,,61,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,8/25/2022,21:30,2020,Small/Midsize Utility,42,Male,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Interstate
+Franklin,9/9/2022,6:18,,,54,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Franklin,9/9/2022,6:18,2011,4-Door Sedan,45,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,9/11/2022,22:52,,,53,Female,Pedestrian,Fatal Injury (K),Urban,Minor Collector
+Franklin,9/11/2022,22:52,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Collector
+Hamilton,8/24/2022,20:58,,,55,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Hamilton,8/24/2022,20:58,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,9/5/2022,23:02,,,63,Male,Bicyclist,Fatal Injury (K),Urban,Minor Arterial
+Franklin,9/5/2022,23:02,2015,Small/Midsize Utility,22,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Franklin,9/11/2022,20:38,,,37,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,9/11/2022,20:38,Not Reported,Not Reported,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Principal Arterial - Other
+Madison,9/9/2022,9:11,,,43,Male,Pedestrian,Fatal Injury (K),Rural,Interstate
+Madison,9/9/2022,9:11,2017,Truck-Tractor/Semi,31,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Interstate
+Marion,9/6/2022,4:58,,,56,Female,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Marion,9/6/2022,4:58,2003,Small/Midsize Utility,39,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Major Collector
+Darke,9/8/2022,21:33,,,23,Female,Pedestrian,Fatal Injury (K),Rural,Principal Arterial - Other
+Darke,9/8/2022,21:33,2005,4-Door Sedan,20,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Principal Arterial - Other
+Darke,9/8/2022,21:33,2005,4-Door Sedan,14,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Principal Arterial - Other
+Medina,9/9/2022,20:12,,,61,Male,Pedestrian,Fatal Injury (K),Rural,Major Collector
+Medina,9/9/2022,20:12,2011,4-Door Sedan,24,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Medina,9/9/2022,20:12,2011,4-Door Sedan,29,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Cuyahoga,9/10/2022,2:55,,,35,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,9/10/2022,2:55,2004,2-Door Sedan,23,Male,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Interstate
+Auglaize,9/11/2022,0:24,,,38,Female,Pedestrian,Fatal Injury (K),Urban,Local
+Auglaize,9/11/2022,0:24,2017,Full/Large Utility,17,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Montgomery,8/15/2022,7:00,,,58,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Montgomery,8/15/2022,7:00,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Clinton,9/15/2022,5:49,,,33,Female,Pedestrian,Fatal Injury (K),Rural,Minor Arterial
+Clinton,9/15/2022,5:49,2015,Station Wagon,65,Female,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Rural,Minor Arterial
+Clinton,9/15/2022,5:49,2023,Small/Midsize Utility,59,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Franklin,9/25/2022,0:14,,,44,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Franklin,9/25/2022,0:14,2018,Small/Midsize Utility,51,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Franklin,9/25/2022,0:14,2018,Small/Midsize Utility,45,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Hamilton,7/17/2022,3:25,,,26,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Hamilton,7/17/2022,3:25,2009,4-Door Sedan,49,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,9/10/2022,21:10,,,54,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,9/10/2022,21:10,2010,4-Door Sedan,35,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Scioto,10/8/2022,19:26,,,49,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Scioto,10/8/2022,19:26,2007,Light Pickup,63,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Summit,10/8/2022,23:57,,,46,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Summit,10/8/2022,23:57,2021,Small/Midsize Utility,39,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/11/2022,17:44,,,51,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,10/11/2022,17:44,2013,Minivan,53,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/11/2022,17:44,2011,4-Door Sedan,22,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/11/2022,17:44,2011,4-Door Sedan,Not Reported,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Hamilton,10/9/2022,14:00,,,8,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Hamilton,10/9/2022,14:00,2011,Small/Midsize Utility,55,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Clermont,10/7/2022,6:29,,,43,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Clermont,10/7/2022,6:29,2002,"Straight Truck/Cab-Chassis, Light",36,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Clermont,10/7/2022,6:29,2022,4/5-Door Hatchback,68,Female,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Interstate
+Clermont,10/7/2022,6:29,2022,4/5-Door Hatchback,27,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Clermont,10/7/2022,6:29,2019,Truck-Tractor/Semi,68,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Washington,10/8/2022,21:25,,,71,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Washington,10/8/2022,21:25,2007,4-Door Sedan,53,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Cuyahoga,9/19/2022,0:59,,,28,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,9/19/2022,0:59,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Montgomery,10/3/2022,11:08,,,52,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Montgomery,10/3/2022,11:08,,,47,Male,Pedestrian,Suspected Serious Injury (A),Urban,Interstate
+Montgomery,10/3/2022,11:08,,,43,Male,Pedestrian,Suspected Minor Injury (B),Urban,Interstate
+Montgomery,10/3/2022,11:08,,,43,Male,Pedestrian,Possible Injury (C),Urban,Interstate
+Montgomery,10/3/2022,11:08,2008,Large Van,37,Male,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Interstate
+Montgomery,10/3/2022,11:08,2013,Step Van,37,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Interstate
+Montgomery,10/3/2022,11:08,2011,4-Door Sedan,64,Female,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Interstate
+Montgomery,10/3/2022,11:08,2018,Light Pickup,42,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Interstate
+Franklin,9/10/2022,22:27,,,44,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,9/10/2022,22:27,2014,4-Door Sedan,53,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/6/2022,23:29,,,62,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,10/6/2022,23:29,2015,2-Door Sedan,27,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/6/2022,23:29,2015,2-Door Sedan,26,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Wayne,10/16/2022,5:56,,,29,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Wayne,10/16/2022,5:56,2014,Small/Midsize Utility,63,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Hamilton,8/27/2022,2:11,,,21,Female,Pedestrian,Suspected Minor Injury (B),Urban,Minor Arterial
+Hamilton,8/27/2022,2:11,,,20,Female,Pedestrian,Suspected Minor Injury (B),Urban,Minor Arterial
+Hamilton,8/27/2022,2:11,,,25,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Hamilton,8/27/2022,2:11,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,8/27/2022,2:11,2016,4-Door Sedan,23,Male,Occupant of a Motor Vehicle Not In- Transport,Possible Injury (C),Urban,Minor Arterial
+Hamilton,9/28/2022,15:46,,,18,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Hamilton,9/28/2022,15:46,,,18,Female,Pedestrian,Suspected Serious Injury (A),Urban,Minor Arterial
+Hamilton,9/28/2022,15:46,2014,Small/Midsize Utility,17,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,9/28/2022,15:46,2014,Small/Midsize Utility,14,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,9/28/2022,15:46,2014,Small/Midsize Utility,13,Female,Passenger of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Minor Arterial
+Geauga,11/2/2022,7:06,,,60,Male,Pedestrian,Fatal Injury (K),Rural,Principal Arterial - Other
+Geauga,11/2/2022,7:06,1999,Truck-Tractor/Semi,64,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Principal Arterial - Other
+Hamilton,10/20/2022,5:59,,,49,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Hamilton,10/20/2022,5:59,2016,Light Pickup,82,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Greene,11/7/2022,18:32,,,71,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Greene,11/7/2022,18:32,2010,Light Pickup,80,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/28/2022,23:56,,,39,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,10/28/2022,23:56,2000,Light Pickup,75,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,10/28/2022,23:56,2000,Light Pickup,28,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Summit,11/8/2022,18:09,,,84,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Summit,11/8/2022,18:09,2003,Light Pickup,50,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Summit,11/8/2022,18:09,2005,Minivan,84,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,11/9/2022,19:43,,,35,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Hamilton,11/9/2022,19:43,2010,4-Door Sedan,38,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,10/31/2022,18:54,,,4,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,10/31/2022,18:54,,,32,Female,Pedestrian,Suspected Serious Injury (A),Urban,Minor Arterial
+Franklin,10/31/2022,18:54,2001,Light Pickup,49,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Franklin,10/8/2022,8:15,,,49,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,10/8/2022,8:15,2001,Small/Midsize Utility,26,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Franklin,11/18/2022,18:51,,,58,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,11/18/2022,18:51,2019,Light Pickup,26,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Scioto,11/23/2022,18:18,,,56,Male,Pedestrian,Fatal Injury (K),Rural,Principal Arterial - Other
+Scioto,11/23/2022,18:18,2001,Light Pickup,67,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Principal Arterial - Other
+Franklin,12/1/2022,16:15,,,29,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,12/1/2022,16:15,2008,Small/Midsize Utility,25,Female,Driver of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Minor Arterial
+Hamilton,12/5/2022,0:22,,,27,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Hamilton,12/5/2022,0:22,2016,4-Door Sedan,39,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Hamilton,12/5/2022,0:22,2016,4-Door Sedan,38,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Stark,11/30/2022,17:44,,,78,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Stark,11/30/2022,17:44,2010,4-Door Sedan,43,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Holmes,11/11/2022,8:30,,,14,Male,Bicyclist,Fatal Injury (K),Rural,Minor Arterial
+Holmes,11/11/2022,8:30,1999,4-Door Sedan,19,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Holmes,11/11/2022,8:30,2003,Light Pickup,43,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Minor Arterial
+Trumbull,11/17/2022,17:21,,,64,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Trumbull,11/17/2022,17:21,2012,Small/Midsize Utility,47,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Trumbull,11/17/2022,17:21,2012,Small/Midsize Utility,16,Not Reported,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Trumbull,11/17/2022,17:21,2012,Small/Midsize Utility,20,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Franklin,11/27/2022,17:59,,,59,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,11/27/2022,17:59,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Montgomery,11/27/2022,22:22,,,42,Male,Pedestrian,Fatal Injury (K),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Montgomery,11/27/2022,22:22,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Franklin,12/8/2022,19:38,,,40,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Franklin,12/8/2022,19:38,2013,Small/Midsize Utility,32,Female,Driver of a Motor Vehicle In-Transport,Suspected Serious Injury (A),Urban,Principal Arterial - Other
+Franklin,12/8/2022,19:38,2021,Truck-Tractor/Semi,65,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Summit,12/5/2022,7:39,,,39,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Summit,12/5/2022,7:39,2005,4-Door Sedan,42,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Franklin,12/18/2022,18:26,,,44,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Franklin,12/18/2022,18:26,2012,4-Door Sedan,29,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Franklin,12/18/2022,18:26,2012,4-Door Sedan,29,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Pike,12/7/2022,1:19,,,45,Male,Pedestrian,Fatal Injury (K),Urban,Major Collector
+Pike,12/7/2022,1:19,2020,Light Pickup,57,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Major Collector
+Cuyahoga,11/19/2022,20:24,,,51,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,11/19/2022,20:24,2004,4-Door Sedan,40,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Lorain,12/15/2022,18:36,,,75,Male,Pedestrian,Fatal Injury (K),Rural,Principal Arterial - Other
+Lorain,12/15/2022,18:36,2017,4/5-Door Hatchback,93,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Principal Arterial - Other
+Champaign,12/13/2022,20:02,,,53,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Champaign,12/13/2022,20:02,1999,Light Pickup,39,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Champaign,12/13/2022,20:02,1999,Light Pickup,5,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Summit,12/17/2022,18:45,,,44,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Summit,12/17/2022,18:45,2013,4-Door Sedan,34,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Summit,12/17/2022,18:45,2013,4-Door Sedan,35,Female,Passenger of a Motor Vehicle In-Transport,Suspected Minor Injury (B),Urban,Interstate
+Summit,12/17/2022,18:45,2013,4-Door Sedan,9,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Summit,12/17/2022,18:45,2013,4-Door Sedan,16,Female,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Holmes,12/20/2022,11:16,,,69,Male,Bicyclist,Fatal Injury (K),Rural,Major Collector
+Holmes,12/20/2022,11:16,Unknown,Unknown Medium/Heavy Truck,54,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Rural,Major Collector
+Montgomery,12/28/2022,8:42,,,44,Female,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Montgomery,12/28/2022,8:42,2004,Small/Midsize Utility,23,Male,Driver of a Motor Vehicle In-Transport,Suspected Serious Injury (A),Urban,Principal Arterial - Other
+Cuyahoga,12/21/2022,12:03,,,83,Female,Pedestrian,Fatal Injury (K),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Cuyahoga,12/21/2022,12:03,2013,Small/Midsize Utility,72,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Lake,12/4/2022,17:47,,,68,Male,Pedestrian,Fatal Injury (K),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Lake,12/4/2022,17:47,,,53,Female,Pedestrian,No Apparent Injury (O),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Lake,12/4/2022,17:47,2007,Large Van,58,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Lake,12/4/2022,17:47,2007,Large Van,17,Male,Passenger of a Motor Vehicle In-Transport,No Apparent Injury (O),Trafficway Not in State Inventory,Trafficway Not in State Inventory
+Mahoning,9/7/2022,20:41,,,63,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Mahoning,9/7/2022,20:41,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Montgomery,10/25/2022,19:14,,,30,Male,Pedestrian,Fatal Injury (K),Urban,Local
+Montgomery,10/25/2022,19:14,2007,Light Pickup,20,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Local
+Cuyahoga,12/2/2022,3:02,,,26,Male,Pedestrian,Fatal Injury (K),Urban,Interstate
+Cuyahoga,12/2/2022,3:02,2003,2-Door Sedan,22,Male,Driver of a Motor Vehicle In-Transport,Suspected Serious Injury (A),Urban,Interstate
+Cuyahoga,12/2/2022,3:02,2022,Truck-Tractor/Semi,32,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Interstate
+Franklin,11/9/2022,6:15,,,55,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other Freeways and Expressways
+Franklin,11/9/2022,6:15,Unknown,Unknown Body Type,Not Reported,Reported as Unknown,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other Freeways and Expressways
+Warren,12/27/2022,20:10,,,36,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Warren,12/27/2022,20:10,2003,Light Pickup,48,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Cuyahoga,1/22/2022,6:45,,,51,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Cuyahoga,1/22/2022,6:45,Unknown,Unknown Body Type,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Cuyahoga,12/22/2022,13:59,,,65,Female,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Cuyahoga,12/22/2022,13:59,2015,4-Door Sedan,76,Male,Driver of a Motor Vehicle In-Transport,Possible Injury (C),Urban,Minor Arterial
+Montgomery,12/18/2022,7:08,,,61,Male,Pedestrian,Fatal Injury (K),Urban,Principal Arterial - Other
+Montgomery,12/18/2022,7:08,2020,Small/Midsize Utility,40,Female,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Principal Arterial - Other
+Summit,12/22/2022,17:41,,,69,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Summit,12/22/2022,17:41,2007,4-Door Sedan,Not Reported,Not Reported,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial
+Montgomery,11/22/2022,1:59,,,26,Female,Pedestrian,Fatal Injury (K),Urban,Local
+Montgomery,11/22/2022,1:59,Unknown,Unknown Body Type,Reported as Unknown,Reported as Unknown,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Local
+Clark,11/25/2022,4:43,,,33,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Clark,11/25/2022,4:43,2013,"Straight Truck/Cab-Chassis, Heavy",50,Male,Driver of a Motor Vehicle In-Transport,No Apparent Injury (O),Urban,Minor Arterial
+Hamilton,11/14/2022,0:45,,,15,Male,Pedestrian,Fatal Injury (K),Urban,Minor Arterial
+Hamilton,11/14/2022,0:45,Unknown,Unknown Body Type,Reported as Unknown,Reported as Unknown,Driver of a Motor Vehicle In-Transport,Unknown/Not Reported,Urban,Minor Arterial

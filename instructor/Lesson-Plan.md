@@ -492,12 +492,12 @@ Materials needed:
 - Standard size markers/colored pencils/crayons
 - Scissors
 
-https://databasic.io/en/culture/storybook
+> [!WARNING]
+> I originally tried this with summary tables from the [General Social Survey](https://gss.norc.org/), but I felt that the students ended up just replicating what appeared in those tables. I'm still experimenting with options at this point.
 
-> [!NOTE]
-> For this activity I pulled the following variables from the 2022 [General Social Survey](https://gss.norc.org/): sex, sexnow1, sexornt, age, cappun, gunlaw, abany, abdefect, abnomore, abhlth, abpoor, abrape, absingle
->
-> I gave the students the raw data as well as tables summarizing responses by sex, by sexual orientation, and by age.
+For this activity, I stick pretty closely to the instructions laid out in the Data Culture Project activity [Write a Data Storybook](https://databasic.io/en/culture/storybook). It may be best to re-use a dataset from earlier in the course, but I have been trying to work in something new.
+
+Currently in the `Class-15/` directory is a dataset I put together from the National Highway Traffic Safety Administration's (NHTSA's) Fatality Analysis Reporting System (FARS) data. They have a query tool called [Fatality and Injury Reporting System Tool (FIRST)](https://cdan.dot.gov/query) that I used to find persons involved in fatal crashes in Ohio in 2022 that involved a pedestrian, bicyclist, or other non-motor vehicle occupant.
 
 [Return to Class 15](#class-15)
 
@@ -506,7 +506,7 @@ https://databasic.io/en/culture/storybook
 ## Questionnaire
 
 1. If you haven't yet declared a major, what do you anticipate majoring in?
-2. What is the primary way you think you'll be accessing [Learning Management System]?
+2. What is the primary way you think you'll be accessing `Learning Management System`?
    - [ ] Smartphone
    - [ ] Tablet
    - [ ] Laptop/Desktop
