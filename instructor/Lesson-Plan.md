@@ -5,6 +5,10 @@
 >
 > It was developed as a two-credit course at an institution where 16 credits per semester is the expected course load for students.
 
+- [Activities and Discussions](#activities--discussions)
+- [Assignments](#assignments)
+- [Materials and Misc. Links](#materials-misc-links-etc)
+
 ## Week 1
 
 ### Class 1 - Course introduction
@@ -178,6 +182,8 @@ This ties in with what I feel is a key section in *Data Feminism* Chapter 2, **T
 
 # Activities & discussions
 
+[Return to top](#social-justice-and-data-lesson-plan)
+
 ## C02 Discussion: Feinberg & Data
 
 This is a very basic discussion just to get students thinking about the idea of "data" in broader terms than they're likely used to.
@@ -244,6 +250,8 @@ The activity as described in [the handout](https://databasic.io/en/wtfcsv/wtfcsv
 > The full MappingPoliceViolence.org dataset can be downloaded [here](https://airtable.com/shroOenW19l1m3w0H). Using OpenRefine, I retained only the following columns as variables: age, gender, race, date, city, county, cause_of_death, circumstances. I then filtered to only incidents in Ohio and only up to December of the previous year.
 >
 > Interestingly, the Ohio data includes two identical entries in "circumstances" which keeps WTFcsv from displaying that variable as a word cloud. I initially left this to possibly spark some conversation. I also slightly edited one of those entries in OpenRefine and prepared [a second dataset](https://github.com/helloitsclayton/data-syllabus/blob/main/Students/Class-05/C05-Mapping-Police-Violence-2.csv) for which the word cloud functions as intended.
+>
+> Another possible dataset to use for this activity is the Fatality Analysis Reporting System (FARS) data that I have for an activity in [Class 15](#c15-activity-write-a-data-storybook).
 
 [Return to Class 5](#class-5---asking-questions-with-data)
 
@@ -497,11 +505,15 @@ Materials needed:
 
 For this activity, I stick pretty closely to the instructions laid out in the Data Culture Project activity [Write a Data Storybook](https://databasic.io/en/culture/storybook). It may be best to re-use a dataset from earlier in the course, but I have been trying to work in something new.
 
-Currently in the `Class-15/` directory is a dataset I put together from the National Highway Traffic Safety Administration's (NHTSA's) Fatality Analysis Reporting System (FARS) data. They have a query tool called [Fatality and Injury Reporting System Tool (FIRST)](https://cdan.dot.gov/query) that I used to find persons involved in fatal crashes in Ohio in 2022 that involved a pedestrian, bicyclist, or other non-motor vehicle occupant.
+Currently in the `Class-15/` directory is a dataset I put together from the National Highway Traffic Safety Administration's (NHTSA's) Fatality Analysis Reporting System (FARS) data. They have a query tool called [Fatality and Injury Reporting System Tool (FIRST)](https://cdan.dot.gov/query) that can be used to find persons involved in fatal crashes in Ohio in 2022 that involved a pedestrian, bicyclist, or other non-motor vehicle occupant.
+
+However, I only realized this *after* I had downloaded the full 2022 dataset from the [NHTSA File Downloads](https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/) and then used OpenRefine to create the included data file. So I am not 100% clear on how well FIRST would work for creating an identical dataset.
 
 [Return to Class 15](#class-15)
 
 # Assignments
+
+[Return to top](#social-justice-and-data-lesson-plan)
 
 ## Questionnaire
 
@@ -585,6 +597,8 @@ I'm not expecting anything specific in terms of the format of the presentation. 
 Your submission here should be the paper along with any supporting materials (slides, etc.) from your presentation.
 
 # Materials, misc. links, etc.
+
+[Return to top](#social-justice-and-data-lesson-plan)
 
 I used this tool to randomize students and assign small groups and peer reviewing: https://www.randomlists.com/team-generator
 
