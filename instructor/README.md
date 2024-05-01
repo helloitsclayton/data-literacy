@@ -31,3 +31,6 @@ Slide decks are are formatted as HTML files using an open source Javascript libr
 ## Supplemental materials
 
 The folder [`admin/`](https://github.com/helloitsclayton/data-literacy/tree/main/instructor/admin) contains supplemental materials that don't fit into other categories. This includes course proposal submissions, course catalog descriptions, and a student feedback form.
+
+> [!NOTE]
+> Additional materials from the first implementation of the course in Fall 2023 are viewable via my [institutional Google Drive account](https://drive.google.com/drive/folders/1571IMUvZm2OcNlL4zGcIr7AxEt2oNb3f?usp=sharing).
