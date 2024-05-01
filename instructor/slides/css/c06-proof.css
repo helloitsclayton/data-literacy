@@ -22,9 +22,21 @@
 
 #playfairDiv {
 	display: grid;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: repeat(2, 6fr 1fr);
 	grid-template-columns: 1fr 1fr;
 	max-height: 70vh;
+	align-items: center;
+	justify-items: center;
+}
+
+#playfairDiv img {
+	margin: 0px;
+}
+
+#playfairDiv p {
+	font-size: large;
+	font-style: italic;
+	margin: 0px;
 }
 
 #enligDiv {
