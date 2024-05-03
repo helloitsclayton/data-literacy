@@ -162,8 +162,6 @@ Wood, D. (2010). *Rethinking the power of maps*. Guilford Press.
 
 Avirgan, J., Hemmer, N., & Carter Jackson, K. (Hosts). (2021, March 4). Florence Nightingale, huge nerd (1855) [Audio podcast episode]. In *This day in esoteric political history*. PRX. https://play.prx.org/listen?uf=https%3A%2F%2Fthisday.feed.electionhistory.show%2F&ge=prx_282_02d1efb3-e4e6-4e3b-bc80-4a768681f41a
 
-Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? 🦜. *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
-
 Chakanetsa, K. (Host). (2020, February 4). Is bad data killing women? [Audio podcast episode]. In *The conversation*. BBC. https://www.bbc.co.uk/sounds/play/w3csynkn
 
 Chalabi, M. (2017, February 14). WEB Du Bois: Retracing his attempt to challenge racism with data. *The guardian*. https://www.theguardian.com/world/2017/feb/14/web-du-bois-racism-data-paris-african-americans-jobs
@@ -206,6 +204,8 @@ Maffini, C. (2016). Feeling unsafe at school: Southeast Asian American adolescen
 
 Maseda, B. (2021). Text as data: Finding stories in text collections. In L. Bounegru & J. Gray (Eds.), *The data journalism handbook* (pp. 116–123). Amsterdam University Press. https://doi.org/10.2307/j.ctv1qr6smr.20
 
+Miceli, M., Posada, J., & Yang, T. (2022). Studying up machine learning data: Why talk about bias when we mean power? *Proceedings of the ACM on Human-Computer Interaction, 6*(GROUP), 34. https://doi.org/10.1145/3492853
+
 Passi, S., & Barocas, S. (2019). Problem formulation and fairness. *Proceedings of the Conference on Fairness, Accountability, and Transparency*, 39–48. https://doi.org/10.1145/3287560.3287567
 
 Portes, A., & Rumbaut, R. G. (2018). *Children of Immigrants Longitudinal Study (CILS), San Diego, California, Ft. Lauderdale and Miami, Florida, 1991-2006* (Version 3) [dataset]. Inter-university Consortium for Political and Social Research (ICPSR). https://doi.org/10.3886/ICPSR20520.V3
@@ -223,6 +223,8 @@ Western Pennsylvania Regional Data Center. (n.d.). *WPRDC data user guides*. WPR
 Angwin, J., Larson, J., Mattu, S., & Kirchner, L. (2016, May 23). Machine bias. *ProPublica*. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
 
 Avirgan, J. (Host). (2016, March 10). Dear Data and FiveThirtyEight want you to visualize your podcast habits [Audio podcast episode]. In *What's the point*. FiveThirtyEight. https://fivethirtyeight.com/features/dear-data-and-fivethirtyeight-want-you-to-visualize-your-podcast-habits/
+
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? 🦜. *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
 
 Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE principles for indigenous data governance. *Data Science Journal, 19*(1), 43. https://doi.org/10.5334/dsj-2020-043
 
