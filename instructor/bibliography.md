@@ -46,7 +46,9 @@ Madron, J., & Nelson, R. K. (2023). *HOLC_Area_Description_Data* [dataset]. Amer
 
 Mapping Police Violence. (n.d.). *Mapping police violence* [dataset]. https://airtable.com/appzVzSeINK1S3EVR/shroOenW19l1m3w0H/tblxearKzw8W7ViN8
 
-National UFO Reporting Center. (n.d.). *NUFORC Data Bank* [dataset]. https://nuforc.org/databank/
+National Highway Traffic Safety Administration. (2024). *FARS 2022 national data* [dataset]. NHTSA File Downloads. https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/2022/National/
+
+National UFO Reporting Center. (n.d.). *NUFORC data bank* [dataset]. https://nuforc.org/databank/
 
 Portes, A., & Rumbaut, R. G. (2018). *Children of Immigrants Longitudinal Study (CILS), San Diego, California, Ft. Lauderdale and Miami, Florida, 1991-2006* (Version 3) [dataset]. Inter-university Consortium for Political and Social Research (ICPSR). https://doi.org/10.3886/ICPSR20520.V3
 
