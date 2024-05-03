@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > A [Zotero library](https://www.zotero.org/groups/5508994/datalitcourse/library) of these items is also available.
+>
+> Any items with links are Open Access or freely available on the open web. Items without links are paid- or subscription-access only.
 
 - [For instructors](#for-instructors)
    - [Core reading list](#instructor-core-reading-list)
