@@ -156,6 +156,8 @@ Ricaurte, P. (2019). Data epistemologies, the coloniality of power, and resistan
 
 Ridsdale, C., Rothwell, J., Smit, M., Ali-Hassan, H., Bliemel, M., Irvine, D., Kelley, D., Matwin, S., & Wuetherick, B. (2015). *Strategies and best practices for data literacy education: Knowledge synthesis report*. Dalhousie University. http://hdl.handle.net/10222/64578
 
+Shorish, Y. (2015). Data information literacy and undergraduates: A critical competency. *College & Undergraduate Libraries, 22*(1), 97–106.
+
 Tønnessen, E. S. (2020). What is visual-numeric literacy, and how does it work? In M. Engebretsen & H. Kennedy (Eds.), *Data visualization in society* (pp. 189–206). Amsterdam University Press. https://doi.org/10.2307/j.ctvzgb8c7.18
 
 Wood, D. (2010). *Rethinking the power of maps*. Guilford Press.
