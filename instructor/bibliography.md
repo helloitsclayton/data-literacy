@@ -6,7 +6,7 @@
 > Any items with links are Open Access or freely available on the open web. Items without links are paid- or subscription-access only.
 
 - [For instructors](#for-instructors)
-   - [Core reading list](#instructor-core-reading-list)
+   - [Core reading list](#core-reading-list-for-instructors)
    - [Materials for activities and discussions](#materials-for-activities-and-discussions)
    - [Datasets](#datasets-used)
    - [Additional background research](#additional-background-research)
@@ -16,7 +16,7 @@
 
 ## For instructors
 
-### Instructor core reading list
+### Core reading list for instructors
 
 Bhargava, R., Kadouaki, R., Bhargava, E., Castro, G., & D'Ignazio, C. (2016). Data murals: Using the arts to build data literacy. *The Journal of Community Informatics, 12*(3). https://doi.org/10.15353/joci.v12i3.3285
 
@@ -84,6 +84,8 @@ Lupi, G., & Posavec, S. (n.d.). *The project*. Dear Data. http://www.dear-data.c
 
 Madron, J., & Nelson, R. K. (2023). *HOLC_Area_Description_Data* [dataset]. American Panorama. https://github.com/americanpanorama/HOLC_Area_Description_Data
 
+Loukissas, Y. A. (n.d.). *The life and death of data*. https://lifeanddeathofdata.org/
+
 Maffini, C. (2016). Feeling unsafe at school: Southeast Asian American adolescents' perceptions and experiences of school safety. *Journal of Southeast Asian American Education and Advancement, 11*(1), 2. https://doi.org/10.7771/2153-8999.1135
 
 Manovich, L., Stefaner, M., Yazdani, M., Baur, D., Goddemeyer, D., Tifentale, A., Hochman, N., & Chow, J. (n.d.). *Selfiexploratory*. Selfiecity. https://selfiecity.net/#selfiexploratory
@@ -116,11 +118,15 @@ Actionable Intelligence for Social Policy. (2020). *A toolkit for centering raci
 
 Battles, M., & Loukissas, Y. (2013). Data artefacts: Tracking knowledge-ordering conflicts through visualization. *Classification & Visualization: Interfaces to Knowledge*, 243–258.
 
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? 🦜. *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
+
 Bhargava, R., & D'Ignazio, C. (2015). *Designing tools and activities for data literacy learners*. WebScience Conference, Oxford, UK.
 
 boyd, d., & Crawford, K. (2012). Critical questions for big data. *Information, Communication & Society, 15*(5), 662–679. https://doi.org/10.1080/1369118X.2012.678878
 
 Burress, T. (2022). Data in context: How data fit into the scholarly conversation. In K. Getz & M. Brodsky (Eds.), *The data literacy cookbook* (pp. 167–170). Association of College and Research Libraries. https://digitalcommons.usf.edu/fac_publications/4153
+
+Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE principles for indigenous data governance. *Data Science Journal, 19*(1), 43. https://doi.org/10.5334/dsj-2020-043
 
 Costanza-Chock, S. (2020). *Design justice: Community-led practices to build the worlds we need*. The MIT Press. https://doi.org/10.7551/mitpress/12255.001.0001
 
@@ -134,7 +140,7 @@ Gitelman, L. (Ed.). (2013). *"Raw data" is an oxymoron*. The MIT Press. https://
 
 Haraway, D. (1988). Situated knowledges: The science question in feminism and the privilege of partial perspective. *Feminist Studies, 14*(3), 575–599. https://doi.org/10.2307/3178066
 
-Harding, S. (1995). "Strong objectivity”: A response to the new objectivity question. *Synthese, 104*(3), 331–349. https://doi.org/10.1007/BF01064504
+Harding, S. (1995). "Strong objectivity": A response to the new objectivity question. *Synthese, 104*(3), 331–349. https://doi.org/10.1007/BF01064504
 
 Kitchin, R., & Lauriault, T. P. (2018). Toward critical data studies: Charting and unpacking data assemblages and their work. In J. Thatcher, A. Shears, & J. Eckert (Eds.), *Thinking big data in geography: New regimes, new research* (pp. 3–20). University of Nebraska Press. https://muse-jhu-edu.libproxy.kenyon.edu/pub/17/edited_volume/chapter/2089358
 
