@@ -1,0 +1,25 @@
+{
+	"name":"Social Justice and Data",
+	"version": "2.0",
+	"license": "CC BY 4.0",
+	"description": "An open course growing data literacy through examination of social justice issues.",
+	"keywords": [
+		"data science",
+		"data literacy",
+		"data",
+		"course",
+		"social justice",
+		"syllabus",
+		"undergraduate",
+		"undergrad",
+		"open course",
+		"open syllabus"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/helloitsclayton/data-literacy.git"
+	},
+	"dependencies": {
+		"reveal.js": "^5.1.0"
+	}
+}
