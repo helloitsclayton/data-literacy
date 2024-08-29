@@ -100,10 +100,10 @@ Written assignments should be submitted via Moodle as Word documents or PDFs. As
 
 ### Due dates of assignments:
 
-- Data biography: Friday, September 8
-- Research inquiry: Friday, September 22
-- Presentation draft/reflection: Monday, October 9
-- Final presentations: Wednesday, October 18 & Friday, October 20
+- Data biography: Week 3
+- Research inquiry: Week 5
+- Presentation draft/reflection: Week 7
+- Final presentations: Week 8
 
 ### Grading Scale
 
