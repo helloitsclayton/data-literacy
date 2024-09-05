@@ -517,28 +517,31 @@ However, I only realized this *after* I had downloaded the full 2022 dataset fro
 
 ## Questionnaire
 
-1. If you haven't yet declared a major, what do you anticipate majoring in?
-2. What is the primary way you think you'll be accessing `Learning Management System`?
+1. If you haven't yet declared a major, what do you anticipate majoring in?  
+*Optional*
+2. What is the *primary* way you think you'll be accessing `Learning Management System`?
    - [ ] Smartphone
    - [ ] Tablet
-   - [ ] Laptop/Desktop
+   - [ ] Laptop
+   - [ ] Desktop
 3. Do you have a laptop or tablet to bring to class?
    - [ ] Yes, it is a Mac/Apple OS device
    - [ ] Yes, it is a Windows device
    - [ ] Yes, it runs a different operating system
    - [ ] I do not
-4. Which of these best describes your experience with statistics?
-   - [ ] I have not taken a statistics course
+4. Which of these *best describes* your experience with statistics?
+   - [ ] I have never taken a statistics course
    - [ ] I am currently taking a statistics course
-   - [ ] I took a statistics course before being enrolled at [College name]
-   - [ ] I have completed a statistics course at [College name]
-5. Which of these best describes your level of experience with scholarly articles and books?
+   - [ ] I took a statistics course prior to being enrolled at `College name`
+   - [ ] I have completed a statistics course at `College name`
+5. Which of these describes your experience with scholarly articles or books? Check all that apply.
    - [ ] I'm not sure I know what you mean by scholarly articles/books
-   - [ ] I've used scholarly articles/books as sources for assignments but that's about it
-   - [ ] I've had scholarly articles/books assigned as readings in a few classes
+   - [ ] I've used scholarly articles/books as sources for assignments
+   - [ ] I've had scholarly articles/books assigned as readings in classes
    - [ ] I read scholarly articles/books on a regular basis, for classes and/or my own purposes
-6. What social justice issues or topics are you interested in engaging with in this course? Feel free to list more than one.
-7. Are there any other topics related to data you're interested in exploring or are curious about? Or anything you haven't already mentioned in your previous responses?  
+6. Are there any social justice issues or topics you are particularly interested in engaging with in this course? Feel free to list as many as applies.  
+*Optional*
+7. Are there any other topics related to data you're interested in exploring or are curious about? Or any information you'd like me to know that hasn't come up in previous responses?  
 *Optional*
 
 ## Assignment 1: Dataset Biography
