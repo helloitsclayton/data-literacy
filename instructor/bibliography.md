@@ -132,6 +132,8 @@ Costanza-Chock, S. (2020). *Design justice: Community-led practices to build the
 
 Deahl, E. (2014). *Better the data you know: Developing youth data literacy in schools and informal learning environments* [Master's Thesis, Massachusetts Institute of Technology]. https://dspace.mit.edu/handle/1721.1/89958
 
+D'Ignazio, C. (2024). *Counting feminicide: Data feminism in action*. The MIT Press. https://doi.org/10.7551/mitpress/14671.001.0001
+
 D'Ignazio, C., & Bhargava, R. (2020). Data visualization literacy: A feminist starting point. In M. Engebretsen & H. Kennedy (Eds.), *Data visualization in society* (pp. 207–222). Amsterdam University Press. https://doi.org/10.2307/j.ctvzgb8c7.19
 
 Drucker, J. (2020). Blind spot: Information visualization and art history. In K. Brown (Ed.), *The Routledge companion to digital humanities and art history* (pp. 18–31). Routledge. https://doi.org/10.4324/9780429505188-4
@@ -241,6 +243,8 @@ Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the da
 Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J. D., Anderson, J., & Hudson, M. (2020). The CARE principles for indigenous data governance. *Data Science Journal, 19*(1), 43. https://doi.org/10.5334/dsj-2020-043
 
 Costanza-Chock, S. (2020). *Design justice: Community-led practices to build the worlds we need*. The MIT Press. https://doi.org/10.7551/mitpress/12255.001.0001
+
+D'Ignazio, C. (2024). *Counting feminicide: Data feminism in action*. The MIT Press. https://doi.org/10.7551/mitpress/14671.001.0001
 
 D'Ignazio, C., & Klein, L. (2020). Conclusion: Now let's multiply. In *Data feminism*. The MIT Press. https://data-feminism.mitpress.mit.edu/pub/a1ao95xs/release/4
 
