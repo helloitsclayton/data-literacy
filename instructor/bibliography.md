@@ -112,7 +112,7 @@ US Census Bureau. (2020). *Sample copy of the 2020 Census questionnaire*. United
 
 Windfinder. (n.d.). *Windfinder wind map*. Windfinder.com. https://www.windfinder.com
 
-### Additional background research
+### Additional research and resources
 
 Actionable Intelligence for Social Policy. (2020). *A toolkit for centering racial equity throughout data integration*. University of Pennsylvania. https://aisp.upenn.edu/centering-equity/
 
@@ -130,11 +130,15 @@ Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., Lovett, R.,
 
 Costanza-Chock, S. (2020). *Design justice: Community-led practices to build the worlds we need*. The MIT Press. https://doi.org/10.7551/mitpress/12255.001.0001
 
-Deahl, E. (2014). *Better the data you know: Developing youth data literacy in schools and informal learning environments* [Master's Thesis, Massachusetts Institute of Technology]. https://dspace.mit.edu/handle/1721.1/89958
-
 D'Ignazio, C. (2024). *Counting feminicide: Data feminism in action*. The MIT Press. https://doi.org/10.7551/mitpress/14671.001.0001
 
 D'Ignazio, C., & Bhargava, R. (2020). Data visualization literacy: A feminist starting point. In M. Engebretsen & H. Kennedy (Eds.), *Data visualization in society* (pp. 207–222). Amsterdam University Press. https://doi.org/10.2307/j.ctvzgb8c7.19
+
+Deahl, E. (2014). *Better the data you know: Developing youth data literacy in schools and informal learning environments* [Master's Thesis, Massachusetts Institute of Technology]. https://dspace.mit.edu/handle/1721.1/89958
+
+The Distributed AI Research Institute, Wee, P., & Baker, D. (2024). *Towards truly community-centered research: The DAIR research philosophy zine* [Zine]. https://dairzine.vercel.app/research-philosophy-zine
+
+The Distributed AI Research Institute. (2025). *Possible futures: The DAIR research philosophy workshop zine* [Zine]. https://dairzine.vercel.app/possible-futures-zine
 
 Drucker, J. (2020). Blind spot: Information visualization and art history. In K. Brown (Ed.), *The Routledge companion to digital humanities and art history* (pp. 18–31). Routledge. https://doi.org/10.4324/9780429505188-4
 
