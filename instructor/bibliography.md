@@ -120,7 +120,7 @@ Battles, M., & Loukissas, Y. (2013). Data artefacts: Tracking knowledge-ordering
 
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? 🦜. *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
 
-Bhargava, R., & D'Ignazio, C. (2015). *Designing tools and activities for data literacy learners*. WebScience Conference, Oxford, UK.
+Bhargava, R., & D'Ignazio, C. (2015). *Designing tools and activities for data literacy learners*. WebScience Conference, Oxford, UK. https://hdl.handle.net/1721.1/123452
 
 boyd, d., & Crawford, K. (2012). Critical questions for big data. *Information, Communication & Society, 15*(5), 662–679. https://doi.org/10.1080/1369118X.2012.678878
 
@@ -168,7 +168,7 @@ Ricaurte, P. (2019). Data epistemologies, the coloniality of power, and resistan
 
 Ridsdale, C., Rothwell, J., Smit, M., Ali-Hassan, H., Bliemel, M., Irvine, D., Kelley, D., Matwin, S., & Wuetherick, B. (2015). *Strategies and best practices for data literacy education: Knowledge synthesis report*. Dalhousie University. http://hdl.handle.net/10222/64578
 
-Shorish, Y. (2015). Data information literacy and undergraduates: A critical competency. *College & Undergraduate Libraries, 22*(1), 97–106.
+Shorish, Y. (2015). Data information literacy and undergraduates: A critical competency. *College & Undergraduate Libraries, 22*(1), 97–106. https://commons.lib.jmu.edu/letfspubs/27/
 
 Tønnessen, E. S. (2020). What is visual-numeric literacy, and how does it work? In M. Engebretsen & H. Kennedy (Eds.), *Data visualization in society* (pp. 189–206). Amsterdam University Press. https://doi.org/10.2307/j.ctvzgb8c7.18
 
