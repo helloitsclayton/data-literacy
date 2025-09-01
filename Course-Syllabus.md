@@ -145,12 +145,12 @@ Unless otherwise specified, the use of generative AI (genAI) tools such as ChatG
 
 To provide a brief summary, genAI is propped up by exploitative labor practices[^2] and extractive environmental[^3] and informational[^4] policy, is an extremely unreliable source of information,[^5] and could be making you less productive[^6] and worse at writing.[^7]
 
-[^2] (https://blog.turkopticon.net/?p=3048)[https://blog.turkopticon.net/?p=3048]
-[^3] (https://huggingface.co/blog/sasha/ai-environment-primer)[https://huggingface.co/blog/sasha/ai-environment-primer]
-[^4] [https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline](https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline)
-[^5] [https://www.tandfonline.com/doi/full/10.1080/24750158.2025.2495368](https://www.tandfonline.com/doi/full/10.1080/24750158.2025.2495368)
-[^6] [https://secondthoughts.ai/p/ai-coding-slowdown](https://secondthoughts.ai/p/ai-coding-slowdown)
-[^7] [https://arxiv.org/abs/2506.08872](https://arxiv.org/abs/2506.08872)
+[^2]: (https://blog.turkopticon.net/?p=3048)[https://blog.turkopticon.net/?p=3048]
+[^3]: (https://huggingface.co/blog/sasha/ai-environment-primer)[https://huggingface.co/blog/sasha/ai-environment-primer]
+[^4]: [https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline](https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline)
+[^5]: [https://www.tandfonline.com/doi/full/10.1080/24750158.2025.2495368](https://www.tandfonline.com/doi/full/10.1080/24750158.2025.2495368)
+[^6]: [https://secondthoughts.ai/p/ai-coding-slowdown](https://secondthoughts.ai/p/ai-coding-slowdown)
+[^7]: [https://arxiv.org/abs/2506.08872](https://arxiv.org/abs/2506.08872)
 
 ## Kenyon College statements and policies
 ## Academic integrity
