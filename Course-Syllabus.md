@@ -4,7 +4,7 @@
 
 Becoming "data conversant" is only growing in importance as data-related practice becomes increasingly ingrained in public and academic discourse. Learning data-related skills, like reading, working with, analyzing, and arguing with data, is often viewed as a purely technical process that centers mastery of coding or data analysis software.
 
-Instead, this course will take a justice-centered approach that examines how systems of power affect and are affected by data. Students will gain practical experience through low-tech explorations of real-world data, but we won't shy away from or gloss over data's inherent complexities. And data are complex, just like the people who are responsible for their creation, curation, and use.
+In this course we instead take a justice-centered approach that examines how systems of power affect and are affected by data. Students will gain practical experience through low-tech explorations of real-world data, but we won't shy away from or gloss over data's inherent social complexities. And data are complex, just as complex as the people who are responsible for their creation, curation, and use.
 
 To help us navigate these murky waters, and to move past number crunching to deeper critical analysis, we'll be drawing on the expertise of scholars, practitioners, and enthusiasts from an array of disciplines and backgrounds.
 
@@ -32,23 +32,23 @@ Our guiding text for the course will be:
 
 ## Software/tools/apps
 
-To help explore data in commonly used file formats, it will be useful to have both a spreadsheet app and a text editing app.
+To help explore data in commonly used file formats, it will be useful to have both a spreadsheet app and a text editing app on the device you bring to class.
 
 ### Spreadsheet apps
 
 MS Excel, [OpenOffice](https://www.openoffice.org/) or [LibreOffice Calc](https://www.libreoffice.org/), or Google Sheets
 > [!NOTE]
-> It's not really a spreadsheet app, but OpenRefine is a powerful spreadsheet-like tool that's worth getting familiar with if you work with data regularly.
+> Though not really a spreadsheet app, [OpenRefine](https://openrefine.org/) is a powerful spreadsheet-like tool for working with data. It's what I've used to prepare subsets of some of the larger datasets we'll be using in activities.
 
 ### Text editing apps
 
-Windows and Mac OS both have default text editors, Notepad and TextEdit, but I'd recommend something with a bit more power like:
+Windows and Mac OS both have default text editors, Notepad and TextEdit, but it might be useful to have something with a bit more functionality:
 - Windows/Mac: [SublimeText](https://www.sublimetext.com/)
 - Mac only: [BBEdit](http://www.barebones.com/products/bbedit/)
 - Windows only: [Notepad++](https://notepad-plus-plus.org/)
 
 > [!NOTE]
-> [VS Code](https://code.visualstudio.com/), which is frequently used by other programs, is a really powerful text editor but its level of functionality might be overwhelming.
+> I have personally gotten into the habit of using [VS Code](https://code.visualstudio.com/), though it includes a lot more functionality than you'll need for this class and might be overwhelming.
 
 ## Assignments & grading
 ### Participation & attendance
@@ -64,21 +64,21 @@ Aside from in-class activities and readings, the primary sequence of assignments
 
 #### Data biography
 
-A short paper (2-3 pages) introducing a selected dataset and discussing how it came into existence. It should outline information such as who is responsible for the dataset's creation and its original intended purpose. A good place to start will be with the Five Ws: Who, What, When, Where, and Why. Readings will provide additional guidance.
+A short paper (at least 3 pages) introducing a selected dataset and discussing how it came into existence. It should outline information such as who is responsible for the dataset's creation and its original intended purpose. A good place to start will be with the Five Ws: Who, What, When, Where, and Why. Readings will provide additional guidance.
 
 #### Research inquiry
 
-A short paper (2-3 pages) which presents and discusses a research question inspired by your examination of a selected dataset. This does not need to be the same dataset chosen for the previous assignment. You will be discussing what you saw in the dataset that led to the research question you selected. You should also identify (or speculate on) what additional resources (datasets, books, articles, etc.) that would be required to fully examine the research question.
+A short paper (at least 3 pages) that builds on the data biography assignment and presents a potential research question related to a selected dataset. It should discuss how you developed the question based on your examinations of the dataset. It may be based on trends, gaps, themes, or anything else which you’ve identified. This paper should also discuss what other information might be required to fully examine your research question.
 
 #### Research reflection & presentation draft
 
-A short paper (4-5 pages) reflecting on the research process along with a draft slide deck/ script/other draft presentation materials. This assignment should outline the process that you have gone through in the first two assignments and address the steps you would take in order to investigate the question proposed in your Research Inquiry assignment.
+A short paper (at least 4-5 pages) reflecting on the research process along with a draft slide deck/ script/other draft presentation materials. This will be a draft version of the final research reflection which we will peer review and provide feedback on in class.
 
-As part of your reflection, I am especially interested in your response to the following questions: How did the Data Biography or our in-class activities affect your research question? How might they affect the way you'd plan to investigate that question?
+The paper and accompanying presentation should provide basic information about a selected dataset, describe a potential research question related to that dataset, and discuss possible methods of interrogating that research question. The paper should also discuss how in-class discussions, activities, and assignments have affected how you might approach such a research question.
 
 #### Final presentation & research reflection
 
-An in-class presentation (5 minutes) along with the final draft of your research reflection (4-5 pages).
+An in-class presentation (5 minutes) along with the final draft of your research reflection (at least 5 pages).
 
 ### Formatting guidelines
 
@@ -139,6 +139,19 @@ That being said, I am also responsible for maintaining the classroom as an envir
 
 [^1]: Adapted from Arao & Clemens (2013), "From safe spaces to brave spaces," in *The Art of Effective Facilitation*
 
+## AI use statement
+
+Unless otherwise specified, the use of generative AI (genAI) tools such as ChatGPT is not permitted for the work you do in this course. This course deals directly with the interactions between systems of power, data, algorithms, and people, and it is my hope that the reasoning behind this prohibition will become clear as the course progresses.
+
+To provide a brief summary, genAI is propped up by exploitative labor practices[^2] and extractive environmental[^3] and informational[^4] policy, is an extremely unreliable source of information,[^5] and could be making you less productive[^6] and worse at writing.[^7]
+
+[^2] (https://blog.turkopticon.net/?p=3048)[https://blog.turkopticon.net/?p=3048]
+[^3] (https://huggingface.co/blog/sasha/ai-environment-primer)[https://huggingface.co/blog/sasha/ai-environment-primer]
+[^4] [https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline](https://www.glamelab.org/products/are-ai-bots-knocking-cultural-heritage-offline)
+[^5] [https://www.tandfonline.com/doi/full/10.1080/24750158.2025.2495368](https://www.tandfonline.com/doi/full/10.1080/24750158.2025.2495368)
+[^6] [https://secondthoughts.ai/p/ai-coding-slowdown](https://secondthoughts.ai/p/ai-coding-slowdown)
+[^7] [https://arxiv.org/abs/2506.08872](https://arxiv.org/abs/2506.08872)
+
 ## Kenyon College statements and policies
 ## Academic integrity
 
@@ -152,8 +165,23 @@ Kenyon College values diversity and recognizes disability as an aspect of divers
 
 We will be studying and/or discussing a number of issues that may cause discomfort or distress. If you wish to speak with me about any readings, assignments, or class discussions, please understand that I may be required to report information about sexual misconduct, discrimination, and discriminatory harassment to the Civil Rights & Title IX Coordinator. Confidential support options include the [Cox Health and Counseling Center](https://www.kenyon.edu/campus-life/health-safety/cox-health-and-counseling-center/), the [College chaplains](https://www.kenyon.edu/campus-life/diversity-inclusion/spiritual-religious-life/), and [New Directions Domestic & Sexual Violence Support Center](https://www.newdirectionsknox.org/).
 
-## COVID-19
+# Tentative course schedule
 
-We are required to follow the [Kenyon College](https://www.kenyon.edu/covid-19/) and [CDC](https://www.cdc.gov/coronavirus/2019-ncov/index.html) guidelines with respect to COVID-19 exposure:
-- Anyone with known exposure to COVID-19 must wear a mask for 10 days when in public indoor spaces.
-- Students who are sick with COVID-19 must notify the [Cox Center](https://www.kenyon.edu/campus-life/health-safety/cox-health-and-counseling-center/), who will guide the student through a period of self-isolation and masking.
+|Date|Topic|Assignments & activities|
+|---|---|---|
+|Class 1|Course introduction|Creating our first dataset<br>Introducing datasets we'll work with|
+|Class 2|Defining data|Background info questionnaire "due"<br>Data & carrots|
+|Class 3|Data biographies|Describing a dataset|
+|Class 4|Data, power, & context|Data settings & assemblages|
+|Class 5|Asking questions with data|Data biography due<br>Asking good questions about a dataset|
+|Class 6|Challenging power|Data field guides|
+|Class 7|Data, text, and arguments|Data visualizations as arguments<br>Sketching a data story|
+|Class 8|Positionality and data|Creating a data cleaning plan<br>Introducing Dear Data|
+|Class 9|Revisiting text as data|Research inquiry due<br>Comparing text data|
+|Class 10|What gets counted|Examining the US Census<br>Categorization & looping effects|
+|Class 11|Dear Data day|Creating Dear Data postcards|
+|Class 12|Working collectively|Dear Data de-brief<br>Maps as data visualizations as arguments|
+|Class 13|Peer review day|Draft presentation & reflection due|
+|Class 14|Speaking for data|AI and data<br>Speaking with statistics|
+|Class 15|Data storybooks/<br>Final presentations|Creating a data storybook|
+|Class 15|Final presentations|Class de-brief|
