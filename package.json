@@ -20,6 +20,6 @@
 		"url": "https://github.com/helloitsclayton/data-literacy.git"
 	},
 	"dependencies": {
-		"reveal.js": "^5.1.0"
+		"reveal.js": "^5.2.1"
 	}
 }
