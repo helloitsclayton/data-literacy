@@ -1,9 +1,2906 @@
-/*!
-* reveal.js 5.1.0
-* https://revealjs.com
-* MIT licensed
-*
-* Copyright (C) 2011-2024 Hakim El Hattab, https://hakim.se
-*/
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).Reveal=t()}(this,(function(){"use strict";const e=(e,t)=>{for(let i in t)e[i]=t[i];return e},t=(e,t)=>Array.from(e.querySelectorAll(t)),i=(e,t,i)=>{i?e.classList.add(t):e.classList.remove(t)},s=e=>{if("string"==typeof e){if("null"===e)return null;if("true"===e)return!0;if("false"===e)return!1;if(e.match(/^-?[\d\.]+$/))return parseFloat(e)}return e},a=(e,t)=>{e.style.transform=t},n=(e,t)=>{let i=e.matches||e.matchesSelector||e.msMatchesSelector;return!(!i||!i.call(e,t))},r=(e,t)=>{if("function"==typeof e.closest)return e.closest(t);for(;e;){if(n(e,t))return e;e=e.parentNode}return null},o=e=>{let t=(e=e||document.documentElement).requestFullscreen||e.webkitRequestFullscreen||e.webkitRequestFullScreen||e.mozRequestFullScreen||e.msRequestFullscreen;t&&t.apply(e)},l=e=>{let t=document.createElement("style");return t.type="text/css",e&&e.length>0&&(t.styleSheet?t.styleSheet.cssText=e:t.appendChild(document.createTextNode(e))),document.head.appendChild(t),t},d=()=>{let e={};location.search.replace(/[A-Z0-9]+?=([\w\.%-]*)/gi,(t=>{e[t.split("=").shift()]=t.split("=").pop()}));for(let t in e){let i=e[t];e[t]=s(unescape(i))}return void 0!==e.dependencies&&delete e.dependencies,e},c={mp4:"video/mp4",m4a:"video/mp4",ogv:"video/ogg",mpeg:"video/mpeg",webm:"video/webm"},h=navigator.userAgent,u=/(iphone|ipod|ipad|android)/gi.test(h)||"MacIntel"===navigator.platform&&navigator.maxTouchPoints>1,g=/android/gi.test(h);var p=function(e){if(e){var t=function(e){return[].slice.call(e)},i=3,s=[],a=null,n="requestAnimationFrame"in e?function(){e.cancelAnimationFrame(a),a=e.requestAnimationFrame((function(){return o(s.filter((function(e){return e.dirty&&e.active})))}))}:function(){},r=function(e){return function(){s.forEach((function(t){return t.dirty=e})),n()}},o=function(e){e.filter((function(e){return!e.styleComputed})).forEach((function(e){e.styleComputed=h(e)})),e.filter(u).forEach(g);var t=e.filter(c);t.forEach(d),t.forEach((function(e){g(e),l(e)})),t.forEach(p)},l=function(e){return e.dirty=0},d=function(e){e.availableWidth=e.element.parentNode.clientWidth,e.currentWidth=e.element.scrollWidth,e.previousFontSize=e.currentFontSize,e.currentFontSize=Math.min(Math.max(e.minSize,e.availableWidth/e.currentWidth*e.previousFontSize),e.maxSize),e.whiteSpace=e.multiLine&&e.currentFontSize===e.minSize?"normal":"nowrap"},c=function(e){return 2!==e.dirty||2===e.dirty&&e.element.parentNode.clientWidth!==e.availableWidth},h=function(t){var i=e.getComputedStyle(t.element,null);return t.currentFontSize=parseFloat(i.getPropertyValue("font-size")),t.display=i.getPropertyValue("display"),t.whiteSpace=i.getPropertyValue("white-space"),!0},u=function(e){var t=!1;return!e.preStyleTestCompleted&&(/inline-/.test(e.display)||(t=!0,e.display="inline-block"),"nowrap"!==e.whiteSpace&&(t=!0,e.whiteSpace="nowrap"),e.preStyleTestCompleted=!0,t)},g=function(e){e.element.style.whiteSpace=e.whiteSpace,e.element.style.display=e.display,e.element.style.fontSize=e.currentFontSize+"px"},p=function(e){e.element.dispatchEvent(new CustomEvent("fit",{detail:{oldValue:e.previousFontSize,newValue:e.currentFontSize,scaleFactor:e.currentFontSize/e.previousFontSize}}))},v=function(e,t){return function(){e.dirty=t,e.active&&n()}},m=function(e){return function(){s=s.filter((function(t){return t.element!==e.element})),e.observeMutations&&e.observer.disconnect(),e.element.style.whiteSpace=e.originalStyle.whiteSpace,e.element.style.display=e.originalStyle.display,e.element.style.fontSize=e.originalStyle.fontSize}},f=function(e){return function(){e.active||(e.active=!0,n())}},y=function(e){return function(){return e.active=!1}},b=function(e){e.observeMutations&&(e.observer=new MutationObserver(v(e,1)),e.observer.observe(e.element,e.observeMutations))},w={minSize:16,maxSize:512,multiLine:!0,observeMutations:"MutationObserver"in e&&{subtree:!0,childList:!0,characterData:!0}},E=null,S=function(){e.clearTimeout(E),E=e.setTimeout(r(2),k.observeWindowDelay)},A=["resize","orientationchange"];return Object.defineProperty(k,"observeWindow",{set:function(t){var i="".concat(t?"add":"remove","EventListener");A.forEach((function(t){e[i](t,S)}))}}),k.observeWindow=!0,k.observeWindowDelay=100,k.fitAll=r(i),k}function R(e,t){var a=Object.assign({},w,t),r=e.map((function(e){var t=Object.assign({},a,{element:e,active:!0});return function(e){e.originalStyle={whiteSpace:e.element.style.whiteSpace,display:e.element.style.display,fontSize:e.element.style.fontSize},b(e),e.newbie=!0,e.dirty=!0,s.push(e)}(t),{element:e,fit:v(t,i),unfreeze:f(t),freeze:y(t),unsubscribe:m(t)}}));return n(),r}function k(e){var i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return"string"==typeof e?R(t(document.querySelectorAll(e)),i):R([e],i)[0]}}("undefined"==typeof window?null:window);class v{constructor(e){this.Reveal=e,this.startEmbeddedIframe=this.startEmbeddedIframe.bind(this)}shouldPreload(e){if(this.Reveal.isScrollView())return!0;let t=this.Reveal.getConfig().preloadIframes;return"boolean"!=typeof t&&(t=e.hasAttribute("data-preload")),t}load(e,i={}){e.style.display=this.Reveal.getConfig().display,t(e,"img[data-src], video[data-src], audio[data-src], iframe[data-src]").forEach((e=>{("IFRAME"!==e.tagName||this.shouldPreload(e))&&(e.setAttribute("src",e.getAttribute("data-src")),e.setAttribute("data-lazy-loaded",""),e.removeAttribute("data-src"))})),t(e,"video, audio").forEach((e=>{let i=0;t(e,"source[data-src]").forEach((e=>{e.setAttribute("src",e.getAttribute("data-src")),e.removeAttribute("data-src"),e.setAttribute("data-lazy-loaded",""),i+=1})),u&&"VIDEO"===e.tagName&&e.setAttribute("playsinline",""),i>0&&e.load()}));let s=e.slideBackgroundElement;if(s){s.style.display="block";let t=e.slideBackgroundContentElement,a=e.getAttribute("data-background-iframe");if(!1===s.hasAttribute("data-loaded")){s.setAttribute("data-loaded","true");let n=e.getAttribute("data-background-image"),r=e.getAttribute("data-background-video"),o=e.hasAttribute("data-background-video-loop"),l=e.hasAttribute("data-background-video-muted");if(n)/^data:/.test(n.trim())?t.style.backgroundImage=`url(${n.trim()})`:t.style.backgroundImage=n.split(",").map((e=>`url(${((e="")=>encodeURI(e).replace(/%5B/g,"[").replace(/%5D/g,"]").replace(/[!'()*]/g,(e=>`%${e.charCodeAt(0).toString(16).toUpperCase()}`)))(decodeURI(e.trim()))})`)).join(",");else if(r&&!this.Reveal.isSpeakerNotes()){let e=document.createElement("video");o&&e.setAttribute("loop",""),l&&(e.muted=!0),u&&(e.muted=!0,e.setAttribute("playsinline","")),r.split(",").forEach((t=>{const i=document.createElement("source");i.setAttribute("src",t);let s=((e="")=>c[e.split(".").pop()])(t);s&&i.setAttribute("type",s),e.appendChild(i)})),t.appendChild(e)}else if(a&&!0!==i.excludeIframes){let e=document.createElement("iframe");e.setAttribute("allowfullscreen",""),e.setAttribute("mozallowfullscreen",""),e.setAttribute("webkitallowfullscreen",""),e.setAttribute("allow","autoplay"),e.setAttribute("data-src",a),e.style.width="100%",e.style.height="100%",e.style.maxHeight="100%",e.style.maxWidth="100%",t.appendChild(e)}}let n=t.querySelector("iframe[data-src]");n&&this.shouldPreload(s)&&!/autoplay=(1|true|yes)/gi.test(a)&&n.getAttribute("src")!==a&&n.setAttribute("src",a)}this.layout(e)}layout(e){Array.from(e.querySelectorAll(".r-fit-text")).forEach((e=>{p(e,{minSize:24,maxSize:.8*this.Reveal.getConfig().height,observeMutations:!1,observeWindow:!1})}))}unload(e){e.style.display="none";let i=this.Reveal.getSlideBackground(e);i&&(i.style.display="none",t(i,"iframe[src]").forEach((e=>{e.removeAttribute("src")}))),t(e,"video[data-lazy-loaded][src], audio[data-lazy-loaded][src], iframe[data-lazy-loaded][src]").forEach((e=>{e.setAttribute("data-src",e.getAttribute("src")),e.removeAttribute("src")})),t(e,"video[data-lazy-loaded] source[src], audio source[src]").forEach((e=>{e.setAttribute("data-src",e.getAttribute("src")),e.removeAttribute("src")}))}formatEmbeddedContent(){let e=(e,i,s)=>{t(this.Reveal.getSlidesElement(),"iframe["+e+'*="'+i+'"]').forEach((t=>{let i=t.getAttribute(e);i&&-1===i.indexOf(s)&&t.setAttribute(e,i+(/\?/.test(i)?"&":"?")+s)}))};e("src","youtube.com/embed/","enablejsapi=1"),e("data-src","youtube.com/embed/","enablejsapi=1"),e("src","player.vimeo.com/","api=1"),e("data-src","player.vimeo.com/","api=1")}startEmbeddedContent(e){e&&!this.Reveal.isSpeakerNotes()&&(t(e,'img[src$=".gif"]').forEach((e=>{e.setAttribute("src",e.getAttribute("src"))})),t(e,"video, audio").forEach((e=>{if(r(e,".fragment")&&!r(e,".fragment.visible"))return;let t=this.Reveal.getConfig().autoPlayMedia;if("boolean"!=typeof t&&(t=e.hasAttribute("data-autoplay")||!!r(e,".slide-background")),t&&"function"==typeof e.play)if(e.readyState>1)this.startEmbeddedMedia({target:e});else if(u){let t=e.play();t&&"function"==typeof t.catch&&!1===e.controls&&t.catch((()=>{e.controls=!0,e.addEventListener("play",(()=>{e.controls=!1}))}))}else e.removeEventListener("loadeddata",this.startEmbeddedMedia),e.addEventListener("loadeddata",this.startEmbeddedMedia)})),t(e,"iframe[src]").forEach((e=>{r(e,".fragment")&&!r(e,".fragment.visible")||this.startEmbeddedIframe({target:e})})),t(e,"iframe[data-src]").forEach((e=>{r(e,".fragment")&&!r(e,".fragment.visible")||e.getAttribute("src")!==e.getAttribute("data-src")&&(e.removeEventListener("load",this.startEmbeddedIframe),e.addEventListener("load",this.startEmbeddedIframe),e.setAttribute("src",e.getAttribute("data-src")))})))}startEmbeddedMedia(e){let t=!!r(e.target,"html"),i=!!r(e.target,".present");t&&i&&(e.target.paused||e.target.ended)&&(e.target.currentTime=0,e.target.play()),e.target.removeEventListener("loadeddata",this.startEmbeddedMedia)}startEmbeddedIframe(e){let t=e.target;if(t&&t.contentWindow){let i=!!r(e.target,"html"),s=!!r(e.target,".present");if(i&&s){let e=this.Reveal.getConfig().autoPlayMedia;"boolean"!=typeof e&&(e=t.hasAttribute("data-autoplay")||!!r(t,".slide-background")),/youtube\.com\/embed\//.test(t.getAttribute("src"))&&e?t.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}',"*"):/player\.vimeo\.com\//.test(t.getAttribute("src"))&&e?t.contentWindow.postMessage('{"method":"play"}',"*"):t.contentWindow.postMessage("slide:start","*")}}}stopEmbeddedContent(i,s={}){s=e({unloadIframes:!0},s),i&&i.parentNode&&(t(i,"video, audio").forEach((e=>{e.hasAttribute("data-ignore")||"function"!=typeof e.pause||(e.setAttribute("data-paused-by-reveal",""),e.pause())})),t(i,"iframe").forEach((e=>{e.contentWindow&&e.contentWindow.postMessage("slide:stop","*"),e.removeEventListener("load",this.startEmbeddedIframe)})),t(i,'iframe[src*="youtube.com/embed/"]').forEach((e=>{!e.hasAttribute("data-ignore")&&e.contentWindow&&"function"==typeof e.contentWindow.postMessage&&e.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}',"*")})),t(i,'iframe[src*="player.vimeo.com/"]').forEach((e=>{!e.hasAttribute("data-ignore")&&e.contentWindow&&"function"==typeof e.contentWindow.postMessage&&e.contentWindow.postMessage('{"method":"pause"}',"*")})),!0===s.unloadIframes&&t(i,"iframe[data-src]").forEach((e=>{e.setAttribute("src","about:blank"),e.removeAttribute("src")})))}}const m=".slides section",f=".slides>section",y=".slides>section.present>section",b=/registerPlugin|registerKeyboardShortcut|addKeyBinding|addEventListener|showPreview/,w=/fade-(down|up|right|left|out|in-then-out|in-then-semi-out)|semi-fade-out|current-visible|shrink|grow/;class E{constructor(e){this.Reveal=e}render(){this.element=document.createElement("div"),this.element.className="slide-number",this.Reveal.getRevealElement().appendChild(this.element)}configure(e,t){let i="none";e.slideNumber&&!this.Reveal.isPrintView()&&("all"===e.showSlideNumber||"speaker"===e.showSlideNumber&&this.Reveal.isSpeakerNotes())&&(i="block"),this.element.style.display=i}update(){this.Reveal.getConfig().slideNumber&&this.element&&(this.element.innerHTML=this.getSlideNumber())}getSlideNumber(e=this.Reveal.getCurrentSlide()){let t,i=this.Reveal.getConfig(),s="h.v";if("function"==typeof i.slideNumber)t=i.slideNumber(e);else{"string"==typeof i.slideNumber&&(s=i.slideNumber),/c/.test(s)||1!==this.Reveal.getHorizontalSlides().length||(s="c");let a=e&&"uncounted"===e.dataset.visibility?0:1;switch(t=[],s){case"c":t.push(this.Reveal.getSlidePastCount(e)+a);break;case"c/t":t.push(this.Reveal.getSlidePastCount(e)+a,"/",this.Reveal.getTotalSlides());break;default:let i=this.Reveal.getIndices(e);t.push(i.h+a);let n="h/v"===s?"/":".";this.Reveal.isVerticalSlide(e)&&t.push(n,i.v+1)}}let a="#"+this.Reveal.location.getHash(e);return this.formatNumber(t[0],t[1],t[2],a)}formatNumber(e,t,i,s="#"+this.Reveal.location.getHash()){return"number"!=typeof i||isNaN(i)?`<a href="${s}">\n\t\t\t\t\t<span class="slide-number-a">${e}</span>\n\t\t\t\t\t</a>`:`<a href="${s}">\n\t\t\t\t\t<span class="slide-number-a">${e}</span>\n\t\t\t\t\t<span class="slide-number-delimiter">${t}</span>\n\t\t\t\t\t<span class="slide-number-b">${i}</span>\n\t\t\t\t\t</a>`}destroy(){this.element.remove()}}class S{constructor(e){this.Reveal=e,this.onInput=this.onInput.bind(this),this.onBlur=this.onBlur.bind(this),this.onKeyDown=this.onKeyDown.bind(this)}render(){this.element=document.createElement("div"),this.element.className="jump-to-slide",this.jumpInput=document.createElement("input"),this.jumpInput.type="text",this.jumpInput.className="jump-to-slide-input",this.jumpInput.placeholder="Jump to slide",this.jumpInput.addEventListener("input",this.onInput),this.jumpInput.addEventListener("keydown",this.onKeyDown),this.jumpInput.addEventListener("blur",this.onBlur),this.element.appendChild(this.jumpInput)}show(){this.indicesOnShow=this.Reveal.getIndices(),this.Reveal.getRevealElement().appendChild(this.element),this.jumpInput.focus()}hide(){this.isVisible()&&(this.element.remove(),this.jumpInput.value="",clearTimeout(this.jumpTimeout),delete this.jumpTimeout)}isVisible(){return!!this.element.parentNode}jump(){clearTimeout(this.jumpTimeout),delete this.jumpTimeout;let e,t=this.jumpInput.value.trim("");if(/^\d+$/.test(t)){const i=this.Reveal.getConfig().slideNumber;if("c"===i||"c/t"===i){const i=this.Reveal.getSlides()[parseInt(t,10)-1];i&&(e=this.Reveal.getIndices(i))}}return e||(/^\d+\.\d+$/.test(t)&&(t=t.replace(".","/")),e=this.Reveal.location.getIndicesFromHash(t,{oneBasedIndex:!0})),!e&&/\S+/i.test(t)&&t.length>1&&(e=this.search(t)),e&&""!==t?(this.Reveal.slide(e.h,e.v,e.f),!0):(this.Reveal.slide(this.indicesOnShow.h,this.indicesOnShow.v,this.indicesOnShow.f),!1)}jumpAfter(e){clearTimeout(this.jumpTimeout),this.jumpTimeout=setTimeout((()=>this.jump()),e)}search(e){const t=new RegExp("\\b"+e.trim()+"\\b","i"),i=this.Reveal.getSlides().find((e=>t.test(e.innerText)));return i?this.Reveal.getIndices(i):null}cancel(){this.Reveal.slide(this.indicesOnShow.h,this.indicesOnShow.v,this.indicesOnShow.f),this.hide()}confirm(){this.jump(),this.hide()}destroy(){this.jumpInput.removeEventListener("input",this.onInput),this.jumpInput.removeEventListener("keydown",this.onKeyDown),this.jumpInput.removeEventListener("blur",this.onBlur),this.element.remove()}onKeyDown(e){13===e.keyCode?this.confirm():27===e.keyCode&&(this.cancel(),e.stopImmediatePropagation())}onInput(e){this.jumpAfter(200)}onBlur(){setTimeout((()=>this.hide()),1)}}const A=e=>{let t=e.match(/^#([0-9a-f]{3})$/i);if(t&&t[1])return t=t[1],{r:17*parseInt(t.charAt(0),16),g:17*parseInt(t.charAt(1),16),b:17*parseInt(t.charAt(2),16)};let i=e.match(/^#([0-9a-f]{6})$/i);if(i&&i[1])return i=i[1],{r:parseInt(i.slice(0,2),16),g:parseInt(i.slice(2,4),16),b:parseInt(i.slice(4,6),16)};let s=e.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i);if(s)return{r:parseInt(s[1],10),g:parseInt(s[2],10),b:parseInt(s[3],10)};let a=e.match(/^rgba\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\,\s*([\d]+|[\d]*.[\d]+)\s*\)$/i);return a?{r:parseInt(a[1],10),g:parseInt(a[2],10),b:parseInt(a[3],10),a:parseFloat(a[4])}:null};class R{constructor(e){this.Reveal=e}render(){this.element=document.createElement("div"),this.element.className="backgrounds",this.Reveal.getRevealElement().appendChild(this.element)}create(){this.element.innerHTML="",this.element.classList.add("no-transition"),this.Reveal.getHorizontalSlides().forEach((e=>{let i=this.createBackground(e,this.element);t(e,"section").forEach((e=>{this.createBackground(e,i),i.classList.add("stack")}))})),this.Reveal.getConfig().parallaxBackgroundImage?(this.element.style.backgroundImage='url("'+this.Reveal.getConfig().parallaxBackgroundImage+'")',this.element.style.backgroundSize=this.Reveal.getConfig().parallaxBackgroundSize,this.element.style.backgroundRepeat=this.Reveal.getConfig().parallaxBackgroundRepeat,this.element.style.backgroundPosition=this.Reveal.getConfig().parallaxBackgroundPosition,setTimeout((()=>{this.Reveal.getRevealElement().classList.add("has-parallax-background")}),1)):(this.element.style.backgroundImage="",this.Reveal.getRevealElement().classList.remove("has-parallax-background"))}createBackground(e,t){let i=document.createElement("div");i.className="slide-background "+e.className.replace(/present|past|future/,"");let s=document.createElement("div");return s.className="slide-background-content",i.appendChild(s),t.appendChild(i),e.slideBackgroundElement=i,e.slideBackgroundContentElement=s,this.sync(e),i}sync(e){const t=e.slideBackgroundElement,i=e.slideBackgroundContentElement,s={background:e.getAttribute("data-background"),backgroundSize:e.getAttribute("data-background-size"),backgroundImage:e.getAttribute("data-background-image"),backgroundVideo:e.getAttribute("data-background-video"),backgroundIframe:e.getAttribute("data-background-iframe"),backgroundColor:e.getAttribute("data-background-color"),backgroundGradient:e.getAttribute("data-background-gradient"),backgroundRepeat:e.getAttribute("data-background-repeat"),backgroundPosition:e.getAttribute("data-background-position"),backgroundTransition:e.getAttribute("data-background-transition"),backgroundOpacity:e.getAttribute("data-background-opacity")},a=e.hasAttribute("data-preload");e.classList.remove("has-dark-background"),e.classList.remove("has-light-background"),t.removeAttribute("data-loaded"),t.removeAttribute("data-background-hash"),t.removeAttribute("data-background-size"),t.removeAttribute("data-background-transition"),t.style.backgroundColor="",i.style.backgroundSize="",i.style.backgroundRepeat="",i.style.backgroundPosition="",i.style.backgroundImage="",i.style.opacity="",i.innerHTML="",s.background&&(/^(http|file|\/\/)/gi.test(s.background)||/\.(svg|png|jpg|jpeg|gif|bmp|webp)([?#\s]|$)/gi.test(s.background)?e.setAttribute("data-background-image",s.background):t.style.background=s.background),(s.background||s.backgroundColor||s.backgroundGradient||s.backgroundImage||s.backgroundVideo||s.backgroundIframe)&&t.setAttribute("data-background-hash",s.background+s.backgroundSize+s.backgroundImage+s.backgroundVideo+s.backgroundIframe+s.backgroundColor+s.backgroundGradient+s.backgroundRepeat+s.backgroundPosition+s.backgroundTransition+s.backgroundOpacity),s.backgroundSize&&t.setAttribute("data-background-size",s.backgroundSize),s.backgroundColor&&(t.style.backgroundColor=s.backgroundColor),s.backgroundGradient&&(t.style.backgroundImage=s.backgroundGradient),s.backgroundTransition&&t.setAttribute("data-background-transition",s.backgroundTransition),a&&t.setAttribute("data-preload",""),s.backgroundSize&&(i.style.backgroundSize=s.backgroundSize),s.backgroundRepeat&&(i.style.backgroundRepeat=s.backgroundRepeat),s.backgroundPosition&&(i.style.backgroundPosition=s.backgroundPosition),s.backgroundOpacity&&(i.style.opacity=s.backgroundOpacity);const n=this.getContrastClass(e);"string"==typeof n&&e.classList.add(n)}getContrastClass(e){const t=e.slideBackgroundElement;let i=e.getAttribute("data-background-color");if(!i||!A(i)){let e=window.getComputedStyle(t);e&&e.backgroundColor&&(i=e.backgroundColor)}if(i){const e=A(i);if(e&&0!==e.a)return"string"==typeof(s=i)&&(s=A(s)),(s?(299*s.r+587*s.g+114*s.b)/1e3:null)<128?"has-dark-background":"has-light-background"}var s;return null}bubbleSlideContrastClassToElement(e,t){["has-light-background","has-dark-background"].forEach((i=>{e.classList.contains(i)?t.classList.add(i):t.classList.remove(i)}),this)}update(e=!1){let i=this.Reveal.getConfig(),s=this.Reveal.getCurrentSlide(),a=this.Reveal.getIndices(),n=null,r=i.rtl?"future":"past",o=i.rtl?"past":"future";if(Array.from(this.element.childNodes).forEach(((i,s)=>{i.classList.remove("past","present","future"),s<a.h?i.classList.add(r):s>a.h?i.classList.add(o):(i.classList.add("present"),n=i),(e||s===a.h)&&t(i,".slide-background").forEach(((e,t)=>{e.classList.remove("past","present","future");const i="number"==typeof a.v?a.v:0;t<i?e.classList.add("past"):t>i?e.classList.add("future"):(e.classList.add("present"),s===a.h&&(n=e))}))})),this.previousBackground&&!this.previousBackground.closest("body")&&(this.previousBackground=null),n&&this.previousBackground){let e=this.previousBackground.getAttribute("data-background-hash"),t=n.getAttribute("data-background-hash");if(t&&t===e&&n!==this.previousBackground){this.element.classList.add("no-transition");const e=n.querySelector("video"),t=this.previousBackground.querySelector("video");if(e&&t){const i=e.parentNode;t.parentNode.appendChild(e),i.appendChild(t)}}}if(this.previousBackground&&this.Reveal.slideContent.stopEmbeddedContent(this.previousBackground,{unloadIframes:!this.Reveal.slideContent.shouldPreload(this.previousBackground)}),n){this.Reveal.slideContent.startEmbeddedContent(n);let e=n.querySelector(".slide-background-content");if(e){let t=e.style.backgroundImage||"";/\.gif/i.test(t)&&(e.style.backgroundImage="",window.getComputedStyle(e).opacity,e.style.backgroundImage=t)}this.previousBackground=n}s&&this.bubbleSlideContrastClassToElement(s,this.Reveal.getRevealElement()),setTimeout((()=>{this.element.classList.remove("no-transition")}),10)}updateParallax(){let e=this.Reveal.getIndices();if(this.Reveal.getConfig().parallaxBackgroundImage){let t,i,s=this.Reveal.getHorizontalSlides(),a=this.Reveal.getVerticalSlides(),n=this.element.style.backgroundSize.split(" ");1===n.length?t=i=parseInt(n[0],10):(t=parseInt(n[0],10),i=parseInt(n[1],10));let r,o,l=this.element.offsetWidth,d=s.length;r="number"==typeof this.Reveal.getConfig().parallaxBackgroundHorizontal?this.Reveal.getConfig().parallaxBackgroundHorizontal:d>1?(t-l)/(d-1):0,o=r*e.h*-1;let c,h,u=this.element.offsetHeight,g=a.length;c="number"==typeof this.Reveal.getConfig().parallaxBackgroundVertical?this.Reveal.getConfig().parallaxBackgroundVertical:(i-u)/(g-1),h=g>0?c*e.v:0,this.element.style.backgroundPosition=o+"px "+-h+"px"}}destroy(){this.element.remove()}}let k=0;class L{constructor(e){this.Reveal=e}run(e,t){this.reset();let i=this.Reveal.getSlides(),s=i.indexOf(t),a=i.indexOf(e);if(e&&t&&e.hasAttribute("data-auto-animate")&&t.hasAttribute("data-auto-animate")&&e.getAttribute("data-auto-animate-id")===t.getAttribute("data-auto-animate-id")&&!(s>a?t:e).hasAttribute("data-auto-animate-restart")){this.autoAnimateStyleSheet=this.autoAnimateStyleSheet||l();let i=this.getAutoAnimateOptions(t);e.dataset.autoAnimate="pending",t.dataset.autoAnimate="pending",i.slideDirection=s>a?"forward":"backward";let n="none"===e.style.display;n&&(e.style.display=this.Reveal.getConfig().display);let r=this.getAutoAnimatableElements(e,t).map((e=>this.autoAnimateElements(e.from,e.to,e.options||{},i,k++)));if(n&&(e.style.display="none"),"false"!==t.dataset.autoAnimateUnmatched&&!0===this.Reveal.getConfig().autoAnimateUnmatched){let e=.8*i.duration,s=.2*i.duration;this.getUnmatchedAutoAnimateElements(t).forEach((e=>{let t=this.getAutoAnimateOptions(e,i),s="unmatched";t.duration===i.duration&&t.delay===i.delay||(s="unmatched-"+k++,r.push(`[data-auto-animate="running"] [data-auto-animate-target="${s}"] { transition: opacity ${t.duration}s ease ${t.delay}s; }`)),e.dataset.autoAnimateTarget=s}),this),r.push(`[data-auto-animate="running"] [data-auto-animate-target="unmatched"] { transition: opacity ${e}s ease ${s}s; }`)}this.autoAnimateStyleSheet.innerHTML=r.join(""),requestAnimationFrame((()=>{this.autoAnimateStyleSheet&&(getComputedStyle(this.autoAnimateStyleSheet).fontWeight,t.dataset.autoAnimate="running")})),this.Reveal.dispatchEvent({type:"autoanimate",data:{fromSlide:e,toSlide:t,sheet:this.autoAnimateStyleSheet}})}}reset(){t(this.Reveal.getRevealElement(),'[data-auto-animate]:not([data-auto-animate=""])').forEach((e=>{e.dataset.autoAnimate=""})),t(this.Reveal.getRevealElement(),"[data-auto-animate-target]").forEach((e=>{delete e.dataset.autoAnimateTarget})),this.autoAnimateStyleSheet&&this.autoAnimateStyleSheet.parentNode&&(this.autoAnimateStyleSheet.parentNode.removeChild(this.autoAnimateStyleSheet),this.autoAnimateStyleSheet=null)}autoAnimateElements(e,t,i,s,a){e.dataset.autoAnimateTarget="",t.dataset.autoAnimateTarget=a;let n=this.getAutoAnimateOptions(t,s);void 0!==i.delay&&(n.delay=i.delay),void 0!==i.duration&&(n.duration=i.duration),void 0!==i.easing&&(n.easing=i.easing);let r=this.getAutoAnimatableProperties("from",e,i),o=this.getAutoAnimatableProperties("to",t,i);if(t.classList.contains("fragment")&&(delete o.styles.opacity,e.classList.contains("fragment"))){(e.className.match(w)||[""])[0]===(t.className.match(w)||[""])[0]&&"forward"===s.slideDirection&&t.classList.add("visible","disabled")}if(!1!==i.translate||!1!==i.scale){let e=this.Reveal.getScale(),t={x:(r.x-o.x)/e,y:(r.y-o.y)/e,scaleX:r.width/o.width,scaleY:r.height/o.height};t.x=Math.round(1e3*t.x)/1e3,t.y=Math.round(1e3*t.y)/1e3,t.scaleX=Math.round(1e3*t.scaleX)/1e3,t.scaleX=Math.round(1e3*t.scaleX)/1e3;let s=!1!==i.translate&&(0!==t.x||0!==t.y),a=!1!==i.scale&&(0!==t.scaleX||0!==t.scaleY);if(s||a){let e=[];s&&e.push(`translate(${t.x}px, ${t.y}px)`),a&&e.push(`scale(${t.scaleX}, ${t.scaleY})`),r.styles.transform=e.join(" "),r.styles["transform-origin"]="top left",o.styles.transform="none"}}for(let e in o.styles){const t=o.styles[e],i=r.styles[e];t===i?delete o.styles[e]:(!0===t.explicitValue&&(o.styles[e]=t.value),!0===i.explicitValue&&(r.styles[e]=i.value))}let l="",d=Object.keys(o.styles);if(d.length>0){r.styles.transition="none",o.styles.transition=`all ${n.duration}s ${n.easing} ${n.delay}s`,o.styles["transition-property"]=d.join(", "),o.styles["will-change"]=d.join(", "),l='[data-auto-animate-target="'+a+'"] {'+Object.keys(r.styles).map((e=>e+": "+r.styles[e]+" !important;")).join("")+'}[data-auto-animate="running"] [data-auto-animate-target="'+a+'"] {'+Object.keys(o.styles).map((e=>e+": "+o.styles[e]+" !important;")).join("")+"}"}return l}getAutoAnimateOptions(t,i){let s={easing:this.Reveal.getConfig().autoAnimateEasing,duration:this.Reveal.getConfig().autoAnimateDuration,delay:0};if(s=e(s,i),t.parentNode){let e=r(t.parentNode,"[data-auto-animate-target]");e&&(s=this.getAutoAnimateOptions(e,s))}return t.dataset.autoAnimateEasing&&(s.easing=t.dataset.autoAnimateEasing),t.dataset.autoAnimateDuration&&(s.duration=parseFloat(t.dataset.autoAnimateDuration)),t.dataset.autoAnimateDelay&&(s.delay=parseFloat(t.dataset.autoAnimateDelay)),s}getAutoAnimatableProperties(e,t,i){let s=this.Reveal.getConfig(),a={styles:[]};if(!1!==i.translate||!1!==i.scale){let e;if("function"==typeof i.measure)e=i.measure(t);else if(s.center)e=t.getBoundingClientRect();else{let i=this.Reveal.getScale();e={x:t.offsetLeft*i,y:t.offsetTop*i,width:t.offsetWidth*i,height:t.offsetHeight*i}}a.x=e.x,a.y=e.y,a.width=e.width,a.height=e.height}const n=getComputedStyle(t);return(i.styles||s.autoAnimateStyles).forEach((t=>{let i;"string"==typeof t&&(t={property:t}),void 0!==t.from&&"from"===e?i={value:t.from,explicitValue:!0}:void 0!==t.to&&"to"===e?i={value:t.to,explicitValue:!0}:("line-height"===t.property&&(i=parseFloat(n["line-height"])/parseFloat(n["font-size"])),isNaN(i)&&(i=n[t.property])),""!==i&&(a.styles[t.property]=i)})),a}getAutoAnimatableElements(e,t){let i=("function"==typeof this.Reveal.getConfig().autoAnimateMatcher?this.Reveal.getConfig().autoAnimateMatcher:this.getAutoAnimatePairs).call(this,e,t),s=[];return i.filter(((e,t)=>{if(-1===s.indexOf(e.to))return s.push(e.to),!0}))}getAutoAnimatePairs(e,t){let i=[];const s="h1, h2, h3, h4, h5, h6, p, li";return this.findAutoAnimateMatches(i,e,t,"[data-id]",(e=>e.nodeName+":::"+e.getAttribute("data-id"))),this.findAutoAnimateMatches(i,e,t,s,(e=>e.nodeName+":::"+e.innerText)),this.findAutoAnimateMatches(i,e,t,"img, video, iframe",(e=>e.nodeName+":::"+(e.getAttribute("src")||e.getAttribute("data-src")))),this.findAutoAnimateMatches(i,e,t,"pre",(e=>e.nodeName+":::"+e.innerText)),i.forEach((e=>{n(e.from,s)?e.options={scale:!1}:n(e.from,"pre")&&(e.options={scale:!1,styles:["width","height"]},this.findAutoAnimateMatches(i,e.from,e.to,".hljs .hljs-ln-code",(e=>e.textContent),{scale:!1,styles:[],measure:this.getLocalBoundingBox.bind(this)}),this.findAutoAnimateMatches(i,e.from,e.to,".hljs .hljs-ln-numbers[data-line-number]",(e=>e.getAttribute("data-line-number")),{scale:!1,styles:["width"],measure:this.getLocalBoundingBox.bind(this)}))}),this),i}getLocalBoundingBox(e){const t=this.Reveal.getScale();return{x:Math.round(e.offsetLeft*t*100)/100,y:Math.round(e.offsetTop*t*100)/100,width:Math.round(e.offsetWidth*t*100)/100,height:Math.round(e.offsetHeight*t*100)/100}}findAutoAnimateMatches(e,t,i,s,a,n){let r={},o={};[].slice.call(t.querySelectorAll(s)).forEach(((e,t)=>{const i=a(e);"string"==typeof i&&i.length&&(r[i]=r[i]||[],r[i].push(e))})),[].slice.call(i.querySelectorAll(s)).forEach(((t,i)=>{const s=a(t);let l;if(o[s]=o[s]||[],o[s].push(t),r[s]){const e=o[s].length-1,t=r[s].length-1;r[s][e]?(l=r[s][e],r[s][e]=null):r[s][t]&&(l=r[s][t],r[s][t]=null)}l&&e.push({from:l,to:t,options:n})}))}getUnmatchedAutoAnimateElements(e){return[].slice.call(e.children).reduce(((e,t)=>{const i=t.querySelector("[data-auto-animate-target]");return t.hasAttribute("data-auto-animate-target")||i||e.push(t),t.querySelector("[data-auto-animate-target]")&&(e=e.concat(this.getUnmatchedAutoAnimateElements(t))),e}),[])}}class C{constructor(e){this.Reveal=e,this.active=!1,this.activatedCallbacks=[],this.onScroll=this.onScroll.bind(this)}activate(){if(this.active)return;const e=this.Reveal.getState();this.active=!0,this.slideHTMLBeforeActivation=this.Reveal.getSlidesElement().innerHTML;const i=t(this.Reveal.getRevealElement(),f),s=t(this.Reveal.getRevealElement(),".backgrounds>.slide-background");let a;this.viewportElement.classList.add("loading-scroll-mode","reveal-scroll");const n=window.getComputedStyle(this.viewportElement);n&&n.background&&(a=n.background);const r=[],o=i[0].parentNode;let l;const d=(e,t,i,n)=>{let o;if(l&&this.Reveal.shouldAutoAnimateBetween(l,e))o=document.createElement("div"),o.className="scroll-page-content scroll-auto-animate-page",o.style.display="none",l.closest(".scroll-page-content").parentNode.appendChild(o);else{const e=document.createElement("div");if(e.className="scroll-page",r.push(e),n&&s.length>t){const i=s[t],n=window.getComputedStyle(i);n&&n.background?e.style.background=n.background:a&&(e.style.background=a)}else a&&(e.style.background=a);const i=document.createElement("div");i.className="scroll-page-sticky",e.appendChild(i),o=document.createElement("div"),o.className="scroll-page-content",i.appendChild(o)}o.appendChild(e),e.classList.remove("past","future"),e.setAttribute("data-index-h",t),e.setAttribute("data-index-v",i),e.slideBackgroundElement&&(e.slideBackgroundElement.remove("past","future"),o.insertBefore(e.slideBackgroundElement,e)),l=e};i.forEach(((e,t)=>{this.Reveal.isVerticalStack(e)?e.querySelectorAll("section").forEach(((e,i)=>{d(e,t,i,!0)})):d(e,t,0)}),this),this.createProgressBar(),t(this.Reveal.getRevealElement(),".stack").forEach((e=>e.remove())),r.forEach((e=>o.appendChild(e))),this.Reveal.slideContent.layout(this.Reveal.getSlidesElement()),this.Reveal.layout(),this.Reveal.setState(e),this.activatedCallbacks.forEach((e=>e())),this.activatedCallbacks=[],this.restoreScrollPosition(),this.viewportElement.classList.remove("loading-scroll-mode"),this.viewportElement.addEventListener("scroll",this.onScroll,{passive:!0})}deactivate(){if(!this.active)return;const e=this.Reveal.getState();this.active=!1,this.viewportElement.removeEventListener("scroll",this.onScroll),this.viewportElement.classList.remove("reveal-scroll"),this.removeProgressBar(),this.Reveal.getSlidesElement().innerHTML=this.slideHTMLBeforeActivation,this.Reveal.sync(),this.Reveal.setState(e),this.slideHTMLBeforeActivation=null}toggle(e){"boolean"==typeof e?e?this.activate():this.deactivate():this.isActive()?this.deactivate():this.activate()}isActive(){return this.active}createProgressBar(){this.progressBar=document.createElement("div"),this.progressBar.className="scrollbar",this.progressBarInner=document.createElement("div"),this.progressBarInner.className="scrollbar-inner",this.progressBar.appendChild(this.progressBarInner),this.progressBarPlayhead=document.createElement("div"),this.progressBarPlayhead.className="scrollbar-playhead",this.progressBarInner.appendChild(this.progressBarPlayhead),this.viewportElement.insertBefore(this.progressBar,this.viewportElement.firstChild);const e=e=>{let t=(e.clientY-this.progressBarInner.getBoundingClientRect().top)/this.progressBarHeight;t=Math.max(Math.min(t,1),0),this.viewportElement.scrollTop=t*(this.viewportElement.scrollHeight-this.viewportElement.offsetHeight)},t=i=>{this.draggingProgressBar=!1,this.showProgressBar(),document.removeEventListener("mousemove",e),document.removeEventListener("mouseup",t)};this.progressBarInner.addEventListener("mousedown",(i=>{i.preventDefault(),this.draggingProgressBar=!0,document.addEventListener("mousemove",e),document.addEventListener("mouseup",t),e(i)}))}removeProgressBar(){this.progressBar&&(this.progressBar.remove(),this.progressBar=null)}layout(){this.isActive()&&(this.syncPages(),this.syncScrollPosition())}syncPages(){const e=this.Reveal.getConfig(),t=this.Reveal.getComputedSlideSize(window.innerWidth,window.innerHeight),i=this.Reveal.getScale(),s="compact"===e.scrollLayout,a=this.viewportElement.offsetHeight,n=t.height*i,r=s?n:a;this.scrollTriggerHeight=s?n:a,this.viewportElement.style.setProperty("--page-height",r+"px"),this.viewportElement.style.scrollSnapType="string"==typeof e.scrollSnap?`y ${e.scrollSnap}`:"",this.slideTriggers=[];const o=Array.from(this.Reveal.getRevealElement().querySelectorAll(".scroll-page"));this.pages=o.map((i=>{const n=this.createPage({pageElement:i,slideElement:i.querySelector("section"),stickyElement:i.querySelector(".scroll-page-sticky"),contentElement:i.querySelector(".scroll-page-content"),backgroundElement:i.querySelector(".slide-background"),autoAnimateElements:i.querySelectorAll(".scroll-auto-animate-page"),autoAnimatePages:[]});n.pageElement.style.setProperty("--slide-height",!0===e.center?"auto":t.height+"px"),this.slideTriggers.push({page:n,activate:()=>this.activatePage(n),deactivate:()=>this.deactivatePage(n)}),this.createFragmentTriggersForPage(n),n.autoAnimateElements.length>0&&this.createAutoAnimateTriggersForPage(n);let o=Math.max(n.scrollTriggers.length-1,0);o+=n.autoAnimatePages.reduce(((e,t)=>e+Math.max(t.scrollTriggers.length-1,0)),n.autoAnimatePages.length),n.pageElement.querySelectorAll(".scroll-snap-point").forEach((e=>e.remove()));for(let e=0;e<o+1;e++){const t=document.createElement("div");t.className="scroll-snap-point",t.style.height=this.scrollTriggerHeight+"px",t.style.scrollSnapAlign=s?"center":"start",n.pageElement.appendChild(t),0===e&&(t.style.marginTop=-this.scrollTriggerHeight+"px")}return s&&n.scrollTriggers.length>0?(n.pageHeight=a,n.pageElement.style.setProperty("--page-height",a+"px")):(n.pageHeight=r,n.pageElement.style.removeProperty("--page-height")),n.scrollPadding=this.scrollTriggerHeight*o,n.totalHeight=n.pageHeight+n.scrollPadding,n.pageElement.style.setProperty("--page-scroll-padding",n.scrollPadding+"px"),o>0?(n.stickyElement.style.position="sticky",n.stickyElement.style.top=Math.max((a-n.pageHeight)/2,0)+"px"):(n.stickyElement.style.position="relative",n.pageElement.style.scrollSnapAlign=n.pageHeight<a?"center":"start"),n})),this.setTriggerRanges(),this.viewportElement.setAttribute("data-scrollbar",e.scrollProgress),e.scrollProgress&&this.totalScrollTriggerCount>1?(this.progressBar||this.createProgressBar(),this.syncProgressBar()):this.removeProgressBar()}setTriggerRanges(){this.totalScrollTriggerCount=this.slideTriggers.reduce(((e,t)=>e+Math.max(t.page.scrollTriggers.length,1)),0);let e=0;this.slideTriggers.forEach(((t,i)=>{t.range=[e,e+Math.max(t.page.scrollTriggers.length,1)/this.totalScrollTriggerCount];const s=(t.range[1]-t.range[0])/t.page.scrollTriggers.length;t.page.scrollTriggers.forEach(((t,i)=>{t.range=[e+i*s,e+(i+1)*s]})),e=t.range[1]}))}createFragmentTriggersForPage(e,t){t=t||e.slideElement;const i=this.Reveal.fragments.sort(t.querySelectorAll(".fragment"),!0);return i.length&&(e.fragments=this.Reveal.fragments.sort(t.querySelectorAll(".fragment:not(.disabled)")),e.scrollTriggers.push({activate:()=>{this.Reveal.fragments.update(-1,e.fragments,t)}}),i.forEach(((i,s)=>{e.scrollTriggers.push({activate:()=>{this.Reveal.fragments.update(s,e.fragments,t)}})}))),e.scrollTriggers.length}createAutoAnimateTriggersForPage(e){e.autoAnimateElements.length>0&&this.slideTriggers.push(...Array.from(e.autoAnimateElements).map(((t,i)=>{let s=this.createPage({slideElement:t.querySelector("section"),contentElement:t,backgroundElement:t.querySelector(".slide-background")});return this.createFragmentTriggersForPage(s,s.slideElement),e.autoAnimatePages.push(s),{page:s,activate:()=>this.activatePage(s),deactivate:()=>this.deactivatePage(s)}})))}createPage(e){return e.scrollTriggers=[],e.indexh=parseInt(e.slideElement.getAttribute("data-index-h"),10),e.indexv=parseInt(e.slideElement.getAttribute("data-index-v"),10),e}syncProgressBar(){this.progressBarInner.querySelectorAll(".scrollbar-slide").forEach((e=>e.remove()));const e=this.viewportElement.scrollHeight,t=this.viewportElement.offsetHeight,i=t/e;this.progressBarHeight=this.progressBarInner.offsetHeight,this.playheadHeight=Math.max(i*this.progressBarHeight,8),this.progressBarScrollableHeight=this.progressBarHeight-this.playheadHeight;const s=t/e*this.progressBarHeight,a=Math.min(s/8,4);this.progressBarPlayhead.style.height=this.playheadHeight-a+"px",s>6?this.slideTriggers.forEach((e=>{const{page:t}=e;t.progressBarSlide=document.createElement("div"),t.progressBarSlide.className="scrollbar-slide",t.progressBarSlide.style.top=e.range[0]*this.progressBarHeight+"px",t.progressBarSlide.style.height=(e.range[1]-e.range[0])*this.progressBarHeight-a+"px",t.progressBarSlide.classList.toggle("has-triggers",t.scrollTriggers.length>0),this.progressBarInner.appendChild(t.progressBarSlide),t.scrollTriggerElements=t.scrollTriggers.map(((i,s)=>{const n=document.createElement("div");return n.className="scrollbar-trigger",n.style.top=(i.range[0]-e.range[0])*this.progressBarHeight+"px",n.style.height=(i.range[1]-i.range[0])*this.progressBarHeight-a+"px",t.progressBarSlide.appendChild(n),0===s&&(n.style.display="none"),n}))})):this.pages.forEach((e=>e.progressBarSlide=null))}syncScrollPosition(){const e=this.viewportElement.offsetHeight,t=e/this.viewportElement.scrollHeight,i=this.viewportElement.scrollTop,s=this.viewportElement.scrollHeight-e,a=Math.max(Math.min(i/s,1),0),n=Math.max(Math.min((i+e/2)/this.viewportElement.scrollHeight,1),0);let r;this.slideTriggers.forEach((e=>{const{page:i}=e;a>=e.range[0]-2*t&&a<=e.range[1]+2*t&&!i.loaded?(i.loaded=!0,this.Reveal.slideContent.load(i.slideElement)):i.loaded&&(i.loaded=!1,this.Reveal.slideContent.unload(i.slideElement)),a>=e.range[0]&&a<=e.range[1]?(this.activateTrigger(e),r=e.page):e.active&&this.deactivateTrigger(e)})),r&&r.scrollTriggers.forEach((e=>{n>=e.range[0]&&n<=e.range[1]?this.activateTrigger(e):e.active&&this.deactivateTrigger(e)})),this.setProgressBarValue(i/(this.viewportElement.scrollHeight-e))}setProgressBarValue(e){this.progressBar&&(this.progressBarPlayhead.style.transform=`translateY(${e*this.progressBarScrollableHeight}px)`,this.getAllPages().filter((e=>e.progressBarSlide)).forEach((e=>{e.progressBarSlide.classList.toggle("active",!0===e.active),e.scrollTriggers.forEach(((t,i)=>{e.scrollTriggerElements[i].classList.toggle("active",!0===e.active&&!0===t.active)}))})),this.showProgressBar())}showProgressBar(){this.progressBar.classList.add("visible"),clearTimeout(this.hideProgressBarTimeout),"auto"!==this.Reveal.getConfig().scrollProgress||this.draggingProgressBar||(this.hideProgressBarTimeout=setTimeout((()=>{this.progressBar&&this.progressBar.classList.remove("visible")}),500))}prev(){this.viewportElement.scrollTop-=this.scrollTriggerHeight}next(){this.viewportElement.scrollTop+=this.scrollTriggerHeight}scrollToSlide(e){if(this.active){const t=this.getScrollTriggerBySlide(e);t&&(this.viewportElement.scrollTop=t.range[0]*(this.viewportElement.scrollHeight-this.viewportElement.offsetHeight))}else this.activatedCallbacks.push((()=>this.scrollToSlide(e)))}storeScrollPosition(){clearTimeout(this.storeScrollPositionTimeout),this.storeScrollPositionTimeout=setTimeout((()=>{sessionStorage.setItem("reveal-scroll-top",this.viewportElement.scrollTop),sessionStorage.setItem("reveal-scroll-origin",location.origin+location.pathname),this.storeScrollPositionTimeout=null}),50)}restoreScrollPosition(){const e=sessionStorage.getItem("reveal-scroll-top"),t=sessionStorage.getItem("reveal-scroll-origin");e&&t===location.origin+location.pathname&&(this.viewportElement.scrollTop=parseInt(e,10))}activatePage(e){if(!e.active){e.active=!0;const{slideElement:t,backgroundElement:i,contentElement:s,indexh:a,indexv:n}=e;s.style.display="block",t.classList.add("present"),i&&i.classList.add("present"),this.Reveal.setCurrentScrollPage(t,a,n),this.Reveal.backgrounds.bubbleSlideContrastClassToElement(t,this.viewportElement),Array.from(s.parentNode.querySelectorAll(".scroll-page-content")).forEach((e=>{e!==s&&(e.style.display="none")}))}}deactivatePage(e){e.active&&(e.active=!1,e.slideElement&&e.slideElement.classList.remove("present"),e.backgroundElement&&e.backgroundElement.classList.remove("present"))}activateTrigger(e){e.active||(e.active=!0,e.activate())}deactivateTrigger(e){e.active&&(e.active=!1,e.deactivate&&e.deactivate())}getSlideByIndices(e,t){const i=this.getAllPages().find((i=>i.indexh===e&&i.indexv===t));return i?i.slideElement:null}getScrollTriggerBySlide(e){return this.slideTriggers.find((t=>t.page.slideElement===e))}getAllPages(){return this.pages.flatMap((e=>[e,...e.autoAnimatePages||[]]))}onScroll(){this.syncScrollPosition(),this.storeScrollPosition()}get viewportElement(){return this.Reveal.getViewportElement()}}class x{constructor(e){this.Reveal=e}async activate(){const e=this.Reveal.getConfig(),i=t(this.Reveal.getRevealElement(),m),s=e.slideNumber&&/all|print/i.test(e.showSlideNumber),a=this.Reveal.getComputedSlideSize(window.innerWidth,window.innerHeight),n=Math.floor(a.width*(1+e.margin)),r=Math.floor(a.height*(1+e.margin)),o=a.width,d=a.height;await new Promise(requestAnimationFrame),l("@page{size:"+n+"px "+r+"px; margin: 0px;}"),l(".reveal section>img, .reveal section>video, .reveal section>iframe{max-width: "+o+"px; max-height:"+d+"px}"),document.documentElement.classList.add("reveal-print","print-pdf"),document.body.style.width=n+"px",document.body.style.height=r+"px";const c=this.Reveal.getViewportElement();let h;if(c){const e=window.getComputedStyle(c);e&&e.background&&(h=e.background)}await new Promise(requestAnimationFrame),this.Reveal.layoutSlideContents(o,d),await new Promise(requestAnimationFrame);const u=i.map((e=>e.scrollHeight)),g=[],p=i[0].parentNode;let v=1;i.forEach((function(i,a){if(!1===i.classList.contains("stack")){let l=(n-o)/2,c=(r-d)/2;const p=u[a];let m=Math.max(Math.ceil(p/r),1);m=Math.min(m,e.pdfMaxPagesPerSlide),(1===m&&e.center||i.classList.contains("center"))&&(c=Math.max((r-p)/2,0));const f=document.createElement("div");if(g.push(f),f.className="pdf-page",f.style.height=(r+e.pdfPageHeightOffset)*m+"px",h&&(f.style.background=h),f.appendChild(i),i.style.left=l+"px",i.style.top=c+"px",i.style.width=o+"px",this.Reveal.slideContent.layout(i),i.slideBackgroundElement&&f.insertBefore(i.slideBackgroundElement,i),e.showNotes){const t=this.Reveal.getSlideNotes(i);if(t){const i=8,s="string"==typeof e.showNotes?e.showNotes:"inline",a=document.createElement("div");a.classList.add("speaker-notes"),a.classList.add("speaker-notes-pdf"),a.setAttribute("data-layout",s),a.innerHTML=t,"separate-page"===s?g.push(a):(a.style.left=i+"px",a.style.bottom=i+"px",a.style.width=n-2*i+"px",f.appendChild(a))}}if(s){const e=document.createElement("div");e.classList.add("slide-number"),e.classList.add("slide-number-pdf"),e.innerHTML=v++,f.appendChild(e)}if(e.pdfSeparateFragments){const e=this.Reveal.fragments.sort(f.querySelectorAll(".fragment"),!0);let t;e.forEach((function(e,i){t&&t.forEach((function(e){e.classList.remove("current-fragment")})),e.forEach((function(e){e.classList.add("visible","current-fragment")}),this);const a=f.cloneNode(!0);if(s){const e=i+1;a.querySelector(".slide-number-pdf").innerHTML+="."+e}g.push(a),t=e}),this),e.forEach((function(e){e.forEach((function(e){e.classList.remove("visible","current-fragment")}))}))}else t(f,".fragment:not(.fade-out)").forEach((function(e){e.classList.add("visible")}))}}),this),await new Promise(requestAnimationFrame),g.forEach((e=>p.appendChild(e))),this.Reveal.slideContent.layout(this.Reveal.getSlidesElement()),this.Reveal.dispatchEvent({type:"pdf-ready"}),c.classList.remove("loading-scroll-mode")}isActive(){return"print"===this.Reveal.getConfig().view}}class P{constructor(e){this.Reveal=e}configure(e,t){!1===e.fragments?this.disable():!1===t.fragments&&this.enable()}disable(){t(this.Reveal.getSlidesElement(),".fragment").forEach((e=>{e.classList.add("visible"),e.classList.remove("current-fragment")}))}enable(){t(this.Reveal.getSlidesElement(),".fragment").forEach((e=>{e.classList.remove("visible"),e.classList.remove("current-fragment")}))}availableRoutes(){let e=this.Reveal.getCurrentSlide();if(e&&this.Reveal.getConfig().fragments){let t=e.querySelectorAll(".fragment:not(.disabled)"),i=e.querySelectorAll(".fragment:not(.disabled):not(.visible)");return{prev:t.length-i.length>0,next:!!i.length}}return{prev:!1,next:!1}}sort(e,t=!1){e=Array.from(e);let i=[],s=[],a=[];e.forEach((e=>{if(e.hasAttribute("data-fragment-index")){let t=parseInt(e.getAttribute("data-fragment-index"),10);i[t]||(i[t]=[]),i[t].push(e)}else s.push([e])})),i=i.concat(s);let n=0;return i.forEach((e=>{e.forEach((e=>{a.push(e),e.setAttribute("data-fragment-index",n)})),n++})),!0===t?i:a}sortAll(){this.Reveal.getHorizontalSlides().forEach((e=>{let i=t(e,"section");i.forEach(((e,t)=>{this.sort(e.querySelectorAll(".fragment"))}),this),0===i.length&&this.sort(e.querySelectorAll(".fragment"))}))}update(e,t,i=this.Reveal.getCurrentSlide()){let s={shown:[],hidden:[]};if(i&&this.Reveal.getConfig().fragments&&(t=t||this.sort(i.querySelectorAll(".fragment"))).length){let a=0;if("number"!=typeof e){let t=this.sort(i.querySelectorAll(".fragment.visible")).pop();t&&(e=parseInt(t.getAttribute("data-fragment-index")||0,10))}Array.from(t).forEach(((t,i)=>{if(t.hasAttribute("data-fragment-index")&&(i=parseInt(t.getAttribute("data-fragment-index"),10)),a=Math.max(a,i),i<=e){let a=t.classList.contains("visible");t.classList.add("visible"),t.classList.remove("current-fragment"),i===e&&(this.Reveal.announceStatus(this.Reveal.getStatusText(t)),t.classList.add("current-fragment"),this.Reveal.slideContent.startEmbeddedContent(t)),a||(s.shown.push(t),this.Reveal.dispatchEvent({target:t,type:"visible",bubbles:!1}))}else{let e=t.classList.contains("visible");t.classList.remove("visible"),t.classList.remove("current-fragment"),e&&(this.Reveal.slideContent.stopEmbeddedContent(t),s.hidden.push(t),this.Reveal.dispatchEvent({target:t,type:"hidden",bubbles:!1}))}})),e="number"==typeof e?e:-1,e=Math.max(Math.min(e,a),-1),i.setAttribute("data-fragment",e)}return s.hidden.length&&this.Reveal.dispatchEvent({type:"fragmenthidden",data:{fragment:s.hidden[0],fragments:s.hidden}}),s.shown.length&&this.Reveal.dispatchEvent({type:"fragmentshown",data:{fragment:s.shown[0],fragments:s.shown}}),s}sync(e=this.Reveal.getCurrentSlide()){return this.sort(e.querySelectorAll(".fragment"))}goto(e,t=0){let i=this.Reveal.getCurrentSlide();if(i&&this.Reveal.getConfig().fragments){let s=this.sort(i.querySelectorAll(".fragment:not(.disabled)"));if(s.length){if("number"!=typeof e){let t=this.sort(i.querySelectorAll(".fragment:not(.disabled).visible")).pop();e=t?parseInt(t.getAttribute("data-fragment-index")||0,10):-1}e+=t;let a=this.update(e,s);return this.Reveal.controls.update(),this.Reveal.progress.update(),this.Reveal.getConfig().fragmentInURL&&this.Reveal.location.writeURL(),!(!a.shown.length&&!a.hidden.length)}}return!1}next(){return this.goto(null,1)}prev(){return this.goto(null,-1)}}class T{constructor(e){this.Reveal=e,this.active=!1,this.onSlideClicked=this.onSlideClicked.bind(this)}activate(){if(this.Reveal.getConfig().overview&&!this.Reveal.isScrollView()&&!this.isActive()){this.active=!0,this.Reveal.getRevealElement().classList.add("overview"),this.Reveal.cancelAutoSlide(),this.Reveal.getSlidesElement().appendChild(this.Reveal.getBackgroundsElement()),t(this.Reveal.getRevealElement(),m).forEach((e=>{e.classList.contains("stack")||e.addEventListener("click",this.onSlideClicked,!0)}));const e=70,i=this.Reveal.getComputedSlideSize();this.overviewSlideWidth=i.width+e,this.overviewSlideHeight=i.height+e,this.Reveal.getConfig().rtl&&(this.overviewSlideWidth=-this.overviewSlideWidth),this.Reveal.updateSlidesVisibility(),this.layout(),this.update(),this.Reveal.layout();const s=this.Reveal.getIndices();this.Reveal.dispatchEvent({type:"overviewshown",data:{indexh:s.h,indexv:s.v,currentSlide:this.Reveal.getCurrentSlide()}})}}layout(){this.Reveal.getHorizontalSlides().forEach(((e,i)=>{e.setAttribute("data-index-h",i),a(e,"translate3d("+i*this.overviewSlideWidth+"px, 0, 0)"),e.classList.contains("stack")&&t(e,"section").forEach(((e,t)=>{e.setAttribute("data-index-h",i),e.setAttribute("data-index-v",t),a(e,"translate3d(0, "+t*this.overviewSlideHeight+"px, 0)")}))})),Array.from(this.Reveal.getBackgroundsElement().childNodes).forEach(((e,i)=>{a(e,"translate3d("+i*this.overviewSlideWidth+"px, 0, 0)"),t(e,".slide-background").forEach(((e,t)=>{a(e,"translate3d(0, "+t*this.overviewSlideHeight+"px, 0)")}))}))}update(){const e=Math.min(window.innerWidth,window.innerHeight),t=Math.max(e/5,150)/e,i=this.Reveal.getIndices();this.Reveal.transformSlides({overview:["scale("+t+")","translateX("+-i.h*this.overviewSlideWidth+"px)","translateY("+-i.v*this.overviewSlideHeight+"px)"].join(" ")})}deactivate(){if(this.Reveal.getConfig().overview){this.active=!1,this.Reveal.getRevealElement().classList.remove("overview"),this.Reveal.getRevealElement().classList.add("overview-deactivating"),setTimeout((()=>{this.Reveal.getRevealElement().classList.remove("overview-deactivating")}),1),this.Reveal.getRevealElement().appendChild(this.Reveal.getBackgroundsElement()),t(this.Reveal.getRevealElement(),m).forEach((e=>{a(e,""),e.removeEventListener("click",this.onSlideClicked,!0)})),t(this.Reveal.getBackgroundsElement(),".slide-background").forEach((e=>{a(e,"")})),this.Reveal.transformSlides({overview:""});const e=this.Reveal.getIndices();this.Reveal.slide(e.h,e.v),this.Reveal.layout(),this.Reveal.cueAutoSlide(),this.Reveal.dispatchEvent({type:"overviewhidden",data:{indexh:e.h,indexv:e.v,currentSlide:this.Reveal.getCurrentSlide()}})}}toggle(e){"boolean"==typeof e?e?this.activate():this.deactivate():this.isActive()?this.deactivate():this.activate()}isActive(){return this.active}onSlideClicked(e){if(this.isActive()){e.preventDefault();let t=e.target;for(;t&&!t.nodeName.match(/section/gi);)t=t.parentNode;if(t&&!t.classList.contains("disabled")&&(this.deactivate(),t.nodeName.match(/section/gi))){let e=parseInt(t.getAttribute("data-index-h"),10),i=parseInt(t.getAttribute("data-index-v"),10);this.Reveal.slide(e,i)}}}}class N{constructor(e){this.Reveal=e,this.shortcuts={},this.bindings={},this.onDocumentKeyDown=this.onDocumentKeyDown.bind(this)}configure(e,t){"linear"===e.navigationMode?(this.shortcuts["&#8594;  ,  &#8595;  ,  SPACE  ,  N  ,  L  ,  J"]="Next slide",this.shortcuts["&#8592;  ,  &#8593;  ,  P  ,  H  ,  K"]="Previous slide"):(this.shortcuts["N  ,  SPACE"]="Next slide",this.shortcuts["P  ,  Shift SPACE"]="Previous slide",this.shortcuts["&#8592;  ,  H"]="Navigate left",this.shortcuts["&#8594;  ,  L"]="Navigate right",this.shortcuts["&#8593;  ,  K"]="Navigate up",this.shortcuts["&#8595;  ,  J"]="Navigate down"),this.shortcuts["Alt + &#8592;/&#8593/&#8594;/&#8595;"]="Navigate without fragments",this.shortcuts["Shift + &#8592;/&#8593/&#8594;/&#8595;"]="Jump to first/last slide",this.shortcuts["B  ,  ."]="Pause",this.shortcuts.F="Fullscreen",this.shortcuts.G="Jump to slide",this.shortcuts["ESC, O"]="Slide overview"}bind(){document.addEventListener("keydown",this.onDocumentKeyDown,!1)}unbind(){document.removeEventListener("keydown",this.onDocumentKeyDown,!1)}addKeyBinding(e,t){"object"==typeof e&&e.keyCode?this.bindings[e.keyCode]={callback:t,key:e.key,description:e.description}:this.bindings[e]={callback:t,key:null,description:null}}removeKeyBinding(e){delete this.bindings[e]}triggerKey(e){this.onDocumentKeyDown({keyCode:e})}registerKeyboardShortcut(e,t){this.shortcuts[e]=t}getShortcuts(){return this.shortcuts}getBindings(){return this.bindings}onDocumentKeyDown(e){let t=this.Reveal.getConfig();if("function"==typeof t.keyboardCondition&&!1===t.keyboardCondition(e))return!0;if("focused"===t.keyboardCondition&&!this.Reveal.isFocused())return!0;let i=e.keyCode,s=!this.Reveal.isAutoSliding();this.Reveal.onUserInput(e);let a=document.activeElement&&!0===document.activeElement.isContentEditable,n=document.activeElement&&document.activeElement.tagName&&/input|textarea/i.test(document.activeElement.tagName),r=document.activeElement&&document.activeElement.className&&/speaker-notes/i.test(document.activeElement.className),l=!(-1!==[32,37,38,39,40,63,78,80,191].indexOf(e.keyCode)&&e.shiftKey||e.altKey)&&(e.shiftKey||e.altKey||e.ctrlKey||e.metaKey);if(a||n||r||l)return;let d,c=[66,86,190,191,112];if("object"==typeof t.keyboard)for(d in t.keyboard)"togglePause"===t.keyboard[d]&&c.push(parseInt(d,10));if(this.Reveal.isPaused()&&-1===c.indexOf(i))return!1;let h="linear"===t.navigationMode||!this.Reveal.hasHorizontalSlides()||!this.Reveal.hasVerticalSlides(),u=!1;if("object"==typeof t.keyboard)for(d in t.keyboard)if(parseInt(d,10)===i){let i=t.keyboard[d];"function"==typeof i?i.apply(null,[e]):"string"==typeof i&&"function"==typeof this.Reveal[i]&&this.Reveal[i].call(),u=!0}if(!1===u)for(d in this.bindings)if(parseInt(d,10)===i){let t=this.bindings[d].callback;"function"==typeof t?t.apply(null,[e]):"string"==typeof t&&"function"==typeof this.Reveal[t]&&this.Reveal[t].call(),u=!0}!1===u&&(u=!0,80===i||33===i?this.Reveal.prev({skipFragments:e.altKey}):78===i||34===i?this.Reveal.next({skipFragments:e.altKey}):72===i||37===i?e.shiftKey?this.Reveal.slide(0):!this.Reveal.overview.isActive()&&h?t.rtl?this.Reveal.next({skipFragments:e.altKey}):this.Reveal.prev({skipFragments:e.altKey}):this.Reveal.left({skipFragments:e.altKey}):76===i||39===i?e.shiftKey?this.Reveal.slide(this.Reveal.getHorizontalSlides().length-1):!this.Reveal.overview.isActive()&&h?t.rtl?this.Reveal.prev({skipFragments:e.altKey}):this.Reveal.next({skipFragments:e.altKey}):this.Reveal.right({skipFragments:e.altKey}):75===i||38===i?e.shiftKey?this.Reveal.slide(void 0,0):!this.Reveal.overview.isActive()&&h?this.Reveal.prev({skipFragments:e.altKey}):this.Reveal.up({skipFragments:e.altKey}):74===i||40===i?e.shiftKey?this.Reveal.slide(void 0,Number.MAX_VALUE):!this.Reveal.overview.isActive()&&h?this.Reveal.next({skipFragments:e.altKey}):this.Reveal.down({skipFragments:e.altKey}):36===i?this.Reveal.slide(0):35===i?this.Reveal.slide(this.Reveal.getHorizontalSlides().length-1):32===i?(this.Reveal.overview.isActive()&&this.Reveal.overview.deactivate(),e.shiftKey?this.Reveal.prev({skipFragments:e.altKey}):this.Reveal.next({skipFragments:e.altKey})):[58,59,66,86,190].includes(i)||191===i&&!e.shiftKey?this.Reveal.togglePause():70===i?o(t.embedded?this.Reveal.getViewportElement():document.documentElement):65===i?t.autoSlideStoppable&&this.Reveal.toggleAutoSlide(s):71===i?t.jumpToSlide&&this.Reveal.toggleJumpToSlide():63!==i&&191!==i||!e.shiftKey?112===i?this.Reveal.toggleHelp():u=!1:this.Reveal.toggleHelp()),u?e.preventDefault&&e.preventDefault():27!==i&&79!==i||(!1===this.Reveal.closeOverlay()&&this.Reveal.overview.toggle(),e.preventDefault&&e.preventDefault()),this.Reveal.cueAutoSlide()}}class M{MAX_REPLACE_STATE_FREQUENCY=1e3;constructor(e){this.Reveal=e,this.writeURLTimeout=0,this.replaceStateTimestamp=0,this.onWindowHashChange=this.onWindowHashChange.bind(this)}bind(){window.addEventListener("hashchange",this.onWindowHashChange,!1)}unbind(){window.removeEventListener("hashchange",this.onWindowHashChange,!1)}getIndicesFromHash(e=window.location.hash,t={}){let i=e.replace(/^#\/?/,""),s=i.split("/");if(/^[0-9]*$/.test(s[0])||!i.length){const e=this.Reveal.getConfig();let i,a=e.hashOneBasedIndex||t.oneBasedIndex?1:0,n=parseInt(s[0],10)-a||0,r=parseInt(s[1],10)-a||0;return e.fragmentInURL&&(i=parseInt(s[2],10),isNaN(i)&&(i=void 0)),{h:n,v:r,f:i}}{let e,t;/\/[-\d]+$/g.test(i)&&(t=parseInt(i.split("/").pop(),10),t=isNaN(t)?void 0:t,i=i.split("/").shift());try{e=document.getElementById(decodeURIComponent(i)).closest(".slides section")}catch(e){}if(e)return{...this.Reveal.getIndices(e),f:t}}return null}readURL(){const e=this.Reveal.getIndices(),t=this.getIndicesFromHash();t?t.h===e.h&&t.v===e.v&&void 0===t.f||this.Reveal.slide(t.h,t.v,t.f):this.Reveal.slide(e.h||0,e.v||0)}writeURL(e){let t=this.Reveal.getConfig(),i=this.Reveal.getCurrentSlide();if(clearTimeout(this.writeURLTimeout),"number"==typeof e)this.writeURLTimeout=setTimeout(this.writeURL,e);else if(i){let e=this.getHash();t.history?window.location.hash=e:t.hash&&("/"===e?this.debouncedReplaceState(window.location.pathname+window.location.search):this.debouncedReplaceState("#"+e))}}replaceState(e){window.history.replaceState(null,null,e),this.replaceStateTimestamp=Date.now()}debouncedReplaceState(e){clearTimeout(this.replaceStateTimeout),Date.now()-this.replaceStateTimestamp>this.MAX_REPLACE_STATE_FREQUENCY?this.replaceState(e):this.replaceStateTimeout=setTimeout((()=>this.replaceState(e)),this.MAX_REPLACE_STATE_FREQUENCY)}getHash(e){let t="/",i=e||this.Reveal.getCurrentSlide(),s=i?i.getAttribute("id"):null;s&&(s=encodeURIComponent(s));let a=this.Reveal.getIndices(e);if(this.Reveal.getConfig().fragmentInURL||(a.f=void 0),"string"==typeof s&&s.length)t="/"+s,a.f>=0&&(t+="/"+a.f);else{let e=this.Reveal.getConfig().hashOneBasedIndex?1:0;(a.h>0||a.v>0||a.f>=0)&&(t+=a.h+e),(a.v>0||a.f>=0)&&(t+="/"+(a.v+e)),a.f>=0&&(t+="/"+a.f)}return t}onWindowHashChange(e){this.readURL()}}class I{constructor(e){this.Reveal=e,this.onNavigateLeftClicked=this.onNavigateLeftClicked.bind(this),this.onNavigateRightClicked=this.onNavigateRightClicked.bind(this),this.onNavigateUpClicked=this.onNavigateUpClicked.bind(this),this.onNavigateDownClicked=this.onNavigateDownClicked.bind(this),this.onNavigatePrevClicked=this.onNavigatePrevClicked.bind(this),this.onNavigateNextClicked=this.onNavigateNextClicked.bind(this),this.onEnterFullscreen=this.onEnterFullscreen.bind(this)}render(){const e=this.Reveal.getConfig().rtl,i=this.Reveal.getRevealElement();this.element=document.createElement("aside"),this.element.className="controls",this.element.innerHTML=`<button class="navigate-left" aria-label="${e?"next slide":"previous slide"}"><div class="controls-arrow"></div></button>\n\t\t\t<button class="navigate-right" aria-label="${e?"previous slide":"next slide"}"><div class="controls-arrow"></div></button>\n\t\t\t<button class="navigate-up" aria-label="above slide"><div class="controls-arrow"></div></button>\n\t\t\t<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>`,this.Reveal.getRevealElement().appendChild(this.element),this.controlsLeft=t(i,".navigate-left"),this.controlsRight=t(i,".navigate-right"),this.controlsUp=t(i,".navigate-up"),this.controlsDown=t(i,".navigate-down"),this.controlsPrev=t(i,".navigate-prev"),this.controlsNext=t(i,".navigate-next"),this.controlsFullscreen=t(i,".enter-fullscreen"),this.controlsRightArrow=this.element.querySelector(".navigate-right"),this.controlsLeftArrow=this.element.querySelector(".navigate-left"),this.controlsDownArrow=this.element.querySelector(".navigate-down")}configure(e,t){this.element.style.display=e.controls?"block":"none",this.element.setAttribute("data-controls-layout",e.controlsLayout),this.element.setAttribute("data-controls-back-arrows",e.controlsBackArrows)}bind(){let e=["touchstart","click"];g&&(e=["touchstart"]),e.forEach((e=>{this.controlsLeft.forEach((t=>t.addEventListener(e,this.onNavigateLeftClicked,!1))),this.controlsRight.forEach((t=>t.addEventListener(e,this.onNavigateRightClicked,!1))),this.controlsUp.forEach((t=>t.addEventListener(e,this.onNavigateUpClicked,!1))),this.controlsDown.forEach((t=>t.addEventListener(e,this.onNavigateDownClicked,!1))),this.controlsPrev.forEach((t=>t.addEventListener(e,this.onNavigatePrevClicked,!1))),this.controlsNext.forEach((t=>t.addEventListener(e,this.onNavigateNextClicked,!1))),this.controlsFullscreen.forEach((t=>t.addEventListener(e,this.onEnterFullscreen,!1)))}))}unbind(){["touchstart","click"].forEach((e=>{this.controlsLeft.forEach((t=>t.removeEventListener(e,this.onNavigateLeftClicked,!1))),this.controlsRight.forEach((t=>t.removeEventListener(e,this.onNavigateRightClicked,!1))),this.controlsUp.forEach((t=>t.removeEventListener(e,this.onNavigateUpClicked,!1))),this.controlsDown.forEach((t=>t.removeEventListener(e,this.onNavigateDownClicked,!1))),this.controlsPrev.forEach((t=>t.removeEventListener(e,this.onNavigatePrevClicked,!1))),this.controlsNext.forEach((t=>t.removeEventListener(e,this.onNavigateNextClicked,!1))),this.controlsFullscreen.forEach((t=>t.removeEventListener(e,this.onEnterFullscreen,!1)))}))}update(){let e=this.Reveal.availableRoutes();[...this.controlsLeft,...this.controlsRight,...this.controlsUp,...this.controlsDown,...this.controlsPrev,...this.controlsNext].forEach((e=>{e.classList.remove("enabled","fragmented"),e.setAttribute("disabled","disabled")})),e.left&&this.controlsLeft.forEach((e=>{e.classList.add("enabled"),e.removeAttribute("disabled")})),e.right&&this.controlsRight.forEach((e=>{e.classList.add("enabled"),e.removeAttribute("disabled")})),e.up&&this.controlsUp.forEach((e=>{e.classList.add("enabled"),e.removeAttribute("disabled")})),e.down&&this.controlsDown.forEach((e=>{e.classList.add("enabled"),e.removeAttribute("disabled")})),(e.left||e.up)&&this.controlsPrev.forEach((e=>{e.classList.add("enabled"),e.removeAttribute("disabled")})),(e.right||e.down)&&this.controlsNext.forEach((e=>{e.classList.add("enabled"),e.removeAttribute("disabled")}));let t=this.Reveal.getCurrentSlide();if(t){let e=this.Reveal.fragments.availableRoutes();e.prev&&this.controlsPrev.forEach((e=>{e.classList.add("fragmented","enabled"),e.removeAttribute("disabled")})),e.next&&this.controlsNext.forEach((e=>{e.classList.add("fragmented","enabled"),e.removeAttribute("disabled")})),this.Reveal.isVerticalSlide(t)?(e.prev&&this.controlsUp.forEach((e=>{e.classList.add("fragmented","enabled"),e.removeAttribute("disabled")})),e.next&&this.controlsDown.forEach((e=>{e.classList.add("fragmented","enabled"),e.removeAttribute("disabled")}))):(e.prev&&this.controlsLeft.forEach((e=>{e.classList.add("fragmented","enabled"),e.removeAttribute("disabled")})),e.next&&this.controlsRight.forEach((e=>{e.classList.add("fragmented","enabled"),e.removeAttribute("disabled")})))}if(this.Reveal.getConfig().controlsTutorial){let t=this.Reveal.getIndices();!this.Reveal.hasNavigatedVertically()&&e.down?this.controlsDownArrow.classList.add("highlight"):(this.controlsDownArrow.classList.remove("highlight"),this.Reveal.getConfig().rtl?!this.Reveal.hasNavigatedHorizontally()&&e.left&&0===t.v?this.controlsLeftArrow.classList.add("highlight"):this.controlsLeftArrow.classList.remove("highlight"):!this.Reveal.hasNavigatedHorizontally()&&e.right&&0===t.v?this.controlsRightArrow.classList.add("highlight"):this.controlsRightArrow.classList.remove("highlight"))}}destroy(){this.unbind(),this.element.remove()}onNavigateLeftClicked(e){e.preventDefault(),this.Reveal.onUserInput(),"linear"===this.Reveal.getConfig().navigationMode?this.Reveal.prev():this.Reveal.left()}onNavigateRightClicked(e){e.preventDefault(),this.Reveal.onUserInput(),"linear"===this.Reveal.getConfig().navigationMode?this.Reveal.next():this.Reveal.right()}onNavigateUpClicked(e){e.preventDefault(),this.Reveal.onUserInput(),this.Reveal.up()}onNavigateDownClicked(e){e.preventDefault(),this.Reveal.onUserInput(),this.Reveal.down()}onNavigatePrevClicked(e){e.preventDefault(),this.Reveal.onUserInput(),this.Reveal.prev()}onNavigateNextClicked(e){e.preventDefault(),this.Reveal.onUserInput(),this.Reveal.next()}onEnterFullscreen(e){const t=this.Reveal.getConfig(),i=this.Reveal.getViewportElement();o(t.embedded?i:i.parentElement)}}class B{constructor(e){this.Reveal=e,this.onProgressClicked=this.onProgressClicked.bind(this)}render(){this.element=document.createElement("div"),this.element.className="progress",this.Reveal.getRevealElement().appendChild(this.element),this.bar=document.createElement("span"),this.element.appendChild(this.bar)}configure(e,t){this.element.style.display=e.progress?"block":"none"}bind(){this.Reveal.getConfig().progress&&this.element&&this.element.addEventListener("click",this.onProgressClicked,!1)}unbind(){this.Reveal.getConfig().progress&&this.element&&this.element.removeEventListener("click",this.onProgressClicked,!1)}update(){if(this.Reveal.getConfig().progress&&this.bar){let e=this.Reveal.getProgress();this.Reveal.getTotalSlides()<2&&(e=0),this.bar.style.transform="scaleX("+e+")"}}getMaxWidth(){return this.Reveal.getRevealElement().offsetWidth}onProgressClicked(e){this.Reveal.onUserInput(e),e.preventDefault();let t=this.Reveal.getSlides(),i=t.length,s=Math.floor(e.clientX/this.getMaxWidth()*i);this.Reveal.getConfig().rtl&&(s=i-s);let a=this.Reveal.getIndices(t[s]);this.Reveal.slide(a.h,a.v)}destroy(){this.element.remove()}}class H{constructor(e){this.Reveal=e,this.lastMouseWheelStep=0,this.cursorHidden=!1,this.cursorInactiveTimeout=0,this.onDocumentCursorActive=this.onDocumentCursorActive.bind(this),this.onDocumentMouseScroll=this.onDocumentMouseScroll.bind(this)}configure(e,t){e.mouseWheel?document.addEventListener("wheel",this.onDocumentMouseScroll,!1):document.removeEventListener("wheel",this.onDocumentMouseScroll,!1),e.hideInactiveCursor?(document.addEventListener("mousemove",this.onDocumentCursorActive,!1),document.addEventListener("mousedown",this.onDocumentCursorActive,!1)):(this.showCursor(),document.removeEventListener("mousemove",this.onDocumentCursorActive,!1),document.removeEventListener("mousedown",this.onDocumentCursorActive,!1))}showCursor(){this.cursorHidden&&(this.cursorHidden=!1,this.Reveal.getRevealElement().style.cursor="")}hideCursor(){!1===this.cursorHidden&&(this.cursorHidden=!0,this.Reveal.getRevealElement().style.cursor="none")}destroy(){this.showCursor(),document.removeEventListener("wheel",this.onDocumentMouseScroll,!1),document.removeEventListener("mousemove",this.onDocumentCursorActive,!1),document.removeEventListener("mousedown",this.onDocumentCursorActive,!1)}onDocumentCursorActive(e){this.showCursor(),clearTimeout(this.cursorInactiveTimeout),this.cursorInactiveTimeout=setTimeout(this.hideCursor.bind(this),this.Reveal.getConfig().hideCursorTime)}onDocumentMouseScroll(e){if(Date.now()-this.lastMouseWheelStep>1e3){this.lastMouseWheelStep=Date.now();let t=e.detail||-e.wheelDelta;t>0?this.Reveal.next():t<0&&this.Reveal.prev()}}}const D=(e,t)=>{const i=document.createElement("script");i.type="text/javascript",i.async=!1,i.defer=!1,i.src=e,"function"==typeof t&&(i.onload=i.onreadystatechange=e=>{("load"===e.type||/loaded|complete/.test(i.readyState))&&(i.onload=i.onreadystatechange=i.onerror=null,t())},i.onerror=e=>{i.onload=i.onreadystatechange=i.onerror=null,t(new Error("Failed loading script: "+i.src+"\n"+e))});const s=document.querySelector("head");s.insertBefore(i,s.lastChild)};class F{constructor(e){this.Reveal=e,this.state="idle",this.registeredPlugins={},this.asyncDependencies=[]}load(e,t){return this.state="loading",e.forEach(this.registerPlugin.bind(this)),new Promise((e=>{let i=[],s=0;if(t.forEach((e=>{e.condition&&!e.condition()||(e.async?this.asyncDependencies.push(e):i.push(e))})),i.length){s=i.length;const t=t=>{t&&"function"==typeof t.callback&&t.callback(),0==--s&&this.initPlugins().then(e)};i.forEach((e=>{"string"==typeof e.id?(this.registerPlugin(e),t(e)):"string"==typeof e.src?D(e.src,(()=>t(e))):(console.warn("Unrecognized plugin format",e),t())}))}else this.initPlugins().then(e)}))}initPlugins(){return new Promise((e=>{let t=Object.values(this.registeredPlugins),i=t.length;if(0===i)this.loadAsync().then(e);else{let s,a=()=>{0==--i?this.loadAsync().then(e):s()},n=0;s=()=>{let e=t[n++];if("function"==typeof e.init){let t=e.init(this.Reveal);t&&"function"==typeof t.then?t.then(a):a()}else a()},s()}}))}loadAsync(){return this.state="loaded",this.asyncDependencies.length&&this.asyncDependencies.forEach((e=>{D(e.src,e.callback)})),Promise.resolve()}registerPlugin(e){2===arguments.length&&"string"==typeof arguments[0]?(e=arguments[1]).id=arguments[0]:"function"==typeof e&&(e=e());let t=e.id;"string"!=typeof t?console.warn("Unrecognized plugin format; can't find plugin.id",e):void 0===this.registeredPlugins[t]?(this.registeredPlugins[t]=e,"loaded"===this.state&&"function"==typeof e.init&&e.init(this.Reveal)):console.warn('reveal.js: "'+t+'" plugin has already been registered')}hasPlugin(e){return!!this.registeredPlugins[e]}getPlugin(e){return this.registeredPlugins[e]}getRegisteredPlugins(){return this.registeredPlugins}destroy(){Object.values(this.registeredPlugins).forEach((e=>{"function"==typeof e.destroy&&e.destroy()})),this.registeredPlugins={},this.asyncDependencies=[]}}class z{constructor(e){this.Reveal=e,this.touchStartX=0,this.touchStartY=0,this.touchStartCount=0,this.touchCaptured=!1,this.onPointerDown=this.onPointerDown.bind(this),this.onPointerMove=this.onPointerMove.bind(this),this.onPointerUp=this.onPointerUp.bind(this),this.onTouchStart=this.onTouchStart.bind(this),this.onTouchMove=this.onTouchMove.bind(this),this.onTouchEnd=this.onTouchEnd.bind(this)}bind(){let e=this.Reveal.getRevealElement();"onpointerdown"in window?(e.addEventListener("pointerdown",this.onPointerDown,!1),e.addEventListener("pointermove",this.onPointerMove,!1),e.addEventListener("pointerup",this.onPointerUp,!1)):window.navigator.msPointerEnabled?(e.addEventListener("MSPointerDown",this.onPointerDown,!1),e.addEventListener("MSPointerMove",this.onPointerMove,!1),e.addEventListener("MSPointerUp",this.onPointerUp,!1)):(e.addEventListener("touchstart",this.onTouchStart,!1),e.addEventListener("touchmove",this.onTouchMove,!1),e.addEventListener("touchend",this.onTouchEnd,!1))}unbind(){let e=this.Reveal.getRevealElement();e.removeEventListener("pointerdown",this.onPointerDown,!1),e.removeEventListener("pointermove",this.onPointerMove,!1),e.removeEventListener("pointerup",this.onPointerUp,!1),e.removeEventListener("MSPointerDown",this.onPointerDown,!1),e.removeEventListener("MSPointerMove",this.onPointerMove,!1),e.removeEventListener("MSPointerUp",this.onPointerUp,!1),e.removeEventListener("touchstart",this.onTouchStart,!1),e.removeEventListener("touchmove",this.onTouchMove,!1),e.removeEventListener("touchend",this.onTouchEnd,!1)}isSwipePrevented(e){if(n(e,"video[controls], audio[controls]"))return!0;for(;e&&"function"==typeof e.hasAttribute;){if(e.hasAttribute("data-prevent-swipe"))return!0;e=e.parentNode}return!1}onTouchStart(e){if(this.touchCaptured=!1,this.isSwipePrevented(e.target))return!0;this.touchStartX=e.touches[0].clientX,this.touchStartY=e.touches[0].clientY,this.touchStartCount=e.touches.length}onTouchMove(e){if(this.isSwipePrevented(e.target))return!0;let t=this.Reveal.getConfig();if(this.touchCaptured)g&&e.preventDefault();else{this.Reveal.onUserInput(e);let i=e.touches[0].clientX,s=e.touches[0].clientY;if(1===e.touches.length&&2!==this.touchStartCount){let a=this.Reveal.availableRoutes({includeFragments:!0}),n=i-this.touchStartX,r=s-this.touchStartY;n>40&&Math.abs(n)>Math.abs(r)?(this.touchCaptured=!0,"linear"===t.navigationMode?t.rtl?this.Reveal.next():this.Reveal.prev():this.Reveal.left()):n<-40&&Math.abs(n)>Math.abs(r)?(this.touchCaptured=!0,"linear"===t.navigationMode?t.rtl?this.Reveal.prev():this.Reveal.next():this.Reveal.right()):r>40&&a.up?(this.touchCaptured=!0,"linear"===t.navigationMode?this.Reveal.prev():this.Reveal.up()):r<-40&&a.down&&(this.touchCaptured=!0,"linear"===t.navigationMode?this.Reveal.next():this.Reveal.down()),t.embedded?(this.touchCaptured||this.Reveal.isVerticalSlide())&&e.preventDefault():e.preventDefault()}}}onTouchEnd(e){this.touchCaptured=!1}onPointerDown(e){e.pointerType!==e.MSPOINTER_TYPE_TOUCH&&"touch"!==e.pointerType||(e.touches=[{clientX:e.clientX,clientY:e.clientY}],this.onTouchStart(e))}onPointerMove(e){e.pointerType!==e.MSPOINTER_TYPE_TOUCH&&"touch"!==e.pointerType||(e.touches=[{clientX:e.clientX,clientY:e.clientY}],this.onTouchMove(e))}onPointerUp(e){e.pointerType!==e.MSPOINTER_TYPE_TOUCH&&"touch"!==e.pointerType||(e.touches=[{clientX:e.clientX,clientY:e.clientY}],this.onTouchEnd(e))}}const q="focus",O="blur";class W{constructor(e){this.Reveal=e,this.onRevealPointerDown=this.onRevealPointerDown.bind(this),this.onDocumentPointerDown=this.onDocumentPointerDown.bind(this)}configure(e,t){e.embedded?this.blur():(this.focus(),this.unbind())}bind(){this.Reveal.getConfig().embedded&&this.Reveal.getRevealElement().addEventListener("pointerdown",this.onRevealPointerDown,!1)}unbind(){this.Reveal.getRevealElement().removeEventListener("pointerdown",this.onRevealPointerDown,!1),document.removeEventListener("pointerdown",this.onDocumentPointerDown,!1)}focus(){this.state!==q&&(this.Reveal.getRevealElement().classList.add("focused"),document.addEventListener("pointerdown",this.onDocumentPointerDown,!1)),this.state=q}blur(){this.state!==O&&(this.Reveal.getRevealElement().classList.remove("focused"),document.removeEventListener("pointerdown",this.onDocumentPointerDown,!1)),this.state=O}isFocused(){return this.state===q}destroy(){this.Reveal.getRevealElement().classList.remove("focused")}onRevealPointerDown(e){this.focus()}onDocumentPointerDown(e){let t=r(e.target,".reveal");t&&t===this.Reveal.getRevealElement()||this.blur()}}class U{constructor(e){this.Reveal=e}render(){this.element=document.createElement("div"),this.element.className="speaker-notes",this.element.setAttribute("data-prevent-swipe",""),this.element.setAttribute("tabindex","0"),this.Reveal.getRevealElement().appendChild(this.element)}configure(e,t){e.showNotes&&this.element.setAttribute("data-layout","string"==typeof e.showNotes?e.showNotes:"inline")}update(){this.Reveal.getConfig().showNotes&&this.element&&this.Reveal.getCurrentSlide()&&!this.Reveal.isScrollView()&&!this.Reveal.isPrintView()&&(this.element.innerHTML=this.getSlideNotes()||'<span class="notes-placeholder">No notes on this slide.</span>')}updateVisibility(){this.Reveal.getConfig().showNotes&&this.hasNotes()&&!this.Reveal.isScrollView()&&!this.Reveal.isPrintView()?this.Reveal.getRevealElement().classList.add("show-notes"):this.Reveal.getRevealElement().classList.remove("show-notes")}hasNotes(){return this.Reveal.getSlidesElement().querySelectorAll("[data-notes], aside.notes").length>0}isSpeakerNotesWindow(){return!!window.location.search.match(/receiver/gi)}getSlideNotes(e=this.Reveal.getCurrentSlide()){if(e.hasAttribute("data-notes"))return e.getAttribute("data-notes");let t=e.querySelectorAll("aside.notes");return t?Array.from(t).map((e=>e.innerHTML)).join("\n"):null}destroy(){this.element.remove()}}class V{constructor(e,t){this.diameter=100,this.diameter2=this.diameter/2,this.thickness=6,this.playing=!1,this.progress=0,this.progressOffset=1,this.container=e,this.progressCheck=t,this.canvas=document.createElement("canvas"),this.canvas.className="playback",this.canvas.width=this.diameter,this.canvas.height=this.diameter,this.canvas.style.width=this.diameter2+"px",this.canvas.style.height=this.diameter2+"px",this.context=this.canvas.getContext("2d"),this.container.appendChild(this.canvas),this.render()}setPlaying(e){const t=this.playing;this.playing=e,!t&&this.playing?this.animate():this.render()}animate(){const e=this.progress;this.progress=this.progressCheck(),e>.8&&this.progress<.2&&(this.progressOffset=this.progress),this.render(),this.playing&&requestAnimationFrame(this.animate.bind(this))}render(){let e=this.playing?this.progress:0,t=this.diameter2-this.thickness,i=this.diameter2,s=this.diameter2,a=28;this.progressOffset+=.1*(1-this.progressOffset);const n=-Math.PI/2+e*(2*Math.PI),r=-Math.PI/2+this.progressOffset*(2*Math.PI);this.context.save(),this.context.clearRect(0,0,this.diameter,this.diameter),this.context.beginPath(),this.context.arc(i,s,t+4,0,2*Math.PI,!1),this.context.fillStyle="rgba( 0, 0, 0, 0.4 )",this.context.fill(),this.context.beginPath(),this.context.arc(i,s,t,0,2*Math.PI,!1),this.context.lineWidth=this.thickness,this.context.strokeStyle="rgba( 255, 255, 255, 0.2 )",this.context.stroke(),this.playing&&(this.context.beginPath(),this.context.arc(i,s,t,r,n,!1),this.context.lineWidth=this.thickness,this.context.strokeStyle="#fff",this.context.stroke()),this.context.translate(i-14,s-14),this.playing?(this.context.fillStyle="#fff",this.context.fillRect(0,0,10,a),this.context.fillRect(18,0,10,a)):(this.context.beginPath(),this.context.translate(4,0),this.context.moveTo(0,0),this.context.lineTo(24,14),this.context.lineTo(0,a),this.context.fillStyle="#fff",this.context.fill()),this.context.restore()}on(e,t){this.canvas.addEventListener(e,t,!1)}off(e,t){this.canvas.removeEventListener(e,t,!1)}destroy(){this.playing=!1,this.canvas.parentNode&&this.container.removeChild(this.canvas)}}var j={width:960,height:700,margin:.04,minScale:.2,maxScale:2,controls:!0,controlsTutorial:!0,controlsLayout:"bottom-right",controlsBackArrows:"faded",progress:!0,slideNumber:!1,showSlideNumber:"all",hashOneBasedIndex:!1,hash:!1,respondToHashChanges:!0,jumpToSlide:!0,history:!1,keyboard:!0,keyboardCondition:null,disableLayout:!1,overview:!0,center:!0,touch:!0,loop:!1,rtl:!1,navigationMode:"default",shuffle:!1,fragments:!0,fragmentInURL:!0,embedded:!1,help:!0,pause:!0,showNotes:!1,showHiddenSlides:!1,autoPlayMedia:null,preloadIframes:null,autoAnimate:!0,autoAnimateMatcher:null,autoAnimateEasing:"ease",autoAnimateDuration:1,autoAnimateUnmatched:!0,autoAnimateStyles:["opacity","color","background-color","padding","font-size","line-height","letter-spacing","border-width","border-color","border-radius","outline","outline-offset"],autoSlide:0,autoSlideStoppable:!0,autoSlideMethod:null,defaultTiming:null,mouseWheel:!1,previewLinks:!1,postMessage:!0,postMessageEvents:!1,focusBodyOnPageVisibilityChange:!0,transition:"slide",transitionSpeed:"default",backgroundTransition:"fade",parallaxBackgroundImage:"",parallaxBackgroundSize:"",parallaxBackgroundRepeat:"",parallaxBackgroundPosition:"",parallaxBackgroundHorizontal:null,parallaxBackgroundVertical:null,view:null,scrollLayout:"full",scrollSnap:"mandatory",scrollProgress:"auto",scrollActivationWidth:435,pdfMaxPagesPerSlide:Number.POSITIVE_INFINITY,pdfSeparateFragments:!0,pdfPageHeightOffset:-1,viewDistance:3,mobileViewDistance:2,display:"block",hideInactiveCursor:!0,hideCursorTime:5e3,sortFragmentsOnSync:!0,dependencies:[],plugins:[]};const K="5.1.0";function $(n,o){arguments.length<2&&(o=arguments[0],n=document.querySelector(".reveal"));const l={};let c,h,g,p,w,A={},k=!1,D=!1,q={hasNavigatedHorizontally:!1,hasNavigatedVertically:!1},O=[],$=1,X={layout:"",overview:""},Y={},_="idle",J=0,G=0,Q=-1,Z=!1,ee=new v(l),te=new E(l),ie=new S(l),se=new L(l),ae=new R(l),ne=new C(l),re=new x(l),oe=new P(l),le=new T(l),de=new N(l),ce=new M(l),he=new I(l),ue=new B(l),ge=new H(l),pe=new F(l),ve=new W(l),me=new z(l),fe=new U(l);function ye(){D=!0,A.showHiddenSlides||t(Y.wrapper,'section[data-visibility="hidden"]').forEach((e=>{const t=e.parentNode;1===t.childElementCount&&/section/i.test(t.nodeName)?t.remove():e.remove()})),function(){Y.slides.classList.add("no-transition"),u?Y.wrapper.classList.add("no-hover"):Y.wrapper.classList.remove("no-hover");ae.render(),te.render(),ie.render(),he.render(),ue.render(),fe.render(),Y.pauseOverlay=((e,t,i,s="")=>{let a=e.querySelectorAll("."+i);for(let t=0;t<a.length;t++){let i=a[t];if(i.parentNode===e)return i}let n=document.createElement(t);return n.className=i,n.innerHTML=s,e.appendChild(n),n})(Y.wrapper,"div","pause-overlay",A.controls?'<button class="resume-button">Resume presentation</button>':null),Y.statusElement=function(){let e=Y.wrapper.querySelector(".aria-status");e||(e=document.createElement("div"),e.style.position="absolute",e.style.height="1px",e.style.width="1px",e.style.overflow="hidden",e.style.clip="rect( 1px, 1px, 1px, 1px )",e.classList.add("aria-status"),e.setAttribute("aria-live","polite"),e.setAttribute("aria-atomic","true"),Y.wrapper.appendChild(e));return e}(),Y.wrapper.setAttribute("role","application")}(),A.postMessage&&window.addEventListener("message",At,!1),setInterval((()=>{(!ne.isActive()&&0!==Y.wrapper.scrollTop||0!==Y.wrapper.scrollLeft)&&(Y.wrapper.scrollTop=0,Y.wrapper.scrollLeft=0)}),1e3),document.addEventListener("fullscreenchange",xt),document.addEventListener("webkitfullscreenchange",xt),rt().forEach((e=>{t(e,"section").forEach(((e,t)=>{t>0&&(e.classList.remove("present"),e.classList.remove("past"),e.classList.add("future"),e.setAttribute("aria-hidden","true"))}))})),Ee(),ae.update(!0),function(){const e="print"===A.view,t="scroll"===A.view||"reader"===A.view;(e||t)&&(e?Ae():me.unbind(),Y.viewport.classList.add("loading-scroll-mode"),e?"complete"===document.readyState?re.activate():window.addEventListener("load",(()=>re.activate())):ne.activate())}(),ce.readURL(),setTimeout((()=>{Y.slides.classList.remove("no-transition"),Y.wrapper.classList.add("ready"),Ce({type:"ready",data:{indexh:c,indexv:h,currentSlide:p}})}),1)}function be(e){Y.statusElement.textContent=e}function we(e){let t="";if(3===e.nodeType)t+=e.textContent;else if(1===e.nodeType){let i=e.getAttribute("aria-hidden"),s="none"===window.getComputedStyle(e).display;"true"===i||s||Array.from(e.childNodes).forEach((e=>{t+=we(e)}))}return t=t.trim(),""===t?"":t+" "}function Ee(t){const s={...A};if("object"==typeof t&&e(A,t),!1===l.isReady())return;const a=Y.wrapper.querySelectorAll(m).length;Y.wrapper.classList.remove(s.transition),Y.wrapper.classList.add(A.transition),Y.wrapper.setAttribute("data-transition-speed",A.transitionSpeed),Y.wrapper.setAttribute("data-background-transition",A.backgroundTransition),Y.viewport.style.setProperty("--slide-width","string"==typeof A.width?A.width:A.width+"px"),Y.viewport.style.setProperty("--slide-height","string"==typeof A.height?A.height:A.height+"px"),A.shuffle&&Ge(),i(Y.wrapper,"embedded",A.embedded),i(Y.wrapper,"rtl",A.rtl),i(Y.wrapper,"center",A.center),!1===A.pause&&Ke(),A.previewLinks?(Te(),Ne("[data-preview-link=false]")):(Ne(),Te("[data-preview-link]:not([data-preview-link=false])")),se.reset(),w&&(w.destroy(),w=null),a>1&&A.autoSlide&&A.autoSlideStoppable&&(w=new V(Y.wrapper,(()=>Math.min(Math.max((Date.now()-Q)/J,0),1))),w.on("click",Tt),Z=!1),"default"!==A.navigationMode?Y.wrapper.setAttribute("data-navigation-mode",A.navigationMode):Y.wrapper.removeAttribute("data-navigation-mode"),fe.configure(A,s),ve.configure(A,s),ge.configure(A,s),he.configure(A,s),ue.configure(A,s),de.configure(A,s),oe.configure(A,s),te.configure(A,s),Je()}function Se(){window.addEventListener("resize",Lt,!1),A.touch&&me.bind(),A.keyboard&&de.bind(),A.progress&&ue.bind(),A.respondToHashChanges&&ce.bind(),he.bind(),ve.bind(),Y.slides.addEventListener("click",kt,!1),Y.slides.addEventListener("transitionend",Rt,!1),Y.pauseOverlay.addEventListener("click",Ke,!1),A.focusBodyOnPageVisibilityChange&&document.addEventListener("visibilitychange",Ct,!1)}function Ae(){me.unbind(),ve.unbind(),de.unbind(),he.unbind(),ue.unbind(),ce.unbind(),window.removeEventListener("resize",Lt,!1),Y.slides.removeEventListener("click",kt,!1),Y.slides.removeEventListener("transitionend",Rt,!1),Y.pauseOverlay.removeEventListener("click",Ke,!1)}function Re(e,t,i){n.addEventListener(e,t,i)}function ke(e,t,i){n.removeEventListener(e,t,i)}function Le(e){"string"==typeof e.layout&&(X.layout=e.layout),"string"==typeof e.overview&&(X.overview=e.overview),X.layout?a(Y.slides,X.layout+" "+X.overview):a(Y.slides,X.overview)}function Ce({target:t=Y.wrapper,type:i,data:s,bubbles:a=!0}){let n=document.createEvent("HTMLEvents",1,2);return n.initEvent(i,a,!0),e(n,s),t.dispatchEvent(n),t===Y.wrapper&&Pe(i),n}function xe(e){Ce({type:"slidechanged",data:{indexh:c,indexv:h,previousSlide:g,currentSlide:p,origin:e}})}function Pe(t,i){if(A.postMessageEvents&&window.parent!==window.self){let s={namespace:"reveal",eventName:t,state:ut()};e(s,i),window.parent.postMessage(JSON.stringify(s),"*")}}function Te(e="a"){Array.from(Y.wrapper.querySelectorAll(e)).forEach((e=>{/^(http|www)/gi.test(e.getAttribute("href"))&&e.addEventListener("click",Pt,!1)}))}function Ne(e="a"){Array.from(Y.wrapper.querySelectorAll(e)).forEach((e=>{/^(http|www)/gi.test(e.getAttribute("href"))&&e.removeEventListener("click",Pt,!1)}))}function Me(e){Be(),Y.overlay=document.createElement("div"),Y.overlay.classList.add("overlay"),Y.overlay.classList.add("overlay-preview"),Y.wrapper.appendChild(Y.overlay),Y.overlay.innerHTML=`<header>\n\t\t\t\t<a class="close" href="#"><span class="icon"></span></a>\n\t\t\t\t<a class="external" href="${e}" target="_blank"><span class="icon"></span></a>\n\t\t\t</header>\n\t\t\t<div class="spinner"></div>\n\t\t\t<div class="viewport">\n\t\t\t\t<iframe src="${e}"></iframe>\n\t\t\t\t<small class="viewport-inner">\n\t\t\t\t\t<span class="x-frame-error">Unable to load iframe. This is likely due to the site's policy (x-frame-options).</span>\n\t\t\t\t</small>\n\t\t\t</div>`,Y.overlay.querySelector("iframe").addEventListener("load",(e=>{Y.overlay.classList.add("loaded")}),!1),Y.overlay.querySelector(".close").addEventListener("click",(e=>{Be(),e.preventDefault()}),!1),Y.overlay.querySelector(".external").addEventListener("click",(e=>{Be()}),!1)}function Ie(){if(A.help){Be(),Y.overlay=document.createElement("div"),Y.overlay.classList.add("overlay"),Y.overlay.classList.add("overlay-help"),Y.wrapper.appendChild(Y.overlay);let e='<p class="title">Keyboard Shortcuts</p><br/>',t=de.getShortcuts(),i=de.getBindings();e+="<table><th>KEY</th><th>ACTION</th>";for(let i in t)e+=`<tr><td>${i}</td><td>${t[i]}</td></tr>`;for(let t in i)i[t].key&&i[t].description&&(e+=`<tr><td>${i[t].key}</td><td>${i[t].description}</td></tr>`);e+="</table>",Y.overlay.innerHTML=`\n\t\t\t\t<header>\n\t\t\t\t\t<a class="close" href="#"><span class="icon"></span></a>\n\t\t\t\t</header>\n\t\t\t\t<div class="viewport">\n\t\t\t\t\t<div class="viewport-inner">${e}</div>\n\t\t\t\t</div>\n\t\t\t`,Y.overlay.querySelector(".close").addEventListener("click",(e=>{Be(),e.preventDefault()}),!1)}}function Be(){return!!Y.overlay&&(Y.overlay.parentNode.removeChild(Y.overlay),Y.overlay=null,!0)}function He(){if(Y.wrapper&&!re.isActive()){const e=Y.viewport.offsetWidth,t=Y.viewport.offsetHeight;if(!A.disableLayout){u&&!A.embedded&&document.documentElement.style.setProperty("--vh",.01*window.innerHeight+"px");const i=ne.isActive()?Fe(e,t):Fe(),s=$;De(A.width,A.height),Y.slides.style.width=i.width+"px",Y.slides.style.height=i.height+"px",$=Math.min(i.presentationWidth/i.width,i.presentationHeight/i.height),$=Math.max($,A.minScale),$=Math.min($,A.maxScale),1===$||ne.isActive()?(Y.slides.style.zoom="",Y.slides.style.left="",Y.slides.style.top="",Y.slides.style.bottom="",Y.slides.style.right="",Le({layout:""})):(Y.slides.style.zoom="",Y.slides.style.left="50%",Y.slides.style.top="50%",Y.slides.style.bottom="auto",Y.slides.style.right="auto",Le({layout:"translate(-50%, -50%) scale("+$+")"}));const a=Array.from(Y.wrapper.querySelectorAll(m));for(let e=0,t=a.length;e<t;e++){const t=a[e];"none"!==t.style.display&&(A.center||t.classList.contains("center")?t.classList.contains("stack")?t.style.top=0:t.style.top=Math.max((i.height-t.scrollHeight)/2,0)+"px":t.style.top="")}s!==$&&Ce({type:"resize",data:{oldScale:s,scale:$,size:i}})}!function(){if(Y.wrapper&&!A.disableLayout&&!re.isActive()&&"number"==typeof A.scrollActivationWidth&&"scroll"!==A.view){const e=Fe();e.presentationWidth>0&&e.presentationWidth<=A.scrollActivationWidth?ne.isActive()||(ae.create(),ne.activate()):ne.isActive()&&ne.deactivate()}}(),Y.viewport.style.setProperty("--slide-scale",$),Y.viewport.style.setProperty("--viewport-width",e+"px"),Y.viewport.style.setProperty("--viewport-height",t+"px"),ne.layout(),ue.update(),ae.updateParallax(),le.isActive()&&le.update()}}function De(e,i){t(Y.slides,"section > .stretch, section > .r-stretch").forEach((t=>{let s=((e,t=0)=>{if(e){let i,s=e.style.height;return e.style.height="0px",e.parentNode.style.height="auto",i=t-e.parentNode.offsetHeight,e.style.height=s+"px",e.parentNode.style.removeProperty("height"),i}return t})(t,i);if(/(img|video)/gi.test(t.nodeName)){const i=t.naturalWidth||t.videoWidth,a=t.naturalHeight||t.videoHeight,n=Math.min(e/i,s/a);t.style.width=i*n+"px",t.style.height=a*n+"px"}else t.style.width=e+"px",t.style.height=s+"px"}))}function Fe(e,t){let i=A.width,s=A.height;A.disableLayout&&(i=Y.slides.offsetWidth,s=Y.slides.offsetHeight);const a={width:i,height:s,presentationWidth:e||Y.wrapper.offsetWidth,presentationHeight:t||Y.wrapper.offsetHeight};return a.presentationWidth-=a.presentationWidth*A.margin,a.presentationHeight-=a.presentationHeight*A.margin,"string"==typeof a.width&&/%$/.test(a.width)&&(a.width=parseInt(a.width,10)/100*a.presentationWidth),"string"==typeof a.height&&/%$/.test(a.height)&&(a.height=parseInt(a.height,10)/100*a.presentationHeight),a}function ze(e,t){"object"==typeof e&&"function"==typeof e.setAttribute&&e.setAttribute("data-previous-indexv",t||0)}function qe(e){if("object"==typeof e&&"function"==typeof e.setAttribute&&e.classList.contains("stack")){const t=e.hasAttribute("data-start-indexv")?"data-start-indexv":"data-previous-indexv";return parseInt(e.getAttribute(t)||0,10)}return 0}function Oe(e=p){return e&&e.parentNode&&!!e.parentNode.nodeName.match(/section/i)}function We(){return!(!p||!Oe(p))&&!p.nextElementSibling}function Ue(){return 0===c&&0===h}function Ve(){return!!p&&(!p.nextElementSibling&&(!Oe(p)||!p.parentNode.nextElementSibling))}function je(){if(A.pause){const e=Y.wrapper.classList.contains("paused");pt(),Y.wrapper.classList.add("paused"),!1===e&&Ce({type:"paused"})}}function Ke(){const e=Y.wrapper.classList.contains("paused");Y.wrapper.classList.remove("paused"),gt(),e&&Ce({type:"resumed"})}function $e(e){"boolean"==typeof e?e?je():Ke():Xe()?Ke():je()}function Xe(){return Y.wrapper.classList.contains("paused")}function Ye(e,i,s,a){if(Ce({type:"beforeslidechange",data:{indexh:void 0===e?c:e,indexv:void 0===i?h:i,origin:a}}).defaultPrevented)return;g=p;const r=Y.wrapper.querySelectorAll(f);if(ne.isActive()){const t=ne.getSlideByIndices(e,i);return void(t&&ne.scrollToSlide(t))}if(0===r.length)return;void 0!==i||le.isActive()||(i=qe(r[e])),g&&g.parentNode&&g.parentNode.classList.contains("stack")&&ze(g.parentNode,h);const o=O.concat();O.length=0;let l=c||0,d=h||0;c=Qe(f,void 0===e?c:e),h=Qe(y,void 0===i?h:i);let u=c!==l||h!==d;u||(g=null);let v=r[c],m=v.querySelectorAll("section");n.classList.toggle("is-vertical-slide",m.length>1),p=m[h]||v;let b=!1;u&&g&&p&&!le.isActive()&&(_="running",b=_e(g,p,l,d),b&&Y.slides.classList.add("disable-slide-transitions")),tt(),He(),le.isActive()&&le.update(),void 0!==s&&oe.goto(s),g&&g!==p&&(g.classList.remove("present"),g.setAttribute("aria-hidden","true"),Ue()&&setTimeout((()=>{t(Y.wrapper,f+".stack").forEach((e=>{ze(e,0)}))}),0));e:for(let e=0,t=O.length;e<t;e++){for(let t=0;t<o.length;t++)if(o[t]===O[e]){o.splice(t,1);continue e}Y.viewport.classList.add(O[e]),Ce({type:O[e]})}for(;o.length;)Y.viewport.classList.remove(o.pop());u&&xe(a),!u&&g||(ee.stopEmbeddedContent(g),ee.startEmbeddedContent(p)),requestAnimationFrame((()=>{be(we(p))})),ue.update(),he.update(),fe.update(),ae.update(),ae.updateParallax(),te.update(),oe.update(),ce.writeURL(),gt(),b&&(setTimeout((()=>{Y.slides.classList.remove("disable-slide-transitions")}),0),A.autoAnimate&&se.run(g,p))}function _e(e,t,i,s){return e.hasAttribute("data-auto-animate")&&t.hasAttribute("data-auto-animate")&&e.getAttribute("data-auto-animate-id")===t.getAttribute("data-auto-animate-id")&&!(c>i||h>s?t:e).hasAttribute("data-auto-animate-restart")}function Je(){Ae(),Se(),He(),J=A.autoSlide,gt(),ae.create(),ce.writeURL(),!0===A.sortFragmentsOnSync&&oe.sortAll(),he.update(),ue.update(),tt(),fe.update(),fe.updateVisibility(),ae.update(!0),te.update(),ee.formatEmbeddedContent(),!1===A.autoPlayMedia?ee.stopEmbeddedContent(p,{unloadIframes:!1}):ee.startEmbeddedContent(p),le.isActive()&&le.layout()}function Ge(e=rt()){e.forEach(((t,i)=>{let s=e[Math.floor(Math.random()*e.length)];s.parentNode===t.parentNode&&t.parentNode.insertBefore(t,s);let a=t.querySelectorAll("section");a.length&&Ge(a)}))}function Qe(e,i){let s=t(Y.wrapper,e),a=s.length,n=ne.isActive()||re.isActive(),r=!1,o=!1;if(a){A.loop&&(i>=a&&(r=!0),(i%=a)<0&&(i=a+i,o=!0)),i=Math.max(Math.min(i,a-1),0);for(let e=0;e<a;e++){let t=s[e],a=A.rtl&&!Oe(t);t.classList.remove("past"),t.classList.remove("present"),t.classList.remove("future"),t.setAttribute("hidden",""),t.setAttribute("aria-hidden","true"),t.querySelector("section")&&t.classList.add("stack"),n?t.classList.add("present"):e<i?(t.classList.add(a?"future":"past"),A.fragments&&Ze(t)):e>i?(t.classList.add(a?"past":"future"),A.fragments&&et(t)):e===i&&A.fragments&&(r?et(t):o&&Ze(t))}let e=s[i],t=e.classList.contains("present");e.classList.add("present"),e.removeAttribute("hidden"),e.removeAttribute("aria-hidden"),t||Ce({target:e,type:"visible",bubbles:!1});let l=e.getAttribute("data-state");l&&(O=O.concat(l.split(" ")))}else i=0;return i}function Ze(e){t(e,".fragment").forEach((e=>{e.classList.add("visible"),e.classList.remove("current-fragment")}))}function et(e){t(e,".fragment.visible").forEach((e=>{e.classList.remove("visible","current-fragment")}))}function tt(){let e,i,s=rt(),a=s.length;if(a&&void 0!==c){let n=le.isActive()?10:A.viewDistance;u&&(n=le.isActive()?6:A.mobileViewDistance),re.isActive()&&(n=Number.MAX_VALUE);for(let r=0;r<a;r++){let o=s[r],l=t(o,"section"),d=l.length;if(e=Math.abs((c||0)-r)||0,A.loop&&(e=Math.abs(((c||0)-r)%(a-n))||0),e<n?ee.load(o):ee.unload(o),d){let t=qe(o);for(let s=0;s<d;s++){let a=l[s];i=r===(c||0)?Math.abs((h||0)-s):Math.abs(s-t),e+i<n?ee.load(a):ee.unload(a)}}}dt()?Y.wrapper.classList.add("has-vertical-slides"):Y.wrapper.classList.remove("has-vertical-slides"),lt()?Y.wrapper.classList.add("has-horizontal-slides"):Y.wrapper.classList.remove("has-horizontal-slides")}}function it({includeFragments:e=!1}={}){let t=Y.wrapper.querySelectorAll(f),i=Y.wrapper.querySelectorAll(y),s={left:c>0,right:c<t.length-1,up:h>0,down:h<i.length-1};if(A.loop&&(t.length>1&&(s.left=!0,s.right=!0),i.length>1&&(s.up=!0,s.down=!0)),t.length>1&&"linear"===A.navigationMode&&(s.right=s.right||s.down,s.left=s.left||s.up),!0===e){let e=oe.availableRoutes();s.left=s.left||e.prev,s.up=s.up||e.prev,s.down=s.down||e.next,s.right=s.right||e.next}if(A.rtl){let e=s.left;s.left=s.right,s.right=e}return s}function st(e=p){let t=rt(),i=0;e:for(let s=0;s<t.length;s++){let a=t[s],n=a.querySelectorAll("section");for(let t=0;t<n.length;t++){if(n[t]===e)break e;"uncounted"!==n[t].dataset.visibility&&i++}if(a===e)break;!1===a.classList.contains("stack")&&"uncounted"!==a.dataset.visibility&&i++}return i}function at(e){let i,s=c,a=h;if(e)if(ne.isActive())s=parseInt(e.getAttribute("data-index-h"),10),e.getAttribute("data-index-v")&&(a=parseInt(e.getAttribute("data-index-v"),10));else{let i=Oe(e),n=i?e.parentNode:e,r=rt();s=Math.max(r.indexOf(n),0),a=void 0,i&&(a=Math.max(t(e.parentNode,"section").indexOf(e),0))}if(!e&&p){if(p.querySelectorAll(".fragment").length>0){let e=p.querySelector(".current-fragment");i=e&&e.hasAttribute("data-fragment-index")?parseInt(e.getAttribute("data-fragment-index"),10):p.querySelectorAll(".fragment.visible").length-1}}return{h:s,v:a,f:i}}function nt(){return t(Y.wrapper,m+':not(.stack):not([data-visibility="uncounted"])')}function rt(){return t(Y.wrapper,f)}function ot(){return t(Y.wrapper,".slides>section>section")}function lt(){return rt().length>1}function dt(){return ot().length>1}function ct(){return nt().length}function ht(e,t){let i=rt()[e],s=i&&i.querySelectorAll("section");return s&&s.length&&"number"==typeof t?s?s[t]:void 0:i}function ut(){let e=at();return{indexh:e.h,indexv:e.v,indexf:e.f,paused:Xe(),overview:le.isActive()}}function gt(){if(pt(),p&&!1!==A.autoSlide){let e=p.querySelector(".current-fragment[data-autoslide]"),i=e?e.getAttribute("data-autoslide"):null,s=p.parentNode?p.parentNode.getAttribute("data-autoslide"):null,a=p.getAttribute("data-autoslide");i?J=parseInt(i,10):a?J=parseInt(a,10):s?J=parseInt(s,10):(J=A.autoSlide,0===p.querySelectorAll(".fragment").length&&t(p,"video, audio").forEach((e=>{e.hasAttribute("data-autoplay")&&J&&1e3*e.duration/e.playbackRate>J&&(J=1e3*e.duration/e.playbackRate+1e3)}))),!J||Z||Xe()||le.isActive()||Ve()&&!oe.availableRoutes().next&&!0!==A.loop||(G=setTimeout((()=>{"function"==typeof A.autoSlideMethod?A.autoSlideMethod():St(),gt()}),J),Q=Date.now()),w&&w.setPlaying(-1!==G)}}function pt(){clearTimeout(G),G=-1}function vt(){J&&!Z&&(Z=!0,Ce({type:"autoslidepaused"}),clearTimeout(G),w&&w.setPlaying(!1))}function mt(){J&&Z&&(Z=!1,Ce({type:"autoslideresumed"}),gt())}function ft({skipFragments:e=!1}={}){if(q.hasNavigatedHorizontally=!0,ne.isActive())return ne.prev();A.rtl?(le.isActive()||e||!1===oe.next())&&it().left&&Ye(c+1,"grid"===A.navigationMode?h:void 0):(le.isActive()||e||!1===oe.prev())&&it().left&&Ye(c-1,"grid"===A.navigationMode?h:void 0)}function yt({skipFragments:e=!1}={}){if(q.hasNavigatedHorizontally=!0,ne.isActive())return ne.next();A.rtl?(le.isActive()||e||!1===oe.prev())&&it().right&&Ye(c-1,"grid"===A.navigationMode?h:void 0):(le.isActive()||e||!1===oe.next())&&it().right&&Ye(c+1,"grid"===A.navigationMode?h:void 0)}function bt({skipFragments:e=!1}={}){if(ne.isActive())return ne.prev();(le.isActive()||e||!1===oe.prev())&&it().up&&Ye(c,h-1)}function wt({skipFragments:e=!1}={}){if(q.hasNavigatedVertically=!0,ne.isActive())return ne.next();(le.isActive()||e||!1===oe.next())&&it().down&&Ye(c,h+1)}function Et({skipFragments:e=!1}={}){if(ne.isActive())return ne.prev();if(e||!1===oe.prev())if(it().up)bt({skipFragments:e});else{let i;if(i=A.rtl?t(Y.wrapper,f+".future").pop():t(Y.wrapper,f+".past").pop(),i&&i.classList.contains("stack")){let e=i.querySelectorAll("section").length-1||void 0;Ye(c-1,e)}else A.rtl?yt({skipFragments:e}):ft({skipFragments:e})}}function St({skipFragments:e=!1}={}){if(q.hasNavigatedHorizontally=!0,q.hasNavigatedVertically=!0,ne.isActive())return ne.next();if(e||!1===oe.next()){let t=it();t.down&&t.right&&A.loop&&We()&&(t.down=!1),t.down?wt({skipFragments:e}):A.rtl?ft({skipFragments:e}):yt({skipFragments:e})}}function At(e){let t=e.data;if("string"==typeof t&&"{"===t.charAt(0)&&"}"===t.charAt(t.length-1)&&(t=JSON.parse(t),t.method&&"function"==typeof l[t.method]))if(!1===b.test(t.method)){const e=l[t.method].apply(l,t.args);Pe("callback",{method:t.method,result:e})}else console.warn('reveal.js: "'+t.method+'" is is blacklisted from the postMessage API')}function Rt(e){"running"===_&&/section/gi.test(e.target.nodeName)&&(_="idle",Ce({type:"slidetransitionend",data:{indexh:c,indexv:h,previousSlide:g,currentSlide:p}}))}function kt(e){const t=r(e.target,'a[href^="#"]');if(t){const i=t.getAttribute("href"),s=ce.getIndicesFromHash(i);s&&(l.slide(s.h,s.v,s.f),e.preventDefault())}}function Lt(e){He()}function Ct(e){!1===document.hidden&&document.activeElement!==document.body&&("function"==typeof document.activeElement.blur&&document.activeElement.blur(),document.body.focus())}function xt(e){(document.fullscreenElement||document.webkitFullscreenElement)===Y.wrapper&&(e.stopImmediatePropagation(),setTimeout((()=>{l.layout(),l.focus.focus()}),1))}function Pt(e){if(e.currentTarget&&e.currentTarget.hasAttribute("href")){let t=e.currentTarget.getAttribute("href");t&&(Me(t),e.preventDefault())}}function Tt(e){Ve()&&!1===A.loop?(Ye(0,0),mt()):Z?mt():vt()}const Nt={VERSION:K,initialize:function(e){if(!n)throw'Unable to find presentation root (<div class="reveal">).';if(k=!0,Y.wrapper=n,Y.slides=n.querySelector(".slides"),!Y.slides)throw'Unable to find slides container (<div class="slides">).';return A={...j,...A,...o,...e,...d()},/print-pdf/gi.test(window.location.search)&&(A.view="print"),function(){!0===A.embedded?Y.viewport=r(n,".reveal-viewport")||n:(Y.viewport=document.body,document.documentElement.classList.add("reveal-full-page"));Y.viewport.classList.add("reveal-viewport")}(),window.addEventListener("load",He,!1),pe.load(A.plugins,A.dependencies).then(ye),new Promise((e=>l.on("ready",e)))},configure:Ee,destroy:function(){!1!==k&&(Ae(),pt(),Ne(),fe.destroy(),ve.destroy(),pe.destroy(),ge.destroy(),he.destroy(),ue.destroy(),ae.destroy(),te.destroy(),ie.destroy(),document.removeEventListener("fullscreenchange",xt),document.removeEventListener("webkitfullscreenchange",xt),document.removeEventListener("visibilitychange",Ct,!1),window.removeEventListener("message",At,!1),window.removeEventListener("load",He,!1),Y.pauseOverlay&&Y.pauseOverlay.remove(),Y.statusElement&&Y.statusElement.remove(),document.documentElement.classList.remove("reveal-full-page"),Y.wrapper.classList.remove("ready","center","has-horizontal-slides","has-vertical-slides"),Y.wrapper.removeAttribute("data-transition-speed"),Y.wrapper.removeAttribute("data-background-transition"),Y.viewport.classList.remove("reveal-viewport"),Y.viewport.style.removeProperty("--slide-width"),Y.viewport.style.removeProperty("--slide-height"),Y.slides.style.removeProperty("width"),Y.slides.style.removeProperty("height"),Y.slides.style.removeProperty("zoom"),Y.slides.style.removeProperty("left"),Y.slides.style.removeProperty("top"),Y.slides.style.removeProperty("bottom"),Y.slides.style.removeProperty("right"),Y.slides.style.removeProperty("transform"),Array.from(Y.wrapper.querySelectorAll(m)).forEach((e=>{e.style.removeProperty("display"),e.style.removeProperty("top"),e.removeAttribute("hidden"),e.removeAttribute("aria-hidden")})))},sync:Je,syncSlide:function(e=p){ae.sync(e),oe.sync(e),ee.load(e),ae.update(),fe.update()},syncFragments:oe.sync.bind(oe),slide:Ye,left:ft,right:yt,up:bt,down:wt,prev:Et,next:St,navigateLeft:ft,navigateRight:yt,navigateUp:bt,navigateDown:wt,navigatePrev:Et,navigateNext:St,navigateFragment:oe.goto.bind(oe),prevFragment:oe.prev.bind(oe),nextFragment:oe.next.bind(oe),on:Re,off:ke,addEventListener:Re,removeEventListener:ke,layout:He,shuffle:Ge,availableRoutes:it,availableFragments:oe.availableRoutes.bind(oe),toggleHelp:function(e){"boolean"==typeof e?e?Ie():Be():Y.overlay?Be():Ie()},toggleOverview:le.toggle.bind(le),toggleScrollView:ne.toggle.bind(ne),togglePause:$e,toggleAutoSlide:function(e){"boolean"==typeof e?e?mt():vt():Z?mt():vt()},toggleJumpToSlide:function(e){"boolean"==typeof e?e?ie.show():ie.hide():ie.isVisible()?ie.hide():ie.show()},isFirstSlide:Ue,isLastSlide:Ve,isLastVerticalSlide:We,isVerticalSlide:Oe,isVerticalStack:function(e=p){return e.classList.contains(".stack")||null!==e.querySelector("section")},isPaused:Xe,isAutoSliding:function(){return!(!J||Z)},isSpeakerNotes:fe.isSpeakerNotesWindow.bind(fe),isOverview:le.isActive.bind(le),isFocused:ve.isFocused.bind(ve),isScrollView:ne.isActive.bind(ne),isPrintView:re.isActive.bind(re),isReady:()=>D,loadSlide:ee.load.bind(ee),unloadSlide:ee.unload.bind(ee),startEmbeddedContent:()=>ee.startEmbeddedContent(p),stopEmbeddedContent:()=>ee.stopEmbeddedContent(p,{unloadIframes:!1}),showPreview:Me,hidePreview:Be,addEventListeners:Se,removeEventListeners:Ae,dispatchEvent:Ce,getState:ut,setState:function(e){if("object"==typeof e){Ye(s(e.indexh),s(e.indexv),s(e.indexf));let t=s(e.paused),i=s(e.overview);"boolean"==typeof t&&t!==Xe()&&$e(t),"boolean"==typeof i&&i!==le.isActive()&&le.toggle(i)}},getProgress:function(){let e=ct(),t=st();if(p){let e=p.querySelectorAll(".fragment");if(e.length>0){let i=.9;t+=p.querySelectorAll(".fragment.visible").length/e.length*i}}return Math.min(t/(e-1),1)},getIndices:at,getSlidesAttributes:function(){return nt().map((e=>{let t={};for(let i=0;i<e.attributes.length;i++){let s=e.attributes[i];t[s.name]=s.value}return t}))},getSlidePastCount:st,getTotalSlides:ct,getSlide:ht,getPreviousSlide:()=>g,getCurrentSlide:()=>p,getSlideBackground:function(e,t){let i="number"==typeof e?ht(e,t):e;if(i)return i.slideBackgroundElement},getSlideNotes:fe.getSlideNotes.bind(fe),getSlides:nt,getHorizontalSlides:rt,getVerticalSlides:ot,hasHorizontalSlides:lt,hasVerticalSlides:dt,hasNavigatedHorizontally:()=>q.hasNavigatedHorizontally,hasNavigatedVertically:()=>q.hasNavigatedVertically,shouldAutoAnimateBetween:_e,addKeyBinding:de.addKeyBinding.bind(de),removeKeyBinding:de.removeKeyBinding.bind(de),triggerKey:de.triggerKey.bind(de),registerKeyboardShortcut:de.registerKeyboardShortcut.bind(de),getComputedSlideSize:Fe,setCurrentScrollPage:function(e,t,i){let s=c||0;c=t,h=i;const a=p!==e;g=p,p=e,p&&g&&A.autoAnimate&&_e(g,p,s,h)&&se.run(g,p),a&&(g&&(ee.stopEmbeddedContent(g),ee.stopEmbeddedContent(g.slideBackgroundElement)),ee.startEmbeddedContent(p),ee.startEmbeddedContent(p.slideBackgroundElement)),requestAnimationFrame((()=>{be(we(p))})),xe()},getScale:()=>$,getConfig:()=>A,getQueryHash:d,getSlidePath:ce.getHash.bind(ce),getRevealElement:()=>n,getSlidesElement:()=>Y.slides,getViewportElement:()=>Y.viewport,getBackgroundsElement:()=>ae.element,registerPlugin:pe.registerPlugin.bind(pe),hasPlugin:pe.hasPlugin.bind(pe),getPlugin:pe.getPlugin.bind(pe),getPlugins:pe.getRegisteredPlugins.bind(pe)};return e(l,{...Nt,announceStatus:be,getStatusText:we,focus:ve,scroll:ne,progress:ue,controls:he,location:ce,overview:le,fragments:oe,backgrounds:ae,slideContent:ee,slideNumber:te,onUserInput:function(e){A.autoSlideStoppable&&vt()},closeOverlay:Be,updateSlidesVisibility:tt,layoutSlideContents:De,transformSlides:Le,cueAutoSlide:gt,cancelAutoSlide:pt}),Nt}let X=$,Y=[];return X.initialize=e=>(Object.assign(X,new $(document.querySelector(".reveal"),e)),Y.map((e=>e(X))),X.initialize()),["configure","on","off","addEventListener","removeEventListener","registerPlugin"].forEach((e=>{X[e]=(...t)=>{Y.push((i=>i[e].call(null,...t)))}})),X.isReady=()=>!1,X.VERSION=K,X}));
-//# sourceMappingURL=reveal.js.map
+import SlideContent from './controllers/slidecontent.js'
+import SlideNumber from './controllers/slidenumber.js'
+import JumpToSlide from './controllers/jumptoslide.js'
+import Backgrounds from './controllers/backgrounds.js'
+import AutoAnimate from './controllers/autoanimate.js'
+import ScrollView from './controllers/scrollview.js'
+import PrintView from './controllers/printview.js'
+import Fragments from './controllers/fragments.js'
+import Overview from './controllers/overview.js'
+import Keyboard from './controllers/keyboard.js'
+import Location from './controllers/location.js'
+import Controls from './controllers/controls.js'
+import Progress from './controllers/progress.js'
+import Pointer from './controllers/pointer.js'
+import Plugins from './controllers/plugins.js'
+import Overlay from './controllers/overlay.js'
+import Touch from './controllers/touch.js'
+import Focus from './controllers/focus.js'
+import Notes from './controllers/notes.js'
+import Playback from './components/playback.js'
+import defaultConfig from './config.js'
+import * as Util from './utils/util.js'
+import * as Device from './utils/device.js'
+import {
+	SLIDES_SELECTOR,
+	HORIZONTAL_SLIDES_SELECTOR,
+	VERTICAL_SLIDES_SELECTOR,
+	POST_MESSAGE_METHOD_BLACKLIST
+} from './utils/constants.js'
+
+// The reveal.js version
+export const VERSION = '5.2.1';
+
+/**
+ * reveal.js
+ * https://revealjs.com
+ * MIT licensed
+ *
+ * Copyright (C) 2011-2022 Hakim El Hattab, https://hakim.se
+ */
+export default function( revealElement, options ) {
+
+	// Support initialization with no args, one arg
+	// [options] or two args [revealElement, options]
+	if( arguments.length < 2 ) {
+		options = arguments[0];
+		revealElement = document.querySelector( '.reveal' );
+	}
+
+	const Reveal = {};
+
+	// Configuration defaults, can be overridden at initialization time
+	let config = {},
+
+		// Flags if initialize() has been invoked for this reveal instance
+		initialized = false,
+
+		// Flags if reveal.js is loaded (has dispatched the 'ready' event)
+		ready = false,
+
+		// The horizontal and vertical index of the currently active slide
+		indexh,
+		indexv,
+
+		// The previous and current slide HTML elements
+		previousSlide,
+		currentSlide,
+
+		// Remember which directions that the user has navigated towards
+		navigationHistory = {
+			hasNavigatedHorizontally: false,
+			hasNavigatedVertically: false
+		},
+
+		// Slides may have a data-state attribute which we pick up and apply
+		// as a class to the body. This list contains the combined state of
+		// all current slides.
+		state = [],
+
+		// The current scale of the presentation (see width/height config)
+		scale = 1,
+
+		// CSS transform that is currently applied to the slides container,
+		// split into two groups
+		slidesTransform = { layout: '', overview: '' },
+
+		// Cached references to DOM elements
+		dom = {},
+
+		// Flags if the interaction event listeners are bound
+		eventsAreBound = false,
+
+		// The current slide transition state; idle or running
+		transition = 'idle',
+
+		// The current auto-slide duration
+		autoSlide = 0,
+
+		// Auto slide properties
+		autoSlidePlayer,
+		autoSlideTimeout = 0,
+		autoSlideStartTime = -1,
+		autoSlidePaused = false,
+
+		// Controllers for different aspects of our presentation. They're
+		// all given direct references to this Reveal instance since there
+		// may be multiple presentations running in parallel.
+		slideContent = new SlideContent( Reveal ),
+		slideNumber = new SlideNumber( Reveal ),
+		jumpToSlide = new JumpToSlide( Reveal ),
+		autoAnimate = new AutoAnimate( Reveal ),
+		backgrounds = new Backgrounds( Reveal ),
+		scrollView = new ScrollView( Reveal ),
+		printView = new PrintView( Reveal ),
+		fragments = new Fragments( Reveal ),
+		overview = new Overview( Reveal ),
+		keyboard = new Keyboard( Reveal ),
+		location = new Location( Reveal ),
+		controls = new Controls( Reveal ),
+		progress = new Progress( Reveal ),
+		pointer = new Pointer( Reveal ),
+		plugins = new Plugins( Reveal ),
+		overlay = new Overlay( Reveal ),
+		focus = new Focus( Reveal ),
+		touch = new Touch( Reveal ),
+		notes = new Notes( Reveal );
+
+	/**
+	 * Starts up the presentation.
+	 */
+	function initialize( initOptions ) {
+
+		if( !revealElement ) throw 'Unable to find presentation root (<div class="reveal">).';
+
+		if( initialized ) throw 'Reveal.js has already been initialized.';
+
+		initialized = true;
+
+		// Cache references to key DOM elements
+		dom.wrapper = revealElement;
+		dom.slides = revealElement.querySelector( '.slides' );
+
+		if( !dom.slides ) throw 'Unable to find slides container (<div class="slides">).';
+
+		// Compose our config object in order of increasing precedence:
+		// 1. Default reveal.js options
+		// 2. Options provided via Reveal.configure() prior to
+		//    initialization
+		// 3. Options passed to the Reveal constructor
+		// 4. Options passed to Reveal.initialize
+		// 5. Query params
+		config = { ...defaultConfig, ...config, ...options, ...initOptions, ...Util.getQueryHash() };
+
+		// Legacy support for the ?print-pdf query
+		if( /print-pdf/gi.test( window.location.search ) ) {
+			config.view = 'print';
+		}
+
+		setViewport();
+
+		// Force a layout when the whole page, incl fonts, has loaded
+		window.addEventListener( 'load', layout, false );
+
+		// Register plugins and load dependencies, then move on to #start()
+		plugins.load( config.plugins, config.dependencies ).then( start );
+
+		return new Promise( resolve => Reveal.on( 'ready', resolve ) );
+
+	}
+
+	/**
+	 * Encase the presentation in a reveal.js viewport. The
+	 * extent of the viewport differs based on configuration.
+	 */
+	function setViewport() {
+
+		// Embedded decks use the reveal element as their viewport
+		if( config.embedded === true ) {
+			dom.viewport = Util.closest( revealElement, '.reveal-viewport' ) || revealElement;
+		}
+		// Full-page decks use the body as their viewport
+		else {
+			dom.viewport = document.body;
+			document.documentElement.classList.add( 'reveal-full-page' );
+		}
+
+		dom.viewport.classList.add( 'reveal-viewport' );
+
+	}
+
+	/**
+	 * Starts up reveal.js by binding input events and navigating
+	 * to the current URL deeplink if there is one.
+	 */
+	function start() {
+
+		// Don't proceed if this instance has been destroyed
+		if( initialized === false ) return;
+
+		ready = true;
+
+		// Remove slides hidden with data-visibility
+		removeHiddenSlides();
+
+		// Make sure we've got all the DOM elements we need
+		setupDOM();
+
+		// Listen to messages posted to this window
+		setupPostMessage();
+
+		// Prevent the slides from being scrolled out of view
+		setupScrollPrevention();
+
+		// Adds bindings for fullscreen mode
+		setupFullscreen();
+
+		// Resets all vertical slides so that only the first is visible
+		resetVerticalSlides();
+
+		// Updates the presentation to match the current configuration values
+		configure();
+
+		// Create slide backgrounds
+		backgrounds.update( true );
+
+		// Activate the print/scroll view if configured
+		activateInitialView();
+
+		// Read the initial hash
+		location.readURL();
+
+		// Notify listeners that the presentation is ready but use a 1ms
+		// timeout to ensure it's not fired synchronously after #initialize()
+		setTimeout( () => {
+			// Enable transitions now that we're loaded
+			dom.slides.classList.remove( 'no-transition' );
+
+			dom.wrapper.classList.add( 'ready' );
+
+			dispatchEvent({
+				type: 'ready',
+				data: {
+					indexh,
+					indexv,
+					currentSlide
+				}
+			});
+		}, 1 );
+
+	}
+
+	/**
+	 * Activates the correct reveal.js view based on our config.
+	 * This is only invoked once during initialization.
+	 */
+	function activateInitialView() {
+
+		const activatePrintView = config.view === 'print';
+		const activateScrollView = config.view === 'scroll' || config.view === 'reader';
+
+		if( activatePrintView || activateScrollView ) {
+
+			if( activatePrintView ) {
+				removeEventListeners();
+			}
+			else {
+				touch.unbind();
+			}
+
+			// Avoid content flickering during layout
+			dom.viewport.classList.add( 'loading-scroll-mode' );
+
+			if( activatePrintView ) {
+				// The document needs to have loaded for the PDF layout
+				// measurements to be accurate
+				if( document.readyState === 'complete' ) {
+					printView.activate();
+				}
+				else {
+					window.addEventListener( 'load', () => printView.activate() );
+				}
+			}
+			else {
+				scrollView.activate();
+			}
+		}
+
+	}
+
+	/**
+	 * Removes all slides with data-visibility="hidden". This
+	 * is done right before the rest of the presentation is
+	 * initialized.
+	 *
+	 * If you want to show all hidden slides, initialize
+	 * reveal.js with showHiddenSlides set to true.
+	 */
+	function removeHiddenSlides() {
+
+		if( !config.showHiddenSlides ) {
+			Util.queryAll( dom.wrapper, 'section[data-visibility="hidden"]' ).forEach( slide => {
+				const parent = slide.parentNode;
+
+				// If this slide is part of a stack and that stack will be
+				// empty after removing the hidden slide, remove the entire
+				// stack
+				if( parent.childElementCount === 1 && /section/i.test( parent.nodeName ) ) {
+					parent.remove();
+				}
+				else {
+					slide.remove();
+				}
+
+			} );
+		}
+
+	}
+
+	/**
+	 * Finds and stores references to DOM elements which are
+	 * required by the presentation. If a required element is
+	 * not found, it is created.
+	 */
+	function setupDOM() {
+
+		// Prevent transitions while we're loading
+		dom.slides.classList.add( 'no-transition' );
+
+		if( Device.isMobile ) {
+			dom.wrapper.classList.add( 'no-hover' );
+		}
+		else {
+			dom.wrapper.classList.remove( 'no-hover' );
+		}
+
+		backgrounds.render();
+		slideNumber.render();
+		jumpToSlide.render();
+		controls.render();
+		progress.render();
+		notes.render();
+
+		// Overlay graphic which is displayed during the paused mode
+		dom.pauseOverlay = Util.createSingletonNode( dom.wrapper, 'div', 'pause-overlay', config.controls ? '<button class="resume-button">Resume presentation</button>' : null );
+
+		dom.statusElement = createStatusElement();
+
+		dom.wrapper.setAttribute( 'role', 'application' );
+	}
+
+	/**
+	 * Creates a hidden div with role aria-live to announce the
+	 * current slide content. Hide the div off-screen to make it
+	 * available only to Assistive Technologies.
+	 *
+	 * @return {HTMLElement}
+	 */
+	function createStatusElement() {
+
+		let statusElement = dom.wrapper.querySelector( '.aria-status' );
+		if( !statusElement ) {
+			statusElement = document.createElement( 'div' );
+			statusElement.style.position = 'absolute';
+			statusElement.style.height = '1px';
+			statusElement.style.width = '1px';
+			statusElement.style.overflow = 'hidden';
+			statusElement.style.clip = 'rect( 1px, 1px, 1px, 1px )';
+			statusElement.classList.add( 'aria-status' );
+			statusElement.setAttribute( 'aria-live', 'polite' );
+			statusElement.setAttribute( 'aria-atomic','true' );
+			dom.wrapper.appendChild( statusElement );
+		}
+		return statusElement;
+
+	}
+
+	/**
+	 * Announces the given text to screen readers.
+	 */
+	function announceStatus( value ) {
+
+		dom.statusElement.textContent = value;
+
+	}
+
+	/**
+	 * Converts the given HTML element into a string of text
+	 * that can be announced to a screen reader. Hidden
+	 * elements are excluded.
+	 */
+	function getStatusText( node ) {
+
+		let text = '';
+
+		// Text node
+		if( node.nodeType === 3 ) {
+			text += node.textContent;
+		}
+		// Element node
+		else if( node.nodeType === 1 ) {
+
+			let isAriaHidden = node.getAttribute( 'aria-hidden' );
+			let isDisplayHidden = window.getComputedStyle( node )['display'] === 'none';
+			if( isAriaHidden !== 'true' && !isDisplayHidden ) {
+
+				Array.from( node.childNodes ).forEach( child => {
+					text += getStatusText( child );
+				} );
+
+			}
+
+		}
+
+		text = text.trim();
+
+		return text === '' ? '' : text + ' ';
+
+	}
+
+	/**
+	 * This is an unfortunate necessity. Some actions – such as
+	 * an input field being focused in an iframe or using the
+	 * keyboard to expand text selection beyond the bounds of
+	 * a slide – can trigger our content to be pushed out of view.
+	 * This scrolling can not be prevented by hiding overflow in
+	 * CSS (we already do) so we have to resort to repeatedly
+	 * checking if the slides have been offset :(
+	 */
+	function setupScrollPrevention() {
+
+		setInterval( () => {
+			if( !scrollView.isActive() && dom.wrapper.scrollTop !== 0 || dom.wrapper.scrollLeft !== 0 ) {
+				dom.wrapper.scrollTop = 0;
+				dom.wrapper.scrollLeft = 0;
+			}
+		}, 1000 );
+
+	}
+
+	/**
+	 * After entering fullscreen we need to force a layout to
+	 * get our presentations to scale correctly. This behavior
+	 * is inconsistent across browsers but a force layout seems
+	 * to normalize it.
+	 */
+	function setupFullscreen() {
+
+		document.addEventListener( 'fullscreenchange', onFullscreenChange );
+		document.addEventListener( 'webkitfullscreenchange', onFullscreenChange );
+
+	}
+
+	/**
+	 * Registers a listener to postMessage events, this makes it
+	 * possible to call all reveal.js API methods from another
+	 * window. For example:
+	 *
+	 * revealWindow.postMessage( JSON.stringify({
+	 *   method: 'slide',
+	 *   args: [ 2 ]
+	 * }), '*' );
+	 */
+	function setupPostMessage() {
+
+		if( config.postMessage ) {
+			window.addEventListener( 'message', onPostMessage, false );
+		}
+
+	}
+
+	/**
+	 * Applies the configuration settings from the config
+	 * object. May be called multiple times.
+	 *
+	 * @param {object} options
+	 */
+	function configure( options ) {
+
+		const oldConfig = { ...config }
+
+		// New config options may be passed when this method
+		// is invoked through the API after initialization
+		if( typeof options === 'object' ) Util.extend( config, options );
+
+		// Abort if reveal.js hasn't finished loading, config
+		// changes will be applied automatically once ready
+		if( Reveal.isReady() ===  false ) return;
+
+		const numberOfSlides = dom.wrapper.querySelectorAll( SLIDES_SELECTOR ).length;
+
+		// The transition is added as a class on the .reveal element
+		dom.wrapper.classList.remove( oldConfig.transition );
+		dom.wrapper.classList.add( config.transition );
+
+		dom.wrapper.setAttribute( 'data-transition-speed', config.transitionSpeed );
+		dom.wrapper.setAttribute( 'data-background-transition', config.backgroundTransition );
+
+		// Expose our configured slide dimensions as custom props
+		dom.viewport.style.setProperty( '--slide-width', typeof config.width === 'string' ? config.width :  config.width + 'px' );
+		dom.viewport.style.setProperty( '--slide-height', typeof config.height === 'string' ? config.height :  config.height + 'px' );
+
+		if( config.shuffle ) {
+			shuffle();
+		}
+
+		Util.toggleClass( dom.wrapper, 'embedded', config.embedded );
+		Util.toggleClass( dom.wrapper, 'rtl', config.rtl );
+		Util.toggleClass( dom.wrapper, 'center', config.center );
+
+		// Exit the paused mode if it was configured off
+		if( config.pause === false ) {
+			resume();
+		}
+
+		// Reset all changes made by auto-animations
+		autoAnimate.reset();
+
+		// Remove existing auto-slide controls
+		if( autoSlidePlayer ) {
+			autoSlidePlayer.destroy();
+			autoSlidePlayer = null;
+		}
+
+		// Generate auto-slide controls if needed
+		if( numberOfSlides > 1 && config.autoSlide && config.autoSlideStoppable ) {
+			autoSlidePlayer = new Playback( dom.wrapper, () => {
+				return Math.min( Math.max( ( Date.now() - autoSlideStartTime ) / autoSlide, 0 ), 1 );
+			} );
+
+			autoSlidePlayer.on( 'click', onAutoSlidePlayerClick );
+			autoSlidePaused = false;
+		}
+
+		// Add the navigation mode to the DOM so we can adjust styling
+		if( config.navigationMode !== 'default' ) {
+			dom.wrapper.setAttribute( 'data-navigation-mode', config.navigationMode );
+		}
+		else {
+			dom.wrapper.removeAttribute( 'data-navigation-mode' );
+		}
+
+		notes.configure( config, oldConfig );
+		focus.configure( config, oldConfig );
+		pointer.configure( config, oldConfig );
+		controls.configure( config, oldConfig );
+		progress.configure( config, oldConfig );
+		keyboard.configure( config, oldConfig );
+		fragments.configure( config, oldConfig );
+		slideNumber.configure( config, oldConfig );
+
+		sync();
+
+	}
+
+	/**
+	 * Binds all event listeners.
+	 */
+	function addEventListeners() {
+
+		eventsAreBound = true;
+
+		window.addEventListener( 'resize', onWindowResize, false );
+
+		if( config.touch ) touch.bind();
+		if( config.keyboard ) keyboard.bind();
+		if( config.progress ) progress.bind();
+		if( config.respondToHashChanges ) location.bind();
+		controls.bind();
+		focus.bind();
+
+		dom.slides.addEventListener( 'click', onSlidesClicked, false );
+		dom.slides.addEventListener( 'transitionend', onTransitionEnd, false );
+		dom.pauseOverlay.addEventListener( 'click', resume, false );
+
+		if( config.focusBodyOnPageVisibilityChange ) {
+			document.addEventListener( 'visibilitychange', onPageVisibilityChange, false );
+		}
+
+	}
+
+	/**
+	 * Unbinds all event listeners.
+	 */
+	function removeEventListeners() {
+
+		eventsAreBound = false;
+
+		touch.unbind();
+		focus.unbind();
+		keyboard.unbind();
+		controls.unbind();
+		progress.unbind();
+		location.unbind();
+
+		window.removeEventListener( 'resize', onWindowResize, false );
+
+		dom.slides.removeEventListener( 'click', onSlidesClicked, false );
+		dom.slides.removeEventListener( 'transitionend', onTransitionEnd, false );
+		dom.pauseOverlay.removeEventListener( 'click', resume, false );
+
+	}
+
+	/**
+	 * Uninitializes reveal.js by undoing changes made to the
+	 * DOM and removing all event listeners.
+	 */
+	function destroy() {
+
+		initialized = false;
+
+		// There's nothing to destroy if this instance hasn't finished
+		// initializing
+		if( ready === false ) return;
+
+		removeEventListeners();
+		cancelAutoSlide();
+
+		// Destroy controllers
+		notes.destroy();
+		focus.destroy();
+		overlay.destroy();
+		plugins.destroy();
+		pointer.destroy();
+		controls.destroy();
+		progress.destroy();
+		backgrounds.destroy();
+		slideNumber.destroy();
+		jumpToSlide.destroy();
+
+		// Remove event listeners
+		document.removeEventListener( 'fullscreenchange', onFullscreenChange );
+		document.removeEventListener( 'webkitfullscreenchange', onFullscreenChange );
+		document.removeEventListener( 'visibilitychange', onPageVisibilityChange, false );
+		window.removeEventListener( 'message', onPostMessage, false );
+		window.removeEventListener( 'load', layout, false );
+
+		// Undo DOM changes
+		if( dom.pauseOverlay ) dom.pauseOverlay.remove();
+		if( dom.statusElement ) dom.statusElement.remove();
+
+		document.documentElement.classList.remove( 'reveal-full-page' );
+
+		dom.wrapper.classList.remove( 'ready', 'center', 'has-horizontal-slides', 'has-vertical-slides' );
+		dom.wrapper.removeAttribute( 'data-transition-speed' );
+		dom.wrapper.removeAttribute( 'data-background-transition' );
+
+		dom.viewport.classList.remove( 'reveal-viewport' );
+		dom.viewport.style.removeProperty( '--slide-width' );
+		dom.viewport.style.removeProperty( '--slide-height' );
+
+		dom.slides.style.removeProperty( 'width' );
+		dom.slides.style.removeProperty( 'height' );
+		dom.slides.style.removeProperty( 'zoom' );
+		dom.slides.style.removeProperty( 'left' );
+		dom.slides.style.removeProperty( 'top' );
+		dom.slides.style.removeProperty( 'bottom' );
+		dom.slides.style.removeProperty( 'right' );
+		dom.slides.style.removeProperty( 'transform' );
+
+		Array.from( dom.wrapper.querySelectorAll( SLIDES_SELECTOR ) ).forEach( slide => {
+			slide.style.removeProperty( 'display' );
+			slide.style.removeProperty( 'top' );
+			slide.removeAttribute( 'hidden' );
+			slide.removeAttribute( 'aria-hidden' );
+		} );
+
+	}
+
+	/**
+	 * Adds a listener to one of our custom reveal.js events,
+	 * like slidechanged.
+	 */
+	function on( type, listener, useCapture ) {
+
+		revealElement.addEventListener( type, listener, useCapture );
+
+	}
+
+	/**
+	 * Unsubscribes from a reveal.js event.
+	 */
+	function off( type, listener, useCapture ) {
+
+		revealElement.removeEventListener( type, listener, useCapture );
+
+	}
+
+	/**
+	 * Applies CSS transforms to the slides container. The container
+	 * is transformed from two separate sources: layout and the overview
+	 * mode.
+	 *
+	 * @param {object} transforms
+	 */
+	function transformSlides( transforms ) {
+
+		// Pick up new transforms from arguments
+		if( typeof transforms.layout === 'string' ) slidesTransform.layout = transforms.layout;
+		if( typeof transforms.overview === 'string' ) slidesTransform.overview = transforms.overview;
+
+		// Apply the transforms to the slides container
+		if( slidesTransform.layout ) {
+			Util.transformElement( dom.slides, slidesTransform.layout + ' ' + slidesTransform.overview );
+		}
+		else {
+			Util.transformElement( dom.slides, slidesTransform.overview );
+		}
+
+	}
+
+	/**
+	 * Dispatches an event of the specified type from the
+	 * reveal DOM element.
+	 */
+	function dispatchEvent({ target=dom.wrapper, type, data, bubbles=true }) {
+
+		let event = document.createEvent( 'HTMLEvents', 1, 2 );
+		event.initEvent( type, bubbles, true );
+		Util.extend( event, data );
+		target.dispatchEvent( event );
+
+		if( target === dom.wrapper ) {
+			// If we're in an iframe, post each reveal.js event to the
+			// parent window. Used by the notes plugin
+			dispatchPostMessage( type );
+		}
+
+		return event;
+
+	}
+
+	/**
+	 * Dispatches a slidechanged event.
+	 *
+	 * @param {string} origin Used to identify multiplex clients
+	 */
+	function dispatchSlideChanged( origin ) {
+
+		dispatchEvent({
+			type: 'slidechanged',
+			data: {
+				indexh,
+				indexv,
+				previousSlide,
+				currentSlide,
+				origin
+			}
+		});
+
+	}
+
+	/**
+	 * Dispatched a postMessage of the given type from our window.
+	 */
+	function dispatchPostMessage( type, data ) {
+
+		if( config.postMessageEvents && window.parent !== window.self ) {
+			let message = {
+				namespace: 'reveal',
+				eventName: type,
+				state: getState()
+			};
+
+			Util.extend( message, data );
+
+			window.parent.postMessage( JSON.stringify( message ), '*' );
+		}
+
+	}
+
+	/**
+	 * Applies JavaScript-controlled layout rules to the
+	 * presentation.
+	 */
+	function layout() {
+
+		if( dom.wrapper && !printView.isActive() ) {
+
+			const viewportWidth = dom.viewport.offsetWidth;
+			const viewportHeight = dom.viewport.offsetHeight;
+
+			if( !config.disableLayout ) {
+
+				// On some mobile devices '100vh' is taller than the visible
+				// viewport which leads to part of the presentation being
+				// cut off. To work around this we define our own '--vh' custom
+				// property where 100x adds up to the correct height.
+				//
+				// https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
+				if( Device.isMobile && !config.embedded ) {
+					document.documentElement.style.setProperty( '--vh', ( window.innerHeight * 0.01 ) + 'px' );
+				}
+
+				const size = scrollView.isActive() ?
+							 getComputedSlideSize( viewportWidth, viewportHeight ) :
+							 getComputedSlideSize();
+
+				const oldScale = scale;
+
+				// Layout the contents of the slides
+				layoutSlideContents( config.width, config.height );
+
+				dom.slides.style.width = size.width + 'px';
+				dom.slides.style.height = size.height + 'px';
+
+				// Determine scale of content to fit within available space
+				scale = Math.min( size.presentationWidth / size.width, size.presentationHeight / size.height );
+
+				// Respect max/min scale settings
+				scale = Math.max( scale, config.minScale );
+				scale = Math.min( scale, config.maxScale );
+
+				// Don't apply any scaling styles if scale is 1 or we're
+				// in the scroll view
+				if( scale === 1 || scrollView.isActive() ) {
+					dom.slides.style.zoom = '';
+					dom.slides.style.left = '';
+					dom.slides.style.top = '';
+					dom.slides.style.bottom = '';
+					dom.slides.style.right = '';
+					transformSlides( { layout: '' } );
+				}
+				else {
+					dom.slides.style.zoom = '';
+					dom.slides.style.left = '50%';
+					dom.slides.style.top = '50%';
+					dom.slides.style.bottom = 'auto';
+					dom.slides.style.right = 'auto';
+					transformSlides( { layout: 'translate(-50%, -50%) scale('+ scale +')' } );
+				}
+
+				// Select all slides, vertical and horizontal
+				const slides = Array.from( dom.wrapper.querySelectorAll( SLIDES_SELECTOR ) );
+
+				for( let i = 0, len = slides.length; i < len; i++ ) {
+					const slide = slides[ i ];
+
+					// Don't bother updating invisible slides
+					if( slide.style.display === 'none' ) {
+						continue;
+					}
+
+					if( ( config.center || slide.classList.contains( 'center' ) ) ) {
+						// Vertical stacks are not centred since their section
+						// children will be
+						if( slide.classList.contains( 'stack' ) ) {
+							slide.style.top = 0;
+						}
+						else {
+							slide.style.top = Math.max( ( size.height - slide.scrollHeight ) / 2, 0 ) + 'px';
+						}
+					}
+					else {
+						slide.style.top = '';
+					}
+
+				}
+
+				if( oldScale !== scale ) {
+					dispatchEvent({
+						type: 'resize',
+						data: {
+							oldScale,
+							scale,
+							size
+						}
+					});
+				}
+			}
+
+			checkResponsiveScrollView();
+
+			dom.viewport.style.setProperty( '--slide-scale', scale );
+			dom.viewport.style.setProperty( '--viewport-width', viewportWidth + 'px' );
+			dom.viewport.style.setProperty( '--viewport-height', viewportHeight + 'px' );
+
+			scrollView.layout();
+
+			progress.update();
+			backgrounds.updateParallax();
+
+			if( overview.isActive() ) {
+				overview.update();
+			}
+
+		}
+
+	}
+
+	/**
+	 * Applies layout logic to the contents of all slides in
+	 * the presentation.
+	 *
+	 * @param {string|number} width
+	 * @param {string|number} height
+	 */
+	function layoutSlideContents( width, height ) {
+		// Handle sizing of elements with the 'r-stretch' class
+		Util.queryAll( dom.slides, 'section > .stretch, section > .r-stretch' ).forEach( element => {
+
+			// Determine how much vertical space we can use
+			let remainingHeight = Util.getRemainingHeight( element, height );
+
+			// Consider the aspect ratio of media elements
+			if( /(img|video)/gi.test( element.nodeName ) ) {
+				const nw = element.naturalWidth || element.videoWidth,
+					  nh = element.naturalHeight || element.videoHeight;
+
+				const es = Math.min( width / nw, remainingHeight / nh );
+
+				element.style.width = ( nw * es ) + 'px';
+				element.style.height = ( nh * es ) + 'px';
+
+			}
+			else {
+				element.style.width = width + 'px';
+				element.style.height = remainingHeight + 'px';
+			}
+
+		} );
+
+	}
+
+	/**
+	 * Responsively activates the scroll mode when we reach the configured
+	 * activation width.
+	 */
+	function checkResponsiveScrollView() {
+
+		// Only proceed if...
+		// 1. The DOM is ready
+		// 2. Layouts aren't disabled via config
+		// 3. We're not currently printing
+		// 4. There is a scrollActivationWidth set
+		// 5. The deck isn't configured to always use the scroll view
+		if(
+			dom.wrapper &&
+			!config.disableLayout &&
+			!printView.isActive() &&
+			typeof config.scrollActivationWidth === 'number' &&
+			config.view !== 'scroll'
+		) {
+			const size = getComputedSlideSize();
+
+			if( size.presentationWidth > 0 && size.presentationWidth <= config.scrollActivationWidth ) {
+				if( !scrollView.isActive() ) {
+					backgrounds.create();
+					scrollView.activate()
+				};
+			}
+			else {
+				if( scrollView.isActive() ) scrollView.deactivate();
+			}
+		}
+
+	}
+
+	/**
+	 * Calculates the computed pixel size of our slides. These
+	 * values are based on the width and height configuration
+	 * options.
+	 *
+	 * @param {number} [presentationWidth=dom.wrapper.offsetWidth]
+	 * @param {number} [presentationHeight=dom.wrapper.offsetHeight]
+	 */
+	function getComputedSlideSize( presentationWidth, presentationHeight ) {
+
+		let width = config.width;
+		let height = config.height;
+
+		if( config.disableLayout ) {
+			width = dom.slides.offsetWidth;
+			height = dom.slides.offsetHeight;
+		}
+
+		const size = {
+			// Slide size
+			width: width,
+			height: height,
+
+			// Presentation size
+			presentationWidth: presentationWidth || dom.wrapper.offsetWidth,
+			presentationHeight: presentationHeight || dom.wrapper.offsetHeight
+		};
+
+		// Reduce available space by margin
+		size.presentationWidth -= ( size.presentationWidth * config.margin );
+		size.presentationHeight -= ( size.presentationHeight * config.margin );
+
+		// Slide width may be a percentage of available width
+		if( typeof size.width === 'string' && /%$/.test( size.width ) ) {
+			size.width = parseInt( size.width, 10 ) / 100 * size.presentationWidth;
+		}
+
+		// Slide height may be a percentage of available height
+		if( typeof size.height === 'string' && /%$/.test( size.height ) ) {
+			size.height = parseInt( size.height, 10 ) / 100 * size.presentationHeight;
+		}
+
+		return size;
+
+	}
+
+	/**
+	 * Stores the vertical index of a stack so that the same
+	 * vertical slide can be selected when navigating to and
+	 * from the stack.
+	 *
+	 * @param {HTMLElement} stack The vertical stack element
+	 * @param {string|number} [v=0] Index to memorize
+	 */
+	function setPreviousVerticalIndex( stack, v ) {
+
+		if( typeof stack === 'object' && typeof stack.setAttribute === 'function' ) {
+			stack.setAttribute( 'data-previous-indexv', v || 0 );
+		}
+
+	}
+
+	/**
+	 * Retrieves the vertical index which was stored using
+	 * #setPreviousVerticalIndex() or 0 if no previous index
+	 * exists.
+	 *
+	 * @param {HTMLElement} stack The vertical stack element
+	 */
+	function getPreviousVerticalIndex( stack ) {
+
+		if( typeof stack === 'object' && typeof stack.setAttribute === 'function' && stack.classList.contains( 'stack' ) ) {
+			// Prefer manually defined start-indexv
+			const attributeName = stack.hasAttribute( 'data-start-indexv' ) ? 'data-start-indexv' : 'data-previous-indexv';
+
+			return parseInt( stack.getAttribute( attributeName ) || 0, 10 );
+		}
+
+		return 0;
+
+	}
+
+	/**
+	 * Checks if the current or specified slide is vertical
+	 * (nested within another slide).
+	 *
+	 * @param {HTMLElement} [slide=currentSlide] The slide to check
+	 * orientation of
+	 * @return {Boolean}
+	 */
+	function isVerticalSlide( slide = currentSlide ) {
+
+		return slide && slide.parentNode && !!slide.parentNode.nodeName.match( /section/i );
+
+	}
+
+	/**
+	 * Checks if the current or specified slide is a stack containing
+	 * vertical slides.
+	 *
+	 * @param {HTMLElement} [slide=currentSlide]
+	 * @return {Boolean}
+	 */
+	function isVerticalStack( slide = currentSlide ) {
+
+		return slide.classList.contains( '.stack' ) || slide.querySelector( 'section' ) !== null;
+
+	}
+
+	/**
+	 * Returns true if we're on the last slide in the current
+	 * vertical stack.
+	 */
+	function isLastVerticalSlide() {
+
+		if( currentSlide && isVerticalSlide( currentSlide ) ) {
+			// Does this slide have a next sibling?
+			if( currentSlide.nextElementSibling ) return false;
+
+			return true;
+		}
+
+		return false;
+
+	}
+
+	/**
+	 * Returns true if we're currently on the first slide in
+	 * the presentation.
+	 */
+	function isFirstSlide() {
+
+		return indexh === 0 && indexv === 0;
+
+	}
+
+	/**
+	 * Returns true if we're currently on the last slide in
+	 * the presentation. If the last slide is a stack, we only
+	 * consider this the last slide if it's at the end of the
+	 * stack.
+	 */
+	function isLastSlide() {
+
+		if( currentSlide ) {
+			// Does this slide have a next sibling?
+			if( currentSlide.nextElementSibling ) return false;
+
+			// If it's vertical, does its parent have a next sibling?
+			if( isVerticalSlide( currentSlide ) && currentSlide.parentNode.nextElementSibling ) return false;
+
+			return true;
+		}
+
+		return false;
+
+	}
+
+	/**
+	 * Enters the paused mode which fades everything on screen to
+	 * black.
+	 */
+	function pause() {
+
+		if( config.pause ) {
+			const wasPaused = dom.wrapper.classList.contains( 'paused' );
+
+			cancelAutoSlide();
+			dom.wrapper.classList.add( 'paused' );
+
+			if( wasPaused === false ) {
+				dispatchEvent({ type: 'paused' });
+			}
+		}
+
+	}
+
+	/**
+	 * Exits from the paused mode.
+	 */
+	function resume() {
+
+		const wasPaused = dom.wrapper.classList.contains( 'paused' );
+		dom.wrapper.classList.remove( 'paused' );
+
+		cueAutoSlide();
+
+		if( wasPaused ) {
+			dispatchEvent({ type: 'resumed' });
+		}
+
+	}
+
+	/**
+	 * Toggles the paused mode on and off.
+	 */
+	function togglePause( override ) {
+
+		if( typeof override === 'boolean' ) {
+			override ? pause() : resume();
+		}
+		else {
+			isPaused() ? resume() : pause();
+		}
+
+	}
+
+	/**
+	 * Checks if we are currently in the paused mode.
+	 *
+	 * @return {Boolean}
+	 */
+	function isPaused() {
+
+		return dom.wrapper.classList.contains( 'paused' );
+
+	}
+
+	/**
+	 * Toggles visibility of the jump-to-slide UI.
+	 */
+	function toggleJumpToSlide( override ) {
+
+		if( typeof override === 'boolean' ) {
+			override ? jumpToSlide.show() : jumpToSlide.hide();
+		}
+		else {
+			jumpToSlide.isVisible() ? jumpToSlide.hide() : jumpToSlide.show();
+		}
+
+	}
+
+	/**
+	 * Toggles the auto slide mode on and off.
+	 *
+	 * @param {Boolean} [override] Flag which sets the desired state.
+	 * True means autoplay starts, false means it stops.
+	 */
+
+	function toggleAutoSlide( override ) {
+
+		if( typeof override === 'boolean' ) {
+			override ? resumeAutoSlide() : pauseAutoSlide();
+		}
+
+		else {
+			autoSlidePaused ? resumeAutoSlide() : pauseAutoSlide();
+		}
+
+	}
+
+	/**
+	 * Checks if the auto slide mode is currently on.
+	 *
+	 * @return {Boolean}
+	 */
+	function isAutoSliding() {
+
+		return !!( autoSlide && !autoSlidePaused );
+
+	}
+
+	/**
+	 * Steps from the current point in the presentation to the
+	 * slide which matches the specified horizontal and vertical
+	 * indices.
+	 *
+	 * @param {number} [h=indexh] Horizontal index of the target slide
+	 * @param {number} [v=indexv] Vertical index of the target slide
+	 * @param {number} [f] Index of a fragment within the
+	 * target slide to activate
+	 * @param {number} [origin] Origin for use in multimaster environments
+	 */
+	function slide( h, v, f, origin ) {
+
+		// Dispatch an event before the slide
+		const slidechange = dispatchEvent({
+			type: 'beforeslidechange',
+			data: {
+				indexh: h === undefined ? indexh : h,
+				indexv: v === undefined ? indexv : v,
+				origin
+			}
+		});
+
+		// Abort if this slide change was prevented by an event listener
+		if( slidechange.defaultPrevented ) return;
+
+		// Remember where we were at before
+		previousSlide = currentSlide;
+
+		// Query all horizontal slides in the deck
+		const horizontalSlides = dom.wrapper.querySelectorAll( HORIZONTAL_SLIDES_SELECTOR );
+
+		// If we're in scroll mode, we scroll the target slide into view
+		// instead of running our standard slide transition
+		if( scrollView.isActive() ) {
+			const scrollToSlide = scrollView.getSlideByIndices( h, v );
+			if( scrollToSlide ) scrollView.scrollToSlide( scrollToSlide );
+			return;
+		}
+
+		// Abort if there are no slides
+		if( horizontalSlides.length === 0 ) return;
+
+		// If no vertical index is specified and the upcoming slide is a
+		// stack, resume at its previous vertical index
+		if( v === undefined && !overview.isActive() ) {
+			v = getPreviousVerticalIndex( horizontalSlides[ h ] );
+		}
+
+		// If we were on a vertical stack, remember what vertical index
+		// it was on so we can resume at the same position when returning
+		if( previousSlide && previousSlide.parentNode && previousSlide.parentNode.classList.contains( 'stack' ) ) {
+			setPreviousVerticalIndex( previousSlide.parentNode, indexv );
+		}
+
+		// Remember the state before this slide
+		const stateBefore = state.concat();
+
+		// Reset the state array
+		state.length = 0;
+
+		let indexhBefore = indexh || 0,
+			indexvBefore = indexv || 0;
+
+		// Activate and transition to the new slide
+		indexh = updateSlides( HORIZONTAL_SLIDES_SELECTOR, h === undefined ? indexh : h );
+		indexv = updateSlides( VERTICAL_SLIDES_SELECTOR, v === undefined ? indexv : v );
+
+		// Dispatch an event if the slide changed
+		let slideChanged = ( indexh !== indexhBefore || indexv !== indexvBefore );
+
+		// Ensure that the previous slide is never the same as the current
+		if( !slideChanged ) previousSlide = null;
+
+		// Find the current horizontal slide and any possible vertical slides
+		// within it
+		let currentHorizontalSlide = horizontalSlides[ indexh ],
+			currentVerticalSlides = currentHorizontalSlide.querySelectorAll( 'section' );
+
+		// Indicate when we're on a vertical slide
+		revealElement.classList.toggle( 'is-vertical-slide', currentVerticalSlides.length > 1 );
+
+		// Store references to the previous and current slides
+		currentSlide = currentVerticalSlides[ indexv ] || currentHorizontalSlide;
+
+		let autoAnimateTransition = false;
+
+		// Detect if we're moving between two auto-animated slides
+		if( slideChanged && previousSlide && currentSlide && !overview.isActive() ) {
+			transition = 'running';
+
+			autoAnimateTransition = shouldAutoAnimateBetween( previousSlide, currentSlide, indexhBefore, indexvBefore );
+
+			// If this is an auto-animated transition, we disable the
+			// regular slide transition
+			//
+			// Note 20-03-2020:
+			// This needs to happen before we update slide visibility,
+			// otherwise transitions will still run in Safari.
+			if( autoAnimateTransition ) {
+				dom.slides.classList.add( 'disable-slide-transitions' )
+			}
+		}
+
+		// Update the visibility of slides now that the indices have changed
+		updateSlidesVisibility();
+
+		layout();
+
+		// Update the overview if it's currently active
+		if( overview.isActive() ) {
+			overview.update();
+		}
+
+		// Show fragment, if specified
+		if( typeof f !== 'undefined' ) {
+			fragments.goto( f );
+		}
+
+		// Solves an edge case where the previous slide maintains the
+		// 'present' class when navigating between adjacent vertical
+		// stacks
+		if( previousSlide && previousSlide !== currentSlide ) {
+			previousSlide.classList.remove( 'present' );
+			previousSlide.setAttribute( 'aria-hidden', 'true' );
+
+			// Reset all slides upon navigate to home
+			if( isFirstSlide() ) {
+				// Launch async task
+				setTimeout( () => {
+					getVerticalStacks().forEach( slide => {
+						setPreviousVerticalIndex( slide, 0 );
+					} );
+				}, 0 );
+			}
+		}
+
+		// Apply the new state
+		stateLoop: for( let i = 0, len = state.length; i < len; i++ ) {
+			// Check if this state existed on the previous slide. If it
+			// did, we will avoid adding it repeatedly
+			for( let j = 0; j < stateBefore.length; j++ ) {
+				if( stateBefore[j] === state[i] ) {
+					stateBefore.splice( j, 1 );
+					continue stateLoop;
+				}
+			}
+
+			dom.viewport.classList.add( state[i] );
+
+			// Dispatch custom event matching the state's name
+			dispatchEvent({ type: state[i] });
+		}
+
+		// Clean up the remains of the previous state
+		while( stateBefore.length ) {
+			dom.viewport.classList.remove( stateBefore.pop() );
+		}
+
+		if( slideChanged ) {
+			dispatchSlideChanged( origin );
+		}
+
+		// Handle embedded content
+		if( slideChanged || !previousSlide ) {
+			slideContent.stopEmbeddedContent( previousSlide );
+			slideContent.startEmbeddedContent( currentSlide );
+		}
+
+		// Announce the current slide contents to screen readers
+		// Use animation frame to prevent getComputedStyle in getStatusText
+		// from triggering layout mid-frame
+		requestAnimationFrame( () => {
+			announceStatus( getStatusText( currentSlide ) );
+		});
+
+		progress.update();
+		controls.update();
+		notes.update();
+		backgrounds.update();
+		backgrounds.updateParallax();
+		slideNumber.update();
+		fragments.update();
+
+		// Update the URL hash
+		location.writeURL();
+
+		cueAutoSlide();
+
+		// Auto-animation
+		if( autoAnimateTransition ) {
+
+			setTimeout( () => {
+				dom.slides.classList.remove( 'disable-slide-transitions' );
+			}, 0 );
+
+			if( config.autoAnimate ) {
+				// Run the auto-animation between our slides
+				autoAnimate.run( previousSlide, currentSlide );
+			}
+
+		}
+
+	}
+
+	/**
+	 * Checks whether or not an auto-animation should take place between
+	 * the two given slides.
+	 *
+	 * @param {HTMLElement} fromSlide
+	 * @param {HTMLElement} toSlide
+	 * @param {number} indexhBefore
+	 * @param {number} indexvBefore
+	 *
+	 * @returns {boolean}
+	 */
+	function shouldAutoAnimateBetween( fromSlide, toSlide, indexhBefore, indexvBefore ) {
+
+		return 	fromSlide.hasAttribute( 'data-auto-animate' ) && toSlide.hasAttribute( 'data-auto-animate' ) &&
+				fromSlide.getAttribute( 'data-auto-animate-id' ) === toSlide.getAttribute( 'data-auto-animate-id' ) &&
+				!( ( indexh > indexhBefore || indexv > indexvBefore ) ? toSlide : fromSlide ).hasAttribute( 'data-auto-animate-restart' );
+
+	}
+
+	/**
+	 * Called anytime a new slide should be activated while in the scroll
+	 * view. The active slide is the page that occupies the most space in
+	 * the scrollable viewport.
+	 *
+	 * @param {number} pageIndex
+	 * @param {HTMLElement} slideElement
+	 */
+	function setCurrentScrollPage( slideElement, h, v ) {
+
+		let indexhBefore = indexh || 0;
+
+		indexh = h;
+		indexv = v;
+
+		const slideChanged = currentSlide !== slideElement;
+
+		previousSlide = currentSlide;
+		currentSlide = slideElement;
+
+		if( currentSlide && previousSlide ) {
+			if( config.autoAnimate && shouldAutoAnimateBetween( previousSlide, currentSlide, indexhBefore, indexv ) ) {
+				// Run the auto-animation between our slides
+				autoAnimate.run( previousSlide, currentSlide );
+			}
+		}
+
+		// Start or stop embedded content like videos and iframes
+		if( slideChanged ) {
+			if( previousSlide ) {
+				slideContent.stopEmbeddedContent( previousSlide );
+				slideContent.stopEmbeddedContent( previousSlide.slideBackgroundElement );
+			}
+
+			slideContent.startEmbeddedContent( currentSlide );
+			slideContent.startEmbeddedContent( currentSlide.slideBackgroundElement );
+		}
+
+		requestAnimationFrame( () => {
+			announceStatus( getStatusText( currentSlide ) );
+		});
+
+		dispatchSlideChanged();
+
+	}
+
+	/**
+	 * Syncs the presentation with the current DOM. Useful
+	 * when new slides or control elements are added or when
+	 * the configuration has changed.
+	 */
+	function sync() {
+
+		// Subscribe to input
+		removeEventListeners();
+		addEventListeners();
+
+		// Force a layout to make sure the current config is accounted for
+		layout();
+
+		// Reflect the current autoSlide value
+		autoSlide = config.autoSlide;
+
+		// Start auto-sliding if it's enabled
+		cueAutoSlide();
+
+		// Re-create all slide backgrounds
+		backgrounds.create();
+
+		// Write the current hash to the URL
+		location.writeURL();
+
+		if( config.sortFragmentsOnSync === true ) {
+			fragments.sortAll();
+		}
+
+		controls.update();
+		progress.update();
+
+		updateSlidesVisibility();
+
+		notes.update();
+		notes.updateVisibility();
+		overlay.update();
+		backgrounds.update( true );
+		slideNumber.update();
+		slideContent.formatEmbeddedContent();
+
+		// Start or stop embedded content depending on global config
+		if( config.autoPlayMedia === false ) {
+			slideContent.stopEmbeddedContent( currentSlide, { unloadIframes: false } );
+		}
+		else {
+			slideContent.startEmbeddedContent( currentSlide );
+		}
+
+		if( overview.isActive() ) {
+			overview.layout();
+		}
+
+	}
+
+	/**
+	 * Updates reveal.js to keep in sync with new slide attributes. For
+	 * example, if you add a new `data-background-image` you can call
+	 * this to have reveal.js render the new background image.
+	 *
+	 * Similar to #sync() but more efficient when you only need to
+	 * refresh a specific slide.
+	 *
+	 * @param {HTMLElement} slide
+	 */
+	function syncSlide( slide = currentSlide ) {
+
+		backgrounds.sync( slide );
+		fragments.sync( slide );
+
+		slideContent.load( slide );
+
+		backgrounds.update();
+		notes.update();
+
+	}
+
+	/**
+	 * Resets all vertical slides so that only the first
+	 * is visible.
+	 */
+	function resetVerticalSlides() {
+
+		getHorizontalSlides().forEach( horizontalSlide => {
+
+			Util.queryAll( horizontalSlide, 'section' ).forEach( ( verticalSlide, y ) => {
+
+				if( y > 0 ) {
+					verticalSlide.classList.remove( 'present' );
+					verticalSlide.classList.remove( 'past' );
+					verticalSlide.classList.add( 'future' );
+					verticalSlide.setAttribute( 'aria-hidden', 'true' );
+				}
+
+			} );
+
+		} );
+
+	}
+
+	/**
+	 * Randomly shuffles all slides in the deck.
+	 */
+	function shuffle( slides = getHorizontalSlides() ) {
+
+		slides.forEach( ( slide, i ) => {
+
+			// Insert the slide next to a randomly picked sibling slide
+			// slide. This may cause the slide to insert before itself,
+			// but that's not an issue.
+			let beforeSlide = slides[ Math.floor( Math.random() * slides.length ) ];
+			if( beforeSlide.parentNode === slide.parentNode ) {
+				slide.parentNode.insertBefore( slide, beforeSlide );
+			}
+
+			// Randomize the order of vertical slides (if there are any)
+			let verticalSlides = slide.querySelectorAll( 'section' );
+			if( verticalSlides.length ) {
+				shuffle( verticalSlides );
+			}
+
+		} );
+
+	}
+
+	/**
+	 * Updates one dimension of slides by showing the slide
+	 * with the specified index.
+	 *
+	 * @param {string} selector A CSS selector that will fetch
+	 * the group of slides we are working with
+	 * @param {number} index The index of the slide that should be
+	 * shown
+	 *
+	 * @return {number} The index of the slide that is now shown,
+	 * might differ from the passed in index if it was out of
+	 * bounds.
+	 */
+	function updateSlides( selector, index ) {
+
+		// Select all slides and convert the NodeList result to
+		// an array
+		let slides = Util.queryAll( dom.wrapper, selector ),
+			slidesLength = slides.length;
+
+		let printMode = scrollView.isActive() || printView.isActive();
+		let loopedForwards = false;
+		let loopedBackwards = false;
+
+		if( slidesLength ) {
+
+			// Should the index loop?
+			if( config.loop ) {
+				if( index >= slidesLength ) loopedForwards = true;
+
+				index %= slidesLength;
+
+				if( index < 0 ) {
+					index = slidesLength + index;
+					loopedBackwards = true;
+				}
+			}
+
+			// Enforce max and minimum index bounds
+			index = Math.max( Math.min( index, slidesLength - 1 ), 0 );
+
+			for( let i = 0; i < slidesLength; i++ ) {
+				let element = slides[i];
+
+				let reverse = config.rtl && !isVerticalSlide( element );
+
+				// Avoid .remove() with multiple args for IE11 support
+				element.classList.remove( 'past' );
+				element.classList.remove( 'present' );
+				element.classList.remove( 'future' );
+
+				// http://www.w3.org/html/wg/drafts/html/master/editing.html#the-hidden-attribute
+				element.setAttribute( 'hidden', '' );
+				element.setAttribute( 'aria-hidden', 'true' );
+
+				// If this element contains vertical slides
+				if( element.querySelector( 'section' ) ) {
+					element.classList.add( 'stack' );
+				}
+
+				// If we're printing static slides, all slides are "present"
+				if( printMode ) {
+					element.classList.add( 'present' );
+					continue;
+				}
+
+				if( i < index ) {
+					// Any element previous to index is given the 'past' class
+					element.classList.add( reverse ? 'future' : 'past' );
+
+					if( config.fragments ) {
+						// Show all fragments in prior slides
+						showFragmentsIn( element );
+					}
+				}
+				else if( i > index ) {
+					// Any element subsequent to index is given the 'future' class
+					element.classList.add( reverse ? 'past' : 'future' );
+
+					if( config.fragments ) {
+						// Hide all fragments in future slides
+						hideFragmentsIn( element );
+					}
+				}
+				// Update the visibility of fragments when a presentation loops
+				// in either direction
+				else if( i === index && config.fragments ) {
+					if( loopedForwards ) {
+						hideFragmentsIn( element );
+					}
+					else if( loopedBackwards ) {
+						showFragmentsIn( element );
+					}
+				}
+			}
+
+			let slide = slides[index];
+			let wasPresent = slide.classList.contains( 'present' );
+
+			// Mark the current slide as present
+			slide.classList.add( 'present' );
+			slide.removeAttribute( 'hidden' );
+			slide.removeAttribute( 'aria-hidden' );
+
+			if( !wasPresent ) {
+				// Dispatch an event indicating the slide is now visible
+				dispatchEvent({
+					target: slide,
+					type: 'visible',
+					bubbles: false
+				});
+			}
+
+			// If this slide has a state associated with it, add it
+			// onto the current state of the deck
+			let slideState = slide.getAttribute( 'data-state' );
+			if( slideState ) {
+				state = state.concat( slideState.split( ' ' ) );
+			}
+
+		}
+		else {
+			// Since there are no slides we can't be anywhere beyond the
+			// zeroth index
+			index = 0;
+		}
+
+		return index;
+
+	}
+
+	/**
+	 * Shows all fragment elements within the given container.
+	 */
+	function showFragmentsIn( container ) {
+
+		Util.queryAll( container, '.fragment' ).forEach( fragment => {
+			fragment.classList.add( 'visible' );
+			fragment.classList.remove( 'current-fragment' );
+		} );
+
+	}
+
+	/**
+	 * Hides all fragment elements within the given container.
+	 */
+	function hideFragmentsIn( container ) {
+
+		Util.queryAll( container, '.fragment.visible' ).forEach( fragment => {
+			fragment.classList.remove( 'visible', 'current-fragment' );
+		} );
+
+	}
+
+	/**
+	 * Optimization method; hide all slides that are far away
+	 * from the present slide.
+	 */
+	function updateSlidesVisibility() {
+
+		// Select all slides and convert the NodeList result to
+		// an array
+		let horizontalSlides = getHorizontalSlides(),
+			horizontalSlidesLength = horizontalSlides.length,
+			distanceX,
+			distanceY;
+
+		if( horizontalSlidesLength && typeof indexh !== 'undefined' ) {
+
+			// The number of steps away from the present slide that will
+			// be visible
+			let viewDistance = overview.isActive() ? 10 : config.viewDistance;
+
+			// Shorten the view distance on devices that typically have
+			// less resources
+			if( Device.isMobile ) {
+				viewDistance = overview.isActive() ? 6 : config.mobileViewDistance;
+			}
+
+			// All slides need to be visible when exporting to PDF
+			if( printView.isActive() ) {
+				viewDistance = Number.MAX_VALUE;
+			}
+
+			for( let x = 0; x < horizontalSlidesLength; x++ ) {
+				let horizontalSlide = horizontalSlides[x];
+
+				let verticalSlides = Util.queryAll( horizontalSlide, 'section' ),
+					verticalSlidesLength = verticalSlides.length;
+
+				// Determine how far away this slide is from the present
+				distanceX = Math.abs( ( indexh || 0 ) - x ) || 0;
+
+				// If the presentation is looped, distance should measure
+				// 1 between the first and last slides
+				if( config.loop ) {
+					distanceX = Math.abs( ( ( indexh || 0 ) - x ) % ( horizontalSlidesLength - viewDistance ) ) || 0;
+				}
+
+				// Show the horizontal slide if it's within the view distance
+				if( distanceX < viewDistance ) {
+					slideContent.load( horizontalSlide );
+				}
+				else {
+					slideContent.unload( horizontalSlide );
+				}
+
+				if( verticalSlidesLength ) {
+
+					let oy = getPreviousVerticalIndex( horizontalSlide );
+
+					for( let y = 0; y < verticalSlidesLength; y++ ) {
+						let verticalSlide = verticalSlides[y];
+
+						distanceY = x === ( indexh || 0 ) ? Math.abs( ( indexv || 0 ) - y ) : Math.abs( y - oy );
+
+						if( distanceX + distanceY < viewDistance ) {
+							slideContent.load( verticalSlide );
+						}
+						else {
+							slideContent.unload( verticalSlide );
+						}
+					}
+
+				}
+			}
+
+			// Flag if there are ANY vertical slides, anywhere in the deck
+			if( hasVerticalSlides() ) {
+				dom.wrapper.classList.add( 'has-vertical-slides' );
+			}
+			else {
+				dom.wrapper.classList.remove( 'has-vertical-slides' );
+			}
+
+			// Flag if there are ANY horizontal slides, anywhere in the deck
+			if( hasHorizontalSlides() ) {
+				dom.wrapper.classList.add( 'has-horizontal-slides' );
+			}
+			else {
+				dom.wrapper.classList.remove( 'has-horizontal-slides' );
+			}
+
+		}
+
+	}
+
+	/**
+	 * Determine what available routes there are for navigation.
+	 *
+	 * @return {{left: boolean, right: boolean, up: boolean, down: boolean}}
+	 */
+	function availableRoutes({ includeFragments = false } = {}) {
+
+		let horizontalSlides = dom.wrapper.querySelectorAll( HORIZONTAL_SLIDES_SELECTOR ),
+			verticalSlides = dom.wrapper.querySelectorAll( VERTICAL_SLIDES_SELECTOR );
+
+		let routes = {
+			left: indexh > 0,
+			right: indexh < horizontalSlides.length - 1,
+			up: indexv > 0,
+			down: indexv < verticalSlides.length - 1
+		};
+
+		// Looped presentations can always be navigated as long as
+		// there are slides available
+		if( config.loop ) {
+			if( horizontalSlides.length > 1 ) {
+				routes.left = true;
+				routes.right = true;
+			}
+
+			if( verticalSlides.length > 1 ) {
+				routes.up = true;
+				routes.down = true;
+			}
+		}
+
+		if ( horizontalSlides.length > 1 && config.navigationMode === 'linear' ) {
+			routes.right = routes.right || routes.down;
+			routes.left = routes.left || routes.up;
+		}
+
+		// If includeFragments is set, a route will be considered
+		// available if either a slid OR fragment is available in
+		// the given direction
+		if( includeFragments === true ) {
+			let fragmentRoutes = fragments.availableRoutes();
+			routes.left = routes.left || fragmentRoutes.prev;
+			routes.up = routes.up || fragmentRoutes.prev;
+			routes.down = routes.down || fragmentRoutes.next;
+			routes.right = routes.right || fragmentRoutes.next;
+		}
+
+		// Reverse horizontal controls for rtl
+		if( config.rtl ) {
+			let left = routes.left;
+			routes.left = routes.right;
+			routes.right = left;
+		}
+
+		return routes;
+
+	}
+
+	/**
+	 * Returns the number of past slides. This can be used as a global
+	 * flattened index for slides.
+	 *
+	 * @param {HTMLElement} [slide=currentSlide] The slide we're counting before
+	 *
+	 * @return {number} Past slide count
+	 */
+	function getSlidePastCount( slide = currentSlide ) {
+
+		let horizontalSlides = getHorizontalSlides();
+
+		// The number of past slides
+		let pastCount = 0;
+
+		// Step through all slides and count the past ones
+		mainLoop: for( let i = 0; i < horizontalSlides.length; i++ ) {
+
+			let horizontalSlide = horizontalSlides[i];
+			let verticalSlides = horizontalSlide.querySelectorAll( 'section' );
+
+			for( let j = 0; j < verticalSlides.length; j++ ) {
+
+				// Stop as soon as we arrive at the present
+				if( verticalSlides[j] === slide ) {
+					break mainLoop;
+				}
+
+				// Don't count slides with the "uncounted" class
+				if( verticalSlides[j].dataset.visibility !== 'uncounted' ) {
+					pastCount++;
+				}
+
+			}
+
+			// Stop as soon as we arrive at the present
+			if( horizontalSlide === slide ) {
+				break;
+			}
+
+			// Don't count the wrapping section for vertical slides and
+			// slides marked as uncounted
+			if( horizontalSlide.classList.contains( 'stack' ) === false && horizontalSlide.dataset.visibility !== 'uncounted' ) {
+				pastCount++;
+			}
+
+		}
+
+		return pastCount;
+
+	}
+
+	/**
+	 * Returns a value ranging from 0-1 that represents
+	 * how far into the presentation we have navigated.
+	 *
+	 * @return {number}
+	 */
+	function getProgress() {
+
+		// The number of past and total slides
+		let totalCount = getTotalSlides();
+		let pastCount = getSlidePastCount();
+
+		if( currentSlide ) {
+
+			let allFragments = currentSlide.querySelectorAll( '.fragment' );
+
+			// If there are fragments in the current slide those should be
+			// accounted for in the progress.
+			if( allFragments.length > 0 ) {
+				let visibleFragments = currentSlide.querySelectorAll( '.fragment.visible' );
+
+				// This value represents how big a portion of the slide progress
+				// that is made up by its fragments (0-1)
+				let fragmentWeight = 0.9;
+
+				// Add fragment progress to the past slide count
+				pastCount += ( visibleFragments.length / allFragments.length ) * fragmentWeight;
+			}
+
+		}
+
+		return Math.min( pastCount / ( totalCount - 1 ), 1 );
+
+	}
+
+	/**
+	 * Retrieves the h/v location and fragment of the current,
+	 * or specified, slide.
+	 *
+	 * @param {HTMLElement} [slide] If specified, the returned
+	 * index will be for this slide rather than the currently
+	 * active one
+	 *
+	 * @return {{h: number, v: number, f: number}}
+	 */
+	function getIndices( slide ) {
+
+		// By default, return the current indices
+		let h = indexh,
+			v = indexv,
+			f;
+
+		// If a slide is specified, return the indices of that slide
+		if( slide ) {
+			// In scroll mode the original h/x index is stored on the slide
+			if( scrollView.isActive() ) {
+				h = parseInt( slide.getAttribute( 'data-index-h' ), 10 );
+
+				if( slide.getAttribute( 'data-index-v' ) ) {
+					v = parseInt( slide.getAttribute( 'data-index-v' ), 10 );
+				}
+			}
+			else {
+				let isVertical = isVerticalSlide( slide );
+				let slideh = isVertical ? slide.parentNode : slide;
+
+				// Select all horizontal slides
+				let horizontalSlides = getHorizontalSlides();
+
+				// Now that we know which the horizontal slide is, get its index
+				h = Math.max( horizontalSlides.indexOf( slideh ), 0 );
+
+				// Assume we're not vertical
+				v = undefined;
+
+				// If this is a vertical slide, grab the vertical index
+				if( isVertical ) {
+					v = Math.max( Util.queryAll( slide.parentNode, 'section' ).indexOf( slide ), 0 );
+				}
+			}
+		}
+
+		if( !slide && currentSlide ) {
+			let hasFragments = currentSlide.querySelectorAll( '.fragment' ).length > 0;
+			if( hasFragments ) {
+				let currentFragment = currentSlide.querySelector( '.current-fragment' );
+				if( currentFragment && currentFragment.hasAttribute( 'data-fragment-index' ) ) {
+					f = parseInt( currentFragment.getAttribute( 'data-fragment-index' ), 10 );
+				}
+				else {
+					f = currentSlide.querySelectorAll( '.fragment.visible' ).length - 1;
+				}
+			}
+		}
+
+		return { h, v, f };
+
+	}
+
+	/**
+	 * Retrieves all slides in this presentation.
+	 */
+	function getSlides() {
+
+		return Util.queryAll( dom.wrapper, SLIDES_SELECTOR + ':not(.stack):not([data-visibility="uncounted"])' );
+
+	}
+
+	/**
+	 * Returns a list of all horizontal slides in the deck. Each
+	 * vertical stack is included as one horizontal slide in the
+	 * resulting array.
+	 */
+	function getHorizontalSlides() {
+
+		return Util.queryAll( dom.wrapper, HORIZONTAL_SLIDES_SELECTOR );
+
+	}
+
+	/**
+	 * Returns all vertical slides that exist within this deck.
+	 */
+	function getVerticalSlides() {
+
+		return Util.queryAll( dom.wrapper, '.slides>section>section' );
+
+	}
+
+	/**
+	 * Returns all vertical stacks (each stack can contain multiple slides).
+	 */
+	function getVerticalStacks() {
+
+		return Util.queryAll( dom.wrapper, HORIZONTAL_SLIDES_SELECTOR + '.stack');
+
+	}
+
+	/**
+	 * Returns true if there are at least two horizontal slides.
+	 */
+	function hasHorizontalSlides() {
+
+		return getHorizontalSlides().length > 1;
+	}
+
+	/**
+	 * Returns true if there are at least two vertical slides.
+	 */
+	function hasVerticalSlides() {
+
+		return getVerticalSlides().length > 1;
+
+	}
+
+	/**
+	 * Returns an array of objects where each object represents the
+	 * attributes on its respective slide.
+	 */
+	function getSlidesAttributes() {
+
+		return getSlides().map( slide => {
+
+			let attributes = {};
+			for( let i = 0; i < slide.attributes.length; i++ ) {
+				let attribute = slide.attributes[ i ];
+				attributes[ attribute.name ] = attribute.value;
+			}
+			return attributes;
+
+		} );
+
+	}
+
+	/**
+	 * Retrieves the total number of slides in this presentation.
+	 *
+	 * @return {number}
+	 */
+	function getTotalSlides() {
+
+		return getSlides().length;
+
+	}
+
+	/**
+	 * Returns the slide element matching the specified index.
+	 *
+	 * @return {HTMLElement}
+	 */
+	function getSlide( x, y ) {
+
+		let horizontalSlide = getHorizontalSlides()[ x ];
+		let verticalSlides = horizontalSlide && horizontalSlide.querySelectorAll( 'section' );
+
+		if( verticalSlides && verticalSlides.length && typeof y === 'number' ) {
+			return verticalSlides ? verticalSlides[ y ] : undefined;
+		}
+
+		return horizontalSlide;
+
+	}
+
+	/**
+	 * Returns the background element for the given slide.
+	 * All slides, even the ones with no background properties
+	 * defined, have a background element so as long as the
+	 * index is valid an element will be returned.
+	 *
+	 * @param {mixed} x Horizontal background index OR a slide
+	 * HTML element
+	 * @param {number} y Vertical background index
+	 * @return {(HTMLElement[]|*)}
+	 */
+	function getSlideBackground( x, y ) {
+
+		let slide = typeof x === 'number' ? getSlide( x, y ) : x;
+		if( slide ) {
+			return slide.slideBackgroundElement;
+		}
+
+		return undefined;
+
+	}
+
+	/**
+	 * Retrieves the current state of the presentation as
+	 * an object. This state can then be restored at any
+	 * time.
+	 *
+	 * @return {{indexh: number, indexv: number, indexf: number, paused: boolean, overview: boolean}}
+	 */
+	function getState() {
+
+		let indices = getIndices();
+
+		return {
+			indexh: indices.h,
+			indexv: indices.v,
+			indexf: indices.f,
+			paused: isPaused(),
+			overview: overview.isActive(),
+			...overlay.getState()
+		};
+
+	}
+
+	/**
+	 * Restores the presentation to the given state.
+	 *
+	 * @param {object} state As generated by getState()
+	 * @see {@link getState} generates the parameter `state`
+	 */
+	function setState( state ) {
+
+		if( typeof state === 'object' ) {
+			slide( Util.deserialize( state.indexh ), Util.deserialize( state.indexv ), Util.deserialize( state.indexf ) );
+
+			let pausedFlag = Util.deserialize( state.paused ),
+				overviewFlag = Util.deserialize( state.overview );
+
+			if( typeof pausedFlag === 'boolean' && pausedFlag !== isPaused() ) {
+				togglePause( pausedFlag );
+			}
+
+			if( typeof overviewFlag === 'boolean' && overviewFlag !== overview.isActive() ) {
+				overview.toggle( overviewFlag );
+			}
+
+			overlay.setState( state );
+		}
+
+	}
+
+	/**
+	 * Cues a new automated slide if enabled in the config.
+	 */
+	function cueAutoSlide() {
+
+		cancelAutoSlide();
+
+		if( currentSlide && config.autoSlide !== false ) {
+
+			let fragment = currentSlide.querySelector( '.current-fragment[data-autoslide]' );
+
+			let fragmentAutoSlide = fragment ? fragment.getAttribute( 'data-autoslide' ) : null;
+			let parentAutoSlide = currentSlide.parentNode ? currentSlide.parentNode.getAttribute( 'data-autoslide' ) : null;
+			let slideAutoSlide = currentSlide.getAttribute( 'data-autoslide' );
+
+			// Pick value in the following priority order:
+			// 1. Current fragment's data-autoslide
+			// 2. Current slide's data-autoslide
+			// 3. Parent slide's data-autoslide
+			// 4. Global autoSlide setting
+			if( fragmentAutoSlide ) {
+				autoSlide = parseInt( fragmentAutoSlide, 10 );
+			}
+			else if( slideAutoSlide ) {
+				autoSlide = parseInt( slideAutoSlide, 10 );
+			}
+			else if( parentAutoSlide ) {
+				autoSlide = parseInt( parentAutoSlide, 10 );
+			}
+			else {
+				autoSlide = config.autoSlide;
+
+				// If there are media elements with data-autoplay,
+				// automatically set the autoSlide duration to the
+				// length of that media. Not applicable if the slide
+				// is divided up into fragments.
+				// playbackRate is accounted for in the duration.
+				if( currentSlide.querySelectorAll( '.fragment' ).length === 0 ) {
+					Util.queryAll( currentSlide, 'video, audio' ).forEach( el => {
+						if( el.hasAttribute( 'data-autoplay' ) ) {
+							if( autoSlide && (el.duration * 1000 / el.playbackRate ) > autoSlide ) {
+								autoSlide = ( el.duration * 1000 / el.playbackRate ) + 1000;
+							}
+						}
+					} );
+				}
+			}
+
+			// Cue the next auto-slide if:
+			// - There is an autoSlide value
+			// - Auto-sliding isn't paused by the user
+			// - The presentation isn't paused
+			// - The overview isn't active
+			// - The presentation isn't over
+			if( autoSlide && !autoSlidePaused && !isPaused() && !overview.isActive() && ( !isLastSlide() || fragments.availableRoutes().next || config.loop === true ) ) {
+				autoSlideTimeout = setTimeout( () => {
+					if( typeof config.autoSlideMethod === 'function' ) {
+						config.autoSlideMethod()
+					}
+					else {
+						navigateNext();
+					}
+					cueAutoSlide();
+				}, autoSlide );
+				autoSlideStartTime = Date.now();
+			}
+
+			if( autoSlidePlayer ) {
+				autoSlidePlayer.setPlaying( autoSlideTimeout !== -1 );
+			}
+
+		}
+
+	}
+
+	/**
+	 * Cancels any ongoing request to auto-slide.
+	 */
+	function cancelAutoSlide() {
+
+		clearTimeout( autoSlideTimeout );
+		autoSlideTimeout = -1;
+
+	}
+
+	function pauseAutoSlide() {
+
+		if( autoSlide && !autoSlidePaused ) {
+			autoSlidePaused = true;
+			dispatchEvent({ type: 'autoslidepaused' });
+			clearTimeout( autoSlideTimeout );
+
+			if( autoSlidePlayer ) {
+				autoSlidePlayer.setPlaying( false );
+			}
+		}
+
+	}
+
+	function resumeAutoSlide() {
+
+		if( autoSlide && autoSlidePaused ) {
+			autoSlidePaused = false;
+			dispatchEvent({ type: 'autoslideresumed' });
+			cueAutoSlide();
+		}
+
+	}
+
+	function navigateLeft({skipFragments=false}={}) {
+
+		navigationHistory.hasNavigatedHorizontally = true;
+
+		// Scroll view navigation is handled independently
+		if( scrollView.isActive() ) return scrollView.prev();
+
+		// Reverse for RTL
+		if( config.rtl ) {
+			if( ( overview.isActive() || skipFragments || fragments.next() === false ) && availableRoutes().left ) {
+				slide( indexh + 1, config.navigationMode === 'grid' ? indexv : undefined );
+			}
+		}
+		// Normal navigation
+		else if( ( overview.isActive() || skipFragments || fragments.prev() === false ) && availableRoutes().left ) {
+			slide( indexh - 1, config.navigationMode === 'grid' ? indexv : undefined );
+		}
+
+	}
+
+	function navigateRight({skipFragments=false}={}) {
+
+		navigationHistory.hasNavigatedHorizontally = true;
+
+		// Scroll view navigation is handled independently
+		if( scrollView.isActive() ) return scrollView.next();
+
+		// Reverse for RTL
+		if( config.rtl ) {
+			if( ( overview.isActive() || skipFragments || fragments.prev() === false ) && availableRoutes().right ) {
+				slide( indexh - 1, config.navigationMode === 'grid' ? indexv : undefined );
+			}
+		}
+		// Normal navigation
+		else if( ( overview.isActive() || skipFragments || fragments.next() === false ) && availableRoutes().right ) {
+			slide( indexh + 1, config.navigationMode === 'grid' ? indexv : undefined );
+		}
+
+	}
+
+	function navigateUp({skipFragments=false}={}) {
+
+		// Scroll view navigation is handled independently
+		if( scrollView.isActive() ) return scrollView.prev();
+
+		// Prioritize hiding fragments
+		if( ( overview.isActive() || skipFragments || fragments.prev() === false ) && availableRoutes().up ) {
+			slide( indexh, indexv - 1 );
+		}
+
+	}
+
+	function navigateDown({skipFragments=false}={}) {
+
+		navigationHistory.hasNavigatedVertically = true;
+
+		// Scroll view navigation is handled independently
+		if( scrollView.isActive() ) return scrollView.next();
+
+		// Prioritize revealing fragments
+		if( ( overview.isActive() || skipFragments || fragments.next() === false ) && availableRoutes().down ) {
+			slide( indexh, indexv + 1 );
+		}
+
+	}
+
+	/**
+	 * Navigates backwards, prioritized in the following order:
+	 * 1) Previous fragment
+	 * 2) Previous vertical slide
+	 * 3) Previous horizontal slide
+	 */
+	function navigatePrev({skipFragments=false}={}) {
+
+		// Scroll view navigation is handled independently
+		if( scrollView.isActive() ) return scrollView.prev();
+
+		// Prioritize revealing fragments
+		if( skipFragments || fragments.prev() === false ) {
+			if( availableRoutes().up ) {
+				navigateUp({skipFragments});
+			}
+			else {
+				// Fetch the previous horizontal slide, if there is one
+				let previousSlide;
+
+				if( config.rtl ) {
+					previousSlide = Util.queryAll( dom.wrapper, HORIZONTAL_SLIDES_SELECTOR + '.future' ).pop();
+				}
+				else {
+					previousSlide = Util.queryAll( dom.wrapper, HORIZONTAL_SLIDES_SELECTOR + '.past' ).pop();
+				}
+
+				// When going backwards and arriving on a stack we start
+				// at the bottom of the stack
+				if( previousSlide && previousSlide.classList.contains( 'stack' ) ) {
+					let v = ( previousSlide.querySelectorAll( 'section' ).length - 1 ) || undefined;
+					let h = indexh - 1;
+					slide( h, v );
+				}
+				else if( config.rtl ) {
+					navigateRight({skipFragments});
+				}
+				else {
+					navigateLeft({skipFragments});
+				}
+			}
+		}
+
+	}
+
+	/**
+	 * The reverse of #navigatePrev().
+	 */
+	function navigateNext({skipFragments=false}={}) {
+
+		navigationHistory.hasNavigatedHorizontally = true;
+		navigationHistory.hasNavigatedVertically = true;
+
+		// Scroll view navigation is handled independently
+		if( scrollView.isActive() ) return scrollView.next();
+
+		// Prioritize revealing fragments
+		if( skipFragments || fragments.next() === false ) {
+
+			let routes = availableRoutes();
+
+			// When looping is enabled `routes.down` is always available
+			// so we need a separate check for when we've reached the
+			// end of a stack and should move horizontally
+			if( routes.down && routes.right && config.loop && isLastVerticalSlide() ) {
+				routes.down = false;
+			}
+
+			if( routes.down ) {
+				navigateDown({skipFragments});
+			}
+			else if( config.rtl ) {
+				navigateLeft({skipFragments});
+			}
+			else {
+				navigateRight({skipFragments});
+			}
+		}
+
+	}
+
+
+	// --------------------------------------------------------------------//
+	// ----------------------------- EVENTS -------------------------------//
+	// --------------------------------------------------------------------//
+
+	/**
+	 * Called by all event handlers that are based on user
+	 * input.
+	 *
+	 * @param {object} [event]
+	 */
+	function onUserInput( event ) {
+
+		if( config.autoSlideStoppable ) {
+			pauseAutoSlide();
+		}
+
+	}
+
+	/**
+	* Listener for post message events posted to this window.
+	*/
+	function onPostMessage( event ) {
+
+		let data = event.data;
+
+		// Make sure we're dealing with JSON
+		if( typeof data === 'string' && data.charAt( 0 ) === '{' && data.charAt( data.length - 1 ) === '}' ) {
+			data = JSON.parse( data );
+
+			// Check if the requested method can be found
+			if( data.method && typeof Reveal[data.method] === 'function' ) {
+
+				if( POST_MESSAGE_METHOD_BLACKLIST.test( data.method ) === false ) {
+
+					const result = Reveal[data.method].apply( Reveal, data.args );
+
+					// Dispatch a postMessage event with the returned value from
+					// our method invocation for getter functions
+					dispatchPostMessage( 'callback', { method: data.method, result: result } );
+
+				}
+				else {
+					console.warn( 'reveal.js: "'+ data.method +'" is is blacklisted from the postMessage API' );
+				}
+
+			}
+		}
+
+	}
+
+	/**
+	 * Event listener for transition end on the current slide.
+	 *
+	 * @param {object} [event]
+	 */
+	function onTransitionEnd( event ) {
+
+		if( transition === 'running' && /section/gi.test( event.target.nodeName ) ) {
+			transition = 'idle';
+			dispatchEvent({
+				type: 'slidetransitionend',
+				data: { indexh, indexv, previousSlide, currentSlide }
+			});
+		}
+
+	}
+
+	/**
+	 * A global listener for all click events inside of the
+	 * .slides container.
+	 *
+	 * @param {object} [event]
+	 */
+	function onSlidesClicked( event ) {
+
+		const anchor = Util.closest( event.target, 'a[href^="#"]' );
+
+		// If a hash link is clicked, we find the target slide
+		// and navigate to it. We previously relied on 'hashchange'
+		// for links like these but that prevented media with
+		// audio tracks from playing in mobile browsers since it
+		// wasn't considered a direct interaction with the document.
+		if( anchor ) {
+			const hash = anchor.getAttribute( 'href' );
+			const indices = location.getIndicesFromHash( hash );
+
+			if( indices ) {
+				Reveal.slide( indices.h, indices.v, indices.f );
+				event.preventDefault();
+			}
+		}
+
+	}
+
+	/**
+	 * Handler for the window level 'resize' event.
+	 *
+	 * @param {object} [event]
+	 */
+	function onWindowResize( event ) {
+
+		layout();
+	}
+
+	/**
+	 * Handle for the window level 'visibilitychange' event.
+	 *
+	 * @param {object} [event]
+	 */
+	function onPageVisibilityChange( event ) {
+
+		// If, after clicking a link or similar and we're coming back,
+		// focus the document.body to ensure we can use keyboard shortcuts
+		if( document.hidden === false && document.activeElement !== document.body ) {
+			// Not all elements support .blur() - SVGs among them.
+			if( typeof document.activeElement.blur === 'function' ) {
+				document.activeElement.blur();
+			}
+			document.body.focus();
+		}
+
+	}
+
+	/**
+	 * Handler for the document level 'fullscreenchange' event.
+	 *
+	 * @param {object} [event]
+	 */
+	function onFullscreenChange( event ) {
+
+		let element = document.fullscreenElement || document.webkitFullscreenElement;
+		if( element === dom.wrapper ) {
+			event.stopImmediatePropagation();
+
+			// Timeout to avoid layout shift in Safari
+			setTimeout( () => {
+				Reveal.layout();
+				Reveal.focus.focus(); // focus.focus :'(
+			}, 1 );
+		}
+
+	}
+
+	/**
+	 * Handles click on the auto-sliding controls element.
+	 *
+	 * @param {object} [event]
+	 */
+	function onAutoSlidePlayerClick( event ) {
+
+		// Replay
+		if( isLastSlide() && config.loop === false ) {
+			slide( 0, 0 );
+			resumeAutoSlide();
+		}
+		// Resume
+		else if( autoSlidePaused ) {
+			resumeAutoSlide();
+		}
+		// Pause
+		else {
+			pauseAutoSlide();
+		}
+
+	}
+
+
+	// --------------------------------------------------------------------//
+	// ------------------------------- API --------------------------------//
+	// --------------------------------------------------------------------//
+
+	// The public reveal.js API
+	const API = {
+		VERSION,
+
+		initialize,
+		configure,
+		destroy,
+
+		sync,
+		syncSlide,
+		syncFragments: fragments.sync.bind( fragments ),
+
+		// Navigation methods
+		slide,
+		left: navigateLeft,
+		right: navigateRight,
+		up: navigateUp,
+		down: navigateDown,
+		prev: navigatePrev,
+		next: navigateNext,
+
+		// Navigation aliases
+		navigateLeft, navigateRight, navigateUp, navigateDown, navigatePrev, navigateNext,
+
+		// Fragment methods
+		navigateFragment: fragments.goto.bind( fragments ),
+		prevFragment: fragments.prev.bind( fragments ),
+		nextFragment: fragments.next.bind( fragments ),
+
+		// Event binding
+		on,
+		off,
+
+		// Legacy event binding methods left in for backwards compatibility
+		addEventListener: on,
+		removeEventListener: off,
+
+		// Forces an update in slide layout
+		layout,
+
+		// Randomizes the order of slides
+		shuffle,
+
+		// Returns an object with the available routes as booleans (left/right/top/bottom)
+		availableRoutes,
+
+		// Returns an object with the available fragments as booleans (prev/next)
+		availableFragments: fragments.availableRoutes.bind( fragments ),
+
+		// Toggles a help overlay with keyboard shortcuts
+		toggleHelp: overlay.toggleHelp.bind( overlay ),
+
+		// Toggles the overview mode on/off
+		toggleOverview: overview.toggle.bind( overview ),
+
+		// Toggles the scroll view on/off
+		toggleScrollView: scrollView.toggle.bind( scrollView ),
+
+		// Toggles the "black screen" mode on/off
+		togglePause,
+
+		// Toggles the auto slide mode on/off
+		toggleAutoSlide,
+
+		// Toggles visibility of the jump-to-slide UI
+		toggleJumpToSlide,
+
+		// Slide navigation checks
+		isFirstSlide,
+		isLastSlide,
+		isLastVerticalSlide,
+		isVerticalSlide,
+		isVerticalStack,
+
+		// State checks
+		isPaused,
+		isAutoSliding,
+		isSpeakerNotes: notes.isSpeakerNotesWindow.bind( notes ),
+		isOverview: overview.isActive.bind( overview ),
+		isFocused: focus.isFocused.bind( focus ),
+		isOverlayOpen: overlay.isOpen.bind( overlay ),
+		isScrollView: scrollView.isActive.bind( scrollView ),
+		isPrintView: printView.isActive.bind( printView ),
+
+		// Checks if reveal.js has been loaded and is ready for use
+		isReady: () => ready,
+
+		// Slide preloading
+		loadSlide: slideContent.load.bind( slideContent ),
+		unloadSlide: slideContent.unload.bind( slideContent ),
+
+		// Start/stop all media inside of the current slide
+		startEmbeddedContent: () => slideContent.startEmbeddedContent( currentSlide ),
+		stopEmbeddedContent: () => slideContent.stopEmbeddedContent( currentSlide, { unloadIframes: false } ),
+
+		// Lightbox previews
+		previewIframe: overlay.previewIframe.bind( overlay ),
+		previewImage: overlay.previewImage.bind( overlay ),
+		previewVideo: overlay.previewVideo.bind( overlay ),
+
+		showPreview: overlay.previewIframe.bind( overlay ), // deprecated in favor of showIframeLightbox
+		hidePreview: overlay.close.bind( overlay ),
+
+		// Adds or removes all internal event listeners
+		addEventListeners,
+		removeEventListeners,
+		dispatchEvent,
+
+		// Facility for persisting and restoring the presentation state
+		getState,
+		setState,
+
+		// Presentation progress on range of 0-1
+		getProgress,
+
+		// Returns the indices of the current, or specified, slide
+		getIndices,
+
+		// Returns an Array of key:value maps of the attributes of each
+		// slide in the deck
+		getSlidesAttributes,
+
+		// Returns the number of slides that we have passed
+		getSlidePastCount,
+
+		// Returns the total number of slides
+		getTotalSlides,
+
+		// Returns the slide element at the specified index
+		getSlide,
+
+		// Returns the previous slide element, may be null
+		getPreviousSlide: () => previousSlide,
+
+		// Returns the current slide element
+		getCurrentSlide: () => currentSlide,
+
+		// Returns the slide background element at the specified index
+		getSlideBackground,
+
+		// Returns the speaker notes string for a slide, or null
+		getSlideNotes: notes.getSlideNotes.bind( notes ),
+
+		// Returns an Array of all slides
+		getSlides,
+
+		// Returns an array with all horizontal/vertical slides in the deck
+		getHorizontalSlides,
+		getVerticalSlides,
+
+		// Checks if the presentation contains two or more horizontal
+		// and vertical slides
+		hasHorizontalSlides,
+		hasVerticalSlides,
+
+		// Checks if the deck has navigated on either axis at least once
+		hasNavigatedHorizontally: () => navigationHistory.hasNavigatedHorizontally,
+		hasNavigatedVertically: () => navigationHistory.hasNavigatedVertically,
+
+		shouldAutoAnimateBetween,
+
+		// Adds/removes a custom key binding
+		addKeyBinding: keyboard.addKeyBinding.bind( keyboard ),
+		removeKeyBinding: keyboard.removeKeyBinding.bind( keyboard ),
+
+		// Programmatically triggers a keyboard event
+		triggerKey: keyboard.triggerKey.bind( keyboard ),
+
+		// Registers a new shortcut to include in the help overlay
+		registerKeyboardShortcut: keyboard.registerKeyboardShortcut.bind( keyboard ),
+
+		getComputedSlideSize,
+		setCurrentScrollPage,
+
+		// Returns the current scale of the presentation content
+		getScale: () => scale,
+
+		// Returns the current configuration object
+		getConfig: () => config,
+
+		// Helper method, retrieves query string as a key:value map
+		getQueryHash: Util.getQueryHash,
+
+		// Returns the path to the current slide as represented in the URL
+		getSlidePath: location.getHash.bind( location ),
+
+		// Returns reveal.js DOM elements
+		getRevealElement: () => revealElement,
+		getSlidesElement: () => dom.slides,
+		getViewportElement: () => dom.viewport,
+		getBackgroundsElement: () => backgrounds.element,
+
+		// API for registering and retrieving plugins
+		registerPlugin: plugins.registerPlugin.bind( plugins ),
+		hasPlugin: plugins.hasPlugin.bind( plugins ),
+		getPlugin: plugins.getPlugin.bind( plugins ),
+		getPlugins: plugins.getRegisteredPlugins.bind( plugins )
+
+	};
+
+	// Our internal API which controllers have access to
+	Util.extend( Reveal, {
+		...API,
+
+		// Methods for announcing content to screen readers
+		announceStatus,
+		getStatusText,
+
+		// Controllers
+		focus,
+		scroll: scrollView,
+		progress,
+		controls,
+		location,
+		overview,
+		keyboard,
+		fragments,
+		backgrounds,
+		slideContent,
+		slideNumber,
+
+		onUserInput,
+		closeOverlay: overlay.close.bind( overlay ),
+		updateSlidesVisibility,
+		layoutSlideContents,
+		transformSlides,
+		cueAutoSlide,
+		cancelAutoSlide
+	} );
+
+	return API;
+
+};
